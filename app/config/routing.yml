@@ -8,3 +8,7 @@ ems_core:
     resource: "@EMSCoreBundle/Controller/"
     type:     annotation
 #    prefix:   /admin
+ems_local_user:
+    resource: "@EMSLocalUserBundle/Controller/"
+    type:     annotation
+#    prefix:   /admin
