@@ -68,4 +68,4 @@ swiftmailer:
     spool:     { type: memory }
 
 doctrine_migrations:
-    dir_name: "%kernel.root_dir%/../vendro/elasticms/local-user-bundle/Resources/DoctrineMigrations"
+    dir_name: "%kernel.root_dir%/../vendor/elasticms/local-user-bundle/Resources/DoctrineMigrations"
