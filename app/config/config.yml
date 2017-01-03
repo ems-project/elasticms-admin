@@ -70,3 +70,6 @@ swiftmailer:
 
 doctrine_migrations:
     dir_name: "%kernel.root_dir%/../vendor/elasticms/local-user-bundle/Resources/DoctrineMigrations"
+    
+ems_core:
+    instance_id: "%instance_id%"
