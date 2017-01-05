@@ -21,3 +21,4 @@ parameters:
     
     #ems variable
     instance_id:       ems_
+    filesystem_storage_folder: ~
