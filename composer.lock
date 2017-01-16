@@ -916,12 +916,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSCoreBundle.git",
-                "reference": "7babea77aed65f46e09d7dc19bd9d845c9a4ba9b"
+                "reference": "402d5cffe7d4d532e788a8e2a102c1b1eb591f18"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSCoreBundle/zipball/7babea77aed65f46e09d7dc19bd9d845c9a4ba9b",
-                "reference": "7babea77aed65f46e09d7dc19bd9d845c9a4ba9b",
+                "url": "https://api.github.com/repos/ems-project/EMSCoreBundle/zipball/402d5cffe7d4d532e788a8e2a102c1b1eb591f18",
+                "reference": "402d5cffe7d4d532e788a8e2a102c1b1eb591f18",
                 "shasum": ""
             },
             "require": {
@@ -970,7 +970,7 @@
             "keywords": [
                 "elasticms"
             ],
-            "time": "2016-12-28 22:46:06"
+            "time": "2017-01-11 21:23:36"
         },
         {
             "name": "elasticms/local-user-bundle",
@@ -978,12 +978,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSLocalUserBundle.git",
-                "reference": "c3ff09842f96605fadcf32d01743ec785a03fa36"
+                "reference": "14a4ca824504fc78219fb81713e20ea29e8b56d5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSLocalUserBundle/zipball/c3ff09842f96605fadcf32d01743ec785a03fa36",
-                "reference": "c3ff09842f96605fadcf32d01743ec785a03fa36",
+                "url": "https://api.github.com/repos/ems-project/EMSLocalUserBundle/zipball/14a4ca824504fc78219fb81713e20ea29e8b56d5",
+                "reference": "14a4ca824504fc78219fb81713e20ea29e8b56d5",
                 "shasum": ""
             },
             "require": {
@@ -1030,7 +1030,7 @@
                 "FOS user",
                 "elasticms"
             ],
-            "time": "2016-12-29 00:07:04"
+            "time": "2017-01-03 07:38:07"
         },
         {
             "name": "elasticsearch/elasticsearch",
