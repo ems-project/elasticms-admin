@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "27cab2af6996daf9227331cb10ecb8d6",
-    "content-hash": "772aa1f403c984b87690aeeebb70ce94",
+    "hash": "e282395db515ba4e0fba83cdf264f214",
+    "content-hash": "4ab01c6cbb8f3ca64b22d16424ec1e4a",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -912,16 +912,16 @@
         },
         {
             "name": "elasticms/core-bundle",
-            "version": "dev-master",
+            "version": "v1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSCoreBundle.git",
-                "reference": "402d5cffe7d4d532e788a8e2a102c1b1eb591f18"
+                "reference": "a9bb4a7ca8fb3697346817783510f4b6a9b2809e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSCoreBundle/zipball/402d5cffe7d4d532e788a8e2a102c1b1eb591f18",
-                "reference": "402d5cffe7d4d532e788a8e2a102c1b1eb591f18",
+                "url": "https://api.github.com/repos/ems-project/EMSCoreBundle/zipball/a9bb4a7ca8fb3697346817783510f4b6a9b2809e",
+                "reference": "a9bb4a7ca8fb3697346817783510f4b6a9b2809e",
                 "shasum": ""
             },
             "require": {
@@ -970,24 +970,24 @@
             "keywords": [
                 "elasticms"
             ],
-            "time": "2017-01-11 21:23:36"
+            "time": "2017-01-17 00:41:20"
         },
         {
             "name": "elasticms/local-user-bundle",
-            "version": "dev-master",
+            "version": "v1.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSLocalUserBundle.git",
-                "reference": "14a4ca824504fc78219fb81713e20ea29e8b56d5"
+                "reference": "1a82584687e08ce7cb613cccdee4527ef425cacb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSLocalUserBundle/zipball/14a4ca824504fc78219fb81713e20ea29e8b56d5",
-                "reference": "14a4ca824504fc78219fb81713e20ea29e8b56d5",
+                "url": "https://api.github.com/repos/ems-project/EMSLocalUserBundle/zipball/1a82584687e08ce7cb613cccdee4527ef425cacb",
+                "reference": "1a82584687e08ce7cb613cccdee4527ef425cacb",
                 "shasum": ""
             },
             "require": {
-                "elasticms/local-user-bundle": "dev-master",
+                "elasticms/core-bundle": "^1.0",
                 "friendsofsymfony/user-bundle": "~2.0@dev",
                 "php": ">=5.6"
             },
@@ -1030,7 +1030,7 @@
                 "FOS user",
                 "elasticms"
             ],
-            "time": "2017-01-03 07:38:07"
+            "time": "2017-01-17 20:29:28"
         },
         {
             "name": "elasticsearch/elasticsearch",
@@ -2861,9 +2861,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "friendsofsymfony/user-bundle": 20,
-        "elasticms/core-bundle": 20,
-        "elasticms/local-user-bundle": 20
+        "friendsofsymfony/user-bundle": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
