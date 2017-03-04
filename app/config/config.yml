@@ -75,5 +75,5 @@ doctrine_migrations:
     
 ems_core:
     instance_id: "%instance_id%"
-    ems_name: 'elastic<b>ms</b>',
-    ems_shortname: 'e<b>ms</b>',
+    ems_name: 'elastic<b>ms</b>'
+    ems_shortname: 'e<b>ms</b>'
