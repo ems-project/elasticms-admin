@@ -18,3 +18,5 @@
 /.buildpath
 /.settings/
 .DS_Store
+/bin/symfony_requirements
+/var/SymfonyRequirements.php
