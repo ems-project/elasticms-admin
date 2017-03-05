@@ -21,4 +21,6 @@ parameters:
     
     #ems variable
     instance_id:       ems_
+    ems_name: 'elastic<b>ms</b>'
+    ems_shortname: 'e<b>ms</b>'
     filesystem_storage_folder: ~
