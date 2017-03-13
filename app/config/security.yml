@@ -48,6 +48,7 @@ security:
                 secret:   '%secret%'
                 lifetime: 604800 # 1 week in seconds
                 path:     /
+            switch_user: { role: ROLE_SUPER_ADMIN, provider:   fos_userbundle }
             
     access_control:
         - { path: ^/login$, role: IS_AUTHENTICATED_ANONYMOUSLY }
