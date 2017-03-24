@@ -21,6 +21,6 @@ parameters:
     
     #ems variable
     instance_id:       ems_
-    ems_name: 'elastic<b>ms</b>'
-    ems_shortname: 'e<b>ms</b>'
+    ems_name: '<i class="ems-icon-ball"></i> elastic<b>ms</b>'
+    ems_shortname: '<i class="ems-icon-ball"></i>'
     filesystem_storage_folder: ~
