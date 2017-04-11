@@ -77,3 +77,4 @@ ems_core:
     instance_id: "%instance_id%"
     name: "%ems_name%"
     shortname: "%ems_shortname%"
+    circles_object: "%ems_circles_object%"
