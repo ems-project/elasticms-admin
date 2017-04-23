@@ -913,16 +913,16 @@
         },
         {
             "name": "elasticms/core-bundle",
-            "version": "v1.3.11",
+            "version": "v1.3.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSCoreBundle.git",
-                "reference": "2466823786f3021d150fb743c000b8d6c66ad0bf"
+                "reference": "f91544f4768e73266e38357438eb083f73ae872d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSCoreBundle/zipball/2466823786f3021d150fb743c000b8d6c66ad0bf",
-                "reference": "2466823786f3021d150fb743c000b8d6c66ad0bf",
+                "url": "https://api.github.com/repos/ems-project/EMSCoreBundle/zipball/f91544f4768e73266e38357438eb083f73ae872d",
+                "reference": "f91544f4768e73266e38357438eb083f73ae872d",
                 "shasum": ""
             },
             "require": {
@@ -971,7 +971,7 @@
             "keywords": [
                 "elasticms"
             ],
-            "time": "2017-04-20 07:19:53"
+            "time": "2017-04-23 07:37:49"
         },
         {
             "name": "elasticms/local-user-bundle",
