@@ -41,8 +41,8 @@ twig:
 
 # Doctrine Configuration
 doctrine:
-    dbal:
-        driver:   pdo_mysql
+    dbal: 
+        driver:   "%database_driver%"
         host:     "%database_host%"
         port:     "%database_port%"
         dbname:   "%database_name%"
@@ -54,7 +54,7 @@ doctrine:
         #     e.g. database_path: "%kernel.root_dir%/../var/data/data.sqlite"
         #   2. Uncomment database_path in parameters.yml.dist
         #   3. Uncomment next line:
-        #path:     "%database_path%"
+        path:     "%database_path%"
 
     orm:
         auto_generate_proxy_classes: "%kernel.debug%"
@@ -71,7 +71,7 @@ swiftmailer:
     spool:     { type: memory }
 
 doctrine_migrations:
-    dir_name: "%kernel.root_dir%/../vendor/elasticms/local-user-bundle/Resources/DoctrineMigrations"
+    dir_name: "%kernel.root_dir%/../vendor/elasticms/local-user-bundle/Resources/DoctrineMigrations/%database_driver%"
     
 ems_core:
     instance_id: "%instance_id%"
