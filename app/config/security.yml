@@ -12,7 +12,7 @@ security:
         ROLE_SUPER_PUBLISHER: ROLE_PUBLISHER
         ROLE_WEBMASTER:       ROLE_SUPER_PUBLISHER
         ROLE_SUPER_WEBMASTER: ROLE_WEBMASTER
-        ROLE_ADMIN:           ROLE_SUPER_WEBMASTER
+        ROLE_ADMIN:           [ROLE_SUPER_WEBMASTER,ROLE_COPY_PASTE]
         ROLE_SUPER_ADMIN:     ROLE_ADMIN
 
     providers:
@@ -63,6 +63,8 @@ security:
         - { path: ^/data/custom-view, role: IS_AUTHENTICATED_ANONYMOUSLY }
         - { path: ^/data/file, role: IS_AUTHENTICATED_ANONYMOUSLY }
         - { path: ^/api, roles: ROLE_API }
+        - { path: ^/i18n-type, roles: ROLE_ADMIN }
+        - { path: ^/wysiwyg-profile, roles: ROLE_ADMIN }
         - { path: ^/content-type, roles: ROLE_ADMIN }
         - { path: ^/environment, roles: ROLE_ADMIN }
         - { path: ^/user, roles: ROLE_ADMIN }
