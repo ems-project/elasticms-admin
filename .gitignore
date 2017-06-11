@@ -21,3 +21,4 @@
 .DS_Store
 /bin/symfony_requirements
 /var/SymfonyRequirements.php
+/private.pem
