@@ -25,3 +25,4 @@ parameters:
     ems_shortname: '<i class="ems-icon-ball"></i><span class="sr-only">elasticms</span>'
     filesystem_storage_folder: ~
     ems_circles_object: ~
+    ems_private_key: ~
