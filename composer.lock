@@ -971,16 +971,16 @@
         },
         {
             "name": "elasticms/core-bundle",
-            "version": "V1.4.9",
+            "version": "1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSCoreBundle.git",
-                "reference": "5f588abe27068c2c65b5986ae6339730b217cc68"
+                "reference": "d1cf6d08ee7a7884dc06c27a08df236a5c07dfdd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSCoreBundle/zipball/5f588abe27068c2c65b5986ae6339730b217cc68",
-                "reference": "5f588abe27068c2c65b5986ae6339730b217cc68",
+                "url": "https://api.github.com/repos/ems-project/EMSCoreBundle/zipball/d1cf6d08ee7a7884dc06c27a08df236a5c07dfdd",
+                "reference": "d1cf6d08ee7a7884dc06c27a08df236a5c07dfdd",
                 "shasum": ""
             },
             "require": {
@@ -1029,20 +1029,20 @@
             "keywords": [
                 "elasticms"
             ],
-            "time": "2017-06-08T11:45:39+00:00"
+            "time": "2017-07-03T13:59:50+00:00"
         },
         {
             "name": "elasticms/local-user-bundle",
-            "version": "v1.3.4",
+            "version": "1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSLocalUserBundle.git",
-                "reference": "938a8662701680d9cbda370121a4d172fc75833f"
+                "reference": "d33a84aad3f3cda32ec36dfc83644094db48e3c7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSLocalUserBundle/zipball/938a8662701680d9cbda370121a4d172fc75833f",
-                "reference": "938a8662701680d9cbda370121a4d172fc75833f",
+                "url": "https://api.github.com/repos/ems-project/EMSLocalUserBundle/zipball/d33a84aad3f3cda32ec36dfc83644094db48e3c7",
+                "reference": "d33a84aad3f3cda32ec36dfc83644094db48e3c7",
                 "shasum": ""
             },
             "require": {
@@ -1089,7 +1089,7 @@
                 "FOS user",
                 "elasticms"
             ],
-            "time": "2017-06-04T01:17:31+00:00"
+            "time": "2017-06-23T22:34:57+00:00"
         },
         {
             "name": "elasticsearch/elasticsearch",
