@@ -79,3 +79,9 @@ ems_core:
     shortname: "%ems_shortname%"
     circles_object: "%ems_circles_object%"
     private_key: "%ems_private_key%"
+    
+    from_email: { address: "%from_email_address%", sender_name: "%from_email_name%"}
+    elasticsearch_cluster: ["%elasticsearch_server_1%", "%elasticsearch_server_2%"]
+    theme_color: "%theme_color%"
+    audit_index: "%audit_index%"
+    
