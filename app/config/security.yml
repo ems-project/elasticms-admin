@@ -48,7 +48,7 @@ security:
                 secret:   '%secret%'
                 lifetime: 604800 # 1 week in seconds
                 path:     /
-            switch_user: { role: ROLE_SUPER_ADMIN, provider:   fos_userbundle }
+            switch_user: { role: ROLE_ADMIN, provider:   fos_userbundle }
             
     access_control:
         - { path: ^/health_check(\.json)?$, role: IS_AUTHENTICATED_ANONYMOUSLY }
