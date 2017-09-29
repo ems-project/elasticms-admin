@@ -32,3 +32,5 @@ parameters:
     elasticsearch_server_2: http://localhost:9200
     theme_color: blue
     audit_index: ~
+    ems_asset_config_type: ~
+    ems_asset_config_index: ~
