@@ -24,6 +24,7 @@ parameters:
     ems_name: '<i class="ems-icon-ball"></i> elastic<b>ms</b>'
     ems_shortname: '<i class="ems-icon-ball"></i><span class="sr-only">elasticms</span>'
     filesystem_storage_folder: ~
+    upload_folder: ~
     ems_circles_object: ~
     ems_private_key: ~
     from_email_address: elasticms@example.com

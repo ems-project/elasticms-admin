@@ -87,4 +87,5 @@ ems_core:
     elasticsearch_cluster: ["%elasticsearch_server_1%", "%elasticsearch_server_2%"]
     theme_color: "%theme_color%"
     audit_index: "%audit_index%"
+    upload_folder: "%upload_folder%"
     
