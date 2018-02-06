@@ -88,4 +88,5 @@ ems_core:
     theme_color: "%theme_color%"
     audit_index: "%audit_index%"
     upload_folder: "%upload_folder%"
+    tika_server: "%tika_server%"
     
