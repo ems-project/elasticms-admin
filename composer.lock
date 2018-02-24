@@ -971,16 +971,16 @@
         },
         {
             "name": "elasticms/core-bundle",
-            "version": "1.6.73",
+            "version": "1.6.74",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSCoreBundle.git",
-                "reference": "0c4400bb0913fbd779f69ab29e158279877c8477"
+                "reference": "a4819e0b8c28789253c8d7c9482a70a815280133"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSCoreBundle/zipball/0c4400bb0913fbd779f69ab29e158279877c8477",
-                "reference": "0c4400bb0913fbd779f69ab29e158279877c8477",
+                "url": "https://api.github.com/repos/ems-project/EMSCoreBundle/zipball/a4819e0b8c28789253c8d7c9482a70a815280133",
+                "reference": "a4819e0b8c28789253c8d7c9482a70a815280133",
                 "shasum": ""
             },
             "require": {
@@ -1030,7 +1030,7 @@
             "keywords": [
                 "elasticms"
             ],
-            "time": "2018-02-06T21:24:16+00:00"
+            "time": "2018-02-24T14:01:26+00:00"
         },
         {
             "name": "elasticms/local-user-bundle",
@@ -1149,16 +1149,16 @@
         },
         {
             "name": "friendsofsymfony/user-bundle",
-            "version": "dev-master",
+            "version": "2.0.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfSymfony/FOSUserBundle.git",
-                "reference": "e0c1f70dedd43a37e5fcf3bfde95cf9765616f04"
+                "reference": "f5908298c4b6999b7e5b8eba787d3b4426b9c3f1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSUserBundle/zipball/e0c1f70dedd43a37e5fcf3bfde95cf9765616f04",
-                "reference": "e0c1f70dedd43a37e5fcf3bfde95cf9765616f04",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSUserBundle/zipball/f5908298c4b6999b7e5b8eba787d3b4426b9c3f1",
+                "reference": "f5908298c4b6999b7e5b8eba787d3b4426b9c3f1",
                 "shasum": ""
             },
             "require": {
@@ -1179,7 +1179,7 @@
                 "doctrine/doctrine-bundle": "^1.3",
                 "friendsofphp/php-cs-fixer": "^1.11",
                 "phpunit/phpunit": "~4.8|~5.0",
-                "swiftmailer/swiftmailer": "^4.3 || ^5.0",
+                "swiftmailer/swiftmailer": "^4.3 || ^5.0 || ^6.0",
                 "symfony/console": "^2.7 || ^3.0",
                 "symfony/phpunit-bridge": "^2.7 || ^3.0",
                 "symfony/validator": "^2.7 || ^3.0",
@@ -1222,7 +1222,7 @@
             "keywords": [
                 "User management"
             ],
-            "time": "2017-05-12 10:55:18"
+            "time": "2018-01-30 18:53:28"
         },
         {
             "name": "guzzlehttp/ringphp",
