@@ -89,4 +89,5 @@ ems_core:
     audit_index: "%audit_index%"
     upload_folder: "%upload_folder%"
     tika_server: "%tika_server%"
+    elasticsearch_version: "%elasticsearch_version%"
     

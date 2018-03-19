@@ -36,3 +36,4 @@ parameters:
     ems_asset_config_type: ~
     ems_asset_config_index: ~
     tika_server: ~
+    elasticsearch_version: '5.4'
