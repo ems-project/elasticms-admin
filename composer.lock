@@ -971,16 +971,16 @@
         },
         {
             "name": "elasticms/core-bundle",
-            "version": "1.6.80",
+            "version": "1.6.83",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSCoreBundle.git",
-                "reference": "84a24cb5cfea836d8b3ff1a811f68dd066f7e8e2"
+                "reference": "0b7e26d91392c924650e77e1d7c7c9957a7d6cd5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSCoreBundle/zipball/84a24cb5cfea836d8b3ff1a811f68dd066f7e8e2",
-                "reference": "84a24cb5cfea836d8b3ff1a811f68dd066f7e8e2",
+                "url": "https://api.github.com/repos/ems-project/EMSCoreBundle/zipball/0b7e26d91392c924650e77e1d7c7c9957a7d6cd5",
+                "reference": "0b7e26d91392c924650e77e1d7c7c9957a7d6cd5",
                 "shasum": ""
             },
             "require": {
@@ -988,6 +988,7 @@
                 "elasticsearch/elasticsearch": "~5.0",
                 "guzzlehttp/guzzle": "^6.3",
                 "maennchen/zipstream-php": "0.3.*",
+                "ninoskopac/php-tika-wrapper": "^1.0",
                 "php": ">=5.6",
                 "sensiolabs/ansi-to-html": "^1.1",
                 "symfony/symfony": ">=3.0"
@@ -1031,24 +1032,24 @@
             "keywords": [
                 "elasticms"
             ],
-            "time": "2018-03-19T15:24:33+00:00"
+            "time": "2018-03-21T21:02:43+00:00"
         },
         {
             "name": "elasticms/local-user-bundle",
-            "version": "1.6.20",
+            "version": "1.6.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSLocalUserBundle.git",
-                "reference": "950981f84617e751321a43bbd265157c4ddf422c"
+                "reference": "fb4015e25aa8fe1b849dc9391d425ba81c57f9d2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSLocalUserBundle/zipball/950981f84617e751321a43bbd265157c4ddf422c",
-                "reference": "950981f84617e751321a43bbd265157c4ddf422c",
+                "url": "https://api.github.com/repos/ems-project/EMSLocalUserBundle/zipball/fb4015e25aa8fe1b849dc9391d425ba81c57f9d2",
+                "reference": "fb4015e25aa8fe1b849dc9391d425ba81c57f9d2",
                 "shasum": ""
             },
             "require": {
-                "elasticms/core-bundle": ">=1.6.75",
+                "elasticms/core-bundle": ">=1.6.80",
                 "friendsofsymfony/user-bundle": "~2.0@dev",
                 "php": ">=5.6"
             },
@@ -1091,7 +1092,7 @@
                 "FOS user",
                 "elasticms"
             ],
-            "time": "2018-03-19T15:31:19+00:00"
+            "time": "2018-03-19T15:32:41+00:00"
         },
         {
             "name": "elasticsearch/elasticsearch",
@@ -1737,6 +1738,46 @@
                 "psr-3"
             ],
             "time": "2017-03-13T07:08:03+00:00"
+        },
+        {
+            "name": "ninoskopac/php-tika-wrapper",
+            "version": "1.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/NinoSkopac/PhpTikaWrapper.git",
+                "reference": "7953ce2b1e30119f6dfd61e0356c1be267cc47e6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/NinoSkopac/PhpTikaWrapper/zipball/7953ce2b1e30119f6dfd61e0356c1be267cc47e6",
+                "reference": "7953ce2b1e30119f6dfd61e0356c1be267cc47e6",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2",
+                "symfony/process": "~3.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Enzim\\Lib\\TikaWrapper\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "This is a simple PHP Wrapper for Apache Tika (using the tika-app jar)",
+            "keywords": [
+                "apache tika",
+                "doc",
+                "docx",
+                "odt",
+                "pdf",
+                "text processing",
+                "tika"
+            ],
+            "time": "2017-04-20T00:12:23+00:00"
         },
         {
             "name": "ocramius/proxy-manager",
