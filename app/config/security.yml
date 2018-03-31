@@ -33,6 +33,7 @@ security:
                 authenticator: apikey_authenticator
             provider: api_key_user_provider
         main:
+            logout_on_user_change: true
             anonymous: ~
             # activate different ways to authenticate
             form_login:
