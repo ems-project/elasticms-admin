@@ -971,16 +971,16 @@
         },
         {
             "name": "elasticms/core-bundle",
-            "version": "1.6.83",
+            "version": "1.6.89",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSCoreBundle.git",
-                "reference": "0b7e26d91392c924650e77e1d7c7c9957a7d6cd5"
+                "reference": "4bc82aa3d18406be2f4ee0cdd71803a1de0859a9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSCoreBundle/zipball/0b7e26d91392c924650e77e1d7c7c9957a7d6cd5",
-                "reference": "0b7e26d91392c924650e77e1d7c7c9957a7d6cd5",
+                "url": "https://api.github.com/repos/ems-project/EMSCoreBundle/zipball/4bc82aa3d18406be2f4ee0cdd71803a1de0859a9",
+                "reference": "4bc82aa3d18406be2f4ee0cdd71803a1de0859a9",
                 "shasum": ""
             },
             "require": {
@@ -1032,24 +1032,24 @@
             "keywords": [
                 "elasticms"
             ],
-            "time": "2018-03-21T21:02:43+00:00"
+            "time": "2018-03-28T21:01:31+00:00"
         },
         {
             "name": "elasticms/local-user-bundle",
-            "version": "1.6.21",
+            "version": "1.6.25",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSLocalUserBundle.git",
-                "reference": "fb4015e25aa8fe1b849dc9391d425ba81c57f9d2"
+                "reference": "0d47849cc6ed17afe7af64d3e9b7ac4b2f5c8d92"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSLocalUserBundle/zipball/fb4015e25aa8fe1b849dc9391d425ba81c57f9d2",
-                "reference": "fb4015e25aa8fe1b849dc9391d425ba81c57f9d2",
+                "url": "https://api.github.com/repos/ems-project/EMSLocalUserBundle/zipball/0d47849cc6ed17afe7af64d3e9b7ac4b2f5c8d92",
+                "reference": "0d47849cc6ed17afe7af64d3e9b7ac4b2f5c8d92",
                 "shasum": ""
             },
             "require": {
-                "elasticms/core-bundle": ">=1.6.80",
+                "elasticms/core-bundle": ">=1.6.89",
                 "friendsofsymfony/user-bundle": "~2.0@dev",
                 "php": ">=5.6"
             },
@@ -1092,7 +1092,7 @@
                 "FOS user",
                 "elasticms"
             ],
-            "time": "2018-03-19T15:32:41+00:00"
+            "time": "2018-03-28T21:11:57+00:00"
         },
         {
             "name": "elasticsearch/elasticsearch",
