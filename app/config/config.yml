@@ -7,6 +7,7 @@ imports:
 # http://symfony.com/doc/current/best_practices/configuration.html#application-related-configuration
 parameters:
     locale: en
+    container.autowiring.strict_mode: true
 
 framework:
     #esi:             ~
@@ -23,7 +24,6 @@ framework:
         engines: ['twig']
     default_locale:  "%locale%"
     trusted_hosts:   ~
-    trusted_proxies: ~
     session:
         # http://symfony.com/doc/current/reference/configuration/framework.html#handler-id
         handler_id:  session.handler.native_file
@@ -38,6 +38,9 @@ framework:
 twig:
     debug:            "%kernel.debug%"
     strict_variables: "%kernel.debug%"
+    paths:
+        '%kernel.project_dir%/vendor/elasticms/local-user-bundle/Resources/views': FOSUser
+        '%kernel.project_dir%/vendor/friendsofsymfony/user-bundle/Resources/views': FOSUser
 
 # Doctrine Configuration
 doctrine:
@@ -78,7 +81,6 @@ ems_core:
     name: "%ems_name%"
     shortname: "%ems_shortname%"
     circles_object: "%ems_circles_object%"
-    private_key: "%ems_private_key%"
     asset_config_type: "%ems_asset_config_type%"
     asset_config_index: "%ems_asset_config_index%"
     private_key: "%ems_private_key%"
