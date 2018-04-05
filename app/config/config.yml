@@ -86,7 +86,7 @@ ems_core:
     private_key: "%ems_private_key%"
     
     from_email: { address: "%from_email_address%", sender_name: "%from_email_name%"}
-    elasticsearch_cluster: ["%elasticsearch_server_1%", "%elasticsearch_server_2%"]
+    elasticsearch_cluster: "%elasticsearch_cluster%"
     theme_color: "%theme_color%"
     audit_index: "%audit_index%"
     upload_folder: "%upload_folder%"
