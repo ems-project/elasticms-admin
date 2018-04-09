@@ -92,4 +92,5 @@ ems_core:
     upload_folder: "%upload_folder%"
     tika_server: "%tika_server%"
     elasticsearch_version: "%elasticsearch_version%"
+    single_type_index: "%single_type_index%"
     
