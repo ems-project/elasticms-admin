@@ -38,3 +38,8 @@ services:
         arguments: ['%filesystem_storage_folder%', '%kernel.root_dir%']
         tags:
             -  { name: ems.storage }
+#    app.storage.http.ems:
+#        class: EMS\CoreBundle\Service\Storage\HttpStorage
+#        arguments: ['@ems.service.rest_client', '%kernel.cache_dir%/ems_asset', 'http://ems.theus.be/data/file/', 'http://ems.theus.be/api/file', 'jKOn36h+dPKAp46jYuAccIOp0FF1JcZJY1zdMVLzZeF55SRCHsmH+ASPqFI2r0ZgnFA=']
+#        tags:
+#            -  { name: ems.storage }
