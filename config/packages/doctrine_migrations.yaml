@@ -1,0 +1,3 @@
+doctrine_migrations:
+    dir_name: '%kernel.project_dir%/vendor/elasticms/local-user-bundle/Resources/DoctrineMigrations/%database_driver%'
+    namespace: Application\Migrations

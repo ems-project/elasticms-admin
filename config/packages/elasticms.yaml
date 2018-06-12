@@ -1,0 +1,43 @@
+parameters:
+    elasticsearch_version: '5.4'
+
+
+    env(database_driver): 'pdo_psql'
+    env(ems_private_key): ''
+    env(database_name):   'test'
+
+
+    database_driver:  '%env(string:database_driver)%'
+    ems_private_key:  '%env(string:ems_private_key)%'
+    database_name:    '%env(string:database_name)%'
+
+
+
+
+
+
+
+#    instance_id: glossary_
+#    ems_name: '<i class="ems-icon-ball"></i> ems2<b>ms</b>'
+#    ems_shortname: '<i class="ems-icon-ball"></i><span class="sr-only">ems2</span>'
+#    filesystem_storage_folder: /var/assets
+#    uploading_folder: null
+#    ems_circles_object: null
+#    ems_private_key: null
+#    from_email_address: elasticms@example.com
+#    from_email_name: elasticms
+#    elasticsearch_cluster:
+#        - 'http://localhost:9200'
+#        - 'http://localhost:9201'
+#    theme_color: blue
+#    audit_index: null
+#    ems_asset_config_type: null
+#    ems_asset_config_index: null
+#    tika_server: null
+#    elasticsearch_version: '5.4'
+#    single_type_index: true
+#
+#
+#    live_url: 'http://live.local/'
+#    preview_url: 'http://preview.local/'
+#    staging_url: 'http://staging.local/'
