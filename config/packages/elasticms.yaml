@@ -1,20 +1,22 @@
 parameters:
-    elasticsearch_version: '5.4'
 
 
     env(database_driver): 'pdo_psql'
-    env(ems_private_key): ''
-    env(database_name):   'test'
+    env(database_name): 'user'
 
 
-    database_driver:  '%env(string:database_driver)%'
-    ems_private_key:  '%env(string:ems_private_key)%'
+
+    env(EMS_PRIVATE_KEY): null
+    env(ELASTICSEARCH_VERSION): '5.4'
+
+
     database_name:    '%env(string:database_name)%'
+    ems_private_key:  '%env(string:EMS_PRIVATE_KEY)%'
+    database_driver:  '%env(string:database_driver)%'
 
 
-
-
-
+    ems_core.private_key:  '%env(string:EMS_PRIVATE_KEY)%'
+    ems_core.elasticsearch_version: '%env(ELASTICSEARCH_VERSION)%'
 
 
 #    instance_id: glossary_
@@ -36,8 +38,3 @@ parameters:
 #    tika_server: null
 #    elasticsearch_version: '5.4'
 #    single_type_index: true
-#
-#
-#    live_url: 'http://live.local/'
-#    preview_url: 'http://preview.local/'
-#    staging_url: 'http://staging.local/'
