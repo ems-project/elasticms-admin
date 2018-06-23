@@ -1027,22 +1027,85 @@
             "time": "2017-12-17T02:57:51+00:00"
         },
         {
-            "name": "elasticms/core-bundle",
-            "version": "1.7.18",
+            "name": "dompdf/dompdf",
+            "version": "v0.8.2",
             "source": {
                 "type": "git",
-                "url": "https://github.com/ems-project/EMSCoreBundle.git",
-                "reference": "85b7bed89f14410bef97334d4bcbcbf981c54fbb"
+                "url": "https://github.com/dompdf/dompdf.git",
+                "reference": "5113accd9ae5d466077cce5208dcf3fb871bf8f6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSCoreBundle/zipball/85b7bed89f14410bef97334d4bcbcbf981c54fbb",
-                "reference": "85b7bed89f14410bef97334d4bcbcbf981c54fbb",
+                "url": "https://api.github.com/repos/dompdf/dompdf/zipball/5113accd9ae5d466077cce5208dcf3fb871bf8f6",
+                "reference": "5113accd9ae5d466077cce5208dcf3fb871bf8f6",
+                "shasum": ""
+            },
+            "require": {
+                "ext-dom": "*",
+                "ext-gd": "*",
+                "ext-mbstring": "*",
+                "phenx/php-font-lib": "0.5.*",
+                "phenx/php-svg-lib": "0.3.*",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.8.*",
+                "squizlabs/php_codesniffer": "2.*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-develop": "0.7-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Dompdf\\": "src/"
+                },
+                "classmap": [
+                    "lib/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-2.1"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Ménager",
+                    "email": "fabien.menager@gmail.com"
+                },
+                {
+                    "name": "Brian Sweeney",
+                    "email": "eclecticgeek@gmail.com"
+                },
+                {
+                    "name": "Gabriel Bull",
+                    "email": "me@gabrielbull.com"
+                }
+            ],
+            "description": "DOMPDF is a CSS 2.1 compliant HTML to PDF converter",
+            "homepage": "https://github.com/dompdf/dompdf",
+            "time": "2017-11-26T14:49:08+00:00"
+        },
+        {
+            "name": "elasticms/core-bundle",
+            "version": "1.7.20",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ems-project/EMSCoreBundle.git",
+                "reference": "fb8af386b85aa1554a42a972d84bf60315d79769"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ems-project/EMSCoreBundle/zipball/fb8af386b85aa1554a42a972d84bf60315d79769",
+                "reference": "fb8af386b85aa1554a42a972d84bf60315d79769",
                 "shasum": ""
             },
             "require": {
                 "caxy/php-htmldiff": "^0.1.7",
                 "doctrine/doctrine-migrations-bundle": "^1.3",
+                "dompdf/dompdf": "^0.8.2",
                 "elasticsearch/elasticsearch": "^5.3",
                 "guzzlehttp/guzzle": "^6.3",
                 "maennchen/zipstream-php": "^0.5",
@@ -1087,24 +1150,24 @@
             "keywords": [
                 "elasticms"
             ],
-            "time": "2018-06-21T05:59:45+00:00"
+            "time": "2018-06-23T20:02:18+00:00"
         },
         {
             "name": "elasticms/local-user-bundle",
-            "version": "1.7.7",
+            "version": "1.7.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSLocalUserBundle.git",
-                "reference": "caa82d6e6af12f7c71ccec5cc74e485b3482afbc"
+                "reference": "696aa4572f74535ef1666f85bc34588ea40e1efd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSLocalUserBundle/zipball/caa82d6e6af12f7c71ccec5cc74e485b3482afbc",
-                "reference": "caa82d6e6af12f7c71ccec5cc74e485b3482afbc",
+                "url": "https://api.github.com/repos/ems-project/EMSLocalUserBundle/zipball/696aa4572f74535ef1666f85bc34588ea40e1efd",
+                "reference": "696aa4572f74535ef1666f85bc34588ea40e1efd",
                 "shasum": ""
             },
             "require": {
-                "elasticms/core-bundle": ">=1.7.17",
+                "elasticms/core-bundle": ">=1.7.20",
                 "friendsofsymfony/user-bundle": "^2.1",
                 "php": ">=5.6"
             },
@@ -1146,7 +1209,7 @@
                 "FOS user",
                 "elasticms"
             ],
-            "time": "2018-06-20T21:03:45+00:00"
+            "time": "2018-06-23T20:12:01+00:00"
         },
         {
             "name": "elasticsearch/elasticsearch",
@@ -2096,6 +2159,83 @@
             "time": "2017-09-27T21:40:39+00:00"
         },
         {
+            "name": "phenx/php-font-lib",
+            "version": "0.5.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PhenX/php-font-lib.git",
+                "reference": "760148820110a1ae0936e5cc35851e25a938bc97"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PhenX/php-font-lib/zipball/760148820110a1ae0936e5cc35851e25a938bc97",
+                "reference": "760148820110a1ae0936e5cc35851e25a938bc97",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "FontLib\\": "src/FontLib"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Ménager",
+                    "email": "fabien.menager@gmail.com"
+                }
+            ],
+            "description": "A library to read, parse, export and make subsets of different types of font files.",
+            "homepage": "https://github.com/PhenX/php-font-lib",
+            "time": "2017-09-13T16:14:37+00:00"
+        },
+        {
+            "name": "phenx/php-svg-lib",
+            "version": "v0.3.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PhenX/php-svg-lib.git",
+                "reference": "ccc46ef6340d4b8a4a68047e68d8501ea961442c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PhenX/php-svg-lib/zipball/ccc46ef6340d4b8a4a68047e68d8501ea961442c",
+                "reference": "ccc46ef6340d4b8a4a68047e68d8501ea961442c",
+                "shasum": ""
+            },
+            "require": {
+                "sabberworm/php-css-parser": "8.1.*"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~5.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Svg\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Ménager",
+                    "email": "fabien.menager@gmail.com"
+                }
+            ],
+            "description": "A library to read, parse and export to PDF SVG files.",
+            "homepage": "https://github.com/PhenX/php-svg-lib",
+            "time": "2018-06-03T10:10:03+00:00"
+        },
+        {
             "name": "psr/cache",
             "version": "1.0.1",
             "source": {
@@ -2429,6 +2569,50 @@
                 "promises"
             ],
             "time": "2017-03-25T12:08:31+00:00"
+        },
+        {
+            "name": "sabberworm/php-css-parser",
+            "version": "8.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sabberworm/PHP-CSS-Parser.git",
+                "reference": "850cbbcbe7fbb155387a151ea562897a67e242ef"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sabberworm/PHP-CSS-Parser/zipball/850cbbcbe7fbb155387a151ea562897a67e242ef",
+                "reference": "850cbbcbe7fbb155387a151ea562897a67e242ef",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Sabberworm\\CSS": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Raphael Schweikert"
+                }
+            ],
+            "description": "Parser for CSS Files written in PHP",
+            "homepage": "http://www.sabberworm.com/blog/2010/6/10/php-css-parser",
+            "keywords": [
+                "css",
+                "parser",
+                "stylesheet"
+            ],
+            "time": "2016-07-19T19:14:21+00:00"
         },
         {
             "name": "sensio/distribution-bundle",
