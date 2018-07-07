@@ -1,40 +1,49 @@
 parameters:
-
-
-    env(database_driver): 'pdo_psql'
-    env(database_name): 'user'
-
-
-
-    env(EMS_PRIVATE_KEY): null
     env(ELASTICSEARCH_VERSION): '5.4'
+    env(ELASTICSEARCH_CLUSTER): '["http://localhost:9200", "http://localhost:9201"]'
+    env(TIKA_SERVER): ''
+    env(EMS_PRIVATE_KEY): ''
+    env(EMS_INSTANCE_ID): 'elasticms_'
+    env(EMS_NAME): '<i class="ems-icon-ball"></i> elastic<b>ms</b>'
+    env(EMS_SHORTNAME): '<i class="ems-icon-ball"></i><span class="sr-only">elasticms</span>'
+    env(EMS_SINGLE_TYPE_INDEX): false
+    env(EMS_PAGING_SIZE): 20
+    env(EMS_THEME_COLOR): 'blue'
+    env(EMS_DATE_TIME_FORMAT): 'j/m/Y \a\t G:i'
+    env(EMS_DATEPICKER_FORMAT): 'dd/mm/yyyy'
+    env(EMS_DATEPICKER_WEEKSTART): 1
+    env(EMS_DATEPICKER_DAYSOFWEEK_HIGHLIGHTED): '[0, 6]'
+    env(EMS_AUDIT_INDEX): ''
+    env(EMS_FROM_EMAIL_ADDRESS): 'elasticms@example.com'
+    env(EMS_FROM_EMAIL_NAME): 'elasticms'
+    env(EMS_ALLOW_USER_REGISTRATION): false
+    env(EMS_ASSET_CONFIG_TYPE): ''
+    env(EMS_ASSET_CONFIG_INDEX): ''
+    env(EMS_UPLOAD_FOLDER): ''
+    env(EMS_CIRCLES_OBJECT): ''
 
 
-    database_name:    '%env(string:database_name)%'
-    ems_private_key:  '%env(string:EMS_PRIVATE_KEY)%'
-    database_driver:  '%env(string:database_driver)%'
-
-
-    ems_core.private_key:  '%env(string:EMS_PRIVATE_KEY)%'
-    ems_core.elasticsearch_version: '%env(ELASTICSEARCH_VERSION)%'
-
-
-#    instance_id: glossary_
-#    ems_name: '<i class="ems-icon-ball"></i> ems2<b>ms</b>'
-#    ems_shortname: '<i class="ems-icon-ball"></i><span class="sr-only">ems2</span>'
-#    filesystem_storage_folder: /var/assets
-#    uploading_folder: null
-#    ems_circles_object: null
-#    ems_private_key: null
-#    from_email_address: elasticms@example.com
-#    from_email_name: elasticms
-#    elasticsearch_cluster:
-#        - 'http://localhost:9200'
-#        - 'http://localhost:9201'
-#    theme_color: blue
-#    audit_index: null
-#    ems_asset_config_type: null
-#    ems_asset_config_index: null
-#    tika_server: null
-#    elasticsearch_version: '5.4'
-#    single_type_index: true
+ems_core:
+    private_key:  '%env(string:EMS_PRIVATE_KEY)%'
+    elasticsearch_version: '%env(string:ELASTICSEARCH_VERSION)%'
+    elasticsearch_cluster: '%env(json:ELASTICSEARCH_CLUSTER)%'
+    instance_id: '%env(string:EMS_INSTANCE_ID)%'
+    name: '%env(string:EMS_NAME)%'
+    shortname: '%env(string:EMS_SHORTNAME)%'
+    paging_size: '%env(int:EMS_PAGING_SIZE)%'
+    theme_color: '%env(string:EMS_THEME_COLOR)%'
+    date_time_format:  '%env(string:EMS_DATE_TIME_FORMAT)%'
+    datepicker_format:  '%env(string:EMS_DATEPICKER_FORMAT)%'
+    datepicker_weekstart:  '%env(int:EMS_DATEPICKER_WEEKSTART)%'
+    datepicker_daysofweek_highlighted: '%env(json:EMS_DATEPICKER_DAYSOFWEEK_HIGHLIGHTED)%'
+    audit_index: '%env(string:EMS_AUDIT_INDEX)%'
+    from_email:
+        address: '%env(string:EMS_FROM_EMAIL_ADDRESS)%'
+        sender_name: '%env(string:EMS_FROM_EMAIL_NAME)%'
+    allow_user_registration: '%env(bool:EMS_ALLOW_USER_REGISTRATION)%'
+    upload_folder: '%env(string:EMS_UPLOAD_FOLDER)%'
+    circles_object: '%env(string:EMS_CIRCLES_OBJECT)%'
+    asset_config_type: '%env(string:EMS_ASSET_CONFIG_TYPE)%'
+    asset_config_index: '%env(string:EMS_ASSET_CONFIG_INDEX)%'
+    tika_server: '%env(string:TIKA_SERVER)%'
+    single_type_index: '%env(bool:EMS_SINGLE_TYPE_INDEX)%'

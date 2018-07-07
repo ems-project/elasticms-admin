@@ -1,11 +1,14 @@
 parameters:
-    env(DATABASE_URL): ''
+    env(DB_HOST): '127.0.0.1'
+    env(DB_DRIVER): 'mysql'
+    env(DB_USER): 'user'
+    env(DB_PASSWORD): 'user'
+    env(DB_PORT): '3306'
+    env(DB_NAME): 'elasticms'
 
 doctrine:
     dbal:
-        driver: 'pdo_pgsql'
-        server_version: '9.6'
-        url: '%env(resolve:DATABASE_URL)%'
+        url: '%env(resolve:DB_DRIVER)%://%env(resolve:DB_USER)%:%env(resolve:DB_PASSWORD)%@%env(resolve:DB_HOST)%:%env(resolve:DB_PORT)%/%env(resolve:DB_NAME)%'
     orm:
         auto_generate_proxy_classes: '%kernel.debug%'
         naming_strategy: doctrine.orm.naming_strategy.underscore
