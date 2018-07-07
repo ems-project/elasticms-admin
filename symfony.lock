@@ -1,4 +1,7 @@
 {
+    "caxy/php-htmldiff": {
+        "version": "0.1.x-dev"
+    },
     "doctrine/annotations": {
         "version": "1.0",
         "recipe": {
@@ -41,9 +44,6 @@
             "ref": "c1431086fec31f17fbcfe6d6d7e92059458facc1"
         }
     },
-    "doctrine/event-manager": {
-        "version": "1.0.x-dev"
-    },
     "doctrine/inflector": {
         "version": "v1.3.0"
     },
@@ -59,11 +59,8 @@
     "doctrine/orm": {
         "version": "2.7.x-dev"
     },
-    "doctrine/persistence": {
-        "version": "1.0.x-dev"
-    },
-    "doctrine/reflection": {
-        "version": "1.0.x-dev"
+    "dompdf/dompdf": {
+        "version": "v0.8.2"
     },
     "easycorp/easy-log-handler": {
         "version": "1.0",
@@ -85,6 +82,9 @@
     },
     "elasticsearch/elasticsearch": {
         "version": "v5.3.2"
+    },
+    "ezyang/htmlpurifier": {
+        "version": "v4.10.0"
     },
     "fig/link-util": {
         "version": "1.0.x-dev"
@@ -128,6 +128,12 @@
     "paragonie/random_compat": {
         "version": "v2.0.15"
     },
+    "phenx/php-font-lib": {
+        "version": "0.5.1"
+    },
+    "phenx/php-svg-lib": {
+        "version": "v0.3.2"
+    },
     "phpdocumentor/reflection-common": {
         "version": "1.0.1"
     },
@@ -161,6 +167,9 @@
     "react/promise": {
         "version": "2.x-dev"
     },
+    "sabberworm/php-css-parser": {
+        "version": "8.1.0"
+    },
     "sensio/framework-extra-bundle": {
         "version": "4.0",
         "recipe": {
@@ -172,6 +181,9 @@
     },
     "sensiolabs/ansi-to-html": {
         "version": "1.1-dev"
+    },
+    "sunra/php-simple-html-dom-parser": {
+        "version": "v1.5.2"
     },
     "swiftmailer/swiftmailer": {
         "version": "6.1-dev"
@@ -448,5 +460,8 @@
     },
     "zendframework/zend-code": {
         "version": "3.3-dev"
+    },
+    "zendframework/zend-eventmanager": {
+        "version": "3.2.1"
     }
 }
