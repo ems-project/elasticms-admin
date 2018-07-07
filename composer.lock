@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "58f92afb4c071f8c4b2aa60470ff4150",
+    "content-hash": "d84fb6588c43ea873ef77dcf32edd3f0",
     "packages": [
         {
             "name": "caxy/php-htmldiff",
