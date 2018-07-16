@@ -284,6 +284,9 @@
     "symfony/intl": {
         "version": "v4.1.0"
     },
+    "symfony/ldap": {
+        "version": "v4.1.1"
+    },
     "symfony/lts": {
         "version": "4-dev"
     },
