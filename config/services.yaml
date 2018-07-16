@@ -3,6 +3,10 @@
 parameters:
     locale: 'en'
     env(STORAGE_FOLDER): ''
+    env(APP_LDAP_SERVER): ''
+    env(APP_LDAP_PORT): '389'
+    env(APP_LDAP_PROTOCOLE_VERSION): '3'
+    env(APP_LDAP_ENCRYPTION): 'none'
 
 services:
     # default configuration for services in *this* file
@@ -32,3 +36,13 @@ services:
         arguments: ['%env(string:STORAGE_FOLDER)%', '%kernel.root_dir%']
         tags:
             -  { name: ems.storage }
+
+    Symfony\Component\Ldap\Ldap:
+        arguments: ['@Symfony\Component\Ldap\Adapter\ExtLdap\Adapter']
+    Symfony\Component\Ldap\Adapter\ExtLdap\Adapter:
+        arguments:
+            -   host: '%env(string:APP_LDAP_SERVER)%'
+                port: '%env(int:APP_LDAP_PORT)%'
+                encryption: '%env(string:APP_LDAP_ENCRYPTION)%'
+                options:
+                    protocol_version: '%env(int:APP_LDAP_PROTOCOLE_VERSION)%'
