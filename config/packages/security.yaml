@@ -35,10 +35,6 @@ security:
                 use_forward: true
                 provider: fos_userbundle
                 csrf_token_generator: security.csrf.token_manager
-            form_login_ldap:
-                service: Symfony\Component\Ldap\Ldap
-                provider: fos_userbundle
-                dn_string: '{username}@smals-mvm'
             logout:
                 path: /logout
                 target: /login
