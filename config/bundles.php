@@ -17,4 +17,5 @@ return [
     FOS\UserBundle\FOSUserBundle::class => ['all' => true],
     EMS\LocalUserBundle\EMSLocalUserBundle::class => ['all' => true],
     EMS\CoreBundle\EMSCoreBundle::class => ['all' => true],
+    EMS\CommonBundle\EMSCommonBundle::class => ['all' => true],
 ];
