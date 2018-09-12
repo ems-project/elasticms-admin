@@ -1,4 +1,4 @@
-# ElasticMS 
+# ElasticMS [![Build Status](https://travis-ci.com/ems-project/elasticms.svg?branch=master)](https://travis-ci.com/ems-project/elasticms)
 
 ## About
 

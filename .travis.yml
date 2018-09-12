@@ -1,0 +1,33 @@
+sudo: false
+
+language: php
+
+php:
+  - '7.2'
+
+install:
+  - echo "Stage [Install] ..."
+  - travis_retry composer install --no-interaction --no-suggest
+
+script:
+  - echo "Stage [Test] ..."
+  - echo "Running PHP Unit Here ..."
+
+branches:
+  only:
+    - "/^v\\d+(\\.\\d+)+$/"
+    - master
+
+deploy:
+  provider: releases
+  api_key: "$GITHUB_OAUTH_TOKEN"
+  file_glob: true
+  file: "$TRAVIS_BUILD_DIR"
+  skip_cleanup: true
+  prerelease: false
+  on:
+    tags: true
+
+env:
+  global:
+    secure: qyC0UBHaPpVg2cPxPwWSpYZqi2U6xnrgZKp9YKUoZguftht6W/Dn5EypHgX8fEEwzcQdV9J9ug4aLuDjX3A5yAiLF+XiA5QdZTJafqHEnb3fXhw1WRyHxXODs1Q0oonMA5/wycOYROPgd86Z/Fm9ldpecIApDyk0g93D3aDo+WXDKSxOdx7loNss+KhR1jbX6IbYcJ+pMon6uK5rOjR4hL1rtykjdJqNcG3tQpqMbsR3cK9ZghNH8yqHInO0I2kZ9OEChdGEUuOeQ1mWANEm37KbAE2izkO80cpqaI7eB5KOjNF2IX+/JpzWYuDZnoP+Mv0LhYFGKgh2c23F7SirPgQgO6bBe55TYcFwGA0bB5Bdo3/ANFqzQ6Cz5YgP/Rd/VlPE7GDnEXIy/JfljubaJh4HdD9cqBSvAuurC+si4WufyA2Dv8kQhmIVSA7OpQNUfFeSnmEwBHX+1nHbO2npZiXA8qVH6RNQSlp+M9lA99MLq4s3B48ZK84efFymUv6gimCagv1doL9O0p6Cy+8i3NxjWYoyRvfnyp51Xiuo05AJtE6IxjkCNPYzNjCW+BcEBF6vzdoeSb//8q4YbNx6ZFuEhUFmEvcJQ+zRKjbOMx8DLk90Pr1B4Hm7uh14EHDt0aXtIfKRgj6tbyg+L8VJ8TW5ui292j5G0MxdCUDhGns=
