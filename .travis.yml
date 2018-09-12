@@ -7,7 +7,7 @@ php:
 
 install:
   - echo "Stage [Install] ..."
-  - travis_retry composer install --no-interaction --no-suggest
+  - travis_retry composer -vvvv install --no-interaction --no-suggest -o 
 
 script:
   - echo "Stage [Test] ..."
