@@ -1,27 +1,33 @@
 sudo: false
+
 language: php
+
 php:
-- '7.2'
+  - '7.2'
+
 install:
-- echo "Stage [Install] ..."
-- travis_retry composer install --no-interaction --no-suggest
+  - echo "Stage [Install] ..."
+  - travis_retry composer install --no-interaction --no-suggest
+
 script:
-- echo "Stage [Test] ..."
-- echo "Running PHP Unit Here ..."
+  - echo "Stage [Test] ..."
+  - echo "Running PHP Unit Here ..."
+
 branches:
   only:
-  - "/^v\\d+(\\.\\d+)+$/"
-  - master
+    - "/^v\\d+(\\.\\d+)+$/"
+    - master
+
 deploy:
   provider: releases
-  api_key:
-    secure: "$GITHUB_OAUTH_TOKEN"
+  api_key: $GITHUB_OAUTH_TOKEN
   file_glob: true
-  file: "$TRAVIS_BUILD_DIR"
+  file: $TRAVIS_BUILD_DIR
   skip_cleanup: true
   prerelease: false
   on:
     tags: true
+
 env:
   global:
-    secure: G/pXFWcctUsXGdS7jeKFa8jsjbkzlFQQdEfyhu4sEg0CDIogSWrW0q/X55pHYQ3Y7XLFNMZ3V4RQdGsnMgRvrvSzIg9q4lDSQk0jQpEMJDxdb+mPg7R/MifkylHw4n4gdumqiSGL/BfAEcL4GVjcRBjgxrEkz1GUVq2/AyCsr3di336fohpfKFi1WYK8m4X8tU+o63T4u9Yra+VW+TOWgSB3TA11sWRCp7VIIJussmNJYRc6v6N5Ekaojm27Ye3JXVTUj3VIGdzMFQwsZpXWkfefo0Rd0nf/5Kw+E6f0Hgh69qOH6Y1xYTaudPnlty3/hFPuikbInIwCtMFEvGZTGdiyLt083Z3jvo+esNbW42C0QRwzcecFhSn+bHc2i2H5R1dKTkR+IaVkgvkFqbl8eqlD/vq8rmXsPKfsOSVpMdRzI4/dIxopAxBNEF53sii33YqNq6iJexVEja/YXlScND+I7m5V9PXIUYM1ZOi6RAUBa3xiMjgxdMvgAkQG4nMOqvK8HGftVzKQ9L1y5EuB6fsNwLdOWvfzzCdo/eUpMyYcIDBGFrGDXXHPT2rN/fTXDHGOBhR3AcDs2if2ZPWL5sRDDrEDTmXJT1+eH0ktWIiisl73jNFrQVUoJS7FeUHUNNVs7WWN1k/aOusSGz3DQw+k4NgXykVSORR5HpqmMZQ=
+    secure: KfDDxy/iGNtpttZLMisNwZ0RYuD5ds0MuPPCtM5auCPniSUwVdALbJMrqi66E2kkSvWobEfJmIZ8kHS+BQfRjkNCsH+KiFS5c1lq7IJv6SgMTuzhy9gmSsCGJIWnVKp9gRMf59Q03AOXTJv28OtLauz8KX3OjD+bf5P+kHmHyubFRlUzHUc2YTNaO6iU8DMVspaEsPKOjmeBDjqHWG5TJyurX0aXpRlpAw79ttrmRi8vmTJCzBoy5yFO+cPaOQGI/5LPQQ9h+IuF7FLShl51lBgOspr1+o//lQaVaqiqPCikXOcC3kF/faz1hbrX6LidZu+A3d+Z9S0hzrK6Tx6TIdpiXUf6ZZLMP+5ie13QBx964DTixjQU1UfUg8qGOmoCqEKDX0RJDQMMPrI843CBVvAilYkM1g67Einl3GNxUQj7bVWzF+/qvqec734Med2Yz4iXTkn9jJXPa8ANvQlxNp7Mwhr0tOLaPiof2CyCGe7ObjIC9Fcuj9R+YYlAAfv2cz9tWVIwu8AnDiRjr3nMZ5KR1DdR8cBRkgpixWZlo8hDLTOxhLnesiu467m2TfuECKZy6yHdXVyt+FQrfkNZLOwEbjUpplOeD8+ngCOae/FbSadfuG8fiuheMvyuCWf/mhDL/+6R5GP/rFB6oYeJp4oepBvWzlgvTsfUujYdAXE=
