@@ -1,4 +1,4 @@
-# ElasticMS [![Build Status](https://travis-ci.com/ems-project/elasticms.svg?branch=master)](https://travis-ci.com/ems-project/elasticms) [Latest Stable Version](https://img.shields.io/github/release/ems-project/elasticms.svg)
+# ElasticMS [![Build Status](https://travis-ci.com/ems-project/elasticms.svg?branch=master)](https://travis-ci.com/ems-project/elasticms) [![Latest Stable Version](https://img.shields.io/github/release/ems-project/elasticms.svg)](https://github.com/ems-project/elasticms/releases)
 
 ## About
 
