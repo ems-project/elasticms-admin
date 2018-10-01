@@ -1,0 +1,29 @@
+sudo: false
+
+language: php
+
+php:
+  - '7.2'
+
+install:
+  - echo "Stage [Install] ..."
+  - travis_retry composer -vvvv install --no-interaction --no-suggest -o 
+
+script:
+  - echo "Stage [Test] ..."
+  - echo "Running PHP Unit Here ..."
+
+branches:
+  only:
+    - "/^\\d+(\\.\\d+)+$/"
+    - master
+
+deploy:
+  provider: releases
+  api_key: $GITHUB_OAUTH_TOKEN
+  file_glob: true
+  file: $TRAVIS_BUILD_DIR
+  skip_cleanup: true
+  prerelease: false
+  on:
+    tags: true

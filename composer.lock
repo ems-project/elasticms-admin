@@ -1106,20 +1106,21 @@
         },
         {
             "name": "elasticms/common-bundle",
-            "version": "1.2",
+            "version": "1.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSCommonBundle.git",
-                "reference": "6e1ebe8e4e9840ba9fb5efca11f0af1b953952ca"
+                "reference": "1508aee0f8f3aeaf022be9b2d123f1b960d57aaa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSCommonBundle/zipball/6e1ebe8e4e9840ba9fb5efca11f0af1b953952ca",
-                "reference": "6e1ebe8e4e9840ba9fb5efca11f0af1b953952ca",
+                "url": "https://api.github.com/repos/ems-project/EMSCommonBundle/zipball/1508aee0f8f3aeaf022be9b2d123f1b960d57aaa",
+                "reference": "1508aee0f8f3aeaf022be9b2d123f1b960d57aaa",
                 "shasum": ""
             },
             "require": {
                 "elasticsearch/elasticsearch": "^5.3",
+                "guzzlehttp/guzzle": "^6.3",
                 "php": ">=7.1"
             },
             "type": "symfony-bundle",
@@ -1150,20 +1151,20 @@
             "keywords": [
                 "elasticms"
             ],
-            "time": "2018-08-04 19:49:22"
+            "time": "2018-09-06 15:05:18"
         },
         {
             "name": "elasticms/core-bundle",
-            "version": "1.8.11",
+            "version": "1.9.24",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSCoreBundle.git",
-                "reference": "8d8e004fcbd8a01f0d9866764cebb1ea7b06ffb0"
+                "reference": "e3b66851113e1fecdd121916f9a29de0090347ec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSCoreBundle/zipball/8d8e004fcbd8a01f0d9866764cebb1ea7b06ffb0",
-                "reference": "8d8e004fcbd8a01f0d9866764cebb1ea7b06ffb0",
+                "url": "https://api.github.com/repos/ems-project/EMSCoreBundle/zipball/e3b66851113e1fecdd121916f9a29de0090347ec",
+                "reference": "e3b66851113e1fecdd121916f9a29de0090347ec",
                 "shasum": ""
             },
             "require": {
@@ -1225,24 +1226,24 @@
             "keywords": [
                 "elasticms"
             ],
-            "time": "2018-08-10 13:05:31"
+            "time": "2018-09-24 21:22:08"
         },
         {
             "name": "elasticms/local-user-bundle",
-            "version": "1.8.7",
+            "version": "1.9.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSLocalUserBundle.git",
-                "reference": "86028d0f437c864e43c80917d8723eed72abe92a"
+                "reference": "77f90e0f6d57aaa1d7ee82127de466daff838003"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSLocalUserBundle/zipball/86028d0f437c864e43c80917d8723eed72abe92a",
-                "reference": "86028d0f437c864e43c80917d8723eed72abe92a",
+                "url": "https://api.github.com/repos/ems-project/EMSLocalUserBundle/zipball/77f90e0f6d57aaa1d7ee82127de466daff838003",
+                "reference": "77f90e0f6d57aaa1d7ee82127de466daff838003",
                 "shasum": ""
             },
             "require": {
-                "elasticms/core-bundle": ">=1.8.11",
+                "elasticms/core-bundle": ">=1.9.23",
                 "friendsofsymfony/user-bundle": "^2.1",
                 "php": ">=7.1.3"
             },
@@ -1275,7 +1276,7 @@
                 "FOS user",
                 "elasticms"
             ],
-            "time": "2018-08-08 11:26:36"
+            "time": "2018-09-16 13:05:31"
         },
         {
             "name": "elasticsearch/elasticsearch",
@@ -3646,16 +3647,16 @@
         },
         {
             "name": "symfony/flex",
-            "version": "v1.0.80",
+            "version": "v1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/flex.git",
-                "reference": "729aee08d62b47224e85b83c97e2824ff7d1735e"
+                "reference": "9fb60f232af0764d58002e7872acb43a74506d25"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/flex/zipball/729aee08d62b47224e85b83c97e2824ff7d1735e",
-                "reference": "729aee08d62b47224e85b83c97e2824ff7d1735e",
+                "url": "https://api.github.com/repos/symfony/flex/zipball/9fb60f232af0764d58002e7872acb43a74506d25",
+                "reference": "9fb60f232af0764d58002e7872acb43a74506d25",
                 "shasum": ""
             },
             "require": {
@@ -3669,7 +3670,7 @@
             "type": "composer-plugin",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0-dev"
+                    "dev-master": "1.1-dev"
                 },
                 "class": "Symfony\\Flex\\Flex"
             },
@@ -3688,7 +3689,8 @@
                     "email": "fabien.potencier@gmail.com"
                 }
             ],
-            "time": "2018-05-02 19:08:56"
+            "description": "Composer plugin for Symfony",
+            "time": "2018-09-03 08:17:12"
         },
         {
             "name": "symfony/form",
@@ -4251,6 +4253,7 @@
             ],
             "description": "Enforces Long Term Supported versions of Symfony components",
             "homepage": "https://symfony.com",
+            "abandoned": "symfony/flex",
             "time": "2018-04-03 05:04:16"
         },
         {
