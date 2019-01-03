@@ -46,3 +46,14 @@ services:
     #    arguments: ['demo.elasticms.eu', '/opt/sftp_test', 'user', '/home/user/.ssh/id_rsa.pub', '/home/user/.ssh/id_rsa']
     #    tags:
     #    -  { name: ems.storage }
+
+    app.ems.cache:
+        class: EMS\CommonBundle\Storage\Adapter\FileAdapter
+        arguments: ['%env(string:STORAGE_FOLDER)%/cache']
+        tags:
+            - { name: ems_common.storage.cache_adapter }
+    app.ems.filesystem:
+        class: EMS\CommonBundle\Storage\Adapter\FileAdapter
+        arguments: ['%env(string:STORAGE_FOLDER)%']
+        tags:
+            - { name: ems_common.storage.adapter }
