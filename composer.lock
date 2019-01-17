@@ -1,7 +1,7 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
     "content-hash": "d84fb6588c43ea873ef77dcf32edd3f0",
@@ -1154,23 +1154,23 @@
         },
         {
             "name": "elasticms/core-bundle",
-            "version": "1.9.30",
+            "version": "1.9.31",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSCoreBundle.git",
-                "reference": "793b03624404e328042d1e9e30ca0fca4eade7fb"
+                "reference": "8d559b413b68728621084068b730ac77231b5261"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSCoreBundle/zipball/793b03624404e328042d1e9e30ca0fca4eade7fb",
-                "reference": "793b03624404e328042d1e9e30ca0fca4eade7fb",
+                "url": "https://api.github.com/repos/ems-project/EMSCoreBundle/zipball/8d559b413b68728621084068b730ac77231b5261",
+                "reference": "8d559b413b68728621084068b730ac77231b5261",
                 "shasum": ""
             },
             "require": {
                 "caxy/php-htmldiff": "^0.1.7",
                 "doctrine/doctrine-migrations-bundle": "^1.3",
                 "dompdf/dompdf": "^0.8.2",
-                "elasticms/common-bundle": "^1.0",
+                "elasticms/common-bundle": "^1.6.3",
                 "ext-iconv": "*",
                 "guzzlehttp/guzzle": "^6.3",
                 "maennchen/zipstream-php": "^0.5",
@@ -1225,7 +1225,7 @@
             "keywords": [
                 "elasticms"
             ],
-            "time": "2019-01-10T15:43:02+00:00"
+            "time": "2019-01-17T19:45:23+00:00"
         },
         {
             "name": "elasticms/local-user-bundle",
