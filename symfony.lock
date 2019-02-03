@@ -1,4 +1,7 @@
 {
+    "aws/aws-sdk-php": {
+        "version": "3.87.2"
+    },
     "caxy/php-htmldiff": {
         "version": "0.1.x-dev"
     },
@@ -118,6 +121,9 @@
     },
     "monolog/monolog": {
         "version": "1.23.0"
+    },
+    "mtdowling/jmespath.php": {
+        "version": "2.4.0"
     },
     "nikic/php-parser": {
         "version": "v4.0.2"
