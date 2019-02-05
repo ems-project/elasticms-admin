@@ -7,6 +7,89 @@
     "content-hash": "d84fb6588c43ea873ef77dcf32edd3f0",
     "packages": [
         {
+            "name": "aws/aws-sdk-php",
+            "version": "3.87.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aws/aws-sdk-php.git",
+                "reference": "5f9caa48b7871ff24231898c01f51580a83f59b9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/5f9caa48b7871ff24231898c01f51580a83f59b9",
+                "reference": "5f9caa48b7871ff24231898c01f51580a83f59b9",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "ext-pcre": "*",
+                "ext-simplexml": "*",
+                "ext-spl": "*",
+                "guzzlehttp/guzzle": "^5.3.3|^6.2.1",
+                "guzzlehttp/promises": "~1.0",
+                "guzzlehttp/psr7": "^1.4.1",
+                "mtdowling/jmespath.php": "~2.2",
+                "php": ">=5.5"
+            },
+            "require-dev": {
+                "andrewsville/php-token-reflection": "^1.4",
+                "aws/aws-php-sns-message-validator": "~1.0",
+                "behat/behat": "~3.0",
+                "doctrine/cache": "~1.4",
+                "ext-dom": "*",
+                "ext-openssl": "*",
+                "ext-pcntl": "*",
+                "ext-sockets": "*",
+                "nette/neon": "^2.3",
+                "phpunit/phpunit": "^4.8.35|^5.4.3",
+                "psr/cache": "^1.0"
+            },
+            "suggest": {
+                "aws/aws-php-sns-message-validator": "To validate incoming SNS notifications",
+                "doctrine/cache": "To use the DoctrineCacheAdapter",
+                "ext-curl": "To send requests using cURL",
+                "ext-openssl": "Allows working with CloudFront private distributions and verifying received SNS messages",
+                "ext-sockets": "To use client-side monitoring"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Aws\\": "src/"
+                },
+                "files": [
+                    "src/functions.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Amazon Web Services",
+                    "homepage": "http://aws.amazon.com"
+                }
+            ],
+            "description": "AWS SDK for PHP - Use Amazon Web Services in your PHP project",
+            "homepage": "http://aws.amazon.com/sdkforphp",
+            "keywords": [
+                "amazon",
+                "aws",
+                "cloud",
+                "dynamodb",
+                "ec2",
+                "glacier",
+                "s3",
+                "sdk"
+            ],
+            "time": "2019-02-04T22:38:14+00:00"
+        },
+        {
             "name": "caxy/php-htmldiff",
             "version": "v0.1.7",
             "source": {
@@ -1105,19 +1188,20 @@
         },
         {
             "name": "elasticms/common-bundle",
-            "version": "1.6.5",
+            "version": "1.6.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSCommonBundle.git",
-                "reference": "1247023f9fdc5daa7cbba1f8a6ca50f872a4624d"
+                "reference": "e375c10f55295dfe4d8a3058976a46e3711e7a8e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSCommonBundle/zipball/1247023f9fdc5daa7cbba1f8a6ca50f872a4624d",
-                "reference": "1247023f9fdc5daa7cbba1f8a6ca50f872a4624d",
+                "url": "https://api.github.com/repos/ems-project/EMSCommonBundle/zipball/e375c10f55295dfe4d8a3058976a46e3711e7a8e",
+                "reference": "e375c10f55295dfe4d8a3058976a46e3711e7a8e",
                 "shasum": ""
             },
             "require": {
+                "aws/aws-sdk-php": "^3.87",
                 "elasticsearch/elasticsearch": "^5.3",
                 "guzzlehttp/guzzle": "^6.3",
                 "php": ">=7.1"
@@ -1150,27 +1234,27 @@
             "keywords": [
                 "elasticms"
             ],
-            "time": "2019-01-11T13:36:52+00:00"
+            "time": "2019-02-05T08:21:48+00:00"
         },
         {
             "name": "elasticms/core-bundle",
-            "version": "1.9.31",
+            "version": "1.9.34",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSCoreBundle.git",
-                "reference": "8d559b413b68728621084068b730ac77231b5261"
+                "reference": "29f1dbcddc31bf90b50f23bd0f8233ad206d487a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSCoreBundle/zipball/8d559b413b68728621084068b730ac77231b5261",
-                "reference": "8d559b413b68728621084068b730ac77231b5261",
+                "url": "https://api.github.com/repos/ems-project/EMSCoreBundle/zipball/29f1dbcddc31bf90b50f23bd0f8233ad206d487a",
+                "reference": "29f1dbcddc31bf90b50f23bd0f8233ad206d487a",
                 "shasum": ""
             },
             "require": {
                 "caxy/php-htmldiff": "^0.1.7",
                 "doctrine/doctrine-migrations-bundle": "^1.3",
                 "dompdf/dompdf": "^0.8.2",
-                "elasticms/common-bundle": "^1.6.3",
+                "elasticms/common-bundle": "^1.6.6",
                 "ext-iconv": "*",
                 "guzzlehttp/guzzle": "^6.3",
                 "maennchen/zipstream-php": "^0.5",
@@ -1225,24 +1309,24 @@
             "keywords": [
                 "elasticms"
             ],
-            "time": "2019-01-17T19:45:23+00:00"
+            "time": "2019-02-05T08:32:13+00:00"
         },
         {
             "name": "elasticms/local-user-bundle",
-            "version": "1.9.21",
+            "version": "1.9.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSLocalUserBundle.git",
-                "reference": "0950adfa6b42915b025fe5f1e72f97e9071b6b55"
+                "reference": "fb604999017278738ffab3efc36efa2065f65303"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSLocalUserBundle/zipball/0950adfa6b42915b025fe5f1e72f97e9071b6b55",
-                "reference": "0950adfa6b42915b025fe5f1e72f97e9071b6b55",
+                "url": "https://api.github.com/repos/ems-project/EMSLocalUserBundle/zipball/fb604999017278738ffab3efc36efa2065f65303",
+                "reference": "fb604999017278738ffab3efc36efa2065f65303",
                 "shasum": ""
             },
             "require": {
-                "elasticms/core-bundle": ">=1.9.28",
+                "elasticms/core-bundle": ">=1.9.34",
                 "friendsofsymfony/user-bundle": "^2.1",
                 "php": ">=7.1.3"
             },
@@ -1275,7 +1359,7 @@
                 "FOS user",
                 "elasticms"
             ],
-            "time": "2018-10-30T11:36:49+00:00"
+            "time": "2019-02-05T08:34:03+00:00"
         },
         {
             "name": "elasticsearch/elasticsearch",
@@ -1970,6 +2054,61 @@
                 "psr-3"
             ],
             "time": "2017-06-19T01:22:40+00:00"
+        },
+        {
+            "name": "mtdowling/jmespath.php",
+            "version": "2.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jmespath/jmespath.php.git",
+                "reference": "adcc9531682cf87dfda21e1fd5d0e7a41d292fac"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jmespath/jmespath.php/zipball/adcc9531682cf87dfda21e1fd5d0e7a41d292fac",
+                "reference": "adcc9531682cf87dfda21e1fd5d0e7a41d292fac",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0"
+            },
+            "bin": [
+                "bin/jp.php"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "JmesPath\\": "src/"
+                },
+                "files": [
+                    "src/JmesPath.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                }
+            ],
+            "description": "Declaratively specify how to extract elements from a JSON document",
+            "keywords": [
+                "json",
+                "jsonpath"
+            ],
+            "time": "2016-12-03T22:08:25+00:00"
         },
         {
             "name": "ocramius/package-versions",
