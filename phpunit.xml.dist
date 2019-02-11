@@ -35,6 +35,9 @@
         <testsuite name="Project Test Suite">
             <directory>tests/</directory>
         </testsuite>
+        <testsuite name="Elasticms Core Test Suite">
+            <directory>vendor/elasticms/core-bundle/tests</directory>
+        </testsuite>
     </testsuites>
 
     <filter>
