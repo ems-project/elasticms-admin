@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "f95d648579bde9c0fc7b05533a1cb4bb",
+    "content-hash": "fa11b7a41859f7df0d890907141106e9",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
@@ -1188,22 +1188,30 @@
         },
         {
             "name": "elasticms/common-bundle",
-            "version": "1.6.5",
+            "version": "1.6.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSCommonBundle.git",
-                "reference": "1247023f9fdc5daa7cbba1f8a6ca50f872a4624d"
+                "reference": "4780e5ef3b930e9c5bebb1631fab8f2920e2e503"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSCommonBundle/zipball/1247023f9fdc5daa7cbba1f8a6ca50f872a4624d",
-                "reference": "1247023f9fdc5daa7cbba1f8a6ca50f872a4624d",
+                "url": "https://api.github.com/repos/ems-project/EMSCommonBundle/zipball/4780e5ef3b930e9c5bebb1631fab8f2920e2e503",
+                "reference": "4780e5ef3b930e9c5bebb1631fab8f2920e2e503",
                 "shasum": ""
             },
             "require": {
+                "aws/aws-sdk-php": "^3.87",
                 "elasticsearch/elasticsearch": "^5.3",
+                "ext-mbstring": "*",
                 "guzzlehttp/guzzle": "^6.3",
                 "php": ">=7.1"
+            },
+            "require-dev": {
+                "mockery/mockery": "^0.9.9",
+                "phpunit/phpunit": "^5.7",
+                "squizlabs/php_codesniffer": "3.*",
+                "symfony/phpunit-bridge": "^4.2"
             },
             "type": "symfony-bundle",
             "extra": {
@@ -1216,7 +1224,7 @@
                     "EMS\\CommonBundle\\": ""
                 },
                 "exclude-from-classmap": [
-                    "/Tests/"
+                    "tests/"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1227,34 +1235,39 @@
                 {
                     "name": "David Mattei",
                     "email": "david.mattei@smals.be"
+                },
+                {
+                    "name": "David Meert",
+                    "email": "david.meert@smals.be"
                 }
             ],
             "description": "All code shared between the EMS client helper and the EMS core",
             "keywords": [
                 "elasticms"
             ],
-            "time": "2019-01-11T13:36:52+00:00"
+            "time": "2019-03-14T11:05:00+00:00"
         },
         {
             "name": "elasticms/core-bundle",
-            "version": "1.9.31",
+            "version": "1.9.39",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSCoreBundle.git",
-                "reference": "8d559b413b68728621084068b730ac77231b5261"
+                "reference": "ce9d79e04f1fa845112f846ef210f545d9767b91"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSCoreBundle/zipball/8d559b413b68728621084068b730ac77231b5261",
-                "reference": "8d559b413b68728621084068b730ac77231b5261",
+                "url": "https://api.github.com/repos/ems-project/EMSCoreBundle/zipball/ce9d79e04f1fa845112f846ef210f545d9767b91",
+                "reference": "ce9d79e04f1fa845112f846ef210f545d9767b91",
                 "shasum": ""
             },
             "require": {
                 "caxy/php-htmldiff": "^0.1.7",
                 "doctrine/doctrine-migrations-bundle": "^1.3",
                 "dompdf/dompdf": "^0.8.2",
-                "elasticms/common-bundle": "^1.6.3",
+                "elasticms/common-bundle": "^1.6",
                 "ext-iconv": "*",
+                "ext-json": "*",
                 "guzzlehttp/guzzle": "^6.3",
                 "maennchen/zipstream-php": "^0.5",
                 "php": "^7.1.3",
@@ -1291,7 +1304,7 @@
                     "EMS\\CoreBundle\\": ""
                 },
                 "exclude-from-classmap": [
-                    "/Tests/"
+                    "tests/"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1308,24 +1321,24 @@
             "keywords": [
                 "elasticms"
             ],
-            "time": "2019-01-17T19:45:23+00:00"
+            "time": "2019-03-14T11:35:00+00:00"
         },
         {
             "name": "elasticms/local-user-bundle",
-            "version": "1.9.21",
+            "version": "1.9.24",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSLocalUserBundle.git",
-                "reference": "0950adfa6b42915b025fe5f1e72f97e9071b6b55"
+                "reference": "49581abef07e67897fcd03eb71d18f2bfad7c20d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSLocalUserBundle/zipball/0950adfa6b42915b025fe5f1e72f97e9071b6b55",
-                "reference": "0950adfa6b42915b025fe5f1e72f97e9071b6b55",
+                "url": "https://api.github.com/repos/ems-project/EMSLocalUserBundle/zipball/49581abef07e67897fcd03eb71d18f2bfad7c20d",
+                "reference": "49581abef07e67897fcd03eb71d18f2bfad7c20d",
                 "shasum": ""
             },
             "require": {
-                "elasticms/core-bundle": ">=1.9.28",
+                "elasticms/core-bundle": ">=1.9.39",
                 "friendsofsymfony/user-bundle": "^2.1",
                 "php": ">=7.1.3"
             },
@@ -1358,7 +1371,7 @@
                 "FOS user",
                 "elasticms"
             ],
-            "time": "2018-10-30T11:36:49+00:00"
+            "time": "2019-03-14T11:37:46+00:00"
         },
         {
             "name": "elasticsearch/elasticsearch",
@@ -4305,12 +4318,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/lts.git",
-                "reference": "6de50b244bad631a71544b3cc3c8e206c0e5f991"
+                "reference": "c1affae45b78aee036effa1759237e7fa96d4af2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/lts/zipball/6de50b244bad631a71544b3cc3c8e206c0e5f991",
-                "reference": "6de50b244bad631a71544b3cc3c8e206c0e5f991",
+                "url": "https://api.github.com/repos/symfony/lts/zipball/c1affae45b78aee036effa1759237e7fa96d4af2",
+                "reference": "c1affae45b78aee036effa1759237e7fa96d4af2",
                 "shasum": ""
             },
             "conflict": {
@@ -4391,7 +4404,7 @@
             "description": "Enforces Long Term Supported versions of Symfony components",
             "homepage": "https://symfony.com",
             "abandoned": "symfony/flex",
-            "time": "2018-04-03T05:04:16+00:00"
+            "time": "2018-10-03T12:03:19+00:00"
         },
         {
             "name": "symfony/monolog-bridge",
@@ -4646,7 +4659,7 @@
                 },
                 {
                     "name": "Gert de Pagter",
-                    "email": "BackEndTea@gmail.com"
+                    "email": "backendtea@gmail.com"
                 }
             ],
             "description": "Symfony polyfill for ctype functions",
@@ -7096,7 +7109,8 @@
     "prefer-lowest": false,
     "platform": {
         "php": "^7.1.3",
-        "ext-iconv": "*"
+        "ext-iconv": "*",
+        "ext-gd": "*"
     },
     "platform-dev": []
 }
