@@ -87,7 +87,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2019-02-04T22:38:14+00:00"
+            "time": "2019-01-25T22:29:49+00:00"
         },
         {
             "name": "caxy/php-htmldiff",
@@ -1249,16 +1249,16 @@
         },
         {
             "name": "elasticms/core-bundle",
-            "version": "1.9.39",
+            "version": "1.9.41",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSCoreBundle.git",
-                "reference": "ce9d79e04f1fa845112f846ef210f545d9767b91"
+                "reference": "9b29c1cf3c1d5d143601306bf73e259a7d4abbf0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSCoreBundle/zipball/ce9d79e04f1fa845112f846ef210f545d9767b91",
-                "reference": "ce9d79e04f1fa845112f846ef210f545d9767b91",
+                "url": "https://api.github.com/repos/ems-project/EMSCoreBundle/zipball/9b29c1cf3c1d5d143601306bf73e259a7d4abbf0",
+                "reference": "9b29c1cf3c1d5d143601306bf73e259a7d4abbf0",
                 "shasum": ""
             },
             "require": {
@@ -1291,6 +1291,7 @@
             },
             "require-dev": {
                 "friendsofphp/php-cs-fixer": "^2.11",
+                "squizlabs/php_codesniffer": "3.*",
                 "symfony/test-pack": "^1.0"
             },
             "type": "symfony-bundle",
@@ -1321,24 +1322,24 @@
             "keywords": [
                 "elasticms"
             ],
-            "time": "2019-03-14T11:35:00+00:00"
+            "time": "2019-03-17T09:06:10+00:00"
         },
         {
             "name": "elasticms/local-user-bundle",
-            "version": "1.9.24",
+            "version": "1.9.25",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSLocalUserBundle.git",
-                "reference": "49581abef07e67897fcd03eb71d18f2bfad7c20d"
+                "reference": "e8989626f800c6544c883acb9ffe8c6b64c0f6c9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSLocalUserBundle/zipball/49581abef07e67897fcd03eb71d18f2bfad7c20d",
-                "reference": "49581abef07e67897fcd03eb71d18f2bfad7c20d",
+                "url": "https://api.github.com/repos/ems-project/EMSLocalUserBundle/zipball/e8989626f800c6544c883acb9ffe8c6b64c0f6c9",
+                "reference": "e8989626f800c6544c883acb9ffe8c6b64c0f6c9",
                 "shasum": ""
             },
             "require": {
-                "elasticms/core-bundle": ">=1.9.39",
+                "elasticms/core-bundle": ">=1.9.41",
                 "friendsofsymfony/user-bundle": "^2.1",
                 "php": ">=7.1.3"
             },
@@ -1371,7 +1372,7 @@
                 "FOS user",
                 "elasticms"
             ],
-            "time": "2019-03-14T11:37:46+00:00"
+            "time": "2019-03-17T09:14:22+00:00"
         },
         {
             "name": "elasticsearch/elasticsearch",
