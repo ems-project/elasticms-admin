@@ -29,7 +29,6 @@ parameters:
     env(EMS_SFTP_USER): ''
     env(EMS_EMS_REMOTE_SERVER): ''
     env(EMS_EMS_REMOTE_AUTHKEY): ''
-    env(EMS_HASH_ALGO): 'sha1'
 
     env(S3_BUCKET): ~
     env(S3_CREDENTIALS): '[]'
@@ -68,6 +67,3 @@ ems_core:
     ems_remote_authkey: '%env(string:EMS_EMS_REMOTE_AUTHKEY)%'
     s3_credentials: '%env(json:S3_CREDENTIALS)%'
     s3_bucket: '%env(string:S3_BUCKET)%'
-
-ems_common:
-    hash_algo: '%env(string:EMS_HASH_ALGO)%'
