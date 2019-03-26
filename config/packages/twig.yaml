@@ -1,6 +1,11 @@
+parameters:
+  env(EMS_HASH_ALGO): 'sha1'
+
 twig:
     debug: '%kernel.debug%'
     strict_variables: '%kernel.debug%'
+    globals:
+      ems_hash_algo: '%env(string:EMS_HASH_ALGO)%'
     paths:
           '%kernel.project_dir%/vendor/elasticms/local-user-bundle/Resources/views': FOSUser
           '%kernel.project_dir%/vendor/friendsofsymfony/user-bundle/Resources/views': FOSUser

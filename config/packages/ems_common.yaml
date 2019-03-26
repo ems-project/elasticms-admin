@@ -1,0 +1,5 @@
+parameters:
+    env(EMS_HASH_ALGO): 'sha1'
+
+ems_common:
+    hash_algo: '%env(string:EMS_HASH_ALGO)%'
