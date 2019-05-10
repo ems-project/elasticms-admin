@@ -1,7 +1,7 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
     "content-hash": "e6aa09da3728f79e6d3cc49143f93495",
@@ -1188,16 +1188,16 @@
         },
         {
             "name": "elasticms/common-bundle",
-            "version": "1.6.16",
+            "version": "1.6.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSCommonBundle.git",
-                "reference": "994fce2f727ebf702d327ba4cfce53d3c75bcef5"
+                "reference": "402f731fda08b40d79a2a80a9e88e080121513ac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSCommonBundle/zipball/994fce2f727ebf702d327ba4cfce53d3c75bcef5",
-                "reference": "994fce2f727ebf702d327ba4cfce53d3c75bcef5",
+                "url": "https://api.github.com/repos/ems-project/EMSCommonBundle/zipball/402f731fda08b40d79a2a80a9e88e080121513ac",
+                "reference": "402f731fda08b40d79a2a80a9e88e080121513ac",
                 "shasum": ""
             },
             "require": {
@@ -1256,27 +1256,27 @@
             "keywords": [
                 "elasticms"
             ],
-            "time": "2019-03-26T06:33:12+00:00"
+            "time": "2019-05-10T08:28:35+00:00"
         },
         {
             "name": "elasticms/core-bundle",
-            "version": "1.9.53",
+            "version": "1.9.54",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSCoreBundle.git",
-                "reference": "955549bb6402534e4e6efd0cda48441cb6842509"
+                "reference": "e9838f024d5174b32d3860e73a838f87d5b79ae9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSCoreBundle/zipball/955549bb6402534e4e6efd0cda48441cb6842509",
-                "reference": "955549bb6402534e4e6efd0cda48441cb6842509",
+                "url": "https://api.github.com/repos/ems-project/EMSCoreBundle/zipball/e9838f024d5174b32d3860e73a838f87d5b79ae9",
+                "reference": "e9838f024d5174b32d3860e73a838f87d5b79ae9",
                 "shasum": ""
             },
             "require": {
                 "caxy/php-htmldiff": "^0.1.7",
                 "doctrine/doctrine-migrations-bundle": "^1.3",
                 "dompdf/dompdf": "^0.8.2",
-                "elasticms/common-bundle": "^1.6",
+                "elasticms/common-bundle": ">=1.6.17",
                 "ext-iconv": "*",
                 "ext-json": "*",
                 "ext-soap": "*",
@@ -1342,7 +1342,7 @@
             "keywords": [
                 "elasticms"
             ],
-            "time": "2019-05-06T09:29:15+00:00"
+            "time": "2019-05-10T10:33:20+00:00"
         },
         {
             "name": "elasticms/local-user-bundle",
@@ -4680,7 +4680,7 @@
                 },
                 {
                     "name": "Gert de Pagter",
-                    "email": "BackEndTea@gmail.com"
+                    "email": "backendtea@gmail.com"
                 }
             ],
             "description": "Symfony polyfill for ctype functions",
