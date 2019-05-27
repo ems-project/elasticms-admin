@@ -14,7 +14,6 @@ parameters:
     env(EMS_DATEPICKER_FORMAT): 'dd/mm/yyyy'
     env(EMS_DATEPICKER_WEEKSTART): 1
     env(EMS_DATEPICKER_DAYSOFWEEK_HIGHLIGHTED): '[0, 6]'
-    env(EMS_AUDIT_INDEX): ''
     env(EMS_FROM_EMAIL_ADDRESS): 'elasticms@example.com'
     env(EMS_FROM_EMAIL_NAME): 'elasticms'
     env(EMS_ALLOW_USER_REGISTRATION): false
@@ -46,7 +45,6 @@ ems_core:
     datepicker_format:  '%env(string:EMS_DATEPICKER_FORMAT)%'
     datepicker_weekstart:  '%env(int:EMS_DATEPICKER_WEEKSTART)%'
     datepicker_daysofweek_highlighted: '%env(json:EMS_DATEPICKER_DAYSOFWEEK_HIGHLIGHTED)%'
-    audit_index: '%env(string:EMS_AUDIT_INDEX)%'
     from_email:
         address: '%env(string:EMS_FROM_EMAIL_ADDRESS)%'
         sender_name: '%env(string:EMS_FROM_EMAIL_NAME)%'
