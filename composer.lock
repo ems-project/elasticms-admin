@@ -1,7 +1,7 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
     "content-hash": "74cd393b9752106f64fa4b1d70c06c50",
@@ -1188,16 +1188,16 @@
         },
         {
             "name": "elasticms/common-bundle",
-            "version": "1.6.21",
+            "version": "1.6.22",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSCommonBundle.git",
-                "reference": "399f9264b07d4e58459fade544f3cc9c3bc4d560"
+                "reference": "bc20976daee00c9cb1cf9cbf9fe362142ff7e0e2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSCommonBundle/zipball/399f9264b07d4e58459fade544f3cc9c3bc4d560",
-                "reference": "399f9264b07d4e58459fade544f3cc9c3bc4d560",
+                "url": "https://api.github.com/repos/ems-project/EMSCommonBundle/zipball/bc20976daee00c9cb1cf9cbf9fe362142ff7e0e2",
+                "reference": "bc20976daee00c9cb1cf9cbf9fe362142ff7e0e2",
                 "shasum": ""
             },
             "require": {
@@ -1260,20 +1260,20 @@
             "keywords": [
                 "elasticms"
             ],
-            "time": "2019-06-04T11:01:31+00:00"
+            "time": "2019-06-08T09:11:17+00:00"
         },
         {
             "name": "elasticms/core-bundle",
-            "version": "1.9.60",
+            "version": "1.9.62",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSCoreBundle.git",
-                "reference": "69fd63ccc9df761b0e853df7bdf01272778273ae"
+                "reference": "e374e6b68f709bcd672ab2bb06adf2e68747ebda"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSCoreBundle/zipball/69fd63ccc9df761b0e853df7bdf01272778273ae",
-                "reference": "69fd63ccc9df761b0e853df7bdf01272778273ae",
+                "url": "https://api.github.com/repos/ems-project/EMSCoreBundle/zipball/e374e6b68f709bcd672ab2bb06adf2e68747ebda",
+                "reference": "e374e6b68f709bcd672ab2bb06adf2e68747ebda",
                 "shasum": ""
             },
             "require": {
@@ -1349,7 +1349,7 @@
             "keywords": [
                 "elasticms"
             ],
-            "time": "2019-06-05T20:39:35+00:00"
+            "time": "2019-06-09T19:59:00+00:00"
         },
         {
             "name": "elasticms/local-user-bundle",
