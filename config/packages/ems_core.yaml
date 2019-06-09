@@ -2,6 +2,7 @@ parameters:
     env(ELASTICSEARCH_VERSION): '5.4'
     env(ELASTICSEARCH_CLUSTER): '["http://localhost:9200"]'
     env(TIKA_SERVER): ''
+    env(TIKA_DOWNLOAD_URL): ~
     env(EMS_PRIVATE_KEY): ''
     env(EMS_PUBLIC_KEY): ''
     env(EMS_INSTANCE_ID): 'elasticms_'
@@ -54,6 +55,7 @@ ems_core:
     circles_object: '%env(string:EMS_CIRCLES_OBJECT)%'
     asset_config: '%env(json:EMS_ASSET_CONFIG)%'
     tika_server: '%env(string:TIKA_SERVER)%'
+    tika_download_url: '%env(string:TIKA_DOWNLOAD_URL)%'
     single_type_index: '%env(bool:EMS_SINGLE_TYPE_INDEX)%'
     save_assets_in_db: '%env(bool:EMS_SAVE_ASSETS_IN_DB)%'
     sftp_server: '%env(string:EMS_SFTP_SERVEUR)%'
