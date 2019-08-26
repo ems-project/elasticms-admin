@@ -1,5 +1,5 @@
 {
-  "name" : " ems-project/elasticms",
+  "name" : "ems-project/elasticms",
   "description" : "A preconfigured elasticms application",
   "authors" : [{
     "name" : "Mathieu De Keyzer",
