@@ -1,0 +1,341 @@
+{
+  "settings": {
+    "analysis": {
+      "filter": {
+        "french_stop": {
+          "ignore_case": "false",
+          "remove_trailing": "true",
+          "type": "stop",
+          "stopwords": "_french_"
+        },
+        "english_stemmer": {
+          "name": "english",
+          "type": "stemmer"
+        },
+        "german_stop": {
+          "ignore_case": "false",
+          "remove_trailing": "true",
+          "type": "stop",
+          "stopwords": "_german_"
+        },
+        "empty_elision": {
+          "type": "elision",
+          "articles": [
+            ""
+          ],
+          "articles_case": "false"
+        },
+        "english_stop": {
+          "ignore_case": "false",
+          "remove_trailing": "true",
+          "type": "stop",
+          "stopwords": "_english_"
+        },
+        "french_elision": {
+          "type": "elision",
+          "articles": [
+            "l",
+            "m",
+            "t",
+            "qu",
+            "n",
+            "s",
+            "j",
+            "d",
+            "c",
+            "jusqu",
+            "quoiqu",
+            "lorsqu",
+            "puisq"
+          ],
+          "articles_case": "false"
+        },
+        "dutch_stop": {
+          "ignore_case": "false",
+          "remove_trailing": "true",
+          "type": "stop",
+          "stopwords": "_dutch_"
+        },
+        "french_stemmer": {
+          "name": "light_french",
+          "type": "stemmer"
+        },
+        "german_stemmer": {
+          "name": "light_german",
+          "type": "stemmer"
+        },
+        "dutch_stemmer": {
+          "name": "dutch",
+          "type": "stemmer"
+        }
+      },
+      "analyzer": {
+        "dutch_for_highlighting": {
+          "filter": [
+            "standard",
+            "asciifolding",
+            "lowercase",
+            "dutch_stemmer",
+            "dutch_stop",
+            "empty_elision"
+          ],
+          "char_filter": [
+            "html_strip"
+          ],
+          "type": "custom",
+          "tokenizer": "standard"
+        },
+        "english_for_highlighting": {
+          "filter": [
+            "standard",
+            "lowercase",
+            "empty_elision",
+            "english_stemmer",
+            "english_stop"
+          ],
+          "char_filter": [
+            "html_strip"
+          ],
+          "type": "custom",
+          "tokenizer": "standard"
+        },
+        "french_for_highlighting": {
+          "filter": [
+            "standard",
+            "asciifolding",
+            "lowercase",
+            "french_elision",
+            "french_stemmer",
+            "french_stop"
+          ],
+          "char_filter": [
+            "html_strip"
+          ],
+          "type": "custom",
+          "tokenizer": "standard"
+        },
+        "html_strip": {
+          "filter": [
+            "standard"
+          ],
+          "char_filter": [
+            "html_strip"
+          ],
+          "type": "custom",
+          "tokenizer": "standard"
+        },
+        "german_for_highlighting": {
+          "filter": [
+            "standard",
+            "lowercase",
+            "empty_elision",
+            "german_stemmer",
+            "german_stop"
+          ],
+          "char_filter": [
+            "html_strip"
+          ],
+          "type": "custom",
+          "tokenizer": "standard"
+        }
+      }
+    }
+  },
+  "mappings": {
+    "url": {
+      "properties": {
+        "all_url_de": {
+          "type": "text",
+          "store": true,
+          "analyzer": "german_for_highlighting"
+        },
+        "all_url_en": {
+          "type": "text",
+          "store": true,
+          "analyzer": "english_for_highlighting"
+        },
+        "all_url_fr": {
+          "type": "text",
+          "store": true,
+          "analyzer": "french_for_highlighting"
+        },
+        "all_url_nl": {
+          "type": "text",
+          "store": true,
+          "analyzer": "dutch_for_highlighting"
+        },
+        "body_de": {
+          "type": "text",
+          "copy_to": [
+            "all_url_de"
+          ],
+          "analyzer": "german"
+        },
+        "body_en": {
+          "type": "text",
+          "copy_to": [
+            "all_url_en"
+          ],
+          "analyzer": "english"
+        },
+        "body_fr": {
+          "type": "text",
+          "copy_to": [
+            "all_url_fr"
+          ],
+          "analyzer": "french"
+        },
+        "body_nl": {
+          "type": "text",
+          "copy_to": [
+            "all_url_nl"
+          ],
+          "analyzer": "dutch"
+        },
+        "content_de": {
+          "type": "text",
+          "copy_to": [
+            "all_url_de"
+          ],
+          "analyzer": "german"
+        },
+        "content_en": {
+          "type": "text",
+          "copy_to": [
+            "all_url_en"
+          ],
+          "analyzer": "english"
+        },
+        "content_fr": {
+          "type": "text",
+          "copy_to": [
+            "all_url_fr"
+          ],
+          "analyzer": "french"
+        },
+        "content_nl": {
+          "type": "text",
+          "copy_to": [
+            "all_url_nl"
+          ],
+          "analyzer": "dutch"
+        },
+        "facets": {
+          "type": "keyword"
+        },
+        "file": {
+          "properties": {
+            "filesize": {
+              "type": "long"
+            },
+            "mimetype": {
+              "type": "keyword"
+            }
+          }
+        },
+        "languages": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "type": "keyword",
+              "ignore_above": 256
+            }
+          }
+        },
+        "lastmod": {
+          "type": "date"
+        },
+        "owner": {
+          "type": "keyword"
+        },
+        "service_id": {
+          "type": "keyword"
+        },
+        "service_name_de": {
+          "type": "text",
+          "copy_to": [
+            "all_url_de"
+          ]
+        },
+        "service_name_en": {
+          "type": "text",
+          "copy_to": [
+            "all_url_en"
+          ]
+        },
+        "service_name_fr": {
+          "type": "text",
+          "copy_to": [
+            "all_url_fr"
+          ]
+        },
+        "service_name_nl": {
+          "type": "text",
+          "copy_to": [
+            "all_url_nl"
+          ]
+        },
+        "sha1": {
+          "type": "keyword"
+        },
+        "sitemap": {
+          "type": "keyword"
+        },
+        "title_de": {
+          "type": "text",
+          "copy_to": [
+            "all_url_de"
+          ]
+        },
+        "title_en": {
+          "type": "text",
+          "copy_to": [
+            "all_url_en"
+          ]
+        },
+        "title_fr": {
+          "type": "text",
+          "copy_to": [
+            "all_url_fr"
+          ]
+        },
+        "title_nl": {
+          "type": "text",
+          "copy_to": [
+            "all_url_nl"
+          ]
+        },
+        "type": {
+          "type": "keyword"
+        },
+        "url": {
+          "type": "keyword"
+        },
+        "url_de": {
+          "type": "keyword",
+          "copy_to": [
+            "all_url_de"
+          ]
+        },
+        "url_en": {
+          "type": "keyword",
+          "copy_to": [
+            "all_url_en"
+          ]
+        },
+        "url_fr": {
+          "type": "keyword",
+          "copy_to": [
+            "all_url_fr"
+          ]
+        },
+        "url_nl": {
+          "type": "keyword",
+          "copy_to": [
+            "all_url_nl"
+          ]
+        }
+      }
+    }
+  }
+}

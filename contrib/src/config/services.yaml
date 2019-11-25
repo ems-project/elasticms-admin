@@ -1,0 +1,59 @@
+# Put parameters here that don't need to change on each machine where the app is deployed
+# https://symfony.com/doc/current/best_practices/configuration.html#application-related-configuration
+parameters:
+    locale: 'en'
+    #env(STORAGE_FOLDER): ''
+    env(APP_LDAP_SERVER): ''
+    env(APP_LDAP_PORT): '389'
+    env(APP_LDAP_PROTOCOLE_VERSION): '3'
+    env(APP_LDAP_ENCRYPTION): 'none'
+
+services:
+    # default configuration for services in *this* file
+    _defaults:
+        autowire: true      # Automatically injects dependencies in your services.
+        autoconfigure: true # Automatically registers your services as commands, event subscribers, etc.
+        public: false       # Allows optimizing the container by removing unused services; this also means
+                            # fetching services directly from the container via $container->get() won't work.
+                            # The best practice is to be explicit about your dependencies anyway.
+        bind:
+            $tikaServer:  '%env(string:TIKA_SERVER)%'
+
+    # makes classes in src/ available to be used as services
+    # this creates a service per class whose id is the fully-qualified class name
+    App\:
+        resource: '../src/*'
+        exclude: '../src/{Kernel.php}'
+
+    # controllers are imported separately to make sure services can be injected
+    # as action arguments even if you don't extend any base controller class
+    App\Controller\:
+        resource: '../src/Controller'
+        tags: ['controller.service_arguments']
+
+    App\Twig\:
+        resource: '../src/Twig'
+        tags:
+            - { name: twig.extension, priority: -2000 }
+
+    # add more service definitions when explicit configuration is needed
+    # please note that last definitions always *replace* previous ones
+
+    #EMS\CoreBundle\Service\Storage\FileSystemStorage:
+    #    arguments: ['%env(string:STORAGE_FOLDER)%', '%kernel.root_dir%']
+    #    tags:
+    #        -  { name: ems.storage }
+
+    EMS\CoreBundle\Service\AssetExtractorService: '@ems.service.asset_extractor'
+
+    Symfony\Component\Ldap\Ldap:
+        arguments: ['@Symfony\Component\Ldap\Adapter\ExtLdap\Adapter']
+    Symfony\Component\Ldap\Adapter\ExtLdap\Adapter:
+        arguments:
+            -   host: '%env(string:APP_LDAP_SERVER)%'
+                port: '%env(int:APP_LDAP_PORT)%'
+                encryption: '%env(string:APP_LDAP_ENCRYPTION)%'
+                options:
+                    protocol_version: '%env(int:APP_LDAP_PROTOCOLE_VERSION)%'
+
+    EMS\CoreBundle\Service\FileService: '@ems.service.file'

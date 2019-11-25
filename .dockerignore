@@ -1,0 +1,12 @@
+.git/
+.openshift/
+openshift/
+box-web/
+box-php/
+box-cron/
+dump/
+.settings/
+contrib/src/var/cache/*
+contrib/src/var/assets/*
+contrib/src/var/logs/*
+contrib/src/var/sessions/*

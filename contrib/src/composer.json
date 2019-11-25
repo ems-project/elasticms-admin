@@ -1,0 +1,78 @@
+{
+  "name": "portalsosec/elasticms",
+  "description": "A preconfigured elasticms application",
+  "authors": [
+    {
+      "name": "Mathieu De Keyzer",
+      "email": "mathieu.dekeyzer@smals.be"
+    },
+    {
+      "name": "David Meert",
+      "email": "david.meert@smals.be"
+    }
+  ],
+  "keywords": [
+    "elasticms"
+  ],
+  "license": "MIT",
+  "type": "project",
+  "require": {
+    "php": "^7.2",
+    "ext-gd": "*",
+    "ext-iconv": "*",
+    "elasticms/local-user-bundle": "^1.10",
+    "symfony/framework-bundle": "^4.3",
+    "symfony/ldap": "^4.3",
+    "symfony/lts": "^4@dev",
+    "symfony/security-bundle": "^4.3",
+    "symfony/twig-bundle": "^4.3"
+  },
+  "require-dev": {
+    "symfony/debug-pack": "^1.0",
+    "symfony/dotenv": "^4.3",
+    "symfony/maker-bundle": "^1.0",
+    "symfony/phpunit-bridge": "^4.3",
+    "symfony/profiler-pack": "^1.0",
+    "symfony/test-pack": "^1.0",
+    "symfony/web-server-bundle": "^4.3"
+  },
+  "config": {
+    "preferred-install": {
+      "*": "dist"
+    },
+    "sort-packages": true,
+    "secure-http": false
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "App\\Tests\\": "tests/"
+    }
+  },
+  "replace": {
+    "symfony/polyfill-iconv": "*"
+  },
+  "scripts": {
+  },
+  "conflict": {
+    "symfony/symfony": "*"
+  },
+  "extra": {
+    "symfony": {
+      "allow-contrib": false
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "http://albanil01:8081/artifactory/api/composer/composer.remote.github"
+    },
+    {
+      "packagist": false
+    }
+  ]
+}

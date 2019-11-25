@@ -1,0 +1,1974 @@
+label;usage_split;attribution;application;filename
+0-9 kHz;C;Not allocated;Inductive applications;B06-24-1-1
+9-14 kHz;S;Not allocated;Ultra Low Power Active Medical Implants;B14-01-2-2
+9-14 kHz;S;Not allocated;On-site paging;A03-01-2-1
+9-14 kHz;S;Not allocated;Inductive applications;B06-01-3-1
+14-19.95 kHz;S;MARITIME MOBILE;Ultra Low Power Active Medical Implants;B14-01-2-2
+14-19.95 kHz;S;MARITIME MOBILE;On-site paging;A03-01-2-1
+14-19.95 kHz;S;MARITIME MOBILE;Inductive applications;B06-01-3-1
+14-19.95 kHz;S;MARITIME MOBILE;Maritime military systems;
+19.95-20.05 kHz;S;Not allocated;Ultra Low Power Active Medical Implants;B14-01-2-2
+19.95-20.05 kHz;S;Not allocated;On-site paging;A03-01-2-1
+19.95-20.05 kHz;S;Not allocated;Inductive applications;B06-01-3-1
+20.05-70 kHz;S;FIXED;Ultra Low Power Active Medical Implants;B14-01-2-2
+20.05-70 kHz;S;FIXED;On-site paging;A03-01-2-1
+20.05-70 kHz;S;FIXED;Inductive applications (9-59.75 kHz);B06-01-3-1
+20.05-70 kHz;S;FIXED;Maritime military systems;
+20.05-70 kHz;S;FIXED;Point-to-Point;
+20.05-70 kHz;S;FIXED;Inductive applications (59.75-60.25 kHz);B06-02-3-1
+20.05-70 kHz;S;FIXED;Inductive applications (60.25-74.75 kHz);B06-03-3-1
+20.05-70 kHz;S;MARITIME MOBILE;Ultra Low Power Active Medical Implants;B14-01-2-2
+20.05-70 kHz;S;MARITIME MOBILE;On-site paging;A03-01-2-1
+20.05-70 kHz;S;MARITIME MOBILE;Inductive applications (9-59.75 kHz);B06-01-3-1
+20.05-70 kHz;S;MARITIME MOBILE;Maritime military systems;
+20.05-70 kHz;S;MARITIME MOBILE;Point-to-Point;
+20.05-70 kHz;S;MARITIME MOBILE;Inductive applications (59.75-60.25 kHz);B06-02-3-1
+20.05-70 kHz;S;MARITIME MOBILE;Inductive applications (60.25-74.75 kHz);B06-03-3-1
+70-72 kHz;S;Not allocated;Ultra Low Power Active Medical Implants;B14-01-2-2
+70-72 kHz;S;Not allocated;On-site paging;A03-01-2-1
+70-72 kHz;S;Not allocated;Inductive applications;B06-03-3-1
+72-84 kHz;S;FIXED;Ultra Low Power Active Medical Implants;B14-01-2-2
+72-84 kHz;S;FIXED;On-site paging;A03-01-2-1
+72-84 kHz;S;FIXED;Inductive applications (60.25-74.75 kHz);B06-03-3-1
+72-84 kHz;S;FIXED;Point-to-Point;
+72-84 kHz;S;FIXED;Inductive applications (74.75-75.25 kHz);B06-04-3-1
+72-84 kHz;S;FIXED;Inductive applications (75.25-77.25 kHz);B06-05-3-1
+72-84 kHz;S;FIXED;Inductive applications (77.25-77.75 kHz);B06-06-3-1
+72-84 kHz;S;FIXED;Inductive applications (77.75-90 kHz);B06-07-3-1
+84-130 kHz;S;Not allocated;Ultra Low Power Active Medical Implants;B14-01-2-2
+84-130 kHz;S;Not allocated;On-site paging;A03-01-2-1
+84-130 kHz;S;Not allocated;Inductive applications (77.75-90 kHz);B06-07-3-1
+84-130 kHz;S;Not allocated;Inductive applications (90-119 kHz);B06-08-3-1
+84-130 kHz;S;Not allocated;Inductive applications (119-128.6 kHz);B06-09-3-1
+84-130 kHz;S;Not allocated;Inductive applications (128.6-129.6 kHz);B06-10-3-1
+84-130 kHz;S;Not allocated;Inductive applications (129.6-135 kHz);B06-11-3-1
+130-135.7 kHz;S;FIXED;Ultra Low Power Active Medical Implants;B14-01-2-2
+130-135.7 kHz;S;FIXED;On-site paging;A03-01-2-1
+130-135.7 kHz;S;FIXED;Inductive applications (129.6-135 kHz);B06-11-3-1
+130-135.7 kHz;S;FIXED;Point-to-Point;
+130-135.7 kHz;S;FIXED;Inductive applications (135-140 kHz);B06-12-3-1
+135.7-137.8 kHz;S;FIXED;Ultra Low Power Active Medical Implants;B14-01-2-2
+135.7-137.8 kHz;S;FIXED;On-site paging;A03-01-2-1
+135.7-137.8 kHz;S;FIXED;Point-to-Point;
+135.7-137.8 kHz;S;FIXED;Inductive applications;B06-12-3-1
+135.7-137.8 kHz;S;FIXED;Amateur;D02-01-1-1
+135.7-137.8 kHz;S;Amateur;Ultra Low Power Active Medical Implants;B14-01-2-2
+135.7-137.8 kHz;S;Amateur;On-site paging;A03-01-2-1
+135.7-137.8 kHz;S;Amateur;Point-to-Point;
+135.7-137.8 kHz;S;Amateur;Inductive applications;B06-12-3-1
+135.7-137.8 kHz;S;Amateur;Amateur;D02-01-1-1
+137.8-148.5 kHz;S;FIXED;Ultra Low Power Active Medical Implants;B14-01-2-2
+137.8-148.5 kHz;S;FIXED;On-site paging;A03-01-2-1
+137.8-148.5 kHz;S;FIXED;Point-to-Point;
+137.8-148.5 kHz;S;FIXED;Inductive applications (135-140 kHz);B06-12-3-1
+137.8-148.5 kHz;S;FIXED;Inductive applications (140-148.5 kHz);B06-13-3-1
+148.5-255 kHz;C;Not allocated;Ultra Low Power Active Medical Implants;B14-01-2-2
+148.5-255 kHz;C;Not allocated;Inductive applications (148.5-5000 kHz);B06-14-3-1
+255-283.5 kHz;C;AERONAUTICAL RADIONAVIGATION;Ultra Low Power Active Medical Implants;B14-01-2-2
+255-283.5 kHz;C;AERONAUTICAL RADIONAVIGATION;Inductive applications (148.5-5000 kHz);B06-14-3-1
+255-283.5 kHz;C;AERONAUTICAL RADIONAVIGATION;Beacons (aeronautical);
+283.5-315 kHz;S;AERONAUTICAL RADIONAVIGATION;Ultra Low Power Active Medical Implants;B14-01-2-2
+283.5-315 kHz;S;AERONAUTICAL RADIONAVIGATION;Inductive applications (148.5-5000 kHz);B06-14-3-1
+283.5-315 kHz;S;AERONAUTICAL RADIONAVIGATION;Beacons (aeronautical);
+283.5-315 kHz;S;AERONAUTICAL RADIONAVIGATION;Beacons (maritime);
+283.5-315 kHz;S;AERONAUTICAL RADIONAVIGATION;Defence systems;
+283.5-315 kHz;S;MARITIME RADIONAVIGATION;Ultra Low Power Active Medical Implants;B14-01-2-2
+283.5-315 kHz;S;MARITIME RADIONAVIGATION;Inductive applications (148.5-5000 kHz);B06-14-3-1
+283.5-315 kHz;S;MARITIME RADIONAVIGATION;Beacons (aeronautical);
+283.5-315 kHz;S;MARITIME RADIONAVIGATION;Beacons (maritime);
+283.5-315 kHz;S;MARITIME RADIONAVIGATION;Defence systems;
+315-405 kHz;S;AERONAUTICAL RADIONAVIGATION;Inductive applications (148.5-5000 kHz);B06-14-3-1
+315-405 kHz;S;AERONAUTICAL RADIONAVIGATION;Ultra Low Power Animal Implantable Devices;B14-02-2-2
+315-405 kHz;S;AERONAUTICAL RADIONAVIGATION;Beacons (aeronautical);
+315-405 kHz;S;AERONAUTICAL RADIONAVIGATION;Defence systems;
+315-405 kHz;S;AERONAUTICAL RADIONAVIGATION;Inductive applications (400-600 kHz);B06-15-3-1
+405-415 kHz;S;RADIONAVIGATION;Inductive applications (148.5-5000 kHz);B06-14-3-1
+405-415 kHz;S;RADIONAVIGATION;Ultra Low Power Animal Implantable Devices;B14-02-2-2
+405-415 kHz;S;RADIONAVIGATION;Inductive applications;B06-15-3-1
+405-415 kHz;S;RADIONAVIGATION;Defence systems;
+415-435 kHz;S;AERONAUTICAL RADIONAVIGATION;Inductive applications (148.5-5000 kHz);B06-14-3-1
+415-435 kHz;S;AERONAUTICAL RADIONAVIGATION;Ultra Low Power Animal Implantable Devices;B14-02-2-2
+415-435 kHz;S;AERONAUTICAL RADIONAVIGATION;Inductive applications;B06-15-3-1
+415-435 kHz;S;AERONAUTICAL RADIONAVIGATION;Maritime communications;
+415-435 kHz;S;AERONAUTICAL RADIONAVIGATION;Defence systems;
+415-435 kHz;S;MARITIME MOBILE;Inductive applications (148.5-5000 kHz);B06-14-3-1
+415-435 kHz;S;MARITIME MOBILE;Ultra Low Power Animal Implantable Devices;B14-02-2-2
+415-435 kHz;S;MARITIME MOBILE;Inductive applications;B06-15-3-1
+415-435 kHz;S;MARITIME MOBILE;Maritime communications;
+415-435 kHz;S;MARITIME MOBILE;Defence systems;
+435-495 kHz;S;MARITIME MOBILE;Inductive applications (148.5-5000 kHz);B06-14-3-1
+435-495 kHz;S;MARITIME MOBILE;Ultra Low Power Animal Implantable Devices;B14-02-2-2
+435-495 kHz;S;MARITIME MOBILE;Inductive applications;B06-15-3-1
+435-495 kHz;S;MARITIME MOBILE;Maritime communications;
+435-495 kHz;S;MARITIME MOBILE;Defence systems;
+435-495 kHz;S;MARITIME MOBILE;Emergency detection (456.9-457.1 kHz) (457 kHz);B17-01-2-1
+435-495 kHz;S;MARITIME MOBILE;Amateur (472-479 kHz);D02-02-1-1
+495-505 kHz;S;MOBILE (distress and calling);Inductive applications (148.5-5000 kHz);B06-14-3-1
+495-505 kHz;S;MOBILE (distress and calling);Ultra Low Power Animal Implantable Devices;B14-02-2-2
+495-505 kHz;S;MOBILE (distress and calling);Inductive applications;B06-15-3-1
+495-505 kHz;S;MOBILE (distress and calling);GMDSS;
+495-505 kHz;S;MOBILE (distress and calling);Amateur (501-504 kHz);D02-03-1-1
+505-526.5 kHz;S;MARITIME MOBILE;Inductive applications (148.5-5000 kHz);B06-14-3-1
+505-526.5 kHz;S;MARITIME MOBILE;Ultra Low Power Animal Implantable Devices;B14-02-2-2
+505-526.5 kHz;S;MARITIME MOBILE;Inductive applications;B06-15-3-1
+505-526.5 kHz;S;MARITIME MOBILE;Defence systems;
+505-526.5 kHz;S;MARITIME MOBILE;Maritime communications;
+505-526.5 kHz;S;MARITIME MOBILE;NAVTEX (517.5-518.5 kHz) (GMDSS-SOLAS);C01-01-1-1
+505-526.5 kHz;S;MARITIME MOBILE;NAVTEX (517.5-518.5 kHz) (GMDSS-non SOLAS);C02-01-1-1
+526.5-1606.5 kHz;C;BROADCASTING;Inductive applications (148.5-5000 kHz);B06-14-3-1
+526.5-1606.5 kHz;C;BROADCASTING;Ultra Low Power Animal Implantable Devices (315-600 kHz);B14-02-2-2
+526.5-1606.5 kHz;C;BROADCASTING;Inductive applications (400-600 kHz);B06-15-3-1
+526.5-1606.5 kHz;C;BROADCASTING;AM sound analogue;
+526.5-1606.5 kHz;C;BROADCASTING;Eurobalise (984-7484 kHz) (Balise up-link);B13-01-2-1
+1606.5-1625 kHz;S;MARITIME MOBILE;Inductive applications (148.5-5000 kHz);B06-14-3-1
+1606.5-1625 kHz;S;MARITIME MOBILE;Eurobalise (Balise up-link);B13-01-2-1
+1606.5-1625 kHz;S;MARITIME MOBILE;Defence systems;
+1606.5-1625 kHz;S;MARITIME MOBILE;Maritime communications;
+1625-1635 kHz;S;RADIOLOCATION;Inductive applications (148.5-5000 kHz);B06-14-3-1
+1625-1635 kHz;S;RADIOLOCATION;Eurobalise (Balise up-link);B13-01-2-1
+1625-1635 kHz;S;RADIOLOCATION;Defence systems;
+1635-1800 kHz;S;FIXED;Inductive applications (148.5-5000 kHz);B06-14-3-1
+1635-1800 kHz;S;FIXED;Eurobalise (Balise up-link);B13-01-2-1
+1635-1800 kHz;S;FIXED;Defence systems;
+1635-1800 kHz;S;FIXED;Maritime communications;
+1635-1800 kHz;S;FIXED;Point-to-Point;
+1635-1800 kHz;S;MARITIME MOBILE;Inductive applications (148.5-5000 kHz);B06-14-3-1
+1635-1800 kHz;S;MARITIME MOBILE;Eurobalise (Balise up-link);B13-01-2-1
+1635-1800 kHz;S;MARITIME MOBILE;Defence systems;
+1635-1800 kHz;S;MARITIME MOBILE;Maritime communications;
+1635-1800 kHz;S;MARITIME MOBILE;Point-to-Point;
+1800-1810 kHz;S;RADIOLOCATION;Inductive applications (148.5-5000 kHz);B06-14-3-1
+1800-1810 kHz;S;RADIOLOCATION;Eurobalise (Balise up-link);B13-01-2-1
+1800-1810 kHz;S;RADIOLOCATION;Defence systems;
+1810-1830 kHz;S;MOBILE except aeronautical mobile;Inductive applications (148.5-5000 kHz);B06-14-3-1
+1810-1830 kHz;S;MOBILE except aeronautical mobile;Eurobalise (Balise up-link);B13-01-2-1
+1810-1830 kHz;S;MOBILE except aeronautical mobile;Amateur;D02-04-1-1
+1810-1830 kHz;S;MOBILE except aeronautical mobile;Defence systems;
+1810-1830 kHz;S;MOBILE except aeronautical mobile;Maritime communications;
+1830-1850 kHz;S;AMATEUR;Inductive applications (148.5-5000 kHz);B06-14-3-1
+1830-1850 kHz;S;AMATEUR;Eurobalise (Balise up-link);B13-01-2-1
+1830-1850 kHz;S;AMATEUR;Amateur;D02-04-1-1
+1850-2000 kHz;S;MOBILE except aeronautical mobile;Inductive applications (148.5-5000 kHz);B06-14-3-1
+1850-2000 kHz;S;MOBILE except aeronautical mobile;Eurobalise (Balise up-link);B13-01-2-1
+1850-2000 kHz;S;MOBILE except aeronautical mobile;Amateur;D02-04-1-1
+1850-2000 kHz;S;MOBILE except aeronautical mobile;Defence systems;
+1850-2000 kHz;S;MOBILE except aeronautical mobile;Maritime communications;
+2000-2025 kHz;S;FIXED;Inductive applications (148.5-5000 kHz);B06-14-3-1
+2000-2025 kHz;S;FIXED;Eurobalise (Balise up-link);B13-01-2-1
+2000-2025 kHz;S;FIXED;Defence systems;
+2000-2025 kHz;S;MOBILE except aeronautical mobile (R);Inductive applications (148.5-5000 kHz);B06-14-3-1
+2000-2025 kHz;S;MOBILE except aeronautical mobile (R);Eurobalise (Balise up-link);B13-01-2-1
+2000-2025 kHz;S;MOBILE except aeronautical mobile (R);Defence systems;
+2025-2045 kHz;S;MOBILE except aeronautical mobile (R);Inductive applications (148.5-5000 kHz);B06-14-3-1
+2025-2045 kHz;S;MOBILE except aeronautical mobile (R);Eurobalise (Balise up-link);B13-01-2-1
+2025-2045 kHz;S;MOBILE except aeronautical mobile (R);Defence systems;
+2045-2160 kHz;S;LAND MOBILE;Inductive applications (148.5-5000 kHz);B06-14-3-1
+2045-2160 kHz;S;LAND MOBILE;Eurobalise (Balise up-link);B13-01-2-1
+2045-2160 kHz;S;LAND MOBILE;Defence systems;
+2045-2160 kHz;S;LAND MOBILE;Maritime communications;
+2045-2160 kHz;S;MARITIME MOBILE;Inductive applications (148.5-5000 kHz);B06-14-3-1
+2045-2160 kHz;S;MARITIME MOBILE;Eurobalise (Balise up-link);B13-01-2-1
+2045-2160 kHz;S;MARITIME MOBILE;Defence systems;
+2045-2160 kHz;S;MARITIME MOBILE;Maritime communications;
+2160-2170 kHz;S;RADIOLOCATION;Inductive applications (148.5-5000 kHz);B06-14-3-1
+2160-2170 kHz;S;RADIOLOCATION;Eurobalise (Balise up-link);B13-01-2-1
+2160-2170 kHz;S;RADIOLOCATION;Defence systems;
+2170-2173.5 kHz;S;MARITIME MOBILE;Inductive applications (148.5-5000 kHz);B06-14-3-1
+2170-2173.5 kHz;S;MARITIME MOBILE;Eurobalise (Balise up-link);B13-01-2-1
+2170-2173.5 kHz;S;MARITIME MOBILE;Defence systems;
+2173.5-2190.5 kHz;S;MOBILE (distress and calling);Inductive applications (148.5-5000 kHz);B06-14-3-1
+2173.5-2190.5 kHz;S;MOBILE (distress and calling);Eurobalise (Balise up-link);B13-01-2-1
+2173.5-2190.5 kHz;S;MOBILE (distress and calling);GMDSS;
+2190.5-2300 kHz;S;MARITIME MOBILE;Inductive applications (148.5-5000 kHz);B06-14-3-1
+2190.5-2300 kHz;S;MARITIME MOBILE;Eurobalise (Balise up-link);B13-01-2-1
+2190.5-2300 kHz;S;MARITIME MOBILE;Defence systems;
+2300-2498 kHz;S;MOBILE except aeronautical mobile (R);Inductive applications (148.5-5000 kHz);B06-14-3-1
+2300-2498 kHz;S;MOBILE except aeronautical mobile (R);Eurobalise (Balise up-link);B13-01-2-1
+2300-2498 kHz;S;MOBILE except aeronautical mobile (R);Defence systems;
+2498-2502 kHz;S;Not allocated;Inductive applications (148.5-5000 kHz);B06-14-3-1
+2498-2502 kHz;S;Not allocated;Eurobalise (Balise up-link);B13-01-2-1
+2502-2625 kHz;S;FIXED;Inductive applications (148.5-5000 kHz);B06-14-3-1
+2502-2625 kHz;S;FIXED;Eurobalise (Balise up-link);B13-01-2-1
+2502-2625 kHz;S;FIXED;Defence systems;
+2502-2625 kHz;S;FIXED;Point-to-Point;
+2502-2625 kHz;S;MOBILE except aeronautical mobile (R);Inductive applications (148.5-5000 kHz);B06-14-3-1
+2502-2625 kHz;S;MOBILE except aeronautical mobile (R);Eurobalise (Balise up-link);B13-01-2-1
+2502-2625 kHz;S;MOBILE except aeronautical mobile (R);Defence systems;
+2502-2625 kHz;S;MOBILE except aeronautical mobile (R);Point-to-Point;
+2625-2650 kHz;S;MARITIME MOBILE;Inductive applications (148.5-5000 kHz);B06-14-3-1
+2625-2650 kHz;S;MARITIME MOBILE;Eurobalise (Balise up-link);B13-01-2-1
+2625-2650 kHz;S;MARITIME MOBILE;Defence systems;
+2625-2650 kHz;S;MARITIME RADIONAVIGATION;Inductive applications (148.5-5000 kHz);B06-14-3-1
+2625-2650 kHz;S;MARITIME RADIONAVIGATION;Eurobalise (Balise up-link);B13-01-2-1
+2625-2650 kHz;S;MARITIME RADIONAVIGATION;Defence systems;
+2650-2850 kHz;S;FIXED;Inductive applications (148.5-5000 kHz);B06-14-3-1
+2650-2850 kHz;S;FIXED;Eurobalise (Balise up-link);B13-01-2-1
+2650-2850 kHz;S;FIXED;Defence systems;
+2650-2850 kHz;S;FIXED;Point-to-Point;
+2650-2850 kHz;S;MOBILE except aeronautical mobile (R);Inductive applications (148.5-5000 kHz);B06-14-3-1
+2650-2850 kHz;S;MOBILE except aeronautical mobile (R);Eurobalise (Balise up-link);B13-01-2-1
+2650-2850 kHz;S;MOBILE except aeronautical mobile (R);Defence systems;
+2650-2850 kHz;S;MOBILE except aeronautical mobile (R);Point-to-Point;
+2850-3025 kHz;C;AERONAUTICAL MOBILE (R);Inductive applications (148.5-5000 kHz);B06-14-3-1
+2850-3025 kHz;C;AERONAUTICAL MOBILE (R);Eurobalise (Balise up-link);B13-01-2-1
+2850-3025 kHz;C;AERONAUTICAL MOBILE (R);Aeronautical communications;
+3025-3155 kHz;M;AERONAUTICAL MOBILE (OR);Inductive applications (148.5-5000 kHz);B06-14-3-1
+3025-3155 kHz;M;AERONAUTICAL MOBILE (OR);Eurobalise (Balise up-link);B13-01-2-1
+3025-3155 kHz;M;AERONAUTICAL MOBILE (OR);Aeronautical military systems;
+3155-3230 kHz;S;FIXED;Inductive applications (148.5-5000 kHz);B06-14-3-1
+3155-3230 kHz;S;FIXED;Eurobalise (Balise up-link);B13-01-2-1
+3155-3230 kHz;S;FIXED;Inductive applications;B06-16-3-1
+3155-3230 kHz;S;FIXED;Defence systems;
+3155-3230 kHz;S;FIXED;Point-to-Point;
+3155-3230 kHz;S;MOBILE except aeronautical mobile (R);Inductive applications (148.5-5000 kHz);B06-14-3-1
+3155-3230 kHz;S;MOBILE except aeronautical mobile (R);Eurobalise (Balise up-link);B13-01-2-1
+3155-3230 kHz;S;MOBILE except aeronautical mobile (R);Inductive applications;B06-16-3-1
+3155-3230 kHz;S;MOBILE except aeronautical mobile (R);Defence systems;
+3155-3230 kHz;S;MOBILE except aeronautical mobile (R);Point-to-Point;
+3230-3400 kHz;S;FIXED;Inductive applications (148.5-5000 kHz);B06-14-3-1
+3230-3400 kHz;S;FIXED;Eurobalise (Balise up-link);B13-01-2-1
+3230-3400 kHz;S;FIXED;Inductive applications;B06-16-3-1
+3230-3400 kHz;S;FIXED;Defence systems;
+3230-3400 kHz;S;FIXED;Point-to-Point;
+3230-3400 kHz;S;MOBILE except aeronautical mobile;Inductive applications (148.5-5000 kHz);B06-14-3-1
+3230-3400 kHz;S;MOBILE except aeronautical mobile;Eurobalise (Balise up-link);B13-01-2-1
+3230-3400 kHz;S;MOBILE except aeronautical mobile;Inductive applications;B06-16-3-1
+3230-3400 kHz;S;MOBILE except aeronautical mobile;Defence systems;
+3230-3400 kHz;S;MOBILE except aeronautical mobile;Point-to-Point;
+3400-3500 kHz;S;AERONAUTICAL MOBILE (R);Inductive applications (148.5-5000 kHz);B06-14-3-1
+3400-3500 kHz;S;AERONAUTICAL MOBILE (R);Eurobalise (Balise up-link);B13-01-2-1
+3400-3500 kHz;S;AERONAUTICAL MOBILE (R);Aeronautical communications;
+3500-3800 kHz;S;AMATEUR;Inductive applications (148.5-5000 kHz);B06-14-3-1
+3500-3800 kHz;S;AMATEUR;Eurobalise (Balise up-link);B13-01-2-1
+3500-3800 kHz;S;AMATEUR;Amateur;D02-05-1-1
+3500-3800 kHz;S;AMATEUR;Defence systems;
+3500-3800 kHz;S;AMATEUR;Point-to-Point;
+3500-3800 kHz;S;FIXED;Inductive applications (148.5-5000 kHz);B06-14-3-1
+3500-3800 kHz;S;FIXED;Eurobalise (Balise up-link);B13-01-2-1
+3500-3800 kHz;S;FIXED;Amateur;D02-05-1-1
+3500-3800 kHz;S;FIXED;Defence systems;
+3500-3800 kHz;S;FIXED;Point-to-Point;
+3500-3800 kHz;S;MOBILE except aeronautical mobile;Inductive applications (148.5-5000 kHz);B06-14-3-1
+3500-3800 kHz;S;MOBILE except aeronautical mobile;Eurobalise (Balise up-link);B13-01-2-1
+3500-3800 kHz;S;MOBILE except aeronautical mobile;Amateur;D02-05-1-1
+3500-3800 kHz;S;MOBILE except aeronautical mobile;Defence systems;
+3500-3800 kHz;S;MOBILE except aeronautical mobile;Point-to-Point;
+3800-3900 kHz;S;AERONAUTICAL MOBILE (OR);Inductive applications (148.5-5000 kHz);B06-14-3-1
+3800-3900 kHz;S;AERONAUTICAL MOBILE (OR);Eurobalise (Balise up-link);B13-01-2-1
+3800-3900 kHz;S;AERONAUTICAL MOBILE (OR);Defence systems;
+3800-3900 kHz;S;AERONAUTICAL MOBILE (OR);Point-to-Point;
+3800-3900 kHz;S;FIXED;Inductive applications (148.5-5000 kHz);B06-14-3-1
+3800-3900 kHz;S;FIXED;Eurobalise (Balise up-link);B13-01-2-1
+3800-3900 kHz;S;FIXED;Defence systems;
+3800-3900 kHz;S;FIXED;Point-to-Point;
+3800-3900 kHz;S;LAND MOBILE;Inductive applications (148.5-5000 kHz);B06-14-3-1
+3800-3900 kHz;S;LAND MOBILE;Eurobalise (Balise up-link);B13-01-2-1
+3800-3900 kHz;S;LAND MOBILE;Defence systems;
+3800-3900 kHz;S;LAND MOBILE;Point-to-Point;
+3900-3950 kHz;M;AERONAUTICAL MOBILE (OR);Inductive applications (148.5-5000 kHz);B06-14-3-1
+3900-3950 kHz;M;AERONAUTICAL MOBILE (OR);Eurobalise (Balise up-link);B13-01-2-1
+3900-3950 kHz;M;AERONAUTICAL MOBILE (OR);Aeronautical military systems;
+3950-4000 kHz;C;FIXED;Inductive applications (148.5-5000 kHz);B06-14-3-1
+3950-4000 kHz;C;FIXED;Eurobalise (Balise up-link);B13-01-2-1
+3950-4000 kHz;C;FIXED;Point-to-Point;
+4000-4063 kHz;S;FIXED;Inductive applications (148.5-5000 kHz);B06-14-3-1
+4000-4063 kHz;S;FIXED;Eurobalise (Balise up-link);B13-01-2-1
+4000-4063 kHz;S;FIXED;Point-to-Point;
+4000-4063 kHz;S;FIXED;Defence systems;
+4063-4152 kHz;S;MARITIME MOBILE;Inductive applications (148.5-5000 kHz);B06-14-3-1
+4063-4152 kHz;S;MARITIME MOBILE;Eurobalise (Balise up-link);B13-01-2-1
+4063-4152 kHz;S;MARITIME MOBILE;Maritime communications;
+4152-4172 kHz;M;MARITIME MOBILE;Inductive applications (148.5-5000 kHz);B06-14-3-1
+4152-4172 kHz;M;MARITIME MOBILE;Eurobalise (Balise up-link);B13-01-2-1
+4152-4172 kHz;M;MARITIME MOBILE;Maritime military systems;
+4172-4438 kHz;S;MARITIME MOBILE;Inductive applications (148.5-5000 kHz);B06-14-3-1
+4172-4438 kHz;S;MARITIME MOBILE;Eurobalise (Balise up-link);B13-01-2-1
+4172-4438 kHz;S;MARITIME MOBILE;Maritime communications;
+4438-4650 kHz;S;FIXED;Inductive applications (148.5-5000 kHz);B06-14-3-1
+4438-4650 kHz;S;FIXED;Eurobalise (Balise up-link);B13-01-2-1
+4438-4650 kHz;S;FIXED;Defence systems;
+4438-4650 kHz;S;FIXED;Point-to-Point;
+4438-4650 kHz;S;MOBILE except aeronautical mobile (R);Inductive applications (148.5-5000 kHz);B06-14-3-1
+4438-4650 kHz;S;MOBILE except aeronautical mobile (R);Eurobalise (Balise up-link);B13-01-2-1
+4438-4650 kHz;S;MOBILE except aeronautical mobile (R);Defence systems;
+4438-4650 kHz;S;MOBILE except aeronautical mobile (R);Point-to-Point;
+4650-4700 kHz;C;AERONAUTICAL MOBILE (R);Inductive applications (148.5-5000 kHz);B06-14-3-1
+4650-4700 kHz;C;AERONAUTICAL MOBILE (R);Eurobalise (Balise up-link);B13-01-2-1
+4650-4700 kHz;C;AERONAUTICAL MOBILE (R);Aeronautical communications;
+4700-4750 kHz;M;AERONAUTICAL MOBILE (OR);Inductive applications (148.5-5000 kHz);B06-14-3-1
+4700-4750 kHz;M;AERONAUTICAL MOBILE (OR);Eurobalise (Balise up-link);B13-01-2-1
+4700-4750 kHz;M;AERONAUTICAL MOBILE (OR);Aeronautical military systems;
+4750-4850 kHz;S;FIXED;Inductive applications (148.5-5000 kHz);B06-14-3-1
+4750-4850 kHz;S;FIXED;Eurobalise (Balise up-link);B13-01-2-1
+4750-4850 kHz;S;FIXED;Point-to-Point;
+4850-4995 kHz;S;FIXED;Inductive applications (148.5-5000 kHz);B06-14-3-1
+4850-4995 kHz;S;FIXED;Eurobalise (Balise up-link);B13-01-2-1
+4850-4995 kHz;S;FIXED;Point-to-Point;
+4850-4995 kHz;S;LAND MOBILE;Inductive applications (148.5-5000 kHz);B06-14-3-1
+4850-4995 kHz;S;LAND MOBILE;Eurobalise (Balise up-link);B13-01-2-1
+4850-4995 kHz;S;LAND MOBILE;Point-to-Point;
+4995-5060 kHz;S;Not allocated;Inductive applications (148.5-5000 kHz) (148.5-5000 kHz);B06-14-3-1
+4995-5060 kHz;S;Not allocated;Eurobalise (Balise up-link);B13-01-2-1
+4995-5060 kHz;S;Not allocated;Inductive applications (5000-30000 kHz) (5000-30000 kHz);B06-17-3-1
+5060-5450 kHz;S;FIXED;Eurobalise (Balise up-link);B13-01-2-1
+5060-5450 kHz;S;FIXED;Inductive applications (5000-30000 kHz);B06-17-3-1
+5060-5450 kHz;S;FIXED;Defence systems;
+5060-5450 kHz;S;FIXED;Point-to-Point;
+5060-5450 kHz;S;FIXED;Amateur (5351.5-5366.5 kHz);D02-06-1-1
+5450-5480 kHz;S;AERONAUTICAL MOBILE (OR);Eurobalise (Balise up-link);B13-01-2-1
+5450-5480 kHz;S;AERONAUTICAL MOBILE (OR);Inductive applications (5000-30000 kHz);B06-17-3-1
+5450-5480 kHz;S;AERONAUTICAL MOBILE (OR);Defence systems;
+5450-5480 kHz;S;FIXED;Eurobalise (Balise up-link);B13-01-2-1
+5450-5480 kHz;S;FIXED;Inductive applications (5000-30000 kHz);B06-17-3-1
+5450-5480 kHz;S;FIXED;Defence systems;
+5450-5480 kHz;S;LAND MOBILE;Eurobalise (Balise up-link);B13-01-2-1
+5450-5480 kHz;S;LAND MOBILE;Inductive applications (5000-30000 kHz);B06-17-3-1
+5450-5480 kHz;S;LAND MOBILE;Defence systems;
+5480-5680 kHz;C;AERONAUTICAL MOBILE (R);Eurobalise (Balise up-link);B13-01-2-1
+5480-5680 kHz;C;AERONAUTICAL MOBILE (R);Inductive applications (5000-30000 kHz);B06-17-3-1
+5480-5680 kHz;C;AERONAUTICAL MOBILE (R);Aeronautical communications;
+5680-5730 kHz;M;AERONAUTICAL MOBILE (OR);Eurobalise (Balise up-link);B13-01-2-1
+5680-5730 kHz;M;AERONAUTICAL MOBILE (OR);Inductive applications (5000-30000 kHz);B06-17-3-1
+5680-5730 kHz;M;AERONAUTICAL MOBILE (OR);Aeronautical military systems;
+5730-5900 kHz;S;FIXED;Eurobalise (Balise up-link);B13-01-2-1
+5730-5900 kHz;S;FIXED;Inductive applications (5000-30000 kHz);B06-17-3-1
+5730-5900 kHz;S;FIXED;Point-to-Point;
+5900-5950 kHz;C;Not allocated;Eurobalise (Balise up-link);B13-01-2-1
+5900-5950 kHz;C;Not allocated;Inductive applications (5000-30000 kHz);B06-17-3-1
+5950-6200 kHz;C;BROADCASTING;Eurobalise (Balise up-link);B13-01-2-1
+5950-6200 kHz;C;BROADCASTING;Inductive applications (5000-30000 kHz);B06-17-3-1
+5950-6200 kHz;C;BROADCASTING;AM sound analogue;
+6200-6233 kHz;S;MARITIME MOBILE;Eurobalise (Balise up-link);B13-01-2-1
+6200-6233 kHz;S;MARITIME MOBILE;Inductive applications (5000-30000 kHz);B06-17-3-1
+6200-6233 kHz;S;MARITIME MOBILE;Maritime communications;
+6233-6261 kHz;M;MARITIME MOBILE;Eurobalise (Balise up-link);B13-01-2-1
+6233-6261 kHz;M;MARITIME MOBILE;Inductive applications (5000-30000 kHz);B06-17-3-1
+6233-6261 kHz;M;MARITIME MOBILE;Maritime military systems;
+6261-6525 kHz;S;MARITIME MOBILE;Eurobalise (Balise up-link);B13-01-2-1
+6261-6525 kHz;S;MARITIME MOBILE;Inductive applications (5000-30000 kHz);B06-17-3-1
+6261-6525 kHz;S;MARITIME MOBILE;Maritime communications;
+6525-6685 kHz;C;AERONAUTICAL MOBILE (R);Eurobalise (Balise up-link);B13-01-2-1
+6525-6685 kHz;C;AERONAUTICAL MOBILE (R);Inductive applications (5000-30000 kHz);B06-17-3-1
+6525-6685 kHz;C;AERONAUTICAL MOBILE (R);Aeronautical communications;
+6685-6765 kHz;M;AERONAUTICAL MOBILE (OR);Eurobalise (Balise up-link);B13-01-2-1
+6685-6765 kHz;M;AERONAUTICAL MOBILE (OR);Inductive applications (5000-30000 kHz);B06-17-3-1
+6685-6765 kHz;M;AERONAUTICAL MOBILE (OR);Aeronautical military systems;
+6765-7000 kHz;S;FIXED;Eurobalise (Balise up-link);B13-01-2-1
+6765-7000 kHz;S;FIXED;Inductive applications (5000-30000 kHz);B06-17-3-1
+6765-7000 kHz;S;FIXED;Point-to-Point;
+6765-7000 kHz;S;FIXED;Inductive applications (6765-6795 kHz);B06-18-3-1
+6765-7000 kHz;S;FIXED;ISM (6765-6795 kHz);
+6765-7000 kHz;S;FIXED;Non-specific Short Range Devices (6765-6795 kHz);B01-01-3-1
+7000-7100 kHz;C;AMATEUR;Eurobalise (Balise up-link);B13-01-2-1
+7000-7100 kHz;C;AMATEUR;Inductive applications (5000-30000 kHz);B06-17-3-1
+7000-7100 kHz;C;AMATEUR;Amateur;D02-07-1-1
+7000-7100 kHz;C;AMATEUR;Amateur-satellite;
+7000-7100 kHz;C;AMATEUR-SATELLITE;Eurobalise (Balise up-link);B13-01-2-1
+7000-7100 kHz;C;AMATEUR-SATELLITE;Inductive applications (5000-30000 kHz);B06-17-3-1
+7000-7100 kHz;C;AMATEUR-SATELLITE;Amateur;D02-07-1-1
+7000-7100 kHz;C;AMATEUR-SATELLITE;Amateur-satellite;
+7100-7200 kHz;C;Amateur;Eurobalise (Balise up-link);B13-01-2-1
+7100-7200 kHz;C;Amateur;Inductive applications (5000-30000 kHz);B06-17-3-1
+7100-7200 kHz;C;Amateur;Amateur;D02-07-1-1
+7200-7300 kHz;C;BROADCASTING;Eurobalise (Balise up-link);B13-01-2-1
+7200-7300 kHz;C;BROADCASTING;Inductive applications (5000-30000 kHz);B06-17-3-1
+7200-7300 kHz;C;BROADCASTING;AM sound analogue;
+7300-7350 kHz;C;Not allocated;Eurobalise (Balise up-link);B13-01-2-1
+7300-7350 kHz;C;Not allocated;Inductive applications (5000-30000 kHz);B06-17-3-1
+7300-7350 kHz;C;Not allocated;Euroloop (Loop up-link);B13-02-2-1
+7350-8195 kHz;S;FIXED;Eurobalise (984-7484 kHz) (Balise up-link);B13-01-2-1
+7350-8195 kHz;S;FIXED;Inductive applications (5000-30000 kHz);B06-17-3-1
+7350-8195 kHz;S;FIXED;Euroloop (Loop up-link);B13-02-2-1
+7350-8195 kHz;S;FIXED;Point-to-Point;
+7350-8195 kHz;S;FIXED;Inductive applications (7400-8800 kHz);B06-19-3-1
+8195-8300 kHz;S;MARITIME MOBILE;Inductive applications (5000-30000 kHz);B06-17-3-1
+8195-8300 kHz;S;MARITIME MOBILE;Euroloop (Loop up-link);B13-02-2-1
+8195-8300 kHz;S;MARITIME MOBILE;Inductive applications;B06-19-3-1
+8195-8300 kHz;S;MARITIME MOBILE;Maritime communications;
+8300-8340 kHz;M;MARITIME MOBILE;Inductive applications (5000-30000 kHz);B06-17-3-1
+8300-8340 kHz;M;MARITIME MOBILE;Euroloop (Loop up-link);B13-02-2-1
+8300-8340 kHz;M;MARITIME MOBILE;Inductive applications;B06-19-3-1
+8300-8340 kHz;M;MARITIME MOBILE;Maritime military systems;
+8340-8815 kHz;S;MARITIME MOBILE;Inductive applications (5000-30000 kHz);B06-17-3-1
+8340-8815 kHz;S;MARITIME MOBILE;Euroloop (Loop up-link);B13-02-2-1
+8340-8815 kHz;S;MARITIME MOBILE;Inductive applications (7400-8800 kHz);B06-19-3-1
+8340-8815 kHz;S;MARITIME MOBILE;Maritime communications;
+8815-8965 kHz;C;AERONAUTICAL MOBILE (R);Inductive applications (5000-30000 kHz);B06-17-3-1
+8815-8965 kHz;C;AERONAUTICAL MOBILE (R);Euroloop (Loop up-link);B13-02-2-1
+8815-8965 kHz;C;AERONAUTICAL MOBILE (R);Aeronautical communications;
+8965-9040 kHz;M;AERONAUTICAL MOBILE (OR);Inductive applications (5000-30000 kHz);B06-17-3-1
+8965-9040 kHz;M;AERONAUTICAL MOBILE (OR);Euroloop (Loop up-link);B13-02-2-1
+8965-9040 kHz;M;AERONAUTICAL MOBILE (OR);Aeronautical military systems;
+9040-9400 kHz;S;FIXED;Inductive applications (5000-30000 kHz);B06-17-3-1
+9040-9400 kHz;S;FIXED;Euroloop (Loop up-link);B13-02-2-1
+9040-9400 kHz;S;FIXED;Point-to-Point;
+9400-9500 kHz;C;Not allocated;Inductive applications (5000-30000 kHz);B06-17-3-1
+9400-9500 kHz;C;Not allocated;Euroloop (Loop up-link);B13-02-2-1
+9500-9900 kHz;C;BROADCASTING;Inductive applications (5000-30000 kHz);B06-17-3-1
+9500-9900 kHz;C;BROADCASTING;Euroloop (Loop up-link);B13-02-2-1
+9500-9900 kHz;C;BROADCASTING;AM sound analogue;
+9900-9995 kHz;S;FIXED;Inductive applications (5000-30000 kHz);B06-17-3-1
+9900-9995 kHz;S;FIXED;Euroloop (Loop up-link);B13-02-2-1
+9900-9995 kHz;S;FIXED;Point-to-Point;
+9995-10005 kHz;S;Not allocated;Inductive applications (5000-30000 kHz);B06-17-3-1
+9995-10005 kHz;S;Not allocated;Euroloop (Loop up-link);B13-02-2-1
+10005-10100 kHz;C;Not allocated;Inductive applications (5000-30000 kHz);B06-17-3-1
+10005-10100 kHz;C;Not allocated;Euroloop (Loop up-link);B13-02-2-1
+10100-10150 kHz;S;Amateur;Inductive applications (5000-30000 kHz);B06-17-3-1
+10100-10150 kHz;S;Amateur;Euroloop (Loop up-link);B13-02-2-1
+10100-10150 kHz;S;Amateur;Amateur;D02-08-1-1
+10150-11175 kHz;S;FIXED;Inductive applications (5000-30000 kHz);B06-17-3-1
+10150-11175 kHz;S;FIXED;Euroloop (Loop up-link);B13-02-2-1
+10150-11175 kHz;S;FIXED;Defence systems;
+10150-11175 kHz;S;FIXED;Point-to-Point;
+10150-11175 kHz;S;FIXED;Inductive applications (10200-11000 kHz);B06-20-3-1
+11175-11275 kHz;M;AERONAUTICAL MOBILE (OR);Inductive applications (5000-30000 kHz);B06-17-3-1
+11175-11275 kHz;M;AERONAUTICAL MOBILE (OR);Euroloop (Loop up-link);B13-02-2-1
+11175-11275 kHz;M;AERONAUTICAL MOBILE (OR);Aeronautical military systems;
+11275-11400 kHz;C;AERONAUTICAL MOBILE (R);Inductive applications (5000-30000 kHz);B06-17-3-1
+11275-11400 kHz;C;AERONAUTICAL MOBILE (R);Euroloop (Loop up-link);B13-02-2-1
+11275-11400 kHz;C;AERONAUTICAL MOBILE (R);Aeronautical communications;
+11400-11600 kHz;S;FIXED;Inductive applications (5000-30000 kHz);B06-17-3-1
+11400-11600 kHz;S;FIXED;Euroloop (Loop up-link);B13-02-2-1
+11400-11600 kHz;S;FIXED;Point-to-Point;
+11600-11650 kHz;C;Not allocated;Inductive applications (5000-30000 kHz);B06-17-3-1
+11600-11650 kHz;C;Not allocated;Euroloop (Loop up-link);B13-02-2-1
+11650-12050 kHz;C;BROADCASTING;Inductive applications (5000-30000 kHz);B06-17-3-1
+11650-12050 kHz;C;BROADCASTING;Euroloop (Loop up-link);B13-02-2-1
+11650-12050 kHz;C;BROADCASTING;AM sound analogue;
+12050-12100 kHz;C;Not allocated;Inductive applications (5000-30000 kHz);B06-17-3-1
+12050-12100 kHz;C;Not allocated;Euroloop (Loop up-link);B13-02-2-1
+12100-12230 kHz;S;FIXED;Inductive applications (5000-30000 kHz);B06-17-3-1
+12100-12230 kHz;S;FIXED;Euroloop (Loop up-link);B13-02-2-1
+12100-12230 kHz;S;FIXED;Point-to-Point;
+12230-12368 kHz;S;MARITIME MOBILE;Inductive applications (5000-30000 kHz);B06-17-3-1
+12230-12368 kHz;S;MARITIME MOBILE;Euroloop (Loop up-link);B13-02-2-1
+12230-12368 kHz;S;MARITIME MOBILE;Maritime communications;
+12368-12420 kHz;M;MARITIME MOBILE;Inductive applications (5000-30000 kHz);B06-17-3-1
+12368-12420 kHz;M;MARITIME MOBILE;Euroloop (Loop up-link);B13-02-2-1
+12368-12420 kHz;M;MARITIME MOBILE;Maritime military systems;
+12420-13200 kHz;S;MARITIME MOBILE;Inductive applications (5000-30000 kHz);B06-17-3-1
+12420-13200 kHz;S;MARITIME MOBILE;Euroloop (Loop up-link);B13-02-2-1
+12420-13200 kHz;S;MARITIME MOBILE;Maritime communications;
+12420-13200 kHz;S;MARITIME MOBILE;Ultra Low Power Animal Implantable Devices (12500-20000 kHz);B14-03-1-1
+13200-13260 kHz;M;AERONAUTICAL MOBILE (OR);Inductive applications (5000-30000 kHz);B06-17-3-1
+13200-13260 kHz;M;AERONAUTICAL MOBILE (OR);Euroloop (Loop up-link);B13-02-2-1
+13200-13260 kHz;M;AERONAUTICAL MOBILE (OR);Ultra Low Power Animal Implantable Devices;B14-03-1-1
+13200-13260 kHz;M;AERONAUTICAL MOBILE (OR);Aeronautical military systems;
+13260-13360 kHz;C;AERONAUTICAL MOBILE (R);Inductive applications (5000-30000 kHz);B06-17-3-1
+13260-13360 kHz;C;AERONAUTICAL MOBILE (R);Euroloop (Loop up-link);B13-02-2-1
+13260-13360 kHz;C;AERONAUTICAL MOBILE (R);Ultra Low Power Animal Implantable Devices;B14-03-1-1
+13260-13360 kHz;C;AERONAUTICAL MOBILE (R);Aeronautical communications;
+13360-13570 kHz;S;FIXED;Inductive applications (5000-30000 kHz);B06-17-3-1
+13360-13570 kHz;S;FIXED;Euroloop (Loop up-link);B13-02-2-1
+13360-13570 kHz;S;FIXED;Ultra Low Power Animal Implantable Devices;B14-03-1-1
+13360-13570 kHz;S;FIXED;Defence systems;
+13360-13570 kHz;S;FIXED;Point-to-Point;
+13360-13570 kHz;S;FIXED;Inductive applications (13553-13567 kHz);B06-22-3-1
+13360-13570 kHz;S;FIXED;Inductive applications (13553-13567 kHz);B06-21-3-1
+13360-13570 kHz;S;FIXED;ISM (13553-13567 kHz);
+13360-13570 kHz;S;FIXED;Non-specific Short Range Devices (13553-13567 kHz);B01-02-3-1
+13570-13600 kHz;C;Not allocated;Inductive applications (5000-30000 kHz);B06-17-3-1
+13570-13600 kHz;C;Not allocated;Euroloop (Loop up-link);B13-02-2-1
+13570-13600 kHz;C;Not allocated;Ultra Low Power Animal Implantable Devices;B14-03-1-1
+13600-13800 kHz;C;BROADCASTING;Inductive applications (5000-30000 kHz);B06-17-3-1
+13600-13800 kHz;C;BROADCASTING;Euroloop (Loop up-link);B13-02-2-1
+13600-13800 kHz;C;BROADCASTING;Ultra Low Power Animal Implantable Devices;B14-03-1-1
+13600-13800 kHz;C;BROADCASTING;AM sound analogue;
+13800-13870 kHz;C;Not allocated;Inductive applications (5000-30000 kHz);B06-17-3-1
+13800-13870 kHz;C;Not allocated;Euroloop (Loop up-link);B13-02-2-1
+13800-13870 kHz;C;Not allocated;Ultra Low Power Animal Implantable Devices;B14-03-1-1
+13870-14000 kHz;S;FIXED;Inductive applications (5000-30000 kHz);B06-17-3-1
+13870-14000 kHz;S;FIXED;Euroloop (Loop up-link);B13-02-2-1
+13870-14000 kHz;S;FIXED;Ultra Low Power Animal Implantable Devices;B14-03-1-1
+13870-14000 kHz;S;FIXED;Defence systems;
+13870-14000 kHz;S;FIXED;Point-to-Point;
+14000-14250 kHz;C;AMATEUR;Inductive applications (5000-30000 kHz);B06-17-3-1
+14000-14250 kHz;C;AMATEUR;Euroloop (Loop up-link);B13-02-2-1
+14000-14250 kHz;C;AMATEUR;Ultra Low Power Animal Implantable Devices;B14-03-1-1
+14000-14250 kHz;C;AMATEUR;Amateur;D02-09-1-1
+14000-14250 kHz;C;AMATEUR;Amateur-satellite;
+14000-14250 kHz;C;AMATEUR-SATELLITE;Inductive applications (5000-30000 kHz);B06-17-3-1
+14000-14250 kHz;C;AMATEUR-SATELLITE;Euroloop (Loop up-link);B13-02-2-1
+14000-14250 kHz;C;AMATEUR-SATELLITE;Ultra Low Power Animal Implantable Devices;B14-03-1-1
+14000-14250 kHz;C;AMATEUR-SATELLITE;Amateur;D02-09-1-1
+14000-14250 kHz;C;AMATEUR-SATELLITE;Amateur-satellite;
+14250-14350 kHz;C;AMATEUR;Inductive applications (5000-30000 kHz);B06-17-3-1
+14250-14350 kHz;C;AMATEUR;Euroloop (Loop up-link);B13-02-2-1
+14250-14350 kHz;C;AMATEUR;Ultra Low Power Animal Implantable Devices;B14-03-1-1
+14250-14350 kHz;C;AMATEUR;Amateur;D02-09-1-1
+14350-14990 kHz;S;FIXED;Inductive applications (5000-30000 kHz);B06-17-3-1
+14350-14990 kHz;S;FIXED;Euroloop (Loop up-link);B13-02-2-1
+14350-14990 kHz;S;FIXED;Ultra Low Power Animal Implantable Devices;B14-03-1-1
+14350-14990 kHz;S;FIXED;Defence systems;
+14350-14990 kHz;S;FIXED;Point-to-Point;
+14990-15010 kHz;S;Not allocated;Inductive applications (5000-30000 kHz);B06-17-3-1
+14990-15010 kHz;S;Not allocated;Euroloop (Loop up-link);B13-02-2-1
+14990-15010 kHz;S;Not allocated;Ultra Low Power Animal Implantable Devices;B14-03-1-1
+15010-15100 kHz;M;AERONAUTICAL MOBILE (OR);Inductive applications (5000-30000 kHz);B06-17-3-1
+15010-15100 kHz;M;AERONAUTICAL MOBILE (OR);Euroloop (Loop up-link);B13-02-2-1
+15010-15100 kHz;M;AERONAUTICAL MOBILE (OR);Ultra Low Power Animal Implantable Devices;B14-03-1-1
+15010-15100 kHz;M;AERONAUTICAL MOBILE (OR);Aeronautical military systems;
+15100-15600 kHz;C;BROADCASTING;Inductive applications (5000-30000 kHz);B06-17-3-1
+15100-15600 kHz;C;BROADCASTING;Euroloop (Loop up-link);B13-02-2-1
+15100-15600 kHz;C;BROADCASTING;Ultra Low Power Animal Implantable Devices;B14-03-1-1
+15100-15600 kHz;C;BROADCASTING;AM sound analogue;
+15600-15800 kHz;C;Not allocated;Inductive applications (5000-30000 kHz);B06-17-3-1
+15600-15800 kHz;C;Not allocated;Euroloop (Loop up-link);B13-02-2-1
+15600-15800 kHz;C;Not allocated;Ultra Low Power Animal Implantable Devices;B14-03-1-1
+15800-16360 kHz;S;FIXED;Inductive applications (5000-30000 kHz);B06-17-3-1
+15800-16360 kHz;S;FIXED;Euroloop (Loop up-link);B13-02-2-1
+15800-16360 kHz;S;FIXED;Ultra Low Power Animal Implantable Devices;B14-03-1-1
+15800-16360 kHz;S;FIXED;Point-to-Point;
+16360-16549 kHz;S;MARITIME MOBILE;Inductive applications (5000-30000 kHz);B06-17-3-1
+16360-16549 kHz;S;MARITIME MOBILE;Euroloop (Loop up-link);B13-02-2-1
+16360-16549 kHz;S;MARITIME MOBILE;Ultra Low Power Animal Implantable Devices;B14-03-1-1
+16360-16549 kHz;S;MARITIME MOBILE;Maritime communications;
+16549-16617 kHz;M;MARITIME MOBILE;Inductive applications (5000-30000 kHz);B06-17-3-1
+16549-16617 kHz;M;MARITIME MOBILE;Euroloop (Loop up-link);B13-02-2-1
+16549-16617 kHz;M;MARITIME MOBILE;Ultra Low Power Animal Implantable Devices;B14-03-1-1
+16549-16617 kHz;M;MARITIME MOBILE;Maritime military systems;
+16617-17410 kHz;S;MARITIME MOBILE;Inductive applications (5000-30000 kHz);B06-17-3-1
+16617-17410 kHz;S;MARITIME MOBILE;Euroloop (Loop up-link);B13-02-2-1
+16617-17410 kHz;S;MARITIME MOBILE;Ultra Low Power Animal Implantable Devices;B14-03-1-1
+16617-17410 kHz;S;MARITIME MOBILE;Maritime communications;
+17410-17480 kHz;S;FIXED;Inductive applications (5000-30000 kHz);B06-17-3-1
+17410-17480 kHz;S;FIXED;Euroloop (Loop up-link);B13-02-2-1
+17410-17480 kHz;S;FIXED;Ultra Low Power Animal Implantable Devices;B14-03-1-1
+17410-17480 kHz;S;FIXED;Point-to-Point;
+17480-17550 kHz;C;Not allocated;Inductive applications (5000-30000 kHz);B06-17-3-1
+17480-17550 kHz;C;Not allocated;Euroloop (Loop up-link);B13-02-2-1
+17480-17550 kHz;C;Not allocated;Ultra Low Power Animal Implantable Devices;B14-03-1-1
+17550-17900 kHz;C;BROADCASTING;Inductive applications (5000-30000 kHz);B06-17-3-1
+17550-17900 kHz;C;BROADCASTING;Euroloop (Loop up-link);B13-02-2-1
+17550-17900 kHz;C;BROADCASTING;Ultra Low Power Animal Implantable Devices;B14-03-1-1
+17550-17900 kHz;C;BROADCASTING;AM sound analogue;
+17900-17970 kHz;C;AERONAUTICAL MOBILE (R);Inductive applications (5000-30000 kHz);B06-17-3-1
+17900-17970 kHz;C;AERONAUTICAL MOBILE (R);Euroloop (Loop up-link);B13-02-2-1
+17900-17970 kHz;C;AERONAUTICAL MOBILE (R);Ultra Low Power Animal Implantable Devices;B14-03-1-1
+17900-17970 kHz;C;AERONAUTICAL MOBILE (R);Aeronautical communications;
+17970-18030 kHz;M;AERONAUTICAL MOBILE (OR);Inductive applications (5000-30000 kHz);B06-17-3-1
+17970-18030 kHz;M;AERONAUTICAL MOBILE (OR);Euroloop (Loop up-link);B13-02-2-1
+17970-18030 kHz;M;AERONAUTICAL MOBILE (OR);Ultra Low Power Animal Implantable Devices;B14-03-1-1
+17970-18030 kHz;M;AERONAUTICAL MOBILE (OR);Aeronautical military systems;
+18030-18052 kHz;S;FIXED;Inductive applications (5000-30000 kHz);B06-17-3-1
+18030-18052 kHz;S;FIXED;Euroloop (Loop up-link);B13-02-2-1
+18030-18052 kHz;S;FIXED;Ultra Low Power Animal Implantable Devices;B14-03-1-1
+18030-18052 kHz;S;FIXED;Point-to-Point;
+18052-18068 kHz;S;Not allocated;Inductive applications (5000-30000 kHz);B06-17-3-1
+18052-18068 kHz;S;Not allocated;Euroloop (Loop up-link);B13-02-2-1
+18052-18068 kHz;S;Not allocated;Ultra Low Power Animal Implantable Devices;B14-03-1-1
+18068-18168 kHz;C;AMATEUR;Inductive applications (5000-30000 kHz);B06-17-3-1
+18068-18168 kHz;C;AMATEUR;Euroloop (Loop up-link);B13-02-2-1
+18068-18168 kHz;C;AMATEUR;Ultra Low Power Animal Implantable Devices;B14-03-1-1
+18068-18168 kHz;C;AMATEUR;Amateur;D02-10-1-1
+18068-18168 kHz;C;AMATEUR;Amateur-satellite;
+18068-18168 kHz;C;AMATEUR-SATELLITE;Inductive applications (5000-30000 kHz);B06-17-3-1
+18068-18168 kHz;C;AMATEUR-SATELLITE;Euroloop (Loop up-link);B13-02-2-1
+18068-18168 kHz;C;AMATEUR-SATELLITE;Ultra Low Power Animal Implantable Devices;B14-03-1-1
+18068-18168 kHz;C;AMATEUR-SATELLITE;Amateur;D02-10-1-1
+18068-18168 kHz;C;AMATEUR-SATELLITE;Amateur-satellite;
+18168-18780 kHz;S;FIXED;Inductive applications (5000-30000 kHz);B06-17-3-1
+18168-18780 kHz;S;FIXED;Euroloop (Loop up-link);B13-02-2-1
+18168-18780 kHz;S;FIXED;Ultra Low Power Animal Implantable Devices;B14-03-1-1
+18168-18780 kHz;S;FIXED;Defence systems;
+18168-18780 kHz;S;FIXED;Point-to-Point;
+18780-18846 kHz;S;MARITIME MOBILE;Inductive applications (5000-30000 kHz);B06-17-3-1
+18780-18846 kHz;S;MARITIME MOBILE;Euroloop (Loop up-link);B13-02-2-1
+18780-18846 kHz;S;MARITIME MOBILE;Ultra Low Power Animal Implantable Devices;B14-03-1-1
+18780-18846 kHz;S;MARITIME MOBILE;Maritime communications;
+18846-18870 kHz;M;MARITIME MOBILE;Inductive applications (5000-30000 kHz);B06-17-3-1
+18846-18870 kHz;M;MARITIME MOBILE;Euroloop (Loop up-link);B13-02-2-1
+18846-18870 kHz;M;MARITIME MOBILE;Ultra Low Power Animal Implantable Devices;B14-03-1-1
+18846-18870 kHz;M;MARITIME MOBILE;Maritime military systems;
+18870-18900 kHz;S;MARITIME MOBILE;Inductive applications (5000-30000 kHz);B06-17-3-1
+18870-18900 kHz;S;MARITIME MOBILE;Euroloop (Loop up-link);B13-02-2-1
+18870-18900 kHz;S;MARITIME MOBILE;Ultra Low Power Animal Implantable Devices;B14-03-1-1
+18870-18900 kHz;S;MARITIME MOBILE;Maritime communications;
+18900-19020 kHz;C;Not allocated;Inductive applications (5000-30000 kHz);B06-17-3-1
+18900-19020 kHz;C;Not allocated;Euroloop (Loop up-link);B13-02-2-1
+18900-19020 kHz;C;Not allocated;Ultra Low Power Animal Implantable Devices;B14-03-1-1
+19020-19680 kHz;S;FIXED;Inductive applications (5000-30000 kHz);B06-17-3-1
+19020-19680 kHz;S;FIXED;Euroloop (Loop up-link);B13-02-2-1
+19020-19680 kHz;S;FIXED;Ultra Low Power Animal Implantable Devices;B14-03-1-1
+19020-19680 kHz;S;FIXED;Point-to-Point;
+19680-19800 kHz;S;MARITIME MOBILE;Inductive applications (5000-30000 kHz);B06-17-3-1
+19680-19800 kHz;S;MARITIME MOBILE;Euroloop (Loop up-link);B13-02-2-1
+19680-19800 kHz;S;MARITIME MOBILE;Ultra Low Power Animal Implantable Devices;B14-03-1-1
+19680-19800 kHz;S;MARITIME MOBILE;Defence systems;
+19800-19990 kHz;S;FIXED;Inductive applications (5000-30000 kHz);B06-17-3-1
+19800-19990 kHz;S;FIXED;Euroloop (Loop up-link);B13-02-2-1
+19800-19990 kHz;S;FIXED;Ultra Low Power Animal Implantable Devices;B14-03-1-1
+19800-19990 kHz;S;FIXED;Point-to-Point;
+19990-20010 kHz;S;Not allocated;Inductive applications (5000-30000 kHz);B06-17-3-1
+19990-20010 kHz;S;Not allocated;Euroloop (Loop up-link);B13-02-2-1
+19990-20010 kHz;S;Not allocated;Ultra Low Power Animal Implantable Devices (12500-20000 kHz);B14-03-1-1
+20010-21000 kHz;S;FIXED;Inductive applications (5000-30000 kHz);B06-17-3-1
+20010-21000 kHz;S;FIXED;Euroloop (Loop up-link);B13-02-2-1
+20010-21000 kHz;S;FIXED;Point-to-Point;
+21000-21450 kHz;C;AMATEUR;Inductive applications (5000-30000 kHz);B06-17-3-1
+21000-21450 kHz;C;AMATEUR;Euroloop (Loop up-link);B13-02-2-1
+21000-21450 kHz;C;AMATEUR;Amateur;D02-11-1-1
+21000-21450 kHz;C;AMATEUR;Amateur-satellite;
+21000-21450 kHz;C;AMATEUR-SATELLITE;Inductive applications (5000-30000 kHz);B06-17-3-1
+21000-21450 kHz;C;AMATEUR-SATELLITE;Euroloop (Loop up-link);B13-02-2-1
+21000-21450 kHz;C;AMATEUR-SATELLITE;Amateur;D02-11-1-1
+21000-21450 kHz;C;AMATEUR-SATELLITE;Amateur-satellite;
+21450-21850 kHz;C;BROADCASTING;Inductive applications (5000-30000 kHz);B06-17-3-1
+21450-21850 kHz;C;BROADCASTING;Euroloop (Loop up-link);B13-02-2-1
+21450-21850 kHz;C;BROADCASTING;AM sound analogue;
+21850-21870 kHz;S;FIXED;Inductive applications (5000-30000 kHz);B06-17-3-1
+21850-21870 kHz;S;FIXED;Euroloop (Loop up-link);B13-02-2-1
+21850-21870 kHz;S;FIXED;Point-to-Point;
+21870-21924 kHz;S;Not allocated;Inductive applications (5000-30000 kHz);B06-17-3-1
+21870-21924 kHz;S;Not allocated;Euroloop (Loop up-link);B13-02-2-1
+21924-22000 kHz;C;AERONAUTICAL MOBILE (R);Inductive applications (5000-30000 kHz);B06-17-3-1
+21924-22000 kHz;C;AERONAUTICAL MOBILE (R);Euroloop (Loop up-link);B13-02-2-1
+21924-22000 kHz;C;AERONAUTICAL MOBILE (R);Aeronautical communications;
+22000-22180 kHz;S;MARITIME MOBILE;Inductive applications (5000-30000 kHz);B06-17-3-1
+22000-22180 kHz;S;MARITIME MOBILE;Euroloop (Loop up-link);B13-02-2-1
+22000-22180 kHz;S;MARITIME MOBILE;Maritime communications;
+22180-22240 kHz;M;MARITIME MOBILE;Inductive applications (5000-30000 kHz);B06-17-3-1
+22180-22240 kHz;M;MARITIME MOBILE;Euroloop (Loop up-link);B13-02-2-1
+22180-22240 kHz;M;MARITIME MOBILE;Maritime military systems;
+22240-22855 kHz;S;MARITIME MOBILE;Inductive applications (5000-30000 kHz);B06-17-3-1
+22240-22855 kHz;S;MARITIME MOBILE;Euroloop (Loop up-link);B13-02-2-1
+22240-22855 kHz;S;MARITIME MOBILE;Maritime communications;
+22855-23200 kHz;S;FIXED;Inductive applications (5000-30000 kHz);B06-17-3-1
+22855-23200 kHz;S;FIXED;Euroloop (7300-23000 kHz) (Loop up-link);B13-02-2-1
+22855-23200 kHz;S;FIXED;Defence systems;
+22855-23200 kHz;S;FIXED;Point-to-Point;
+23200-23350 kHz;S;AERONAUTICAL MOBILE (OR);Inductive applications (5000-30000 kHz);B06-17-3-1
+23200-23350 kHz;S;AERONAUTICAL MOBILE (OR);Defence systems;
+23200-23350 kHz;S;FIXED;Inductive applications (5000-30000 kHz);B06-17-3-1
+23200-23350 kHz;S;FIXED;Defence systems;
+23350-24890 kHz;S;FIXED;Inductive applications (5000-30000 kHz);B06-17-3-1
+23350-24890 kHz;S;FIXED;Defence systems;
+23350-24890 kHz;S;FIXED;Point-to-Point;
+24890-24990 kHz;C;AMATEUR;Inductive applications (5000-30000 kHz);B06-17-3-1
+24890-24990 kHz;C;AMATEUR;Amateur;D02-12-1-1
+24890-24990 kHz;C;AMATEUR;Amateur-satellite;
+24890-24990 kHz;C;AMATEUR-SATELLITE;Inductive applications (5000-30000 kHz);B06-17-3-1
+24890-24990 kHz;C;AMATEUR-SATELLITE;Amateur;D02-12-1-1
+24890-24990 kHz;C;AMATEUR-SATELLITE;Amateur-satellite;
+24990-25070 kHz;S;Not allocated;Inductive applications (5000-30000 kHz);B06-17-3-1
+24990-25070 kHz;S;Not allocated;Defence systems;
+25070-25121 kHz;S;MARITIME MOBILE;Inductive applications (5000-30000 kHz);B06-17-3-1
+25070-25121 kHz;S;MARITIME MOBILE;Maritime communications;
+25121-25161.25 kHz;M;MARITIME MOBILE;Inductive applications (5000-30000 kHz);B06-17-3-1
+25121-25161.25 kHz;M;MARITIME MOBILE;Maritime military systems;
+25161.25-25210 kHz;S;MARITIME MOBILE;Inductive applications (5000-30000 kHz);B06-17-3-1
+25161.25-25210 kHz;S;MARITIME MOBILE;Maritime communications;
+25210-25550 kHz;S;FIXED;Inductive applications (5000-30000 kHz);B06-17-3-1
+25210-25550 kHz;S;FIXED;Defence systems;
+25210-25550 kHz;S;FIXED;Point-to-Point;
+25550-25670 kHz;C;Not allocated;Inductive applications (5000-30000 kHz);B06-17-3-1
+25670-26100 kHz;C;BROADCASTING;Inductive applications (5000-30000 kHz);B06-17-3-1
+25670-26100 kHz;C;BROADCASTING;AM sound analogue;
+26100-26175 kHz;S;MARITIME MOBILE;Inductive applications (5000-30000 kHz);B06-17-3-1
+26175-27500 kHz;S;FIXED;Inductive applications (5000-30000 kHz);B06-17-3-1
+26175-27500 kHz;S;FIXED;Defence systems;
+26175-27500 kHz;S;FIXED;Point-to-Point;
+26175-27500 kHz;S;FIXED;On-site paging (26500-26960 kHz);A03-02-2-1
+26175-27500 kHz;S;FIXED;Inductive applications (26957-27283 kHz);B06-23-3-1
+26175-27500 kHz;S;FIXED;ISM (26957-27283 kHz);
+26175-27500 kHz;S;FIXED;Non-specific Short Range Devices (26957-27283 kHz);B01-03-3-1
+26175-27500 kHz;S;FIXED;AM CB (26960-26990 kHz);D01-01-1-2
+26175-27500 kHz;S;FIXED;Model control (26990-27000 kHz);B05-01A-2-1
+26175-27500 kHz;S;FIXED;Non-specific Short Range Devices (26990-27000 kHz);B01-04-3-1
+26175-27500 kHz;S;FIXED;AM CB (27000-27040 kHz);D01-01-1-2
+26175-27500 kHz;S;FIXED;Model control (27040-27050 kHz);B05-01B-2-1
+26175-27500 kHz;S;FIXED;Non-specific Short Range Devices (27040-27050 kHz);B01-05-3-1
+26175-27500 kHz;S;FIXED;AM CB (27050-27090 kHz);D01-01-1-2
+26175-27500 kHz;S;FIXED;Eurobalise (27090-27100 kHz) (Balise tele-powering and down-link);B13-03-2-1
+26175-27500 kHz;S;FIXED;Model control (27090-27100 kHz);B05-01C-2-1
+26175-27500 kHz;S;FIXED;Non-specific Short Range Devices (27090-27100 kHz);B01-06-3-1
+26175-27500 kHz;S;FIXED;AM CB (27100-27140 kHz);D01-01-1-2
+26175-27500 kHz;S;FIXED;Model control (27140-27150 kHz);B05-01D-2-1
+26175-27500 kHz;S;FIXED;Non-specific Short Range Devices (27140-27150 kHz);B01-07-3-1
+26175-27500 kHz;S;FIXED;AM CB (27150-27190 kHz);D01-01-1-2
+26175-27500 kHz;S;FIXED;Model control (27190-27200 kHz);B05-01E-2-1
+26175-27500 kHz;S;FIXED;Non-specific Short Range Devices (27190-27200 kHz);B01-08-3-1
+26175-27500 kHz;S;FIXED;AM CB (27200-27410 kHz);D01-01-1-2
+26175-27500 kHz;S;MOBILE except aeronautical mobile;Inductive applications (5000-30000 kHz);B06-17-3-1
+26175-27500 kHz;S;MOBILE except aeronautical mobile;Defence systems;
+26175-27500 kHz;S;MOBILE except aeronautical mobile;Point-to-Point;
+26175-27500 kHz;S;MOBILE except aeronautical mobile;On-site paging (26500-26960 kHz);A03-02-2-1
+26175-27500 kHz;S;MOBILE except aeronautical mobile;Inductive applications (26957-27283 kHz);B06-23-3-1
+26175-27500 kHz;S;MOBILE except aeronautical mobile;ISM (26957-27283 kHz);
+26175-27500 kHz;S;MOBILE except aeronautical mobile;Non-specific Short Range Devices (26957-27283 kHz);B01-03-3-1
+26175-27500 kHz;S;MOBILE except aeronautical mobile;AM CB (26960-26990 kHz);D01-01-1-2
+26175-27500 kHz;S;MOBILE except aeronautical mobile;Model control (26990-27000 kHz);B05-01A-2-1
+26175-27500 kHz;S;MOBILE except aeronautical mobile;Non-specific Short Range Devices (26990-27000 kHz);B01-04-3-1
+26175-27500 kHz;S;MOBILE except aeronautical mobile;AM CB (27000-27040 kHz);D01-01-1-2
+26175-27500 kHz;S;MOBILE except aeronautical mobile;Model control (27040-27050 kHz);B05-01B-2-1
+26175-27500 kHz;S;MOBILE except aeronautical mobile;Non-specific Short Range Devices (27040-27050 kHz);B01-05-3-1
+26175-27500 kHz;S;MOBILE except aeronautical mobile;AM CB (27050-27090 kHz);D01-01-1-2
+26175-27500 kHz;S;MOBILE except aeronautical mobile;Eurobalise (27090-27100 kHz) (Balise tele-powering and down-link);B13-03-2-1
+26175-27500 kHz;S;MOBILE except aeronautical mobile;Model control (27090-27100 kHz);B05-01C-2-1
+26175-27500 kHz;S;MOBILE except aeronautical mobile;Non-specific Short Range Devices (27090-27100 kHz);B01-06-3-1
+26175-27500 kHz;S;MOBILE except aeronautical mobile;AM CB (27100-27140 kHz);D01-01-1-2
+26175-27500 kHz;S;MOBILE except aeronautical mobile;Model control (27140-27150 kHz);B05-01D-2-1
+26175-27500 kHz;S;MOBILE except aeronautical mobile;Non-specific Short Range Devices (27140-27150 kHz);B01-07-3-1
+26175-27500 kHz;S;MOBILE except aeronautical mobile;AM CB (27150-27190 kHz);D01-01-1-2
+26175-27500 kHz;S;MOBILE except aeronautical mobile;Model control (27190-27200 kHz);B05-01E-2-1
+26175-27500 kHz;S;MOBILE except aeronautical mobile;Non-specific Short Range Devices (27190-27200 kHz);B01-08-3-1
+26175-27500 kHz;S;MOBILE except aeronautical mobile;AM CB (27200-27410 kHz);D01-01-1-2
+27.5-28 MHz;S;Not allocated;Inductive applications (5000-30000 kHz);B06-17-3-1
+28-29.7 MHz;C;AMATEUR;Inductive applications (5000-30000 kHz);B06-17-3-1
+28-29.7 MHz;C;AMATEUR;Amateur;D02-13-1-1
+28-29.7 MHz;C;AMATEUR;Amateur-satellite;
+28-29.7 MHz;C;AMATEUR-SATELLITE;Inductive applications (5000-30000 kHz);B06-17-3-1
+28-29.7 MHz;C;AMATEUR-SATELLITE;Amateur;D02-13-1-1
+28-29.7 MHz;C;AMATEUR-SATELLITE;Amateur-satellite;
+29.7-30.025 MHz;M;MOBILE;Inductive applications (5000-30000 kHz) (5000-30000 kHz);B06-17-3-1
+29.7-30.025 MHz;M;MOBILE;Defence systems;
+29.7-30.025 MHz;M;MOBILE;Ultra Low Power Medical Membrane Implants (30-37.5 MHz);B14-04-2-2
+30.025-30.2875 MHz;C;MOBILE;Ultra Low Power Medical Membrane Implants;B14-04-2-2
+30.025-30.2875 MHz;C;MOBILE;PMR (Digital);A02-01-2-1
+30.025-30.2875 MHz;C;MOBILE;PMR (Analogue);A01-01-2-1
+30.025-30.2875 MHz;C;MOBILE;Radio microphones;B10-01-3-1
+30.2875-32.4625 MHz;M;MOBILE;Ultra Low Power Medical Membrane Implants;B14-04-2-2
+30.2875-32.4625 MHz;M;MOBILE;Defence systems;
+32.4625-33.2875 MHz;C;MOBILE;Ultra Low Power Medical Membrane Implants;B14-04-2-2
+32.4625-33.2875 MHz;C;MOBILE;PMR (Digital);A02-01-2-1
+32.4625-33.2875 MHz;C;MOBILE;PMR (Analogue);A01-01-2-1
+32.4625-33.2875 MHz;C;MOBILE;Radio microphones;B10-01-3-1
+33.2875-34.0625 MHz;M;MOBILE;Ultra Low Power Medical Membrane Implants;B14-04-2-2
+33.2875-34.0625 MHz;M;MOBILE;Defence systems;
+34.0625-36.9875 MHz;C;MOBILE;Ultra Low Power Medical Membrane Implants;B14-04-2-2
+34.0625-36.9875 MHz;C;MOBILE;Radio microphones;B10-01-3-1
+34.0625-36.9875 MHz;C;MOBILE;PMR (Digital);A02-01-2-1
+34.0625-36.9875 MHz;C;MOBILE;PMR (Analogue);A01-01-2-1
+34.0625-36.9875 MHz;C;MOBILE;Flying model control (34.995-35.335 MHz);B05-02-2-1
+34.0625-36.9875 MHz;C;MOBILE;Wireless audio/multimedia (36.6-36.8 MHz);B12-01-3-1
+36.9875-37.2625 MHz;S;MOBILE;Ultra Low Power Medical Membrane Implants;B14-04-2-2
+36.9875-37.2625 MHz;S;MOBILE;Radio microphones;B10-01-3-1
+36.9875-37.2625 MHz;S;MOBILE;Defence systems;
+36.9875-37.2625 MHz;S;MOBILE;Wireless audio/multimedia (37-37.2 MHz);B12-02-3-1
+37.2625-37.7125 MHz;M;MOBILE;Ultra Low Power Medical Membrane Implants (30-37.5 MHz);B14-04-2-2
+37.2625-37.7125 MHz;M;MOBILE;Defence systems;
+37.7125-39.925 MHz;C;MOBILE;Radio microphones;B10-01-3-1
+37.7125-39.925 MHz;C;MOBILE;Wireless audio/multimedia (37.8-38 MHz);B12-03-3-1
+39.925-40.5625 MHz;M;MOBILE;Defence systems;
+40.5625-40.7 MHz;C;MOBILE;Radio microphones;B10-01-3-1
+40.5625-40.7 MHz;C;MOBILE;Flying model control (40.57-40.66 MHz);B05-03-2-1
+40.5625-40.7 MHz;C;MOBILE;ISM (40.66-40.7 MHz);
+40.5625-40.7 MHz;C;MOBILE;Non-specific Short Range Devices (40.66-40.7 MHz);B01-09-4-1
+40.5625-40.7 MHz;C;MOBILE;Model control (40.66-40.67 MHz);B05-04A-2-1
+40.5625-40.7 MHz;C;MOBILE;Model control (40.67-40.68 MHz);B05-04B-2-1
+40.5625-40.7 MHz;C;MOBILE;Model control (40.68-40.69 MHz);B05-04C-2-1
+40.5625-40.7 MHz;C;MOBILE;Model control (40.69-40.7 MHz);B05-04D-2-1
+40.7-40.7875 MHz;C;MOBILE;On-site paging (40.7-40.78 MHz);A03-03-2-1
+40.7875-40.975 MHz;M;MOBILE;Defence systems;
+40.975-41.2125 MHz;C;MOBILE;Radio microphones;B10-01-3-1
+40.975-41.2125 MHz;C;MOBILE;On-site paging (41.015-41.035 MHz);A03-04-2-1
+40.975-41.2125 MHz;C;MOBILE;On-site paging (41.065-41.145 MHz);A03-05-2-1
+40.975-41.2125 MHz;C;MOBILE;On-site paging (41.155-41.185 MHz);A03-06-2-1
+41.2125-41.725 MHz;M;MOBILE;Defence systems;
+41.725-41.9875 MHz;C;MOBILE;Radio microphones;B10-01-3-1
+41.725-41.9875 MHz;C;MOBILE;On-site paging (41.895-41.905 MHz);A03-07-2-1
+41.9875-47 MHz;M;MOBILE;Defence systems;
+47-68 MHz;S;LAND MOBILE;Land military systems;
+47-68 MHz;S;LAND MOBILE;Amateur (50-52 MHz);D02-14-1-1
+68-69.945 MHz;M;MOBILE except aeronautical mobile;Defence systems;
+69.945-69.955 MHz;S;MOBILE except aeronautical mobile;Defence systems;
+69.945-69.955 MHz;S;MOBILE except aeronautical mobile;Amateur (69.950 MHz);D02-15-1-1
+69.945-69.955 MHz;S;Amateur;Defence systems;
+69.945-69.955 MHz;S;Amateur;Amateur (69.950 MHz);D02-15-1-1
+69.955-70.1125 MHz;M;MOBILE except aeronautical mobile;Defence systems;
+69.955-70.1125 MHz;M;MOBILE except aeronautical mobile;Flying model control (70.0125-70.2625 MHz);B05-05-2-1
+70.1125-70.4125 MHz;C;MOBILE except aeronautical mobile;Flying model control (70.0125-70.2625 MHz);B05-05-2-1
+70.1125-70.4125 MHz;C;MOBILE except aeronautical mobile;Amateur;D02-16-1-1
+70.1125-70.4125 MHz;C;MOBILE except aeronautical mobile;PMR (Digital);A02-02-2-1
+70.1125-70.4125 MHz;C;MOBILE except aeronautical mobile;PMR (Analogue);A01-02-2-1
+70.4125-71.9875 MHz;M;MOBILE except aeronautical mobile;Defence systems;
+71.9875-72.5125 MHz;C;MOBILE except aeronautical mobile;PMR (Digital);A02-02-2-1
+71.9875-72.5125 MHz;C;MOBILE except aeronautical mobile;PMR (Analogue);A01-02-2-1
+72.5125-74.7875 MHz;M;MOBILE except aeronautical mobile;Defence systems;
+74.8-75.2 MHz;C;AERONAUTICAL RADIONAVIGATION;ILS;
+75.2-78.6875 MHz;C;MOBILE except aeronautical mobile;PMR (Digital);A02-02-2-1
+75.2-78.6875 MHz;C;MOBILE except aeronautical mobile;PMR (Analogue);A01-02-2-1
+78.6875-81.525 MHz;M;MOBILE except aeronautical mobile;Defence systems;
+81.525-82.5 MHz;C;MOBILE except aeronautical mobile;PMR (Digital);A02-02-2-1
+81.525-82.5 MHz;C;MOBILE except aeronautical mobile;PMR (Analogue);A01-02-2-1
+82.5-84.9875 MHz;M;MOBILE except aeronautical mobile;Defence systems;
+84.9875-87.5 MHz;C;MOBILE except aeronautical mobile;PMR (Digital);A02-02-2-1
+84.9875-87.5 MHz;C;MOBILE except aeronautical mobile;PMR (Analogue);A01-02-2-1
+87.5-108 MHz;C;BROADCASTING;FM sound analogue;F01-01-1-1
+87.5-108 MHz;C;BROADCASTING;Wireless audio/multimedia;B12-07-3-1
+108-117.975 MHz;C;AERONAUTICAL RADIONAVIGATION;ILS;
+108-117.975 MHz;C;AERONAUTICAL RADIONAVIGATION;VOR;
+117.975-121.45 MHz;C;AERONAUTICAL MOBILE (R);Aeronautical communications;
+121.45-121.55 MHz;S;AERONAUTICAL MOBILE (R);EPIRBs (GMDSS-non SOLAS);C02-06-1-1
+121.45-121.55 MHz;S;AERONAUTICAL MOBILE (R);EPIRBs (GMDSS-SOLAS);C01-06-1-1
+121.55-137 MHz;C;AERONAUTICAL MOBILE (R);Aeronautical communications;
+137-137.025 MHz;C;METEOROLOGICAL-SATELLITE (space-to-Earth);Space Operations;
+137-137.025 MHz;C;METEOROLOGICAL-SATELLITE (space-to-Earth);S-PCS;
+137-137.025 MHz;C;METEOROLOGICAL-SATELLITE (space-to-Earth);Weather satellites;
+137-137.025 MHz;C;MOBILE-SATELLITE (space-to-Earth);Space Operations;
+137-137.025 MHz;C;MOBILE-SATELLITE (space-to-Earth);S-PCS;
+137-137.025 MHz;C;MOBILE-SATELLITE (space-to-Earth);Weather satellites;
+137-137.025 MHz;C;SPACE OPERATION (space-to-Earth);Space Operations;
+137-137.025 MHz;C;SPACE OPERATION (space-to-Earth);S-PCS;
+137-137.025 MHz;C;SPACE OPERATION (space-to-Earth);Weather satellites;
+137-137.025 MHz;C;SPACE RESEARCH (space-to-Earth);Space Operations;
+137-137.025 MHz;C;SPACE RESEARCH (space-to-Earth);S-PCS;
+137-137.025 MHz;C;SPACE RESEARCH (space-to-Earth);Weather satellites;
+137.025-137.175 MHz;C;METEOROLOGICAL-SATELLITE (space-to-Earth);Space Operations;
+137.025-137.175 MHz;C;METEOROLOGICAL-SATELLITE (space-to-Earth);S-PCS;
+137.025-137.175 MHz;C;METEOROLOGICAL-SATELLITE (space-to-Earth);Weather satellites;
+137.025-137.175 MHz;C;SPACE OPERATION (space-to-Earth);Space Operations;
+137.025-137.175 MHz;C;SPACE OPERATION (space-to-Earth);S-PCS;
+137.025-137.175 MHz;C;SPACE OPERATION (space-to-Earth);Weather satellites;
+137.025-137.175 MHz;C;SPACE RESEARCH (space-to-Earth);Space Operations;
+137.025-137.175 MHz;C;SPACE RESEARCH (space-to-Earth);S-PCS;
+137.025-137.175 MHz;C;SPACE RESEARCH (space-to-Earth);Weather satellites;
+137.025-137.175 MHz;C;Mobile-Satellite (space-to-Earth);Space Operations;
+137.025-137.175 MHz;C;Mobile-Satellite (space-to-Earth);S-PCS;
+137.025-137.175 MHz;C;Mobile-Satellite (space-to-Earth);Weather satellites;
+137.175-137.875 MHz;C;METEOROLOGICAL-SATELLITE (space-to-Earth);Space Operations;
+137.175-137.875 MHz;C;METEOROLOGICAL-SATELLITE (space-to-Earth);S-PCS;
+137.175-137.875 MHz;C;METEOROLOGICAL-SATELLITE (space-to-Earth);Weather satellites;
+137.175-137.875 MHz;C;MOBILE-SATELLITE (space-to-Earth);Space Operations;
+137.175-137.875 MHz;C;MOBILE-SATELLITE (space-to-Earth);S-PCS;
+137.175-137.875 MHz;C;MOBILE-SATELLITE (space-to-Earth);Weather satellites;
+137.175-137.875 MHz;C;SPACE OPERATION (space-to-Earth);Space Operations;
+137.175-137.875 MHz;C;SPACE OPERATION (space-to-Earth);S-PCS;
+137.175-137.875 MHz;C;SPACE OPERATION (space-to-Earth);Weather satellites;
+137.175-137.875 MHz;C;SPACE RESEARCH (space-to-Earth);Space Operations;
+137.175-137.875 MHz;C;SPACE RESEARCH (space-to-Earth);S-PCS;
+137.175-137.875 MHz;C;SPACE RESEARCH (space-to-Earth);Weather satellites;
+137.875-138 MHz;C;METEOROLOGICAL-SATELLITE (space-to-Earth);Space Operations;
+137.875-138 MHz;C;METEOROLOGICAL-SATELLITE (space-to-Earth);S-PCS;
+137.875-138 MHz;C;METEOROLOGICAL-SATELLITE (space-to-Earth);Weather satellites;
+137.875-138 MHz;C;SPACE OPERATION (space-to-Earth);Space Operations;
+137.875-138 MHz;C;SPACE OPERATION (space-to-Earth);S-PCS;
+137.875-138 MHz;C;SPACE OPERATION (space-to-Earth);Weather satellites;
+137.875-138 MHz;C;SPACE RESEARCH (space-to-Earth);Space Operations;
+137.875-138 MHz;C;SPACE RESEARCH (space-to-Earth);S-PCS;
+137.875-138 MHz;C;SPACE RESEARCH (space-to-Earth);Weather satellites;
+137.875-138 MHz;C;Mobile-Satellite (space-to-Earth);Space Operations;
+137.875-138 MHz;C;Mobile-Satellite (space-to-Earth);S-PCS;
+137.875-138 MHz;C;Mobile-Satellite (space-to-Earth);Weather satellites;
+138-144 MHz;M;AERONAUTICAL MOBILE (OR);Defence systems;
+138-144 MHz;M;LAND MOBILE;Defence systems;
+144-146 MHz;C;AMATEUR;Amateur;D02-17-1-1
+144-146 MHz;C;AMATEUR;Amateur-satellite;
+144-146 MHz;C;AMATEUR-SATELLITE;Amateur;D02-17-1-1
+144-146 MHz;C;AMATEUR-SATELLITE;Amateur-satellite;
+146-148 MHz;C;MOBILE except aeronautical mobile (R);PMR (Digital);A02-03-2-1
+146-148 MHz;C;MOBILE except aeronautical mobile (R);PMR (Analogue);A01-03-2-1
+148-149.9 MHz;C;MOBILE except aeronautical mobile (R);On-site paging;A03-08-2-1
+148-149.9 MHz;C;MOBILE except aeronautical mobile (R);PMR (Digital);A02-03-2-1
+148-149.9 MHz;C;MOBILE except aeronautical mobile (R);PMR (Analogue);A01-03-2-1
+148-149.9 MHz;C;MOBILE except aeronautical mobile (R);S-PCS;
+148-149.9 MHz;C;MOBILE-SATELLITE (Earth-to-space);On-site paging;A03-08-2-1
+148-149.9 MHz;C;MOBILE-SATELLITE (Earth-to-space);PMR (Digital);A02-03-2-1
+148-149.9 MHz;C;MOBILE-SATELLITE (Earth-to-space);PMR (Analogue);A01-03-2-1
+148-149.9 MHz;C;MOBILE-SATELLITE (Earth-to-space);S-PCS;
+149.9-150.05 MHz;C;MOBILE-SATELLITE (Earth-to-space);PMR (No new assignments);A01-03-2-1
+149.9-150.05 MHz;C;MOBILE-SATELLITE (Earth-to-space);S-PCS;
+149.9-150.05 MHz;C;RADIONAVIGATION-SATELLITE;PMR (No new assignments);A01-03-2-1
+149.9-150.05 MHz;C;RADIONAVIGATION-SATELLITE;S-PCS;
+150.05-153 MHz;C;MOBILE except aeronautical mobile;PMR (Digital);A02-03-2-1
+150.05-153 MHz;C;MOBILE except aeronautical mobile;PMR (Analogue);A01-03-2-1
+150.05-153 MHz;C;RADIO ASTRONOMY;PMR (Digital);A02-03-2-1
+150.05-153 MHz;C;RADIO ASTRONOMY;PMR (Analogue);A01-03-2-1
+153-154 MHz;C;MOBILE except aeronautical mobile (R);PMR (Digital);A02-03-2-1
+153-154 MHz;C;MOBILE except aeronautical mobile (R);PMR (Analogue);A01-03-2-1
+153-154 MHz;C;Meteorological Aids;PMR (Digital);A02-03-2-1
+153-154 MHz;C;Meteorological Aids;PMR (Analogue);A01-03-2-1
+154-156 MHz;C;MOBILE except aeronautical mobile (R);PMR (Digital);A02-03-2-1
+154-156 MHz;C;MOBILE except aeronautical mobile (R);PMR (Analogue);A01-03-2-1
+156-156.5125 MHz;C;MOBILE except aeronautical mobile (R);Maritime communications (Portable station);C03-02-2-1
+156-156.5125 MHz;C;MOBILE except aeronautical mobile (R);Maritime communications (Fixed station);C03-01-2-1
+156.5125-156.5375 MHz;C;MOBILE except aeronautical mobile (R);DSC;C04-09-1-1
+156.5375-156.7625 MHz;C;MOBILE except aeronautical mobile (R);Maritime communications (Portable station);C03-02-2-1
+156.5375-156.7625 MHz;C;MOBILE except aeronautical mobile (R);Maritime communications (Fixed station);C03-01-2-1
+156.7625-156.8375 MHz;S;MARITIME MOBILE (distress and calling);SAR (communications);
+156.8375-174 MHz;C;MOBILE except aeronautical mobile;On-site paging;A03-08-2-1
+156.8375-174 MHz;C;MOBILE except aeronautical mobile;Maritime communications (156.8375-157.45 MHz) (Fixed station);C03-01-2-1
+156.8375-174 MHz;C;MOBILE except aeronautical mobile;Maritime communications (156.8375-157.45 MHz) (Portable station);C03-02-2-1
+156.8375-174 MHz;C;MOBILE except aeronautical mobile;PMR (157.45-160.6 MHz) (Analogue);A01-03-2-1
+156.8375-174 MHz;C;MOBILE except aeronautical mobile;PMR (157.45-160.6 MHz) (Digital);A02-03-2-1
+156.8375-174 MHz;C;MOBILE except aeronautical mobile;Maritime communications (160.6-160.975 MHz) (Fixed station);C03-01-2-1
+156.8375-174 MHz;C;MOBILE except aeronautical mobile;Maritime communications (160.6-160.975 MHz) (Portable station);C03-02-2-1
+156.8375-174 MHz;C;MOBILE except aeronautical mobile;PMR (160.975-161.475 MHz) (Digital);A02-03-2-1
+156.8375-174 MHz;C;MOBILE except aeronautical mobile;PMR (160.975-161.475 MHz) (Analogue);A01-03-2-1
+156.8375-174 MHz;C;MOBILE except aeronautical mobile;Maritime communications (161.475-162.05 MHz) (Fixed station);C03-01-2-1
+156.8375-174 MHz;C;MOBILE except aeronautical mobile;Maritime communications (161.475-162.05 MHz) (Portable station);C03-02-2-1
+156.8375-174 MHz;C;MOBILE except aeronautical mobile;PMR (162.05-169.4 MHz) (Digital);A02-03-2-1
+156.8375-174 MHz;C;MOBILE except aeronautical mobile;PMR (162.05-169.4 MHz) (Analogue);A01-03-2-1
+156.8375-174 MHz;C;MOBILE except aeronautical mobile;Non-specific Short Range Devices (169.4-169.4875 MHz);B01-11-3-1
+156.8375-174 MHz;C;MOBILE except aeronautical mobile;Aids for hearing impaired (169.4-169.475 MHz) (Individual license required);B10-09-B-3-1
+156.8375-174 MHz;C;MOBILE except aeronautical mobile;Aids for hearing impaired (169.4-169.475 MHz) (License exempt);B10-09-A-3-1
+156.8375-174 MHz;C;MOBILE except aeronautical mobile;Asset tracking and tracing (169.4-169.475 MHz);B17-02-2-1
+156.8375-174 MHz;C;MOBILE except aeronautical mobile;Non-specific Short Range Devices (169.4-169.475 MHz);B01-10-3-1
+156.8375-174 MHz;C;MOBILE except aeronautical mobile;Social Alarms (169.475-169.4875 MHz);B11-01-3-1
+156.8375-174 MHz;C;MOBILE except aeronautical mobile;Aids for hearing impaired (169.4875-169.5875 MHz) (Individual license required);B10-10-B-3-1
+156.8375-174 MHz;C;MOBILE except aeronautical mobile;Aids for hearing impaired (169.4875-169.5875 MHz) (License exempt);B10-10-A-3-1
+156.8375-174 MHz;C;MOBILE except aeronautical mobile;Non-specific Short Range Devices (169.4875-169.5875 MHz);B01-12-3-1
+156.8375-174 MHz;C;MOBILE except aeronautical mobile;Non-specific Short Range Devices (169.5875-169.8125 MHz);B01-13-3-1
+156.8375-174 MHz;C;MOBILE except aeronautical mobile;Social Alarms (169.5875-169.6 MHz);B11-02-3-1
+156.8375-174 MHz;C;MOBILE except aeronautical mobile;PMR (169.825-174 MHz) (Analogue);A01-03-2-1
+156.8375-174 MHz;C;MOBILE except aeronautical mobile;PMR (169.825-174 MHz) (Digital);A02-03-2-1
+174-223 MHz;C;BROADCASTING;T-DAB;
+174-223 MHz;C;BROADCASTING;Intercom (174-216 MHz);B10-11-3-1
+174-223 MHz;C;BROADCASTING;SAP/SAB vehicular audio links (174-216 MHz);F02-01-1-1
+174-223 MHz;C;BROADCASTING;Radio microphones (174-202 MHz);B10-02-A-3-1
+174-223 MHz;C;BROADCASTING;Radio microphones (202-209 MHz);B10-02-B-3-1
+174-223 MHz;C;BROADCASTING;Radio microphones (209-216 MHz);B10-02-C-3-1
+174-223 MHz;C;LAND MOBILE;T-DAB;
+174-223 MHz;C;LAND MOBILE;Intercom (174-216 MHz);B10-11-3-1
+174-223 MHz;C;LAND MOBILE;SAP/SAB vehicular audio links (174-216 MHz);F02-01-1-1
+174-223 MHz;C;LAND MOBILE;Radio microphones (174-202 MHz);B10-02-A-3-1
+174-223 MHz;C;LAND MOBILE;Radio microphones (202-209 MHz);B10-02-B-3-1
+174-223 MHz;C;LAND MOBILE;Radio microphones (209-216 MHz);B10-02-C-3-1
+223-226.5 MHz;C;BROADCASTING;T-DAB;
+226.5-230 MHz;S;BROADCASTING;T-DAB;
+226.5-230 MHz;S;BROADCASTING;Defence systems;
+226.5-230 MHz;S;Fixed;T-DAB;
+226.5-230 MHz;S;Fixed;Defence systems;
+226.5-230 MHz;S;Mobile;T-DAB;
+226.5-230 MHz;S;Mobile;Defence systems;
+230-235 MHz;M;FIXED;Defence systems;
+230-235 MHz;M;MOBILE;Defence systems;
+235-242.95 MHz;M;FIXED;Defence systems;
+235-242.95 MHz;M;MOBILE;Defence systems;
+235-242.95 MHz;M;Mobile-Satellite;Defence systems;
+242.95-243.05 MHz;S;FIXED;EPIRBs;
+242.95-243.05 MHz;S;MOBILE;EPIRBs;
+242.95-243.05 MHz;S;Mobile-Satellite;EPIRBs;
+243.05-322 MHz;M;FIXED;Defence systems;
+243.05-322 MHz;M;MOBILE;Defence systems;
+243.05-322 MHz;M;Mobile-Satellite;Defence systems;
+322-328.6 MHz;M;FIXED;Defence systems;
+322-328.6 MHz;M;FIXED;Radio astronomy;
+322-328.6 MHz;M;MOBILE;Defence systems;
+322-328.6 MHz;M;MOBILE;Radio astronomy;
+322-328.6 MHz;M;RADIO ASTRONOMY;Defence systems;
+322-328.6 MHz;M;RADIO ASTRONOMY;Radio astronomy;
+328.6-335.4 MHz;S;AERONAUTICAL RADIONAVIGATION;ILS;
+335.4-380 MHz;M;FIXED;Defence systems;
+335.4-380 MHz;M;MOBILE;Defence systems;
+335.4-380 MHz;M;Mobile-Satellite;Defence systems;
+380-385 MHz;S;FIXED;PPDR;A04-01-2-1
+380-385 MHz;S;MOBILE;PPDR;A04-01-2-1
+380-385 MHz;S;Mobile-Satellite;PPDR;A04-01-2-1
+385-390 MHz;M;FIXED;Defence systems;
+385-390 MHz;M;MOBILE;Defence systems;
+385-390 MHz;M;Mobile-Satellite;Defence systems;
+390-395 MHz;S;FIXED;PPDR;A04-01-2-1
+390-395 MHz;S;MOBILE;PPDR;A04-01-2-1
+390-395 MHz;S;Mobile-Satellite;PPDR;A04-01-2-1
+395-399.9 MHz;M;FIXED;Defence systems;
+395-399.9 MHz;M;MOBILE;Defence systems;
+395-399.9 MHz;M;Mobile-Satellite;Defence systems;
+400.15-401 MHz;S;METEOROLOGICAL AIDS;Defence systems;
+400.15-401 MHz;S;MOBILE-SATELLITE (space-to-Earth);Defence systems;
+401-403 MHz;S;METEOROLOGICAL AIDS;Defence systems;
+401-403 MHz;S;METEOROLOGICAL AIDS;Weather satellites;
+401-403 MHz;S;METEOROLOGICAL AIDS;Active medical implants (401-402 MHz);B14-05-1-1
+401-403 MHz;S;METEOROLOGICAL AIDS;Ultra Low Power Active Medical Implants (402-405 MHz);B14-06-2-2
+401-403 MHz;S;Meteorological-Satellite (Earth-to-space);Defence systems;
+401-403 MHz;S;Meteorological-Satellite (Earth-to-space);Weather satellites;
+401-403 MHz;S;Meteorological-Satellite (Earth-to-space);Active medical implants (401-402 MHz);B14-05-1-1
+401-403 MHz;S;Meteorological-Satellite (Earth-to-space);Ultra Low Power Active Medical Implants (402-405 MHz);B14-06-2-2
+403-406 MHz;S;METEOROLOGICAL AIDS;Defence systems;
+403-406 MHz;S;METEOROLOGICAL AIDS;Ultra Low Power Active Medical Implants (402-405 MHz);B14-06-2-2
+403-406 MHz;S;METEOROLOGICAL AIDS;Active medical implants (405-406 MHz);B14-07-1-1
+406-406.1 MHz;S;MOBILE-SATELLITE (Earth-to-space);EPIRBs (GMDSS-non SOLAS);C02-07-1-1
+406-406.1 MHz;S;MOBILE-SATELLITE (Earth-to-space);EPIRBs (GMDSS-SOLAS);C01-08-1-1
+406.1-410 MHz;S;MOBILE except aeronautical mobile;PMR (Digital);A02-04-2-1
+406.1-410 MHz;S;MOBILE except aeronautical mobile;PMR (Analogue);A01-04-2-1
+406.1-410 MHz;S;MOBILE except aeronautical mobile;Radio astronomy;
+406.1-410 MHz;S;RADIO ASTRONOMY;PMR (Digital);A02-04-2-1
+406.1-410 MHz;S;RADIO ASTRONOMY;PMR (Analogue);A01-04-2-1
+406.1-410 MHz;S;RADIO ASTRONOMY;Radio astronomy;
+410-430 MHz;C;MOBILE except aeronautical mobile;PMR (Digital);A02-04-2-1
+410-430 MHz;C;MOBILE except aeronautical mobile;PMR (Analogue);A01-04-2-1
+410-430 MHz;C;MOBILE except aeronautical mobile;PAMR (415-419 MHz);A04-02-2-1
+410-430 MHz;C;MOBILE except aeronautical mobile;PAMR (425-429 MHz);A04-02-2-1
+430-440 MHz;S;AMATEUR;Amateur;D02-18-1-1
+430-440 MHz;S;AMATEUR;Defence systems;
+430-440 MHz;S;AMATEUR;Non-specific Short Range Devices (433.04-434.79 MHz);B01-18-3-1
+430-440 MHz;S;AMATEUR;Non-specific Short Range Devices (433.04-434.79 MHz);B01-17-3-1
+430-440 MHz;S;AMATEUR;Non-specific Short Range Devices (433.04-434.79 MHz);B01-16-3-1
+430-440 MHz;S;AMATEUR;ISM (433.05-434.79 MHz);
+430-440 MHz;S;AMATEUR;Non-specific Short Range Devices (433.05-434.04 MHz);B01-15-3-1
+430-440 MHz;S;AMATEUR;Non-specific Short Range Devices (433.05-434.04 MHz);B01-14-3-1
+430-440 MHz;S;AMATEUR;Amateur-satellite (435-438 MHz);
+430-440 MHz;S;RADIOLOCATION;Amateur;D02-18-1-1
+430-440 MHz;S;RADIOLOCATION;Defence systems;
+430-440 MHz;S;RADIOLOCATION;Non-specific Short Range Devices (433.04-434.79 MHz);B01-18-3-1
+430-440 MHz;S;RADIOLOCATION;Non-specific Short Range Devices (433.04-434.79 MHz);B01-17-3-1
+430-440 MHz;S;RADIOLOCATION;Non-specific Short Range Devices (433.04-434.79 MHz);B01-16-3-1
+430-440 MHz;S;RADIOLOCATION;ISM (433.05-434.79 MHz);
+430-440 MHz;S;RADIOLOCATION;Non-specific Short Range Devices (433.05-434.04 MHz);B01-15-3-1
+430-440 MHz;S;RADIOLOCATION;Non-specific Short Range Devices (433.05-434.04 MHz);B01-14-3-1
+430-440 MHz;S;RADIOLOCATION;Amateur-satellite (435-438 MHz);
+440-450 MHz;C;MOBILE except aeronautical mobile;On-site paging;A03-09-2-1
+440-450 MHz;C;MOBILE except aeronautical mobile;PMR (Digital);A02-05-2-1
+440-450 MHz;C;MOBILE except aeronautical mobile;PMR (Analogue);A01-05-2-1
+440-450 MHz;C;MOBILE except aeronautical mobile;PMR446 (Analogue) (446-446.2 MHz);D03-01-3-2
+440-450 MHz;C;MOBILE except aeronautical mobile;PMR446 (Digital) (446-446.2 MHz);D03-02-3-2
+440-450 MHz;C;MOBILE except aeronautical mobile;Medical implants (448.1125-448.4125 MHz);B09-01-3-1
+450-470 MHz;C;FIXED;On-site paging;A03-09-2-1
+450-470 MHz;C;FIXED;PMR (Digital);A02-05-2-1
+450-470 MHz;C;FIXED;PMR (Analogue);A01-05-2-1
+450-470 MHz;C;FIXED;Medical implants (457.5125-457.6125 MHz);B09-02-3-1
+450-470 MHz;C;FIXED;On-board communications (457.525-457.575 MHz);C03-03-1-1
+450-470 MHz;C;FIXED;On-board communications (467.525-467.575 MHz);C03-04-1-1
+450-470 MHz;C;FIXED;Medical implants (467.7375-467.9375 MHz);B09-03-3-1
+450-470 MHz;C;MOBILE;On-site paging;A03-09-2-1
+450-470 MHz;C;MOBILE;PMR (Digital);A02-05-2-1
+450-470 MHz;C;MOBILE;PMR (Analogue);A01-05-2-1
+450-470 MHz;C;MOBILE;Medical implants (457.5125-457.6125 MHz);B09-02-3-1
+450-470 MHz;C;MOBILE;On-board communications (457.525-457.575 MHz);C03-03-1-1
+450-470 MHz;C;MOBILE;On-board communications (467.525-467.575 MHz);C03-04-1-1
+450-470 MHz;C;MOBILE;Medical implants (467.7375-467.9375 MHz);B09-03-3-1
+470-608 MHz;C;BROADCASTING;Intercom;B10-12-A-1-1
+470-608 MHz;C;BROADCASTING;DVB-T;
+470-608 MHz;C;BROADCASTING;SAP/SAB vehicular audio links;F02-02-A-1-1
+470-608 MHz;C;BROADCASTING;Radio microphones (470-518 MHz);B10-03-A-3-1
+470-608 MHz;C;BROADCASTING;Medical implants (470.0125-470.2125 MHz);B09-04-3-1
+470-608 MHz;C;BROADCASTING;Radio microphones (518-526 MHz);B10-03-B-3-1
+470-608 MHz;C;BROADCASTING;Radio microphones (526-534 MHz);B10-03-C-3-1
+470-608 MHz;C;BROADCASTING;Radio microphones (534-542 MHz);B10-03-D-3-1
+470-608 MHz;C;BROADCASTING;Radio microphones (542-694 MHz);B10-03-E-4-1
+470-608 MHz;C;Land Mobile;Intercom;B10-12-A-1-1
+470-608 MHz;C;Land Mobile;DVB-T;
+470-608 MHz;C;Land Mobile;SAP/SAB vehicular audio links;F02-02-A-1-1
+470-608 MHz;C;Land Mobile;Radio microphones (470-518 MHz);B10-03-A-3-1
+470-608 MHz;C;Land Mobile;Medical implants (470.0125-470.2125 MHz);B09-04-3-1
+470-608 MHz;C;Land Mobile;Radio microphones (518-526 MHz);B10-03-B-3-1
+470-608 MHz;C;Land Mobile;Radio microphones (526-534 MHz);B10-03-C-3-1
+470-608 MHz;C;Land Mobile;Radio microphones (534-542 MHz);B10-03-D-3-1
+470-608 MHz;C;Land Mobile;Radio microphones (542-694 MHz);B10-03-E-4-1
+608-614 MHz;C;BROADCASTING;Intercom;B10-12-A-1-1
+608-614 MHz;C;BROADCASTING;Radio microphones;B10-03-E-4-1
+608-614 MHz;C;BROADCASTING;Radio astronomy;
+608-614 MHz;C;Land Mobile;Intercom;B10-12-A-1-1
+608-614 MHz;C;Land Mobile;Radio microphones;B10-03-E-4-1
+608-614 MHz;C;Land Mobile;Radio astronomy;
+608-614 MHz;C;Radio Astronomy;Intercom;B10-12-A-1-1
+608-614 MHz;C;Radio Astronomy;Radio microphones;B10-03-E-4-1
+608-614 MHz;C;Radio Astronomy;Radio astronomy;
+614-790 MHz;C;BROADCASTING;Intercom (470-686 MHz);B10-12-A-1-1
+614-790 MHz;C;BROADCASTING;Radio microphones (542-694 MHz);B10-03-E-4-1
+614-790 MHz;C;BROADCASTING;DVB-T;
+614-790 MHz;C;BROADCASTING;SAP/SAB vehicular audio links (614-684 MHz);F02-02-A-1-1
+614-790 MHz;C;BROADCASTING;SAP/SAB vehicular audio links (684-780 MHz);F02-02-B-1-1
+614-790 MHz;C;BROADCASTING;Intercom (686-782 MHz);B10-12-B-1-1
+614-790 MHz;C;BROADCASTING;Radio microphones (694-786 MHz);B10-03-F-1-1
+614-790 MHz;C;BROADCASTING;Radio microphones (786-789 MHz);B10-04-4-1
+614-790 MHz;C;Land Mobile;Intercom (470-686 MHz);B10-12-A-1-1
+614-790 MHz;C;Land Mobile;Radio microphones (542-694 MHz);B10-03-E-4-1
+614-790 MHz;C;Land Mobile;DVB-T;
+614-790 MHz;C;Land Mobile;SAP/SAB vehicular audio links (614-684 MHz);F02-02-A-1-1
+614-790 MHz;C;Land Mobile;SAP/SAB vehicular audio links (684-780 MHz);F02-02-B-1-1
+614-790 MHz;C;Land Mobile;Intercom (686-782 MHz);B10-12-B-1-1
+614-790 MHz;C;Land Mobile;Radio microphones (694-786 MHz);B10-03-F-1-1
+614-790 MHz;C;Land Mobile;Radio microphones (786-789 MHz);B10-04-4-1
+790-826 MHz;C;MOBILE except aeronautical mobile;Public mobile networks (791-821 MHz);
+790-826 MHz;C;MOBILE except aeronautical mobile;Radio microphones (823-826 MHz);B10-05-5-1
+826-832 MHz;C;MOBILE except aeronautical mobile;Radio microphones;B10-06-5-1
+832-862 MHz;C;MOBILE except aeronautical mobile;Public mobile networks;
+862-863 MHz;S;MOBILE except aeronautical mobile;Defence systems;
+863-868.6 MHz;C;MOBILE except aeronautical mobile;Wideband Data Transmission Systems (863-868 MHz);B16-01-1-1
+863-868.6 MHz;C;MOBILE except aeronautical mobile;Non-specific Short Range Devices (863-865 MHz);B01-19-4-1
+863-868.6 MHz;C;MOBILE except aeronautical mobile;Radio microphones (863-865 MHz);B10-07-3-1
+863-868.6 MHz;C;MOBILE except aeronautical mobile;Wireless audio/multimedia (863-865 MHz);B12-04-3-1
+863-868.6 MHz;C;MOBILE except aeronautical mobile;CT2 (864.1-868.1 MHz);G01-01-1-1
+863-868.6 MHz;C;MOBILE except aeronautical mobile;Non-specific Short Range Devices (865-868 MHz);B01-38-4-1
+863-868.6 MHz;C;MOBILE except aeronautical mobile;Non-specific Short Range Devices (865-868 MHz);B01-20-3-1
+863-868.6 MHz;C;MOBILE except aeronautical mobile;RFID (865-868 MHz) (2 W);B07-04-3-1
+863-868.6 MHz;C;MOBILE except aeronautical mobile;RFID (865-865.6 MHz) (100 mW);B07-03-2-2
+863-868.6 MHz;C;MOBILE except aeronautical mobile;RFID (867.6-868 MHz) (500 mW);B07-05-2-2
+863-868.6 MHz;C;MOBILE except aeronautical mobile;Non-specific Short Range Devices (868-868.6 MHz);B01-21-3-1
+868.6-868.7 MHz;C;MOBILE except aeronautical mobile;Alarms;B11-03-3-1
+868.7-869.2 MHz;C;MOBILE except aeronautical mobile;Non-specific Short Range Devices;B01-22-3-1
+869.2-869.25 MHz;C;MOBILE except aeronautical mobile;Social Alarms;B11-04-3-1
+869.25-869.3 MHz;C;MOBILE except aeronautical mobile;Alarms;B11-05-3-1
+869.3-869.4 MHz;C;MOBILE except aeronautical mobile;Alarms;B11-06-3-1
+869.4-869.65 MHz;C;MOBILE except aeronautical mobile;Non-specific Short Range Devices;B01-23-3-1
+869.65-869.7 MHz;C;MOBILE except aeronautical mobile;Alarms;B11-07-3-1
+869.7-870 MHz;C;MOBILE except aeronautical mobile;Non-specific Short Range Devices;B01-26-3-1
+869.7-870 MHz;C;MOBILE except aeronautical mobile;Non-specific Short Range Devices;B01-25-3-1
+870-876 MHz;S;MOBILE except aeronautical mobile;Non-specific Short Range Devices (874-874.4 MHz);B01-39-1-1
+876-880 MHz;C;MOBILE except aeronautical mobile;GSM-R;
+880-915 MHz;C;MOBILE except aeronautical mobile;Public mobile networks;
+915-921 MHz;S;MOBILE except aeronautical mobile;RFID (916.1-918.9 MHz);B07-06-1-1
+915-921 MHz;S;MOBILE except aeronautical mobile;Assistive Listening Devices (916.1-916.5 MHz);B10-14-A-1-1
+915-921 MHz;S;MOBILE except aeronautical mobile;Non-specific Short Range Devices (917.3-918.9 MHz);B01-40-1-1
+915-921 MHz;S;MOBILE except aeronautical mobile;Assistive Listening Devices (917.3-917.7 MHz);B10-14-B-1-1
+915-921 MHz;S;MOBILE except aeronautical mobile;Non-specific Short Range Devices (917.4-919.9 MHz);B01-41-1-1
+915-921 MHz;S;MOBILE except aeronautical mobile;Wideband Data Transmission Systems (917.4-919.9 MHz);B03-04-1-1
+915-921 MHz;S;MOBILE except aeronautical mobile;Assistive Listening Devices (918.5-918.9 MHz);B10-14-C-1-1
+915-921 MHz;S;MOBILE except aeronautical mobile;Assistive Listening Devices (919.7-920.1 MHz);B10-14-D-1-1
+921-925 MHz;C;MOBILE except aeronautical mobile;GSM-R;
+925-960 MHz;C;MOBILE except aeronautical mobile;Public mobile networks;
+960-1164 MHz;S;AERONAUTICAL RADIONAVIGATION;Aeronautical surveillance;
+960-1164 MHz;S;AERONAUTICAL RADIONAVIGATION;DME;
+960-1164 MHz;S;AERONAUTICAL RADIONAVIGATION;JTIDS/MIDS;
+960-1164 MHz;S;AERONAUTICAL RADIONAVIGATION;TACAN-DME;
+1164-1215 MHz;S;AERONAUTICAL RADIONAVIGATION;Aeronautical surveillance;
+1164-1215 MHz;S;AERONAUTICAL RADIONAVIGATION;DME;
+1164-1215 MHz;S;AERONAUTICAL RADIONAVIGATION;JTIDS/MIDS;
+1164-1215 MHz;S;AERONAUTICAL RADIONAVIGATION;TACAN-DME;
+1164-1215 MHz;S;AERONAUTICAL RADIONAVIGATION;Satellite navigation systems;
+1164-1215 MHz;S;RADIONAVIGATION-SATELLITE (space-to-Earth);Aeronautical surveillance;
+1164-1215 MHz;S;RADIONAVIGATION-SATELLITE (space-to-Earth);DME;
+1164-1215 MHz;S;RADIONAVIGATION-SATELLITE (space-to-Earth);JTIDS/MIDS;
+1164-1215 MHz;S;RADIONAVIGATION-SATELLITE (space-to-Earth);TACAN-DME;
+1164-1215 MHz;S;RADIONAVIGATION-SATELLITE (space-to-Earth);Satellite navigation systems;
+1215-1240 MHz;S;RADIOLOCATION;Satellite navigation systems;
+1215-1240 MHz;S;RADIOLOCATION;Defence systems;
+1215-1240 MHz;S;RADIONAVIGATION;Satellite navigation systems;
+1215-1240 MHz;S;RADIONAVIGATION;Defence systems;
+1215-1240 MHz;S;RADIONAVIGATION-SATELLITE (space-to-Earth);Satellite navigation systems;
+1215-1240 MHz;S;RADIONAVIGATION-SATELLITE (space-to-Earth);Defence systems;
+1240-1260 MHz;S;RADIOLOCATION;Amateur;D02-19-1-1
+1240-1260 MHz;S;RADIOLOCATION;Defence systems;
+1240-1260 MHz;S;RADIONAVIGATION;Amateur;D02-19-1-1
+1240-1260 MHz;S;RADIONAVIGATION;Defence systems;
+1240-1260 MHz;S;RADIONAVIGATION-SATELLITE (space-to-Earth);Amateur;D02-19-1-1
+1240-1260 MHz;S;RADIONAVIGATION-SATELLITE (space-to-Earth);Defence systems;
+1240-1260 MHz;S;Amateur;Amateur;D02-19-1-1
+1240-1260 MHz;S;Amateur;Defence systems;
+1260-1270 MHz;S;RADIOLOCATION;Amateur;D02-19-1-1
+1260-1270 MHz;S;RADIOLOCATION;Satellite navigation systems;
+1260-1270 MHz;S;RADIOLOCATION;Aeronautical surveillance;
+1260-1270 MHz;S;RADIOLOCATION;Amateur-satellite;
+1260-1270 MHz;S;RADIOLOCATION;Defence systems;
+1260-1270 MHz;S;RADIONAVIGATION;Amateur;D02-19-1-1
+1260-1270 MHz;S;RADIONAVIGATION;Satellite navigation systems;
+1260-1270 MHz;S;RADIONAVIGATION;Aeronautical surveillance;
+1260-1270 MHz;S;RADIONAVIGATION;Amateur-satellite;
+1260-1270 MHz;S;RADIONAVIGATION;Defence systems;
+1260-1270 MHz;S;RADIONAVIGATION-SATELLITE (space-to-Earth);Amateur;D02-19-1-1
+1260-1270 MHz;S;RADIONAVIGATION-SATELLITE (space-to-Earth);Satellite navigation systems;
+1260-1270 MHz;S;RADIONAVIGATION-SATELLITE (space-to-Earth);Aeronautical surveillance;
+1260-1270 MHz;S;RADIONAVIGATION-SATELLITE (space-to-Earth);Amateur-satellite;
+1260-1270 MHz;S;RADIONAVIGATION-SATELLITE (space-to-Earth);Defence systems;
+1260-1270 MHz;S;Amateur;Amateur;D02-19-1-1
+1260-1270 MHz;S;Amateur;Satellite navigation systems;
+1260-1270 MHz;S;Amateur;Aeronautical surveillance;
+1260-1270 MHz;S;Amateur;Amateur-satellite;
+1260-1270 MHz;S;Amateur;Defence systems;
+1260-1270 MHz;S;Amateur-Satellite;Amateur;D02-19-1-1
+1260-1270 MHz;S;Amateur-Satellite;Satellite navigation systems;
+1260-1270 MHz;S;Amateur-Satellite;Aeronautical surveillance;
+1260-1270 MHz;S;Amateur-Satellite;Amateur-satellite;
+1260-1270 MHz;S;Amateur-Satellite;Defence systems;
+1270-1300 MHz;S;RADIOLOCATION;Amateur;D02-19-1-1
+1270-1300 MHz;S;RADIOLOCATION;Satellite navigation systems;
+1270-1300 MHz;S;RADIOLOCATION;Aeronautical surveillance;
+1270-1300 MHz;S;RADIOLOCATION;Defence systems;
+1270-1300 MHz;S;RADIONAVIGATION;Amateur;D02-19-1-1
+1270-1300 MHz;S;RADIONAVIGATION;Satellite navigation systems;
+1270-1300 MHz;S;RADIONAVIGATION;Aeronautical surveillance;
+1270-1300 MHz;S;RADIONAVIGATION;Defence systems;
+1270-1300 MHz;S;RADIONAVIGATION-SATELLITE (space-to-Earth);Amateur;D02-19-1-1
+1270-1300 MHz;S;RADIONAVIGATION-SATELLITE (space-to-Earth);Satellite navigation systems;
+1270-1300 MHz;S;RADIONAVIGATION-SATELLITE (space-to-Earth);Aeronautical surveillance;
+1270-1300 MHz;S;RADIONAVIGATION-SATELLITE (space-to-Earth);Defence systems;
+1270-1300 MHz;S;Amateur;Amateur;D02-19-1-1
+1270-1300 MHz;S;Amateur;Satellite navigation systems;
+1270-1300 MHz;S;Amateur;Aeronautical surveillance;
+1270-1300 MHz;S;Amateur;Defence systems;
+1300-1350 MHz;S;AERONAUTICAL RADIONAVIGATION;Aeronautical surveillance;
+1300-1350 MHz;S;AERONAUTICAL RADIONAVIGATION;Defence systems;
+1300-1350 MHz;S;Radiolocation;Aeronautical surveillance;
+1300-1350 MHz;S;Radiolocation;Defence systems;
+1350-1375 MHz;M;FIXED;Tactical radio relay;
+1375-1387.5 MHz;C;FIXED;Point-to-Point (No new assignments);
+1387.5-1400 MHz;M;FIXED;Tactical radio relay;
+1427-1452 MHz;C;FIXED;Public mobile networks (Foreseen);
+1427-1452 MHz;C;FIXED;Point-to-Point (1427-1439.5 MHz) (No new assignments);
+1427-1452 MHz;C;MOBILE except aeronautical mobile;Public mobile networks (Foreseen);
+1427-1452 MHz;C;MOBILE except aeronautical mobile;Point-to-Point (1427-1439.5 MHz) (No new assignments);
+1452-1467.5 MHz;C;MOBILE except aeronautical mobile;Public mobile networks (Foreseen);
+1467.5-1492 MHz;C;MOBILE except aeronautical mobile;Public mobile networks (Foreseen);
+1492-1517 MHz;C;FIXED;Public mobile networks (Foreseen);
+1492-1517 MHz;C;FIXED;Point-to-Point (1492-1504.5 MHz) (No new assignments);
+1492-1517 MHz;C;MOBILE except aeronautical mobile;Public mobile networks (Foreseen);
+1492-1517 MHz;C;MOBILE except aeronautical mobile;Point-to-Point (1492-1504.5 MHz) (No new assignments);
+1517-1525 MHz;S;FIXED;Point-to-Point (Unidirectional links);E21-1-1
+1525-1530 MHz;S;FIXED;INMARSAT;C01-10-1-1
+1525-1530 MHz;S;MOBILE-SATELLITE (space-to-Earth);INMARSAT;C01-10-1-1
+1530-1535 MHz;S;MOBILE-SATELLITE (space-to-Earth);INMARSAT;C01-10-1-1
+1530-1535 MHz;S;Fixed;INMARSAT;C01-10-1-1
+1535-1559 MHz;C;MOBILE-SATELLITE (space-to-Earth);INMARSAT;C01-10-1-1
+1535-1559 MHz;C;MOBILE-SATELLITE (space-to-Earth);SAR (communications) (1544-1545 MHz);
+1559-1610 MHz;S;AERONAUTICAL RADIONAVIGATION;Satellite navigation systems;
+1559-1610 MHz;S;RADIONAVIGATION-SATELLITE (space-to-Earth);Satellite navigation systems;
+1610-1613.8 MHz;S;AERONAUTICAL RADIONAVIGATION;S-PCS;
+1610-1613.8 MHz;S;MOBILE-SATELLITE (Earth-to-space);S-PCS;
+1613.8-1626.5 MHz;S;AERONAUTICAL RADIONAVIGATION;S-PCS;
+1613.8-1626.5 MHz;S;METEOROLOGICAL-SATELLITE (Earth-to-space);S-PCS;
+1613.8-1626.5 MHz;S;Meteorological-Satellite (space-to-Earth);S-PCS;
+1626.5-1660 MHz;C;MOBILE-SATELLITE (Earth-to-space);INMARSAT C (GMDSS-non SOLAS);C02-08-1-1
+1626.5-1660 MHz;C;MOBILE-SATELLITE (Earth-to-space);INMARSAT C (GMDSS-SOLAS);C01-09-1-1
+1626.5-1660 MHz;C;MOBILE-SATELLITE (Earth-to-space);MSS Earth stations;
+1626.5-1660 MHz;C;MOBILE-SATELLITE (Earth-to-space);SAR (communications) (1645.5-1646.5 MHz);
+1660-1660.5 MHz;S;METEOROLOGICAL-SATELLITE (Earth-to-space);INMARSAT C (GMDSS-non SOLAS);C02-08-1-1
+1660-1660.5 MHz;S;METEOROLOGICAL-SATELLITE (Earth-to-space);INMARSAT C (GMDSS-SOLAS);C01-09-1-1
+1660-1660.5 MHz;S;METEOROLOGICAL-SATELLITE (Earth-to-space);MSS Earth stations;
+1660-1660.5 MHz;S;RADIO ASTRONOMY;INMARSAT C (GMDSS-non SOLAS);C02-08-1-1
+1660-1660.5 MHz;S;RADIO ASTRONOMY;INMARSAT C (GMDSS-SOLAS);C01-09-1-1
+1660-1660.5 MHz;S;RADIO ASTRONOMY;MSS Earth stations;
+1668.4-1670 MHz;S;METEOROLOGICAL AIDS;Meteorology;
+1670-1675 MHz;S;METEOROLOGICAL AIDS;Meteorology;
+1670-1675 MHz;S;METEOROLOGICAL-SATELLITE (space-to-Earth);Meteorology;
+1670-1675 MHz;S;MOBILE;Meteorology;
+1675-1700 MHz;S;METEOROLOGICAL AIDS;Meteorology;
+1675-1700 MHz;S;METEOROLOGICAL-SATELLITE (space-to-Earth);Meteorology;
+1700-1710 MHz;M;FIXED;Tactical radio relay;
+1710-1785 MHz;C;MOBILE;Mobile Communications on Board Aircraft;
+1710-1785 MHz;C;MOBILE;Public mobile networks;
+1710-1785 MHz;C;MOBILE;Mobile Communications on Board Vessel (1731.1-1733.5 MHz);
+1785-1800 MHz;C;MOBILE;Radio microphones;B10-08-5-1
+1785-1800 MHz;C;MOBILE;Wireless audio/multimedia (1795-1800 MHz);B12-06-3-1
+1800-1805 MHz;C;MOBILE;Radio microphones;B10-08-A-1-1
+1805-1880 MHz;C;MOBILE;Mobile Communications on Board Aircraft;
+1805-1880 MHz;C;MOBILE;Public mobile networks;
+1805-1880 MHz;C;MOBILE;Mobile Communications on Board Vessel (1826.1-1828.5 MHz);
+1880-1900 MHz;C;MOBILE;DECT;
+1900-1980 MHz;C;MOBILE;Public mobile networks;
+1980-2010 MHz;C;FIXED;MSS Earth stations;
+1980-2010 MHz;C;FIXED;PMSE (Temporary links);
+1980-2010 MHz;C;MOBILE-SATELLITE (Earth-to-space);MSS Earth stations;
+1980-2010 MHz;C;MOBILE-SATELLITE (Earth-to-space);PMSE (Temporary links);
+2010-2025 MHz;C;FIXED;Video PMSE;
+2010-2025 MHz;C;MOBILE;Video PMSE;
+2025-2110 MHz;C;FIXED;Video PMSE;
+2025-2110 MHz;C;FIXED;Space Operations;
+2025-2110 MHz;C;SPACE OPERATION (Earth-to-space) (space-to-space);Video PMSE;
+2025-2110 MHz;C;SPACE OPERATION (Earth-to-space) (space-to-space);Space Operations;
+2110-2170 MHz;C;MOBILE;Public mobile networks;
+2170-2200 MHz;C;FIXED;MSS Earth stations;
+2170-2200 MHz;C;FIXED;PMSE (Temporary links);
+2170-2200 MHz;C;MOBILE-SATELLITE (space-to-Earth);MSS Earth stations;
+2170-2200 MHz;C;MOBILE-SATELLITE (space-to-Earth);PMSE (Temporary links);
+2200-2290 MHz;C;FIXED;Video PMSE;
+2200-2290 MHz;C;FIXED;Space Operations;
+2200-2290 MHz;C;SPACE OPERATION (space-to-Earth) (space-to-space);Video PMSE;
+2200-2290 MHz;C;SPACE OPERATION (space-to-Earth) (space-to-space);Space Operations;
+2290-2300 MHz;C;FIXED;Video PMSE;
+2300-2450 MHz;S;MOBILE;Video PMSE (2200-2400 MHz);
+2300-2450 MHz;S;MOBILE;Amateur;D02-20-1-1
+2300-2450 MHz;S;MOBILE;Defence systems;
+2300-2450 MHz;S;MOBILE;ISM (2400-2483.5 MHz);
+2300-2450 MHz;S;MOBILE;Non-specific Short Range Devices (2400-2483.5 MHz);B01-27-3-1
+2300-2450 MHz;S;MOBILE;Wideband Data Transmission Systems (2400-2483.5 MHz);B02-01-1-2
+2300-2450 MHz;S;MOBILE;Amateur-satellite (2400-2450 MHz);
+2300-2450 MHz;S;MOBILE;RFID (2446-2454 MHz) (Indoor applications);B07-02-2-2
+2300-2450 MHz;S;MOBILE;RFID (2446-2454 MHz);B07-01-2-2
+2300-2450 MHz;S;MOBILE;Euroloop (2446.25-2453.75 MHz) (Identification of railway wagons);B13-04-2-1
+2300-2450 MHz;S;Amateur;Video PMSE (2200-2400 MHz);
+2300-2450 MHz;S;Amateur;Amateur;D02-20-1-1
+2300-2450 MHz;S;Amateur;Defence systems;
+2300-2450 MHz;S;Amateur;ISM (2400-2483.5 MHz);
+2300-2450 MHz;S;Amateur;Non-specific Short Range Devices (2400-2483.5 MHz);B01-27-3-1
+2300-2450 MHz;S;Amateur;Wideband Data Transmission Systems (2400-2483.5 MHz);B02-01-1-2
+2300-2450 MHz;S;Amateur;Amateur-satellite (2400-2450 MHz);
+2300-2450 MHz;S;Amateur;RFID (2446-2454 MHz) (Indoor applications);B07-02-2-2
+2300-2450 MHz;S;Amateur;RFID (2446-2454 MHz);B07-01-2-2
+2300-2450 MHz;S;Amateur;Euroloop (2446.25-2453.75 MHz) (Identification of railway wagons);B13-04-2-1
+2300-2450 MHz;S;Radiolocation;Video PMSE (2200-2400 MHz);
+2300-2450 MHz;S;Radiolocation;Amateur;D02-20-1-1
+2300-2450 MHz;S;Radiolocation;Defence systems;
+2300-2450 MHz;S;Radiolocation;ISM (2400-2483.5 MHz);
+2300-2450 MHz;S;Radiolocation;Non-specific Short Range Devices (2400-2483.5 MHz);B01-27-3-1
+2300-2450 MHz;S;Radiolocation;Wideband Data Transmission Systems (2400-2483.5 MHz);B02-01-1-2
+2300-2450 MHz;S;Radiolocation;Amateur-satellite (2400-2450 MHz);
+2300-2450 MHz;S;Radiolocation;RFID (2446-2454 MHz) (Indoor applications);B07-02-2-2
+2300-2450 MHz;S;Radiolocation;RFID (2446-2454 MHz);B07-01-2-2
+2300-2450 MHz;S;Radiolocation;Euroloop (2446.25-2453.75 MHz) (Identification of railway wagons);B13-04-2-1
+2450-2483.5 MHz;S;MOBILE;ISM;
+2450-2483.5 MHz;S;MOBILE;Non-specific Short Range Devices;B01-27-3-1
+2450-2483.5 MHz;S;MOBILE;Wideband Data Transmission Systems;B02-01-1-2
+2450-2483.5 MHz;S;MOBILE;RFID (2446-2454 MHz) (Indoor applications);B07-02-2-2
+2450-2483.5 MHz;S;MOBILE;RFID (2446-2454 MHz);B07-01-2-2
+2450-2483.5 MHz;S;MOBILE;Euroloop (2446.25-2453.75 MHz) (Identification of railway wagons);B13-04-2-1
+2450-2483.5 MHz;S;MOBILE;Defence systems;
+2450-2483.5 MHz;S;Radiolocation;ISM;
+2450-2483.5 MHz;S;Radiolocation;Non-specific Short Range Devices;B01-27-3-1
+2450-2483.5 MHz;S;Radiolocation;Wideband Data Transmission Systems;B02-01-1-2
+2450-2483.5 MHz;S;Radiolocation;RFID (2446-2454 MHz) (Indoor applications);B07-02-2-2
+2450-2483.5 MHz;S;Radiolocation;RFID (2446-2454 MHz);B07-01-2-2
+2450-2483.5 MHz;S;Radiolocation;Euroloop (2446.25-2453.75 MHz) (Identification of railway wagons);B13-04-2-1
+2450-2483.5 MHz;S;Radiolocation;Defence systems;
+2483.5-2500 MHz;S;FIXED;PMSE (Temporary links);
+2483.5-2500 MHz;S;FIXED;Medical Body Area Network System;B17-05-1-1
+2483.5-2500 MHz;S;FIXED;Medical Body Area Network System;B17-04-1-1
+2483.5-2500 MHz;S;FIXED;Medical implants;B09-05-1-1
+2483.5-2500 MHz;S;FIXED;S-PCS;
+2483.5-2500 MHz;S;MOBILE;PMSE (Temporary links);
+2483.5-2500 MHz;S;MOBILE;Medical Body Area Network System;B17-05-1-1
+2483.5-2500 MHz;S;MOBILE;Medical Body Area Network System;B17-04-1-1
+2483.5-2500 MHz;S;MOBILE;Medical implants;B09-05-1-1
+2483.5-2500 MHz;S;MOBILE;S-PCS;
+2483.5-2500 MHz;S;MOBILE-SATELLITE (space-to-Earth);PMSE (Temporary links);
+2483.5-2500 MHz;S;MOBILE-SATELLITE (space-to-Earth);Medical Body Area Network System;B17-05-1-1
+2483.5-2500 MHz;S;MOBILE-SATELLITE (space-to-Earth);Medical Body Area Network System;B17-04-1-1
+2483.5-2500 MHz;S;MOBILE-SATELLITE (space-to-Earth);Medical implants;B09-05-1-1
+2483.5-2500 MHz;S;MOBILE-SATELLITE (space-to-Earth);S-PCS;
+2483.5-2500 MHz;S;Radiolocation;PMSE (Temporary links);
+2483.5-2500 MHz;S;Radiolocation;Medical Body Area Network System;B17-05-1-1
+2483.5-2500 MHz;S;Radiolocation;Medical Body Area Network System;B17-04-1-1
+2483.5-2500 MHz;S;Radiolocation;Medical implants;B09-05-1-1
+2483.5-2500 MHz;S;Radiolocation;S-PCS;
+2500-2690 MHz;C;FIXED;PMSE (Temporary links);
+2500-2690 MHz;C;FIXED;Public mobile networks;
+2500-2690 MHz;C;MOBILE except aeronautical mobile;PMSE (Temporary links);
+2500-2690 MHz;C;MOBILE except aeronautical mobile;Public mobile networks;
+2690-2700 MHz;C;RADIO ASTRONOMY;PMSE (Temporary links);
+2700-2900 MHz;S;AERONAUTICAL RADIONAVIGATION;Primary radar;J03-02-1-1
+2700-2900 MHz;S;AERONAUTICAL RADIONAVIGATION;Radiolocation (military);
+2700-2900 MHz;S;Radiolocation;Primary radar;J03-02-1-1
+2700-2900 MHz;S;Radiolocation;Radiolocation (military);
+2900-3100 MHz;M;RADIONAVIGATION;Maritime radar (Maritime radar (non SOLAS));C04-04-1-1
+2900-3100 MHz;M;RADIONAVIGATION;Maritime radar (Inland waterways radar);C04-03-1-1
+2900-3100 MHz;M;RADIONAVIGATION;Radiolocation (military);
+2900-3100 MHz;M;Radiolocation;Maritime radar (Maritime radar (non SOLAS));C04-04-1-1
+2900-3100 MHz;M;Radiolocation;Maritime radar (Inland waterways radar);C04-03-1-1
+2900-3100 MHz;M;Radiolocation;Radiolocation (military);
+3100-3400 MHz;S;RADIOLOCATION;Non-specific Short Range Devices;B01-29-3-1
+3100-3400 MHz;S;RADIOLOCATION;Radiolocation (military);
+3400-3410 MHz;M;Radiolocation;Non-specific Short Range Devices;B01-29-3-1
+3400-3410 MHz;M;Radiolocation;Radiolocation (military);
+3410-3600 MHz;C;FIXED;Non-specific Short Range Devices;B01-29-3-1
+3410-3600 MHz;C;FIXED;Broadband Wireless Access (3410-3500 MHz);
+3410-3600 MHz;C;FIXED;Broadband Wireless Access (3510-3600 MHz);
+3410-3600 MHz;C;Mobile;Non-specific Short Range Devices;B01-29-3-1
+3410-3600 MHz;C;Mobile;Broadband Wireless Access (3410-3500 MHz);
+3410-3600 MHz;C;Mobile;Broadband Wireless Access (3510-3600 MHz);
+3600-3625 MHz;C;FIXED;Non-specific Short Range Devices;B01-29-3-1
+3600-3625 MHz;C;FIXED;Point-to-Point (No new assignments);
+3625-4200 MHz;C;FIXED;Non-specific Short Range Devices;B01-29-3-1
+3625-4200 MHz;C;FIXED;Point-to-Point (3600-3800 MHz) (No new assignments);
+3625-4200 MHz;C;FIXED;FSS Earth stations;
+3625-4200 MHz;C;FIXED;Point-to-Point (3800-4200 MHz) (ERC/REC 12-08 Annex B);E07-3-1
+3625-4200 MHz;C;FIXED-SATELLITE (space-to-Earth);Non-specific Short Range Devices;B01-29-3-1
+3625-4200 MHz;C;FIXED-SATELLITE (space-to-Earth);Point-to-Point (3600-3800 MHz) (No new assignments);
+3625-4200 MHz;C;FIXED-SATELLITE (space-to-Earth);FSS Earth stations;
+3625-4200 MHz;C;FIXED-SATELLITE (space-to-Earth);Point-to-Point (3800-4200 MHz) (ERC/REC 12-08 Annex B);E07-3-1
+4200-4400 MHz;S;AERONAUTICAL RADIONAVIGATION;Non-specific Short Range Devices;B01-29-3-1
+4200-4400 MHz;S;AERONAUTICAL RADIONAVIGATION;Defence systems;
+4400-4825 MHz;M;FIXED;Non-specific Short Range Devices (3100-4800 MHz);B01-29-3-1
+4400-4825 MHz;M;FIXED;Defence systems;
+4400-4825 MHz;M;FIXED;Tank Level Probing Radar (4500-7000 MHz);B08-07-1-1
+4400-4825 MHz;M;MOBILE;Non-specific Short Range Devices (3100-4800 MHz);B01-29-3-1
+4400-4825 MHz;M;MOBILE;Defence systems;
+4400-4825 MHz;M;MOBILE;Tank Level Probing Radar (4500-7000 MHz);B08-07-1-1
+4825-4835 MHz;M;FIXED;Defence systems;
+4825-4835 MHz;M;FIXED;Tank Level Probing Radar;B08-07-1-1
+4825-4835 MHz;M;MOBILE except aeronautical mobile;Defence systems;
+4825-4835 MHz;M;MOBILE except aeronautical mobile;Tank Level Probing Radar;B08-07-1-1
+4835-4950 MHz;M;FIXED;Defence systems;
+4835-4950 MHz;M;FIXED;Tank Level Probing Radar;B08-07-1-1
+4835-4950 MHz;M;MOBILE;Defence systems;
+4835-4950 MHz;M;MOBILE;Tank Level Probing Radar;B08-07-1-1
+4950-5000 MHz;M;FIXED;Defence systems;
+4950-5000 MHz;M;FIXED;Tank Level Probing Radar;B08-07-1-1
+4950-5000 MHz;M;MOBILE except aeronautical mobile;Defence systems;
+4950-5000 MHz;M;MOBILE except aeronautical mobile;Tank Level Probing Radar;B08-07-1-1
+5000-5150 MHz;S;AERONAUTICAL RADIONAVIGATION;Tank Level Probing Radar;B08-07-1-1
+5000-5150 MHz;S;AERONAUTICAL RADIONAVIGATION;MLS (5031-5091 MHz) (Envisaged);
+5150-5250 MHz;S;AERONAUTICAL RADIONAVIGATION;Tank Level Probing Radar;B08-07-1-1
+5150-5250 MHz;S;AERONAUTICAL RADIONAVIGATION;Wideband Data Transmission Systems;B03-01-2-1
+5150-5250 MHz;S;MOBILE;Tank Level Probing Radar;B08-07-1-1
+5150-5250 MHz;S;MOBILE;Wideband Data Transmission Systems;B03-01-2-1
+5250-5350 MHz;S;RADIOLOCATION;Tank Level Probing Radar;B08-07-1-1
+5250-5350 MHz;S;RADIOLOCATION;Defence systems;
+5250-5350 MHz;S;RADIOLOCATION;Wideband Data Transmission Systems;B03-02-2-1
+5350-5470 MHz;S;AERONAUTICAL RADIONAVIGATION;Tank Level Probing Radar;B08-07-1-1
+5350-5470 MHz;S;AERONAUTICAL RADIONAVIGATION;Defence systems;
+5350-5470 MHz;S;Radiolocation;Tank Level Probing Radar;B08-07-1-1
+5350-5470 MHz;S;Radiolocation;Defence systems;
+5470-5650 MHz;S;MARITIME RADIONAVIGATION;Tank Level Probing Radar;B08-07-1-1
+5470-5650 MHz;S;MARITIME RADIONAVIGATION;Wideband Data Transmission Systems;B03-03-2-1
+5470-5650 MHz;S;MARITIME RADIONAVIGATION;Defence systems;
+5470-5650 MHz;S;MARITIME RADIONAVIGATION;Weather radar;
+5470-5650 MHz;S;Radiolocation;Tank Level Probing Radar;B08-07-1-1
+5470-5650 MHz;S;Radiolocation;Wideband Data Transmission Systems;B03-03-2-1
+5470-5650 MHz;S;Radiolocation;Defence systems;
+5470-5650 MHz;S;Radiolocation;Weather radar;
+5650-5830 MHz;S;RADIOLOCATION;Tank Level Probing Radar;B08-07-1-1
+5650-5830 MHz;S;RADIOLOCATION;Wideband Data Transmission Systems (5470-5725 MHz);B03-03-2-1
+5650-5830 MHz;S;RADIOLOCATION;Amateur;D02-21-1-1
+5650-5830 MHz;S;RADIOLOCATION;Defence systems;
+5650-5830 MHz;S;RADIOLOCATION;Amateur-satellite (5650-5670 MHz);
+5650-5830 MHz;S;RADIOLOCATION;ISM (5725-5875 MHz);
+5650-5830 MHz;S;RADIOLOCATION;Meter reading (5725-5875 MHz);B17-03-2-1
+5650-5830 MHz;S;RADIOLOCATION;Non-specific Short Range Devices (5725-5875 MHz);B01-28-3-1
+5650-5830 MHz;S;RADIOLOCATION;Transport and Traffic Telematics (5795-5805 MHz);B04-01-2-1
+5650-5830 MHz;S;RADIOLOCATION;Transport and Traffic Telematics (5805-5815 MHz);B04-02-2-1
+5650-5830 MHz;S;Amateur;Tank Level Probing Radar;B08-07-1-1
+5650-5830 MHz;S;Amateur;Wideband Data Transmission Systems (5470-5725 MHz);B03-03-2-1
+5650-5830 MHz;S;Amateur;Amateur;D02-21-1-1
+5650-5830 MHz;S;Amateur;Defence systems;
+5650-5830 MHz;S;Amateur;Amateur-satellite (5650-5670 MHz);
+5650-5830 MHz;S;Amateur;ISM (5725-5875 MHz);
+5650-5830 MHz;S;Amateur;Meter reading (5725-5875 MHz);B17-03-2-1
+5650-5830 MHz;S;Amateur;Non-specific Short Range Devices (5725-5875 MHz);B01-28-3-1
+5650-5830 MHz;S;Amateur;Transport and Traffic Telematics (5795-5805 MHz);B04-01-2-1
+5650-5830 MHz;S;Amateur;Transport and Traffic Telematics (5805-5815 MHz);B04-02-2-1
+5830-5850 MHz;S;RADIOLOCATION;Tank Level Probing Radar;B08-07-1-1
+5830-5850 MHz;S;RADIOLOCATION;Amateur;D02-21-1-1
+5830-5850 MHz;S;RADIOLOCATION;Defence systems;
+5830-5850 MHz;S;RADIOLOCATION;ISM;
+5830-5850 MHz;S;RADIOLOCATION;Meter reading;B17-03-2-1
+5830-5850 MHz;S;RADIOLOCATION;Non-specific Short Range Devices;B01-28-3-1
+5830-5850 MHz;S;RADIOLOCATION;Amateur-satellite;
+5830-5850 MHz;S;Amateur;Tank Level Probing Radar;B08-07-1-1
+5830-5850 MHz;S;Amateur;Amateur;D02-21-1-1
+5830-5850 MHz;S;Amateur;Defence systems;
+5830-5850 MHz;S;Amateur;ISM;
+5830-5850 MHz;S;Amateur;Meter reading;B17-03-2-1
+5830-5850 MHz;S;Amateur;Non-specific Short Range Devices;B01-28-3-1
+5830-5850 MHz;S;Amateur;Amateur-satellite;
+5830-5850 MHz;S;Amateur-Satellite;Tank Level Probing Radar;B08-07-1-1
+5830-5850 MHz;S;Amateur-Satellite;Amateur;D02-21-1-1
+5830-5850 MHz;S;Amateur-Satellite;Defence systems;
+5830-5850 MHz;S;Amateur-Satellite;ISM;
+5830-5850 MHz;S;Amateur-Satellite;Meter reading;B17-03-2-1
+5830-5850 MHz;S;Amateur-Satellite;Non-specific Short Range Devices;B01-28-3-1
+5830-5850 MHz;S;Amateur-Satellite;Amateur-satellite;
+5850-6700 MHz;C;FIXED;Tank Level Probing Radar;B08-07-1-1
+5850-6700 MHz;C;FIXED;ISM (5725-5875 MHz);
+5850-6700 MHz;C;FIXED;Meter reading (5725-5875 MHz);B17-03-2-1
+5850-6700 MHz;C;FIXED;Non-specific Short Range Devices (5725-5875 MHz);B01-28-3-1
+5850-6700 MHz;C;FIXED;FSS Earth stations (5850-6425 MHz);
+5850-6700 MHz;C;FIXED;Intelligent Transport Systems (5875-5905 MHz);I01-01-2-1
+5850-6700 MHz;C;FIXED;Point-to-Point (5925-6425 MHz);E08-3-1
+5850-6700 MHz;C;FIXED;Non-specific Short Range Devices (6000-9000 MHz);B01-30-3-1
+5850-6700 MHz;C;FIXED;Level Probing Radar (6000-8500 MHz);B08-01-1-1
+5850-6700 MHz;C;FIXED;Non-specific Short Range Devices (6000-8500 MHz);B01-31-3-1
+5850-6700 MHz;C;FIXED;Point-to-Point (6425-7125 MHz);E09-3-1
+5850-6700 MHz;C;FIXED;SAP/SAB P to P video links (6425-7125 MHz);
+5850-6700 MHz;C;FIXED-SATELLITE (Earth-to-space);Tank Level Probing Radar;B08-07-1-1
+5850-6700 MHz;C;FIXED-SATELLITE (Earth-to-space);ISM (5725-5875 MHz);
+5850-6700 MHz;C;FIXED-SATELLITE (Earth-to-space);Meter reading (5725-5875 MHz);B17-03-2-1
+5850-6700 MHz;C;FIXED-SATELLITE (Earth-to-space);Non-specific Short Range Devices (5725-5875 MHz);B01-28-3-1
+5850-6700 MHz;C;FIXED-SATELLITE (Earth-to-space);FSS Earth stations (5850-6425 MHz);
+5850-6700 MHz;C;FIXED-SATELLITE (Earth-to-space);Intelligent Transport Systems (5875-5905 MHz);I01-01-2-1
+5850-6700 MHz;C;FIXED-SATELLITE (Earth-to-space);Point-to-Point (5925-6425 MHz);E08-3-1
+5850-6700 MHz;C;FIXED-SATELLITE (Earth-to-space);Non-specific Short Range Devices (6000-9000 MHz);B01-30-3-1
+5850-6700 MHz;C;FIXED-SATELLITE (Earth-to-space);Level Probing Radar (6000-8500 MHz);B08-01-1-1
+5850-6700 MHz;C;FIXED-SATELLITE (Earth-to-space);Non-specific Short Range Devices (6000-8500 MHz);B01-31-3-1
+5850-6700 MHz;C;FIXED-SATELLITE (Earth-to-space);Point-to-Point (6425-7125 MHz);E09-3-1
+5850-6700 MHz;C;FIXED-SATELLITE (Earth-to-space);SAP/SAB P to P video links (6425-7125 MHz);
+6700-7075 MHz;C;FIXED;Tank Level Probing Radar (4500-7000 MHz);B08-07-1-1
+6700-7075 MHz;C;FIXED;Non-specific Short Range Devices;B01-30-3-1
+6700-7075 MHz;C;FIXED;Level Probing Radar;B08-01-1-1
+6700-7075 MHz;C;FIXED;Non-specific Short Range Devices;B01-31-3-1
+6700-7075 MHz;C;FIXED;Point-to-Point;E09-3-1
+6700-7075 MHz;C;FIXED;SAP/SAB P to P video links;
+6700-7075 MHz;C;FIXED-SATELLITE (space-to-Earth) (Earth-to-space);Tank Level Probing Radar (4500-7000 MHz);B08-07-1-1
+6700-7075 MHz;C;FIXED-SATELLITE (space-to-Earth) (Earth-to-space);Non-specific Short Range Devices;B01-30-3-1
+6700-7075 MHz;C;FIXED-SATELLITE (space-to-Earth) (Earth-to-space);Level Probing Radar;B08-01-1-1
+6700-7075 MHz;C;FIXED-SATELLITE (space-to-Earth) (Earth-to-space);Non-specific Short Range Devices;B01-31-3-1
+6700-7075 MHz;C;FIXED-SATELLITE (space-to-Earth) (Earth-to-space);Point-to-Point;E09-3-1
+6700-7075 MHz;C;FIXED-SATELLITE (space-to-Earth) (Earth-to-space);SAP/SAB P to P video links;
+7075-7250 MHz;C;FIXED;Non-specific Short Range Devices;B01-30-3-1
+7075-7250 MHz;C;FIXED;Level Probing Radar;B08-01-1-1
+7075-7250 MHz;C;FIXED;Non-specific Short Range Devices;B01-31-3-1
+7075-7250 MHz;C;FIXED;Point-to-Point (6425-7125 MHz);E09-3-1
+7075-7250 MHz;C;FIXED;SAP/SAB P to P video links (6425-7125 MHz);
+7250-7375 MHz;M;FIXED;Non-specific Short Range Devices;B01-30-3-1
+7250-7375 MHz;M;FIXED;Level Probing Radar;B08-01-1-1
+7250-7375 MHz;M;FIXED;Non-specific Short Range Devices;B01-31-3-1
+7250-7375 MHz;M;FIXED;Satellite systems (military);
+7250-7375 MHz;M;FIXED-SATELLITE (space-to-Earth);Non-specific Short Range Devices;B01-30-3-1
+7250-7375 MHz;M;FIXED-SATELLITE (space-to-Earth);Level Probing Radar;B08-01-1-1
+7250-7375 MHz;M;FIXED-SATELLITE (space-to-Earth);Non-specific Short Range Devices;B01-31-3-1
+7250-7375 MHz;M;FIXED-SATELLITE (space-to-Earth);Satellite systems (military);
+7250-7375 MHz;M;MOBILE-SATELLITE;Non-specific Short Range Devices;B01-30-3-1
+7250-7375 MHz;M;MOBILE-SATELLITE;Level Probing Radar;B08-01-1-1
+7250-7375 MHz;M;MOBILE-SATELLITE;Non-specific Short Range Devices;B01-31-3-1
+7250-7375 MHz;M;MOBILE-SATELLITE;Satellite systems (military);
+7375-7450 MHz;S;FIXED;Non-specific Short Range Devices;B01-30-3-1
+7375-7450 MHz;S;FIXED;Level Probing Radar;B08-01-1-1
+7375-7450 MHz;S;FIXED;Non-specific Short Range Devices;B01-31-3-1
+7375-7450 MHz;S;FIXED;Satellite systems (military);
+7375-7450 MHz;S;FIXED;SAP/SAB P to P video links;
+7375-7450 MHz;S;FIXED;Point-to-Point (7425-7900 MHz);E11-3-1
+7375-7450 MHz;S;FIXED-SATELLITE (space-to-Earth);Non-specific Short Range Devices;B01-30-3-1
+7375-7450 MHz;S;FIXED-SATELLITE (space-to-Earth);Level Probing Radar;B08-01-1-1
+7375-7450 MHz;S;FIXED-SATELLITE (space-to-Earth);Non-specific Short Range Devices;B01-31-3-1
+7375-7450 MHz;S;FIXED-SATELLITE (space-to-Earth);Satellite systems (military);
+7375-7450 MHz;S;FIXED-SATELLITE (space-to-Earth);SAP/SAB P to P video links;
+7375-7450 MHz;S;FIXED-SATELLITE (space-to-Earth);Point-to-Point (7425-7900 MHz);E11-3-1
+7375-7450 MHz;S;MOBILE-SATELLITE;Non-specific Short Range Devices;B01-30-3-1
+7375-7450 MHz;S;MOBILE-SATELLITE;Level Probing Radar;B08-01-1-1
+7375-7450 MHz;S;MOBILE-SATELLITE;Non-specific Short Range Devices;B01-31-3-1
+7375-7450 MHz;S;MOBILE-SATELLITE;Satellite systems (military);
+7375-7450 MHz;S;MOBILE-SATELLITE;SAP/SAB P to P video links;
+7375-7450 MHz;S;MOBILE-SATELLITE;Point-to-Point (7425-7900 MHz);E11-3-1
+7450-7750 MHz;S;FIXED;Non-specific Short Range Devices;B01-30-3-1
+7450-7750 MHz;S;FIXED;Level Probing Radar;B08-01-1-1
+7450-7750 MHz;S;FIXED;Non-specific Short Range Devices;B01-31-3-1
+7450-7750 MHz;S;FIXED;Satellite systems (military);
+7450-7750 MHz;S;FIXED;SAP/SAB P to P video links (7375-7484 MHz);
+7450-7750 MHz;S;FIXED;Point-to-Point;E11-3-1
+7450-7750 MHz;S;FIXED;SAP/SAB P to P video links (7596-7729 MHz);
+7450-7750 MHz;S;FIXED-SATELLITE (space-to-Earth);Non-specific Short Range Devices;B01-30-3-1
+7450-7750 MHz;S;FIXED-SATELLITE (space-to-Earth);Level Probing Radar;B08-01-1-1
+7450-7750 MHz;S;FIXED-SATELLITE (space-to-Earth);Non-specific Short Range Devices;B01-31-3-1
+7450-7750 MHz;S;FIXED-SATELLITE (space-to-Earth);Satellite systems (military);
+7450-7750 MHz;S;FIXED-SATELLITE (space-to-Earth);SAP/SAB P to P video links (7375-7484 MHz);
+7450-7750 MHz;S;FIXED-SATELLITE (space-to-Earth);Point-to-Point;E11-3-1
+7450-7750 MHz;S;FIXED-SATELLITE (space-to-Earth);SAP/SAB P to P video links (7596-7729 MHz);
+7750-7900 MHz;C;FIXED;Non-specific Short Range Devices;B01-30-3-1
+7750-7900 MHz;C;FIXED;Level Probing Radar;B08-01-1-1
+7750-7900 MHz;C;FIXED;Non-specific Short Range Devices;B01-31-3-1
+7750-7900 MHz;C;FIXED;Point-to-Point;E11-3-1
+7750-7900 MHz;C;FIXED;SAP/SAB P to P video links (7841-7900 MHz);
+7900-8025 MHz;M;FIXED;Non-specific Short Range Devices;B01-30-3-1
+7900-8025 MHz;M;FIXED;Level Probing Radar;B08-01-1-1
+7900-8025 MHz;M;FIXED;Non-specific Short Range Devices;B01-31-3-1
+7900-8025 MHz;M;FIXED;Satellite systems (military);
+7900-8025 MHz;M;FIXED-SATELLITE (Earth-to-space);Non-specific Short Range Devices;B01-30-3-1
+7900-8025 MHz;M;FIXED-SATELLITE (Earth-to-space);Level Probing Radar;B08-01-1-1
+7900-8025 MHz;M;FIXED-SATELLITE (Earth-to-space);Non-specific Short Range Devices;B01-31-3-1
+7900-8025 MHz;M;FIXED-SATELLITE (Earth-to-space);Satellite systems (military);
+7900-8025 MHz;M;MOBILE-SATELLITE;Non-specific Short Range Devices;B01-30-3-1
+7900-8025 MHz;M;MOBILE-SATELLITE;Level Probing Radar;B08-01-1-1
+7900-8025 MHz;M;MOBILE-SATELLITE;Non-specific Short Range Devices;B01-31-3-1
+7900-8025 MHz;M;MOBILE-SATELLITE;Satellite systems (military);
+8025-8400 MHz;S;FIXED;Non-specific Short Range Devices;B01-30-3-1
+8025-8400 MHz;S;FIXED;Level Probing Radar;B08-01-1-1
+8025-8400 MHz;S;FIXED;Non-specific Short Range Devices;B01-31-3-1
+8025-8400 MHz;S;FIXED;Satellite systems (military);
+8025-8400 MHz;S;FIXED;Fixed radio relay (military) (8200-8500 MHz);
+8025-8400 MHz;S;FIXED;Point-to-Point (8275-8500 MHz);E12-3-1
+8025-8400 MHz;S;FIXED-SATELLITE (Earth-to-space);Non-specific Short Range Devices;B01-30-3-1
+8025-8400 MHz;S;FIXED-SATELLITE (Earth-to-space);Level Probing Radar;B08-01-1-1
+8025-8400 MHz;S;FIXED-SATELLITE (Earth-to-space);Non-specific Short Range Devices;B01-31-3-1
+8025-8400 MHz;S;FIXED-SATELLITE (Earth-to-space);Satellite systems (military);
+8025-8400 MHz;S;FIXED-SATELLITE (Earth-to-space);Fixed radio relay (military) (8200-8500 MHz);
+8025-8400 MHz;S;FIXED-SATELLITE (Earth-to-space);Point-to-Point (8275-8500 MHz);E12-3-1
+8400-8500 MHz;S;FIXED;Non-specific Short Range Devices;B01-30-3-1
+8400-8500 MHz;S;FIXED;Level Probing Radar;B08-01-1-1
+8400-8500 MHz;S;FIXED;Non-specific Short Range Devices;B01-31-3-1
+8400-8500 MHz;S;FIXED;Fixed radio relay (military);
+8400-8500 MHz;S;FIXED;Point-to-Point;E12-3-1
+8500-8750 MHz;S;RADIOLOCATION;Non-specific Short Range Devices;B01-30-3-1
+8500-8750 MHz;S;RADIOLOCATION;Tank Level Probing Radar;B08-08-1-1
+8500-8750 MHz;S;RADIOLOCATION;Radiolocation (military);
+8750-8850 MHz;S;AERONAUTICAL RADIONAVIGATION;Non-specific Short Range Devices;B01-30-3-1
+8750-8850 MHz;S;AERONAUTICAL RADIONAVIGATION;Tank Level Probing Radar;B08-08-1-1
+8750-8850 MHz;S;AERONAUTICAL RADIONAVIGATION;Radiolocation (military);
+8750-8850 MHz;S;AERONAUTICAL RADIONAVIGATION;Maritime navigation;C05-02-1-1
+8750-8850 MHz;S;MARITIME RADIONAVIGATION;Non-specific Short Range Devices;B01-30-3-1
+8750-8850 MHz;S;MARITIME RADIONAVIGATION;Tank Level Probing Radar;B08-08-1-1
+8750-8850 MHz;S;MARITIME RADIONAVIGATION;Radiolocation (military);
+8750-8850 MHz;S;MARITIME RADIONAVIGATION;Maritime navigation;C05-02-1-1
+8750-8850 MHz;S;RADIOLOCATION;Non-specific Short Range Devices;B01-30-3-1
+8750-8850 MHz;S;RADIOLOCATION;Tank Level Probing Radar;B08-08-1-1
+8750-8850 MHz;S;RADIOLOCATION;Radiolocation (military);
+8750-8850 MHz;S;RADIOLOCATION;Maritime navigation;C05-02-1-1
+8850-9000 MHz;S;MARITIME RADIONAVIGATION;Non-specific Short Range Devices;B01-30-3-1
+8850-9000 MHz;S;MARITIME RADIONAVIGATION;Tank Level Probing Radar;B08-08-1-1
+8850-9000 MHz;S;MARITIME RADIONAVIGATION;Radiolocation (military);
+8850-9000 MHz;S;MARITIME RADIONAVIGATION;Maritime navigation;C05-02-1-1
+8850-9000 MHz;S;RADIOLOCATION;Non-specific Short Range Devices;B01-30-3-1
+8850-9000 MHz;S;RADIOLOCATION;Tank Level Probing Radar;B08-08-1-1
+8850-9000 MHz;S;RADIOLOCATION;Radiolocation (military);
+8850-9000 MHz;S;RADIOLOCATION;Maritime navigation;C05-02-1-1
+9000-9200 MHz;S;AERONAUTICAL RADIONAVIGATION;Tank Level Probing Radar;B08-08-1-1
+9000-9200 MHz;S;AERONAUTICAL RADIONAVIGATION;Radiolocation (military);
+9000-9200 MHz;S;AERONAUTICAL RADIONAVIGATION;Maritime navigation;C05-02-1-1
+9000-9200 MHz;S;MARITIME RADIONAVIGATION;Tank Level Probing Radar;B08-08-1-1
+9000-9200 MHz;S;MARITIME RADIONAVIGATION;Radiolocation (military);
+9000-9200 MHz;S;MARITIME RADIONAVIGATION;Maritime navigation;C05-02-1-1
+9000-9200 MHz;S;Radiolocation;Tank Level Probing Radar;B08-08-1-1
+9000-9200 MHz;S;Radiolocation;Radiolocation (military);
+9000-9200 MHz;S;Radiolocation;Maritime navigation;C05-02-1-1
+9200-9300 MHz;S;MARITIME RADIONAVIGATION;Tank Level Probing Radar;B08-08-1-1
+9200-9300 MHz;S;MARITIME RADIONAVIGATION;Radiolocation (military);
+9200-9300 MHz;S;MARITIME RADIONAVIGATION;Maritime navigation;C05-02-1-1
+9200-9300 MHz;S;RADIOLOCATION;Tank Level Probing Radar;B08-08-1-1
+9200-9300 MHz;S;RADIOLOCATION;Radiolocation (military);
+9200-9300 MHz;S;RADIOLOCATION;Maritime navigation;C05-02-1-1
+9300-9500 MHz;S;RADIONAVIGATION;Tank Level Probing Radar;B08-08-1-1
+9300-9500 MHz;S;RADIONAVIGATION;Radiolocation (military);
+9300-9500 MHz;S;Radiolocation;Tank Level Probing Radar;B08-08-1-1
+9300-9500 MHz;S;Radiolocation;Radiolocation (military);
+9500-9800 MHz;S;RADIOLOCATION;Tank Level Probing Radar;B08-08-1-1
+9500-9800 MHz;S;RADIOLOCATION;Radiolocation (military);
+9500-9800 MHz;S;RADIONAVIGATION;Tank Level Probing Radar;B08-08-1-1
+9500-9800 MHz;S;RADIONAVIGATION;Radiolocation (military);
+9800-10000 MHz;S;RADIOLOCATION;Tank Level Probing Radar;B08-08-1-1
+9800-10000 MHz;S;RADIOLOCATION;Radiolocation (military);
+9800-10000 MHz;S;Fixed;Tank Level Probing Radar;B08-08-1-1
+9800-10000 MHz;S;Fixed;Radiolocation (military);
+9800-10000 MHz;S;Meteorological-Satellite;Tank Level Probing Radar;B08-08-1-1
+9800-10000 MHz;S;Meteorological-Satellite;Radiolocation (military);
+10-10.15 GHz;S;RADIOLOCATION;Tank Level Probing Radar;B08-08-1-1
+10-10.15 GHz;S;RADIOLOCATION;Radiolocation (military);
+10-10.15 GHz;S;RADIOLOCATION;Amateur;D02-22-1-1
+10-10.15 GHz;S;Amateur;Tank Level Probing Radar;B08-08-1-1
+10-10.15 GHz;S;Amateur;Radiolocation (military);
+10-10.15 GHz;S;Amateur;Amateur;D02-22-1-1
+10.15-10.3 GHz;S;FIXED;Tank Level Probing Radar;B08-08-1-1
+10.15-10.3 GHz;S;FIXED;Radiolocation (military);
+10.15-10.3 GHz;S;FIXED;Amateur;D02-22-1-1
+10.15-10.3 GHz;S;FIXED;Broadband Wireless Access;
+10.15-10.3 GHz;S;RADIOLOCATION;Tank Level Probing Radar;B08-08-1-1
+10.15-10.3 GHz;S;RADIOLOCATION;Radiolocation (military);
+10.15-10.3 GHz;S;RADIOLOCATION;Amateur;D02-22-1-1
+10.15-10.3 GHz;S;RADIOLOCATION;Broadband Wireless Access;
+10.15-10.3 GHz;S;Amateur;Tank Level Probing Radar;B08-08-1-1
+10.15-10.3 GHz;S;Amateur;Radiolocation (military);
+10.15-10.3 GHz;S;Amateur;Amateur;D02-22-1-1
+10.15-10.3 GHz;S;Amateur;Broadband Wireless Access;
+10.3-10.45 GHz;S;RADIOLOCATION;Tank Level Probing Radar;B08-08-1-1
+10.3-10.45 GHz;S;RADIOLOCATION;Radiolocation (military);
+10.3-10.45 GHz;S;RADIOLOCATION;Amateur;D02-22-1-1
+10.3-10.45 GHz;S;Amateur;Tank Level Probing Radar;B08-08-1-1
+10.3-10.45 GHz;S;Amateur;Radiolocation (military);
+10.3-10.45 GHz;S;Amateur;Amateur;D02-22-1-1
+10.45-10.5 GHz;S;RADIOLOCATION;Tank Level Probing Radar;B08-08-1-1
+10.45-10.5 GHz;S;RADIOLOCATION;Radiolocation (military);
+10.45-10.5 GHz;S;RADIOLOCATION;Amateur;D02-22-1-1
+10.45-10.5 GHz;S;RADIOLOCATION;Amateur-satellite;
+10.45-10.5 GHz;S;Amateur;Tank Level Probing Radar;B08-08-1-1
+10.45-10.5 GHz;S;Amateur;Radiolocation (military);
+10.45-10.5 GHz;S;Amateur;Amateur;D02-22-1-1
+10.45-10.5 GHz;S;Amateur;Amateur-satellite;
+10.45-10.5 GHz;S;Amateur-Satellite;Tank Level Probing Radar;B08-08-1-1
+10.45-10.5 GHz;S;Amateur-Satellite;Radiolocation (military);
+10.45-10.5 GHz;S;Amateur-Satellite;Amateur;D02-22-1-1
+10.45-10.5 GHz;S;Amateur-Satellite;Amateur-satellite;
+10.5-10.6 GHz;C;FIXED;Tank Level Probing Radar;B08-08-1-1
+10.5-10.6 GHz;C;FIXED;Broadband Wireless Access;
+10.5-10.6 GHz;C;FIXED;Detection of movement and alert;A05-01-2-1
+10.5-10.6 GHz;C;FIXED;Radiolocation (civil);
+10.5-10.6 GHz;C;FIXED;SAP/SAB P to P video links (10.56-10.588 GHz);
+10.5-10.6 GHz;C;Radiolocation;Tank Level Probing Radar;B08-08-1-1
+10.5-10.6 GHz;C;Radiolocation;Broadband Wireless Access;
+10.5-10.6 GHz;C;Radiolocation;Detection of movement and alert;A05-01-2-1
+10.5-10.6 GHz;C;Radiolocation;Radiolocation (civil);
+10.5-10.6 GHz;C;Radiolocation;SAP/SAB P to P video links (10.56-10.588 GHz);
+10.6-10.68 GHz;C;FIXED;Broadband Wireless Access (10.5-10.65 GHz);
+10.7-11.7 GHz;C;FIXED;SIT/SUT;
+10.7-11.7 GHz;C;FIXED;FSS Earth stations;
+10.7-11.7 GHz;C;FIXED;MSS Earth stations;
+10.7-11.7 GHz;C;FIXED;Point-to-Point;E13-3-1
+10.7-11.7 GHz;C;FIXED;SNG;
+10.7-11.7 GHz;C;FIXED;VSAT;
+10.7-11.7 GHz;C;FIXED-SATELLITE (space-to-Earth) (Earth-to-space);SIT/SUT;
+10.7-11.7 GHz;C;FIXED-SATELLITE (space-to-Earth) (Earth-to-space);FSS Earth stations;
+10.7-11.7 GHz;C;FIXED-SATELLITE (space-to-Earth) (Earth-to-space);MSS Earth stations;
+10.7-11.7 GHz;C;FIXED-SATELLITE (space-to-Earth) (Earth-to-space);Point-to-Point;E13-3-1
+10.7-11.7 GHz;C;FIXED-SATELLITE (space-to-Earth) (Earth-to-space);SNG;
+10.7-11.7 GHz;C;FIXED-SATELLITE (space-to-Earth) (Earth-to-space);VSAT;
+11.7-12.5 GHz;C;BROADCASTING-SATELLITE;SIT/SUT;
+11.7-12.5 GHz;C;FIXED;SIT/SUT;
+12.5-12.75 GHz;C;FIXED-SATELLITE (space-to-Earth) (Earth-to-space);SIT/SUT;
+12.5-12.75 GHz;C;FIXED-SATELLITE (space-to-Earth) (Earth-to-space);MSS Earth stations;
+12.5-12.75 GHz;C;FIXED-SATELLITE (space-to-Earth) (Earth-to-space);SNG;
+12.5-12.75 GHz;C;FIXED-SATELLITE (space-to-Earth) (Earth-to-space);VSAT;
+12.75-13.25 GHz;C;FIXED;FSS Earth stations (No new assignments);
+12.75-13.25 GHz;C;FIXED;Point-to-Point;E14-3-1
+12.75-13.25 GHz;C;FIXED;SAP/SAB P to P video links;
+13.25-13.4 GHz;S;AERONAUTICAL RADIONAVIGATION;Defence systems;
+13.4-13.75 GHz;S;RADIOLOCATION;Detection of movement and alert;A05-02-2-1
+13.4-13.75 GHz;S;RADIOLOCATION;Radiolocation (civil);
+13.4-13.75 GHz;S;RADIOLOCATION;Radiolocation (military);
+13.75-14 GHz;S;FIXED-SATELLITE (Earth-to-space);Detection of movement and alert;A05-02-2-1
+13.75-14 GHz;S;FIXED-SATELLITE (Earth-to-space);Radiolocation (civil);
+13.75-14 GHz;S;FIXED-SATELLITE (Earth-to-space);Radiolocation (military);
+13.75-14 GHz;S;FIXED-SATELLITE (Earth-to-space);FSS Earth stations;
+13.75-14 GHz;S;RADIOLOCATION;Detection of movement and alert;A05-02-2-1
+13.75-14 GHz;S;RADIOLOCATION;Radiolocation (civil);
+13.75-14 GHz;S;RADIOLOCATION;Radiolocation (military);
+13.75-14 GHz;S;RADIOLOCATION;FSS Earth stations;
+14-14.25 GHz;C;FIXED-SATELLITE (Earth-to-space);FSS Earth stations;
+14-14.25 GHz;C;FIXED-SATELLITE (Earth-to-space);SNG;
+14-14.25 GHz;C;FIXED-SATELLITE (Earth-to-space);VSAT;
+14-14.25 GHz;C;FIXED-SATELLITE (Earth-to-space);MSS Earth stations;
+14-14.25 GHz;C;RADIONAVIGATION;FSS Earth stations;
+14-14.25 GHz;C;RADIONAVIGATION;SNG;
+14-14.25 GHz;C;RADIONAVIGATION;VSAT;
+14-14.25 GHz;C;RADIONAVIGATION;MSS Earth stations;
+14.25-14.5 GHz;C;FIXED-SATELLITE (Earth-to-space);FSS Earth stations;
+14.25-14.5 GHz;C;FIXED-SATELLITE (Earth-to-space);SNG;
+14.25-14.5 GHz;C;FIXED-SATELLITE (Earth-to-space);VSAT;
+14.5-14.62 GHz;C;FIXED;Point-to-Point;E15-3-1
+14.62-15.23 GHz;M;FIXED;Fixed radio relay (military);
+15.23-15.35 GHz;C;FIXED;Point-to-Point;E15-3-1
+15.7-16.2 GHz;S;RADIOLOCATION;Radiolocation (military);
+16.2-17.3 GHz;M;RADIOLOCATION;Radiolocation (military);
+16.2-17.3 GHz;M;RADIOLOCATION;Ground Based Synthetic Aperture Radar (17.1-17.3 GHz);B08-12-1-1
+17.3-17.7 GHz;S;FIXED-SATELLITE (Earth-to-space);Radiolocation (military);
+17.3-17.7 GHz;S;FIXED-SATELLITE (Earth-to-space);FSS Earth stations;
+17.3-17.7 GHz;S;Radiolocation;Radiolocation (military);
+17.3-17.7 GHz;S;Radiolocation;FSS Earth stations;
+17.7-19.7 GHz;C;FIXED;FSS Earth stations (No new assignments);
+17.7-19.7 GHz;C;FIXED;Point-to-Point;E16-3-1
+19.7-20.2 GHz;C;FIXED-SATELLITE (space-to-Earth);SIT/SUT;
+20.2-21.2 GHz;M;FIXED-SATELLITE (space-to-Earth);Defence systems;
+20.2-21.2 GHz;M;MOBILE-SATELLITE (space-to-Earth);Defence systems;
+21.2-23.6 GHz;C;FIXED;Point-to-Point;E01-3-1
+21.2-23.6 GHz;C;FIXED;SAP/SAB P to P video links;
+21.2-23.6 GHz;C;FIXED;Short-range radar (21.65-24.25 GHz);B04-03-2-1
+23.6-24 GHz;C;Not allocated;Short-range radar;B04-03-2-1
+24-24.05 GHz;C;AMATEUR;Short-range radar;B04-03-2-1
+24-24.05 GHz;C;AMATEUR;Amateur;D02-23-1-1
+24-24.05 GHz;C;AMATEUR;ISM;
+24-24.05 GHz;C;AMATEUR;Non-specific Short Range Devices;B01-32-3-1
+24-24.05 GHz;C;AMATEUR;Amateur-satellite;
+24-24.05 GHz;C;AMATEUR-SATELLITE;Short-range radar;B04-03-2-1
+24-24.05 GHz;C;AMATEUR-SATELLITE;Amateur;D02-23-1-1
+24-24.05 GHz;C;AMATEUR-SATELLITE;ISM;
+24-24.05 GHz;C;AMATEUR-SATELLITE;Non-specific Short Range Devices;B01-32-3-1
+24-24.05 GHz;C;AMATEUR-SATELLITE;Amateur-satellite;
+24.05-24.25 GHz;S;RADIOLOCATION;Short-range radar;B04-03-2-1
+24.05-24.25 GHz;S;RADIOLOCATION;Amateur;D02-23-1-1
+24.05-24.25 GHz;S;RADIOLOCATION;ISM;
+24.05-24.25 GHz;S;RADIOLOCATION;Non-specific Short Range Devices;B01-32-3-1
+24.05-24.25 GHz;S;RADIOLOCATION;Tank Level Probing Radar;B08-09-1-1
+24.05-24.25 GHz;S;RADIOLOCATION;Level Probing Radar;B08-02-1-1
+24.05-24.25 GHz;S;RADIOLOCATION;Detection of movement and alert;A05-03-2-1
+24.05-24.25 GHz;S;RADIOLOCATION;Radiolocation (civil);
+24.05-24.25 GHz;S;RADIOLOCATION;Radiolocation (military);
+24.05-24.25 GHz;S;RADIOLOCATION;Transport and Traffic Telematics (24.05-24.075 GHz);B04-05-1-1
+24.05-24.25 GHz;S;RADIOLOCATION;Transport and Traffic Telematics (24.075-24.15 GHz);B04-06-1-1
+24.05-24.25 GHz;S;RADIOLOCATION;Transport and Traffic Telematics (24.075-24.15 GHz);B04-07-1-1
+24.05-24.25 GHz;S;RADIOLOCATION;Transport and Traffic Telematics (24.075-24.15 GHz);B04-08-1-1
+24.05-24.25 GHz;S;RADIOLOCATION;Transport and Traffic Telematics (24.15-24.25 GHz);B04-09-1-1
+24.05-24.25 GHz;S;Amateur;Short-range radar;B04-03-2-1
+24.05-24.25 GHz;S;Amateur;Amateur;D02-23-1-1
+24.05-24.25 GHz;S;Amateur;ISM;
+24.05-24.25 GHz;S;Amateur;Non-specific Short Range Devices;B01-32-3-1
+24.05-24.25 GHz;S;Amateur;Tank Level Probing Radar;B08-09-1-1
+24.05-24.25 GHz;S;Amateur;Level Probing Radar;B08-02-1-1
+24.05-24.25 GHz;S;Amateur;Detection of movement and alert;A05-03-2-1
+24.05-24.25 GHz;S;Amateur;Radiolocation (civil);
+24.05-24.25 GHz;S;Amateur;Radiolocation (military);
+24.05-24.25 GHz;S;Amateur;Transport and Traffic Telematics (24.05-24.075 GHz);B04-05-1-1
+24.05-24.25 GHz;S;Amateur;Transport and Traffic Telematics (24.075-24.15 GHz);B04-06-1-1
+24.05-24.25 GHz;S;Amateur;Transport and Traffic Telematics (24.075-24.15 GHz);B04-07-1-1
+24.05-24.25 GHz;S;Amateur;Transport and Traffic Telematics (24.075-24.15 GHz);B04-08-1-1
+24.05-24.25 GHz;S;Amateur;Transport and Traffic Telematics (24.15-24.25 GHz);B04-09-1-1
+24.25-24.5 GHz;S;FIXED;Tank Level Probing Radar;B08-09-1-1
+24.25-24.5 GHz;S;FIXED;Level Probing Radar;B08-02-1-1
+24.25-24.5 GHz;S;FIXED;Short-range radar;B04-04-1-1
+24.25-24.5 GHz;S;FIXED;Transport and Traffic Telematics;B04-11-1-1
+24.25-24.5 GHz;S;FIXED;Transport and Traffic Telematics (24.25-24.495 GHz);B04-10-1-1
+24.25-24.5 GHz;S;FIXED;Transport and Traffic Telematics (24.495-24.5 GHz);B04-12-1-1
+24.5-25.25 GHz;C;FIXED;Tank Level Probing Radar;B08-09-1-1
+24.5-25.25 GHz;C;FIXED;Level Probing Radar;B08-02-1-1
+24.5-25.25 GHz;C;FIXED;Short-range radar;B04-04-1-1
+24.5-25.25 GHz;C;FIXED;Point-to-Point (24.549-25.333 GHz);
+24.5-25.25 GHz;C;FIXED;Point-to-Multipoint (25.137-25.193 GHz);
+25.25-25.333 GHz;C;FIXED;Tank Level Probing Radar;B08-09-1-1
+25.25-25.333 GHz;C;FIXED;Level Probing Radar;B08-02-1-1
+25.25-25.333 GHz;C;FIXED;Short-range radar;B04-04-1-1
+25.25-25.333 GHz;C;FIXED;Point-to-Point;
+25.25-25.333 GHz;C;MOBILE;Tank Level Probing Radar;B08-09-1-1
+25.25-25.333 GHz;C;MOBILE;Level Probing Radar;B08-02-1-1
+25.25-25.333 GHz;C;MOBILE;Short-range radar;B04-04-1-1
+25.25-25.333 GHz;C;MOBILE;Point-to-Point;
+25.333-25.5 GHz;M;FIXED;Tank Level Probing Radar;B08-09-1-1
+25.333-25.5 GHz;M;FIXED;Level Probing Radar;B08-02-1-1
+25.333-25.5 GHz;M;FIXED;Short-range radar;B04-04-1-1
+25.333-25.5 GHz;M;FIXED;Fixed radio relay (military) (25.333-25.445 GHz);
+25.333-25.5 GHz;M;MOBILE;Tank Level Probing Radar;B08-09-1-1
+25.333-25.5 GHz;M;MOBILE;Level Probing Radar;B08-02-1-1
+25.333-25.5 GHz;M;MOBILE;Short-range radar;B04-04-1-1
+25.333-25.5 GHz;M;MOBILE;Fixed radio relay (military) (25.333-25.445 GHz);
+25.5-26.341 GHz;C;FIXED;Tank Level Probing Radar;B08-09-1-1
+25.5-26.341 GHz;C;FIXED;Level Probing Radar;B08-02-1-1
+25.5-26.341 GHz;C;FIXED;Short-range radar;B04-04-1-1
+25.5-26.341 GHz;C;FIXED;Point-to-Point (25.557-26.341 GHz);
+25.5-26.341 GHz;C;FIXED;Point-to-Multipoint (26.145-26.201 GHz);
+25.5-26.341 GHz;C;MOBILE;Tank Level Probing Radar;B08-09-1-1
+25.5-26.341 GHz;C;MOBILE;Level Probing Radar;B08-02-1-1
+25.5-26.341 GHz;C;MOBILE;Short-range radar;B04-04-1-1
+25.5-26.341 GHz;C;MOBILE;Point-to-Point (25.557-26.341 GHz);
+25.5-26.341 GHz;C;MOBILE;Point-to-Multipoint (26.145-26.201 GHz);
+26.341-27.5 GHz;M;FIXED;Tank Level Probing Radar (24.05-27 GHz);B08-09-1-1
+26.341-27.5 GHz;M;FIXED;Level Probing Radar (24.05-26.5 GHz);B08-02-1-1
+26.341-27.5 GHz;M;FIXED;Short-range radar (24.25-26.65 GHz);B04-04-1-1
+26.341-27.5 GHz;M;FIXED;Fixed radio relay (military) (26.341-26.453 GHz);
+26.341-27.5 GHz;M;MOBILE;Tank Level Probing Radar (24.05-27 GHz);B08-09-1-1
+26.341-27.5 GHz;M;MOBILE;Level Probing Radar (24.05-26.5 GHz);B08-02-1-1
+26.341-27.5 GHz;M;MOBILE;Short-range radar (24.25-26.65 GHz);B04-04-1-1
+26.341-27.5 GHz;M;MOBILE;Fixed radio relay (military) (26.341-26.453 GHz);
+27.5-27.8285 GHz;C;FIXED;FSS Earth stations (27.5485-27.8285 GHz) (Foreseen);
+27.8285-27.9405 GHz;M;FIXED;Fixed radio relay (military);
+27.9405-28.8365 GHz;C;FIXED;Point-to-Point (27.9405-28.1925 GHz);E19-3-1
+27.9405-28.8365 GHz;C;FIXED;Point-to-Multipoint (28.2205-28.4445 GHz);
+27.9405-28.8365 GHz;C;FIXED;FSS Earth stations (28.5565-28.8365 GHz) (Foreseen);
+28.8365-28.9485 GHz;M;FIXED;Fixed radio relay (military);
+28.9485-29.5 GHz;C;FIXED;Point-to-Point (28.9485-29.2005 GHz);E19-3-1
+28.9485-29.5 GHz;C;FIXED;Point-to-Multipoint (29.2285-29.4525 GHz);
+29.5-30 GHz;C;FIXED-SATELLITE (Earth-to-space);SIT/SUT;
+30-31 GHz;M;FIXED-SATELLITE (Earth-to-space);Defence systems;
+30-31 GHz;M;MOBILE-SATELLITE (Earth-to-space);Defence systems;
+31-31.3 GHz;C;FIXED;Point-to-Point;E24-2-1
+31.8-33.4 GHz;S;FIXED;Point-to-Point;E23-2-1
+31.8-33.4 GHz;S;RADIONAVIGATION;Point-to-Point;E23-2-1
+33.4-36 GHz;M;RADIOLOCATION;Radiolocation (military);
+36-37.282 GHz;M;FIXED;Defence systems (36-37 GHz);
+36-37.282 GHz;M;FIXED;Fixed radio relay (military) (37.058-37.282 GHz) (CEPT T/R 12-01);
+36-37.282 GHz;M;MOBILE;Defence systems (36-37 GHz);
+36-37.282 GHz;M;MOBILE;Fixed radio relay (military) (37.058-37.282 GHz) (CEPT T/R 12-01);
+37.282-37.5 GHz;C;FIXED;Point-to-Point (37.308-38.178 GHz);E02-3-1
+37.282-37.5 GHz;C;MOBILE;Point-to-Point (37.308-38.178 GHz);E02-3-1
+37.5-38.318 GHz;C;FIXED;Point-to-Point (37.308-38.178 GHz);E02-3-1
+38.318-38.542 GHz;M;FIXED;Fixed radio relay (military) (38.318-38.452 GHz) (CEPT T/R 12-01);
+38.542-39.5 GHz;C;FIXED;Point-to-Point (38.568-39.438 GHz);E02-3-1
+39.5-40.5 GHz;M;FIXED-SATELLITE (space-to-Earth);Satellite systems (military) (Foreseen);
+39.5-40.5 GHz;M;MOBILE-SATELLITE (space-to-Earth);Satellite systems (military) (Foreseen);
+40.5-43.5 GHz;C;FIXED;Point-to-Point;E30-2-1
+47-47.2 GHz;C;AMATEUR;Amateur;D02-24-1-1
+47-47.2 GHz;C;AMATEUR;Amateur-satellite;
+47-47.2 GHz;C;AMATEUR-SATELLITE;Amateur;D02-24-1-1
+47-47.2 GHz;C;AMATEUR-SATELLITE;Amateur-satellite;
+47.2-50.2 GHz;C;FIXED;Point-to-Point (48.5-50.2 GHz);E31-1-1
+50.4-51.4 GHz;S;FIXED;Point-to-Point (50.9-52.6 GHz);E31-1-1
+50.4-51.4 GHz;S;FIXED-SATELLITE (Earth-to-space);Point-to-Point (50.9-52.6 GHz);E31-1-1
+50.4-51.4 GHz;S;Mobile-Satellite (Earth-to-space);Point-to-Point (50.9-52.6 GHz);E31-1-1
+51.4-52.6 GHz;C;FIXED;Point-to-Point;E31-1-1
+55.78-57 GHz;C;FIXED;Point-to-Point;E26-2-1
+57-59 GHz;C;FIXED;Wideband Data Transmission Systems;B02-02-1-2
+57-59 GHz;C;FIXED;Level Probing Radar;B08-03-1-1
+57-59 GHz;C;FIXED;Non-specific Short Range Devices;B01-33-3-1
+57-59 GHz;C;FIXED;Tank Level Probing Radar;B08-10-1-1
+57-59 GHz;C;FIXED;Point-to-Point;E20-3-1
+59-62 GHz;S;FIXED;Wideband Data Transmission Systems;B02-02-1-2
+59-62 GHz;S;FIXED;Level Probing Radar;B08-03-1-1
+59-62 GHz;S;FIXED;Non-specific Short Range Devices;B01-33-3-1
+59-62 GHz;S;FIXED;Tank Level Probing Radar;B08-10-1-1
+59-62 GHz;S;FIXED;Unplanned. uncoordinated fixed links;E27-01-2-1
+59-62 GHz;S;FIXED;ISM (61-61.5 GHz);
+59-62 GHz;S;FIXED;Non-specific Short Range Devices (61-61.5 GHz);B01-34-3-1
+59-62 GHz;S;MOBILE;Wideband Data Transmission Systems;B02-02-1-2
+59-62 GHz;S;MOBILE;Level Probing Radar;B08-03-1-1
+59-62 GHz;S;MOBILE;Non-specific Short Range Devices;B01-33-3-1
+59-62 GHz;S;MOBILE;Tank Level Probing Radar;B08-10-1-1
+59-62 GHz;S;MOBILE;Unplanned. uncoordinated fixed links;E27-01-2-1
+59-62 GHz;S;MOBILE;ISM (61-61.5 GHz);
+59-62 GHz;S;MOBILE;Non-specific Short Range Devices (61-61.5 GHz);B01-34-3-1
+59-62 GHz;S;RADIOLOCATION;Wideband Data Transmission Systems;B02-02-1-2
+59-62 GHz;S;RADIOLOCATION;Level Probing Radar;B08-03-1-1
+59-62 GHz;S;RADIOLOCATION;Non-specific Short Range Devices;B01-33-3-1
+59-62 GHz;S;RADIOLOCATION;Tank Level Probing Radar;B08-10-1-1
+59-62 GHz;S;RADIOLOCATION;Unplanned. uncoordinated fixed links;E27-01-2-1
+59-62 GHz;S;RADIOLOCATION;ISM (61-61.5 GHz);
+59-62 GHz;S;RADIOLOCATION;Non-specific Short Range Devices (61-61.5 GHz);B01-34-3-1
+62-63 GHz;C;FIXED;Wideband Data Transmission Systems;B02-02-1-2
+62-63 GHz;C;FIXED;Level Probing Radar;B08-03-1-1
+62-63 GHz;C;FIXED;Non-specific Short Range Devices;B01-33-3-1
+62-63 GHz;C;FIXED;Tank Level Probing Radar;B08-10-1-1
+62-63 GHz;C;FIXED;Unplanned. uncoordinated fixed links;E27-01-2-1
+62-63 GHz;C;MOBILE;Wideband Data Transmission Systems;B02-02-1-2
+62-63 GHz;C;MOBILE;Level Probing Radar;B08-03-1-1
+62-63 GHz;C;MOBILE;Non-specific Short Range Devices;B01-33-3-1
+62-63 GHz;C;MOBILE;Tank Level Probing Radar;B08-10-1-1
+62-63 GHz;C;MOBILE;Unplanned. uncoordinated fixed links;E27-01-2-1
+62-63 GHz;C;RADIOLOCATION;Wideband Data Transmission Systems;B02-02-1-2
+62-63 GHz;C;RADIOLOCATION;Level Probing Radar;B08-03-1-1
+62-63 GHz;C;RADIOLOCATION;Non-specific Short Range Devices;B01-33-3-1
+62-63 GHz;C;RADIOLOCATION;Tank Level Probing Radar;B08-10-1-1
+62-63 GHz;C;RADIOLOCATION;Unplanned. uncoordinated fixed links;E27-01-2-1
+63-64 GHz;C;MOBILE;Wideband Data Transmission Systems;B02-02-1-2
+63-64 GHz;C;MOBILE;Level Probing Radar;B08-03-1-1
+63-64 GHz;C;MOBILE;Non-specific Short Range Devices;B01-33-3-1
+63-64 GHz;C;MOBILE;Tank Level Probing Radar;B08-10-1-1
+63-64 GHz;C;MOBILE;Point-to-Point;E27-02-2-1
+63-64 GHz;C;MOBILE;Transport and Traffic Telematics;B04-13-2-1
+63-64 GHz;C;RADIOLOCATION;Wideband Data Transmission Systems;B02-02-1-2
+63-64 GHz;C;RADIOLOCATION;Level Probing Radar;B08-03-1-1
+63-64 GHz;C;RADIOLOCATION;Non-specific Short Range Devices;B01-33-3-1
+63-64 GHz;C;RADIOLOCATION;Tank Level Probing Radar;B08-10-1-1
+63-64 GHz;C;RADIOLOCATION;Point-to-Point;E27-02-2-1
+63-64 GHz;C;RADIOLOCATION;Transport and Traffic Telematics;B04-13-2-1
+64-66 GHz;C;FIXED;Wideband Data Transmission Systems;B02-02-1-2
+64-66 GHz;C;FIXED;Point-to-Point;E28-2-1
+64-66 GHz;C;MOBILE;Wideband Data Transmission Systems;B02-02-1-2
+64-66 GHz;C;MOBILE;Point-to-Point;E28-2-1
+71-74 GHz;S;FIXED;Point-to-Point;E29-2-1
+74-75.5 GHz;C;FIXED;Point-to-Point;E29-2-1
+74-75.5 GHz;C;FIXED;Level Probing Radar (75-85 GHz);B08-04-1-1
+74-75.5 GHz;C;FIXED;Tank Level Probing Radar (75-85 GHz);B08-11-1-1
+75.5-76 GHz;C;AMATEUR;Point-to-Point;E29-2-1
+75.5-76 GHz;C;AMATEUR;Level Probing Radar;B08-04-1-1
+75.5-76 GHz;C;AMATEUR;Tank Level Probing Radar;B08-11-1-1
+75.5-76 GHz;C;AMATEUR;Amateur;D02-25-1-1
+75.5-76 GHz;C;AMATEUR;Amateur-satellite;
+75.5-76 GHz;C;AMATEUR-SATELLITE;Point-to-Point;E29-2-1
+75.5-76 GHz;C;AMATEUR-SATELLITE;Level Probing Radar;B08-04-1-1
+75.5-76 GHz;C;AMATEUR-SATELLITE;Tank Level Probing Radar;B08-11-1-1
+75.5-76 GHz;C;AMATEUR-SATELLITE;Amateur;D02-25-1-1
+75.5-76 GHz;C;AMATEUR-SATELLITE;Amateur-satellite;
+75.5-76 GHz;C;FIXED;Point-to-Point;E29-2-1
+75.5-76 GHz;C;FIXED;Level Probing Radar;B08-04-1-1
+75.5-76 GHz;C;FIXED;Tank Level Probing Radar;B08-11-1-1
+75.5-76 GHz;C;FIXED;Amateur;D02-25-1-1
+75.5-76 GHz;C;FIXED;Amateur-satellite;
+76-81 GHz;C;RADIOLOCATION;Level Probing Radar;B08-04-1-1
+76-81 GHz;C;RADIOLOCATION;Tank Level Probing Radar;B08-11-1-1
+76-81 GHz;C;RADIOLOCATION;Amateur;D02-25-1-1
+76-81 GHz;C;RADIOLOCATION;Amateur-satellite;
+76-81 GHz;C;RADIOLOCATION;Detection of movement and alert (76-77 GHz) (Obstruction/Vehicle detection via radar Sensor at railway level crossings);B13-05-2-1
+76-81 GHz;C;RADIOLOCATION;Transport and Traffic Telematics (76-77 GHz);B04-15-3-1
+76-81 GHz;C;RADIOLOCATION;Transport and Traffic Telematics (76-77 GHz);B04-14-2-1
+76-81 GHz;C;RADIOLOCATION;Transport and Traffic Telematics (77-81 GHz) (Short range radar for rotorcraft use);B04-16-2-1
+76-81 GHz;C;Amateur;Level Probing Radar;B08-04-1-1
+76-81 GHz;C;Amateur;Tank Level Probing Radar;B08-11-1-1
+76-81 GHz;C;Amateur;Amateur;D02-25-1-1
+76-81 GHz;C;Amateur;Amateur-satellite;
+76-81 GHz;C;Amateur;Detection of movement and alert (76-77 GHz) (Obstruction/Vehicle detection via radar Sensor at railway level crossings);B13-05-2-1
+76-81 GHz;C;Amateur;Transport and Traffic Telematics (76-77 GHz);B04-15-3-1
+76-81 GHz;C;Amateur;Transport and Traffic Telematics (76-77 GHz);B04-14-2-1
+76-81 GHz;C;Amateur;Transport and Traffic Telematics (77-81 GHz) (Short range radar for rotorcraft use);B04-16-2-1
+76-81 GHz;C;Amateur-Satellite;Level Probing Radar;B08-04-1-1
+76-81 GHz;C;Amateur-Satellite;Tank Level Probing Radar;B08-11-1-1
+76-81 GHz;C;Amateur-Satellite;Amateur;D02-25-1-1
+76-81 GHz;C;Amateur-Satellite;Amateur-satellite;
+76-81 GHz;C;Amateur-Satellite;Detection of movement and alert (76-77 GHz) (Obstruction/Vehicle detection via radar Sensor at railway level crossings);B13-05-2-1
+76-81 GHz;C;Amateur-Satellite;Transport and Traffic Telematics (76-77 GHz);B04-15-3-1
+76-81 GHz;C;Amateur-Satellite;Transport and Traffic Telematics (76-77 GHz);B04-14-2-1
+76-81 GHz;C;Amateur-Satellite;Transport and Traffic Telematics (77-81 GHz) (Short range radar for rotorcraft use);B04-16-2-1
+81-84 GHz;S;FIXED;Level Probing Radar;B08-04-1-1
+81-84 GHz;S;FIXED;Tank Level Probing Radar;B08-11-1-1
+81-84 GHz;S;FIXED;Point-to-Point;E29-2-1
+84-86 GHz;C;FIXED;Level Probing Radar (75-85 GHz);B08-04-1-1
+84-86 GHz;C;FIXED;Tank Level Probing Radar (75-85 GHz);B08-11-1-1
+84-86 GHz;C;FIXED;Point-to-Point;E29-2-1
+100-126 GHz;C;Not allocated;ISM (122-123 GHz);
+100-126 GHz;C;Not allocated;Non-specific Short Range Devices (122-122.25 GHz);B01-35-4-1
+100-126 GHz;C;Not allocated;Non-specific Short Range Devices (122.25-123 GHz);B01-37-4-1
+142-144 GHz;C;AMATEUR;Amateur;D02-26-1-1
+142-144 GHz;C;AMATEUR;Amateur-satellite;
+142-144 GHz;C;AMATEUR-SATELLITE;Amateur;D02-26-1-1
+142-144 GHz;C;AMATEUR-SATELLITE;Amateur-satellite;
+144-149 GHz;C;Amateur;Amateur;D02-26-1-1
+144-149 GHz;C;Amateur;Amateur-satellite;
+144-149 GHz;C;Amateur-Satellite;Amateur;D02-26-1-1
+144-149 GHz;C;Amateur-Satellite;Amateur-satellite;
+241-248 GHz;C;RADIOLOCATION;Amateur;D02-27-1-1
+241-248 GHz;C;RADIOLOCATION;Amateur-satellite;
+241-248 GHz;C;RADIOLOCATION;ISM (244-246 GHz);
+241-248 GHz;C;RADIOLOCATION;Non-specific Short Range Devices (244-246 GHz);B01-36-3-1
+241-248 GHz;C;Amateur;Amateur;D02-27-1-1
+241-248 GHz;C;Amateur;Amateur-satellite;
+241-248 GHz;C;Amateur;ISM (244-246 GHz);
+241-248 GHz;C;Amateur;Non-specific Short Range Devices (244-246 GHz);B01-36-3-1
+241-248 GHz;C;Amateur-Satellite;Amateur;D02-27-1-1
+241-248 GHz;C;Amateur-Satellite;Amateur-satellite;
+241-248 GHz;C;Amateur-Satellite;ISM (244-246 GHz);
+241-248 GHz;C;Amateur-Satellite;Non-specific Short Range Devices (244-246 GHz);B01-36-3-1
+248-250 GHz;C;AMATEUR;Amateur;D02-27-1-1
+248-250 GHz;C;AMATEUR;Amateur-satellite;
+248-250 GHz;C;AMATEUR-SATELLITE;Amateur;D02-27-1-1
+248-250 GHz;C;AMATEUR-SATELLITE;Amateur-satellite;
