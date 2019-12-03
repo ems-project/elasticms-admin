@@ -17,8 +17,9 @@ monolog:
             channels: [app]
         nested:
             type: stream
-            path: "%kernel.logs_dir%/%kernel.environment%.log"
-            level: debug
+#            path: "%kernel.logs_dir%/%kernel.environment%.log"
+            path: "php://stderr"
+            level: notice
         console:
             type:   console
             process_psr_3_messages: false
