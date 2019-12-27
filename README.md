@@ -30,7 +30,7 @@ The Author
 Navigate to the root of the project `ElasticMS` and execute the following command:
 > composer update
 
-Add the end you will get a list of questions to configure user database and database user. While the user should exist in your mysql environment, you can automatically create the database and schema with the following commands:
+At the end you will get a list of questions to configure user database and database user. While the user should exist in your mysql environment, you can automatically create the database and schema with the following commands:
 > php bin/console doctrine:database:create
 > php bin/console doctrine:migrations:migrate
 > y
