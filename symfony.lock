@@ -47,6 +47,9 @@
             "ref": "c1431086fec31f17fbcfe6d6d7e92059458facc1"
         }
     },
+    "doctrine/event-manager": {
+        "version": "1.1.0"
+    },
     "doctrine/inflector": {
         "version": "v1.3.0"
     },
@@ -61,6 +64,12 @@
     },
     "doctrine/orm": {
         "version": "2.7.x-dev"
+    },
+    "doctrine/persistence": {
+        "version": "1.3.3"
+    },
+    "doctrine/reflection": {
+        "version": "v1.0.0"
     },
     "dompdf/dompdf": {
         "version": "v0.8.2"
@@ -92,9 +101,6 @@
     "ezyang/htmlpurifier": {
         "version": "v4.10.0"
     },
-    "fig/link-util": {
-        "version": "1.0.x-dev"
-    },
     "friendsofsymfony/user-bundle": {
         "version": "v2.1.2"
     },
@@ -115,6 +121,9 @@
     },
     "jdorn/sql-formatter": {
         "version": "1.3.x-dev"
+    },
+    "kub-at/php-simple-html-dom-parser": {
+        "version": "1.9.1"
     },
     "maennchen/zipstream-php": {
         "version": "v0.5.2"
@@ -191,9 +200,6 @@
     "sensiolabs/ansi-to-html": {
         "version": "1.1-dev"
     },
-    "sunra/php-simple-html-dom-parser": {
-        "version": "v1.5.2"
-    },
     "swiftmailer/swiftmailer": {
         "version": "6.1-dev"
     },
@@ -248,8 +254,14 @@
     "symfony/dotenv": {
         "version": "v4.1.0"
     },
+    "symfony/error-handler": {
+        "version": "v4.4.2"
+    },
     "symfony/event-dispatcher": {
         "version": "v4.1.0"
+    },
+    "symfony/event-dispatcher-contracts": {
+        "version": "v1.1.7"
     },
     "symfony/expression-language": {
         "version": "4.1.x-dev"
@@ -305,6 +317,9 @@
             "ref": "fadbfe33303a76e25cb63401050439aa9b1a9c7f"
         }
     },
+    "symfony/mime": {
+        "version": "v5.0.2"
+    },
     "symfony/monolog-bridge": {
         "version": "v4.1.0"
     },
@@ -338,11 +353,17 @@
     "symfony/polyfill-intl-icu": {
         "version": "v1.8.0"
     },
+    "symfony/polyfill-intl-idn": {
+        "version": "v1.13.1"
+    },
     "symfony/polyfill-mbstring": {
         "version": "v1.8.0"
     },
     "symfony/polyfill-php72": {
         "version": "v1.8.0"
+    },
+    "symfony/polyfill-php73": {
+        "version": "v1.13.1"
     },
     "symfony/process": {
         "version": "v4.1.0"
@@ -409,6 +430,9 @@
             "version": "3.3",
             "ref": "6bcd6c570c017ea6ae5a7a6a027c929fd3542cd8"
         }
+    },
+    "symfony/translation-contracts": {
+        "version": "v2.0.1"
     },
     "symfony/twig-bridge": {
         "version": "v4.1.0"
