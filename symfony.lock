@@ -152,6 +152,9 @@
     "phenx/php-svg-lib": {
         "version": "v0.3.2"
     },
+    "php": {
+        "version": "7.2"
+    },
     "phpdocumentor/reflection-common": {
         "version": "1.0.1"
     },
@@ -211,6 +214,9 @@
     },
     "symfony/cache": {
         "version": "v4.1.0"
+    },
+    "symfony/cache-contracts": {
+        "version": "v2.0.1"
     },
     "symfony/config": {
         "version": "v4.1.0"
@@ -404,6 +410,9 @@
     "symfony/serializer-pack": {
         "version": "dev-master"
     },
+    "symfony/service-contracts": {
+        "version": "v2.0.1"
+    },
     "symfony/stopwatch": {
         "version": "v4.1.0"
     },
@@ -451,6 +460,9 @@
     },
     "symfony/var-dumper": {
         "version": "v4.1.0"
+    },
+    "symfony/var-exporter": {
+        "version": "v5.0.2"
     },
     "symfony/web-link": {
         "version": "4.1.x-dev"
