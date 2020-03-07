@@ -1570,16 +1570,16 @@
         },
         {
             "name": "elasticms/core-bundle",
-            "version": "1.12.1",
+            "version": "1.12.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSCoreBundle.git",
-                "reference": "a046076219deed7d9379f31bebb288850a66cf91"
+                "reference": "78c382d9c8f11df10632d08e4c7974ba39446073"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSCoreBundle/zipball/a046076219deed7d9379f31bebb288850a66cf91",
-                "reference": "a046076219deed7d9379f31bebb288850a66cf91",
+                "url": "https://api.github.com/repos/ems-project/EMSCoreBundle/zipball/78c382d9c8f11df10632d08e4c7974ba39446073",
+                "reference": "78c382d9c8f11df10632d08e4c7974ba39446073",
                 "shasum": ""
             },
             "require": {
@@ -1587,10 +1587,8 @@
                 "doctrine/doctrine-migrations-bundle": "^1.3",
                 "dompdf/dompdf": "^0.8",
                 "elasticms/common-bundle": "~1.8.0",
-                "ext-dom": "*",
                 "ext-iconv": "*",
                 "ext-json": "*",
-                "ext-libxml": "*",
                 "ext-openssl": "*",
                 "ext-soap": "*",
                 "ext-zip": "*",
@@ -1659,7 +1657,7 @@
             "keywords": [
                 "elasticms"
             ],
-            "time": "2020-02-29T12:57:21+00:00"
+            "time": "2020-02-26T10:19:28+00:00"
         },
         {
             "name": "elasticms/local-user-bundle",
