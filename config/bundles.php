@@ -18,4 +18,5 @@ return [
     EMS\LocalUserBundle\EMSLocalUserBundle::class => ['all' => true],
     EMS\CoreBundle\EMSCoreBundle::class => ['all' => true],
     EMS\CommonBundle\EMSCommonBundle::class => ['all' => true],
+    EMS\MakerBundle\EMSMakerBundle::class => ['all' => true],
 ];

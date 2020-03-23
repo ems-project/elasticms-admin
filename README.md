@@ -2,7 +2,7 @@
 
 ## About
 
-A minimal CMS to manage generic content in order to publish it in several Elasticsearch index (based on Symfony 3, and AdminLTE).
+A minimal CMS to manage generic content in order to publish it in several Elasticsearch index (based on Symfony 4, Bootstrap 3, and AdminLTE).
 
 There are 4 differents roles in this CMS:
 
@@ -19,24 +19,45 @@ The Author
 
 ## Setup
 ### Requirements
--   bower
 -   composer
--   elasticsearch
--   mysql
--   npm
--   symfony 3
+-   an elasticsearch cluster (at least 2 nodes is recommended)
+-   mysql or PostrgreSQL
+-   optionally an Apache Tika sever
 
 ### Installation
-Navigate to the root of the project `ElasticMS` and execute the following command:
-> composer update
+Navigate to the root of the project `elasticms` and execute the following command:
+> composer install
 
 At the end you will get a list of questions to configure user database and database user. While the user should exist in your mysql environment, you can automatically create the database and schema with the following commands:
+```
+php bin/console doctrine:database:drop --force
+php bin/console doctrine:database:create
+php bin/console doctrine:migrations:migrate -n
+php bin/console fos:user:create demo demo@example.com mypassword --super-admin
+php bin/console ems:make:filter --all
+php bin/console ems:make:analyzer --all
+php bin/console ems:environment:create preview
+php bin/console ems:environment:create live
+php bin/console ems:environment:create template
+php bin/console ems:make:contenttype page menu --environment=preview
+php bin/console ems:make:contenttype label template route asset --environment=template
+php bin/console ems:environment:rebuild preview
+php bin/console ems:environment:rebuild live
+php bin/console ems:environment:rebuild template
+php bin/console ems:contenttype:activate --all
+php bin/console ems:delete:orphans
+php bin/console ems:make:document page vendor/elasticms/maker-bundle/Resources/make/document/page
+php bin/console ems:make:document menu vendor/elasticms/maker-bundle/Resources/make/document/menu
+php bin/console ems:make:document label vendor/elasticms/maker-bundle/Resources/make/document/label
+php bin/console ems:make:document template vendor/elasticms/maker-bundle/Resources/make/document/template
+php bin/console ems:env:align template preview  --searchQuery='{"query":{"bool":{"must":[{"terms":{"_contenttype":["template","label","route"]}}]}}}' --force
+php bin/console ems:env:align preview template  --searchQuery='{"query":{"bool":{"must_not":[{"terms":{"_contenttype":["template","label","route"]}}]}}}' --force
+php bin/console ems:env:align preview live  --force
+```
+
+
 > php bin/console doctrine:database:create
 > php bin/console doctrine:migrations:migrate
-> y
-
-You should also install the bower plugins:
-> bower install
 
 Verify the project's elasticsearch configuration in `src\AppBundle\Resources\config\parameters.yml`.
 And now we can launch Symfony's build in server:
@@ -74,3 +95,26 @@ It is adviced to always use migrations for changes so that:
 -   we can easily build a DB from scratch and get future changes (use doctrine:migrations:migrate in stead of doctrine:schema:create)
 -   everyone can update to a newer version without dataloss (auto generate migrations with doctrine:migrations:diff for schema updates && write migrations for content changes)
 //TODO: decide on a naming convention for migrations
+
+```
+php bin/console doctrine:database:drop --force
+php bin/console doctrine:database:create
+php bin/console doctrine:migrations:migrate -n
+php bin/console fos:user:create demo demo@example.com mypassword --super-admin
+php bin/console ems:environment:create preview
+php bin/console ems:environment:create live
+php bin/console ems:environment:create template
+php bin/console ems:make:contenttype menu --environment=preview
+php bin/console ems:make:contenttype label template route asset --environment=template
+php bin/console ems:environment:rebuild preview
+php bin/console ems:environment:rebuild live
+php bin/console ems:environment:rebuild template
+php bin/console ems:contenttype:activate --all
+php bin/console ems:delete:orphans
+php bin/console ems:make:document template vendor/elasticms/maker-bundle/Resources/make/document/template.zip
+php bin/console ems:make:document label vendor/elasticms/maker-bundle/Resources/make/document/label.zip
+php bin/console ems:env:align template preview  --searchQuery='{"query":{"bool":{"must":[{"terms":{"_contenttype":["template","label","route"]}}]}}}' --force
+php bin/console ems:env:align preview template  --searchQuery='{"query":{"bool":{"must_not":[{"terms":{"_contenttype":["template","label","route"]}}]}}}' --force
+php bin/console ems:env:align preview live  --force
+```
+ 
