@@ -1,7 +1,7 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
     "content-hash": "451c6356bda7326af2261d6d08493ebd",
@@ -1493,29 +1493,32 @@
         },
         {
             "name": "elasticms/common-bundle",
-            "version": "1.8.3",
+            "version": "1.8.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSCommonBundle.git",
-                "reference": "e67bf4cfc2893fdbec151fe4f40683cbca78fb2e"
+                "reference": "5193c66e1e4d0520ede67e088c27e75ed3b9b469"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSCommonBundle/zipball/e67bf4cfc2893fdbec151fe4f40683cbca78fb2e",
-                "reference": "e67bf4cfc2893fdbec151fe4f40683cbca78fb2e",
+                "url": "https://api.github.com/repos/ems-project/EMSCommonBundle/zipball/5193c66e1e4d0520ede67e088c27e75ed3b9b469",
+                "reference": "5193c66e1e4d0520ede67e088c27e75ed3b9b469",
                 "shasum": ""
             },
             "require": {
                 "aws/aws-sdk-php": "^3.109",
                 "doctrine/doctrine-bundle": "^1.11",
                 "doctrine/orm": "^2.6",
+                "dompdf/dompdf": "^0.8.5",
                 "elasticsearch/elasticsearch": "~5.3.0",
+                "ext-dom": "*",
                 "ext-gd": "*",
                 "ext-iconv": "*",
                 "ext-json": "*",
                 "ext-mbstring": "*",
                 "guzzlehttp/guzzle": "^6.3",
                 "php": "^7.2.0",
+                "symfony/dom-crawler": "^4.4",
                 "symfony/framework-bundle": "^4.4",
                 "symfony/http-foundation": "^4.4",
                 "symfony/monolog-bridge": "^4.4",
@@ -1566,20 +1569,20 @@
             "keywords": [
                 "elasticms"
             ],
-            "time": "2020-02-26T09:25:00+00:00"
+            "time": "2020-04-02T12:10:34+00:00"
         },
         {
             "name": "elasticms/core-bundle",
-            "version": "1.12.2",
+            "version": "1.12.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSCoreBundle.git",
-                "reference": "78c382d9c8f11df10632d08e4c7974ba39446073"
+                "reference": "4e80dab9900aa6816ee378131e2f7b8295c78cab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSCoreBundle/zipball/78c382d9c8f11df10632d08e4c7974ba39446073",
-                "reference": "78c382d9c8f11df10632d08e4c7974ba39446073",
+                "url": "https://api.github.com/repos/ems-project/EMSCoreBundle/zipball/4e80dab9900aa6816ee378131e2f7b8295c78cab",
+                "reference": "4e80dab9900aa6816ee378131e2f7b8295c78cab",
                 "shasum": ""
             },
             "require": {
@@ -1587,8 +1590,10 @@
                 "doctrine/doctrine-migrations-bundle": "^1.3",
                 "dompdf/dompdf": "^0.8",
                 "elasticms/common-bundle": "~1.8.0",
+                "ext-dom": "*",
                 "ext-iconv": "*",
                 "ext-json": "*",
+                "ext-libxml": "*",
                 "ext-openssl": "*",
                 "ext-soap": "*",
                 "ext-zip": "*",
@@ -1657,7 +1662,7 @@
             "keywords": [
                 "elasticms"
             ],
-            "time": "2020-02-26T10:19:28+00:00"
+            "time": "2020-03-24T10:17:57+00:00"
         },
         {
             "name": "elasticms/local-user-bundle",
@@ -4072,6 +4077,67 @@
             "description": "Symfony Doctrine Bridge",
             "homepage": "https://symfony.com",
             "time": "2020-02-24T17:16:47+00:00"
+        },
+        {
+            "name": "symfony/dom-crawler",
+            "version": "v4.4.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/dom-crawler.git",
+                "reference": "11dcf08f12f29981bf770f097a5d64d65bce5929"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/dom-crawler/zipball/11dcf08f12f29981bf770f097a5d64d65bce5929",
+                "reference": "11dcf08f12f29981bf770f097a5d64d65bce5929",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1.3",
+                "symfony/polyfill-ctype": "~1.8",
+                "symfony/polyfill-mbstring": "~1.0"
+            },
+            "conflict": {
+                "masterminds/html5": "<2.6"
+            },
+            "require-dev": {
+                "masterminds/html5": "^2.6",
+                "symfony/css-selector": "^3.4|^4.0|^5.0"
+            },
+            "suggest": {
+                "symfony/css-selector": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\DomCrawler\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony DomCrawler Component",
+            "homepage": "https://symfony.com",
+            "time": "2020-02-29T10:05:28+00:00"
         },
         {
             "name": "symfony/error-handler",
@@ -7625,67 +7691,6 @@
             ],
             "description": "A debug pack for Symfony projects",
             "time": "2018-12-10T12:11:11+00:00"
-        },
-        {
-            "name": "symfony/dom-crawler",
-            "version": "v4.4.5",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/dom-crawler.git",
-                "reference": "11dcf08f12f29981bf770f097a5d64d65bce5929"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/dom-crawler/zipball/11dcf08f12f29981bf770f097a5d64d65bce5929",
-                "reference": "11dcf08f12f29981bf770f097a5d64d65bce5929",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^7.1.3",
-                "symfony/polyfill-ctype": "~1.8",
-                "symfony/polyfill-mbstring": "~1.0"
-            },
-            "conflict": {
-                "masterminds/html5": "<2.6"
-            },
-            "require-dev": {
-                "masterminds/html5": "^2.6",
-                "symfony/css-selector": "^3.4|^4.0|^5.0"
-            },
-            "suggest": {
-                "symfony/css-selector": ""
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "4.4-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Symfony\\Component\\DomCrawler\\": ""
-                },
-                "exclude-from-classmap": [
-                    "/Tests/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
-                },
-                {
-                    "name": "Symfony Community",
-                    "homepage": "https://symfony.com/contributors"
-                }
-            ],
-            "description": "Symfony DomCrawler Component",
-            "homepage": "https://symfony.com",
-            "time": "2020-02-29T10:05:28+00:00"
         },
         {
             "name": "symfony/dotenv",
