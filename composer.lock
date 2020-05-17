@@ -1493,16 +1493,16 @@
         },
         {
             "name": "elasticms/common-bundle",
-            "version": "1.8.8",
+            "version": "1.8.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSCommonBundle.git",
-                "reference": "75694fb77963ccac0ec830382798517ee6719b34"
+                "reference": "384f11cd7286d481d0f0e0399d4c98d779585f73"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSCommonBundle/zipball/75694fb77963ccac0ec830382798517ee6719b34",
-                "reference": "75694fb77963ccac0ec830382798517ee6719b34",
+                "url": "https://api.github.com/repos/ems-project/EMSCommonBundle/zipball/384f11cd7286d481d0f0e0399d4c98d779585f73",
+                "reference": "384f11cd7286d481d0f0e0399d4c98d779585f73",
                 "shasum": ""
             },
             "require": {
@@ -1531,7 +1531,7 @@
             },
             "require-dev": {
                 "mockery/mockery": "^0.9",
-                "phpstan/phpstan": "^0.11",
+                "phpstan/phpstan": "^0.12",
                 "phpunit/phpunit": "^5.7",
                 "squizlabs/php_codesniffer": "^3.4",
                 "symfony/phpunit-bridge": "^4.4",
@@ -1569,7 +1569,7 @@
             "keywords": [
                 "elasticms"
             ],
-            "time": "2020-04-21T14:06:32+00:00"
+            "time": "2020-05-11T13:45:16+00:00"
         },
         {
             "name": "elasticms/core-bundle",
