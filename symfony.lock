@@ -2,6 +2,9 @@
     "aws/aws-sdk-php": {
         "version": "3.87.2"
     },
+    "brick/math": {
+        "version": "0.8.15"
+    },
     "caxy/php-htmldiff": {
         "version": "0.1.x-dev"
     },
@@ -74,15 +77,6 @@
     "dompdf/dompdf": {
         "version": "v0.8.2"
     },
-    "easycorp/easy-log-handler": {
-        "version": "1.0",
-        "recipe": {
-            "repo": "github.com/symfony/recipes",
-            "branch": "master",
-            "version": "1.0",
-            "ref": "70062abc2cd58794d2a90274502f81b55cd9951b"
-        }
-    },
     "egulias/email-validator": {
         "version": "2.1.4"
     },
@@ -128,6 +122,9 @@
     "kub-at/php-simple-html-dom-parser": {
         "version": "1.9.1"
     },
+    "laminas/laminas-zendframework-bridge": {
+        "version": "1.0.4"
+    },
     "maennchen/zipstream-php": {
         "version": "v0.5.2"
     },
@@ -156,7 +153,7 @@
         "version": "v0.3.2"
     },
     "php": {
-        "version": "7.4"
+        "version": "7.3"
     },
     "phpdocumentor/reflection-common": {
         "version": "1.0.1"
@@ -187,6 +184,24 @@
     },
     "ralouphie/getallheaders": {
         "version": "2.0.5"
+    },
+    "ramsey/collection": {
+        "version": "1.0.1"
+    },
+    "ramsey/uuid": {
+        "version": "4.0.1"
+    },
+    "ramsey/uuid-doctrine": {
+        "version": "1.3",
+        "recipe": {
+            "repo": "github.com/symfony/recipes-contrib",
+            "branch": "master",
+            "version": "1.3",
+            "ref": "471aed0fbf5620b8d7f92b7a5ebbbf6c0945c27a"
+        },
+        "files": [
+            "config/packages/ramsey_uuid_doctrine.yaml"
+        ]
     },
     "react/promise": {
         "version": "2.x-dev"
@@ -314,6 +329,9 @@
     "symfony/intl": {
         "version": "v4.1.0"
     },
+    "symfony/ldap": {
+        "version": "v4.4.9"
+    },
     "symfony/lts": {
         "version": "4-dev"
     },
@@ -373,6 +391,9 @@
     },
     "symfony/polyfill-php73": {
         "version": "v1.13.1"
+    },
+    "symfony/polyfill-php80": {
+        "version": "v1.17.0"
     },
     "symfony/process": {
         "version": "v4.1.0"
@@ -502,6 +523,9 @@
     },
     "twig/twig": {
         "version": "v2.4.8"
+    },
+    "webimpress/safe-writer": {
+        "version": "2.0.1"
     },
     "webmozart/assert": {
         "version": "1.3-dev"

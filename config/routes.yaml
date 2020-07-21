@@ -3,6 +3,3 @@ fos_user:
 ems_core:
     resource: "@EMSCoreBundle/Controller/"
     type:     annotation
-ems_local_user:
-    resource: "@EMSLocalUserBundle/Controller/"
-    type:     annotation
