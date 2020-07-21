@@ -17,7 +17,7 @@
     "ext-iconv": "*",
     "ext-json": "*",
     "ext-openssl": "*",
-    "elasticms/local-user-bundle": "^1.10",
+    "elasticms/core-bundle": "^1.13",
     "elasticms/maker-bundle": "^0.0.3",
     "symfony/flex": "^1.0",
     "symfony/framework-bundle": "^4.3",
