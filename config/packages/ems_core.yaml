@@ -20,7 +20,7 @@ parameters:
     env(EMS_ALLOW_USER_REGISTRATION): false
     env(EMS_ASSET_CONFIG): '[]'
     env(EMS_UPLOAD_FOLDER): ''
-    env(STORAGE_FOLDER): './var/assets'
+    env(STORAGE_FOLDER): ''
     env(EMS_CIRCLES_OBJECT): ''
     env(EMS_SAVE_ASSETS_IN_DB): 'false'
     env(EMS_SFTP_SERVEUR): ''
