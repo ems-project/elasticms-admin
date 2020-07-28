@@ -135,12 +135,6 @@
                 "brick",
                 "math"
             ],
-            "funding": [
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/brick/math",
-                    "type": "tidelift"
-                }
-            ],
             "time": "2020-04-15T15:59:35+00:00"
         },
         {
@@ -1640,16 +1634,16 @@
         },
         {
             "name": "elasticms/core-bundle",
-            "version": "1.13.9",
+            "version": "1.13.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSCoreBundle.git",
-                "reference": "fa48c94cd95f2c719c239bb71f965f7ea3ff9610"
+                "reference": "d096be5720cd4b6d06afa69091585939b12221f6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSCoreBundle/zipball/fa48c94cd95f2c719c239bb71f965f7ea3ff9610",
-                "reference": "fa48c94cd95f2c719c239bb71f965f7ea3ff9610",
+                "url": "https://api.github.com/repos/ems-project/EMSCoreBundle/zipball/d096be5720cd4b6d06afa69091585939b12221f6",
+                "reference": "d096be5720cd4b6d06afa69091585939b12221f6",
                 "shasum": ""
             },
             "require": {
@@ -1732,7 +1726,7 @@
             "keywords": [
                 "elasticms"
             ],
-            "time": "2020-07-23T14:16:03+00:00"
+            "time": "2020-07-23T22:35:55+00:00"
         },
         {
             "name": "elasticms/maker-bundle",
@@ -3404,12 +3398,6 @@
                 "guid",
                 "identifier",
                 "uuid"
-            ],
-            "funding": [
-                {
-                    "url": "https://github.com/ramsey",
-                    "type": "github"
-                }
             ],
             "time": "2020-03-29T20:13:32+00:00"
         },
@@ -8459,6 +8447,5 @@
         "ext-json": "*",
         "ext-openssl": "*"
     },
-    "platform-dev": [],
-    "plugin-api-version": "1.1.0"
+    "platform-dev": []
 }
