@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a7e2b6f53efdc7c1820521c887bc6867",
+    "content-hash": "73494dd6d5bf9ce98334a2d81fe0da76",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
@@ -1634,16 +1634,16 @@
         },
         {
             "name": "elasticms/core-bundle",
-            "version": "1.13.11",
+            "version": "1.13.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSCoreBundle.git",
-                "reference": "d096be5720cd4b6d06afa69091585939b12221f6"
+                "reference": "cce277fa840dea74dc1132362413546c77a2cd0c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSCoreBundle/zipball/d096be5720cd4b6d06afa69091585939b12221f6",
-                "reference": "d096be5720cd4b6d06afa69091585939b12221f6",
+                "url": "https://api.github.com/repos/ems-project/EMSCoreBundle/zipball/cce277fa840dea74dc1132362413546c77a2cd0c",
+                "reference": "cce277fa840dea74dc1132362413546c77a2cd0c",
                 "shasum": ""
             },
             "require": {
@@ -1726,7 +1726,7 @@
             "keywords": [
                 "elasticms"
             ],
-            "time": "2020-07-23T22:35:55+00:00"
+            "time": "2020-09-02T14:54:30+00:00"
         },
         {
             "name": "elasticms/maker-bundle",
@@ -8441,7 +8441,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": "^7.1.3",
+        "php": "^7.4",
         "ext-gd": "*",
         "ext-iconv": "*",
         "ext-json": "*",
