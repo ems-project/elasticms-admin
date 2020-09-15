@@ -1699,16 +1699,16 @@
         },
         {
             "name": "elasticms/common-bundle",
-            "version": "1.8.13",
+            "version": "1.8.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSCommonBundle.git",
-                "reference": "34e9f5c63bb8dd6d213b4c458ed1c3508569ec37"
+                "reference": "afa235d3bd7ead0941d08b5636fd8564ddd38b61"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSCommonBundle/zipball/34e9f5c63bb8dd6d213b4c458ed1c3508569ec37",
-                "reference": "34e9f5c63bb8dd6d213b4c458ed1c3508569ec37",
+                "url": "https://api.github.com/repos/ems-project/EMSCommonBundle/zipball/afa235d3bd7ead0941d08b5636fd8564ddd38b61",
+                "reference": "afa235d3bd7ead0941d08b5636fd8564ddd38b61",
                 "shasum": ""
             },
             "require": {
@@ -1725,6 +1725,7 @@
                 "guzzlehttp/guzzle": "^6.3",
                 "php": "^7.2.0",
                 "symfony/dom-crawler": "^4.4",
+                "symfony/expression-language": "^4.4",
                 "symfony/framework-bundle": "^4.4",
                 "symfony/http-foundation": "^4.4",
                 "symfony/monolog-bridge": "^4.4",
@@ -1776,7 +1777,7 @@
             "keywords": [
                 "elasticms"
             ],
-            "time": "2020-06-15T09:25:30+00:00"
+            "time": "2020-09-15T07:03:35+00:00"
         },
         {
             "name": "elasticms/core-bundle",
