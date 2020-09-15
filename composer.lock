@@ -1781,16 +1781,16 @@
         },
         {
             "name": "elasticms/core-bundle",
-            "version": "1.13.14",
+            "version": "1.13.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSCoreBundle.git",
-                "reference": "bdd9a3f7e28ef5b8e65559f1bb2388390dcdb895"
+                "reference": "5233e3d5b407cc28bd6fa5f7c45714449cef29f1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSCoreBundle/zipball/bdd9a3f7e28ef5b8e65559f1bb2388390dcdb895",
-                "reference": "bdd9a3f7e28ef5b8e65559f1bb2388390dcdb895",
+                "url": "https://api.github.com/repos/ems-project/EMSCoreBundle/zipball/5233e3d5b407cc28bd6fa5f7c45714449cef29f1",
+                "reference": "5233e3d5b407cc28bd6fa5f7c45714449cef29f1",
                 "shasum": ""
             },
             "require": {
@@ -1873,7 +1873,7 @@
             "keywords": [
                 "elasticms"
             ],
-            "time": "2020-09-14T09:10:13+00:00"
+            "time": "2020-09-15T07:48:04+00:00"
         },
         {
             "name": "elasticms/maker-bundle",
