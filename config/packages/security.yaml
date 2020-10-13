@@ -4,6 +4,7 @@ security:
 
     role_hierarchy:
         ROLE_AUTHOR:          ROLE_USER
+        ROLE_FORM_CRM:        ROLE_USER
         ROLE_REVIEWER:        ROLE_AUTHOR
         ROLE_TRADUCTOR:       ROLE_REVIEWER
         ROLE_PUBLISHER:       ROLE_TRADUCTOR
@@ -65,4 +66,5 @@ security:
         - { path: ^/elasticsearch/delete-search, roles: ROLE_USER }
         - { path: ^/elasticsearch, roles: ROLE_ADMIN }
         - { path: ^/publisher/align, roles: ROLE_PUBLISHER }
+        - { path: ^/form/submissions, roles: ROLE_FORM_CRM }
         - { path: ^/, roles: ROLE_USER }

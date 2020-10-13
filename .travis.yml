@@ -3,7 +3,7 @@ sudo: false
 language: php
 
 php:
-  - '7.2'
+  - '7.4'
 
 install:
   - echo "Stage [Install] ..."
