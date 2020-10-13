@@ -1,6 +1,10 @@
 parameters:
-    env(ELASTICSEARCH_VERSION): '5.4'
+    #Deprecated parameters
     env(ELASTICSEARCH_CLUSTER): '["http://localhost:9200"]'
+
+    #Parameters
+    env(ELASTICSEARCH_VERSION): '5.4'
+    env(EMS_ELASTICSEARCH_HOSTS): '%env(ELASTICSEARCH_CLUSTER)%'
     env(TIKA_SERVER): ''
     env(TIKA_DOWNLOAD_URL): 'http://apache.belnet.be/tika/tika-app-1.22.jar'
     env(EMS_PRIVATE_KEY): ''
