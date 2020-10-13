@@ -40,7 +40,7 @@ ems_core:
     private_key:  '%env(string:EMS_PRIVATE_KEY)%'
     public_key:  '%env(string:EMS_PUBLIC_KEY)%'
     elasticsearch_version: '%env(string:ELASTICSEARCH_VERSION)%'
-    elasticsearch_cluster: '%env(json:ELASTICSEARCH_CLUSTER)%'
+    elasticsearch_cluster: '%env(json:EMS_ELASTICSEARCH_HOSTS)%'
     instance_id: '%env(string:EMS_INSTANCE_ID)%'
     name: '%env(string:EMS_NAME)%'
     shortname: '%env(string:EMS_SHORTNAME)%'
