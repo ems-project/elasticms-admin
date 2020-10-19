@@ -3,7 +3,6 @@ parameters:
     env(ELASTICSEARCH_CLUSTER): '["http://localhost:9200"]'
 
     #Parameters
-    env(ELASTICSEARCH_VERSION): '5.4'
     env(EMS_ELASTICSEARCH_HOSTS): '%env(ELASTICSEARCH_CLUSTER)%'
     env(TIKA_SERVER): ''
     env(TIKA_DOWNLOAD_URL): 'http://apache.belnet.be/tika/tika-app-1.22.jar'
@@ -39,7 +38,6 @@ parameters:
 ems_core:
     private_key:  '%env(string:EMS_PRIVATE_KEY)%'
     public_key:  '%env(string:EMS_PUBLIC_KEY)%'
-    elasticsearch_version: '%env(string:ELASTICSEARCH_VERSION)%'
     elasticsearch_cluster: '%env(json:EMS_ELASTICSEARCH_HOSTS)%'
     instance_id: '%env(string:EMS_INSTANCE_ID)%'
     name: '%env(string:EMS_NAME)%'
