@@ -122,6 +122,12 @@
     "kub-at/php-simple-html-dom-parser": {
         "version": "1.9.1"
     },
+    "laminas/laminas-code": {
+        "version": "3.4.1"
+    },
+    "laminas/laminas-eventmanager": {
+        "version": "3.3.0"
+    },
     "laminas/laminas-zendframework-bridge": {
         "version": "1.0.4"
     },
@@ -205,6 +211,9 @@
     },
     "react/promise": {
         "version": "2.x-dev"
+    },
+    "ruflin/elastica": {
+        "version": "5.3.6"
     },
     "sabberworm/php-css-parser": {
         "version": "8.1.0"
@@ -317,6 +326,9 @@
             "ref": "1279df12895f20d8076324036431833181eb6645"
         }
     },
+    "symfony/http-client-contracts": {
+        "version": "v2.2.0"
+    },
     "symfony/http-foundation": {
         "version": "v4.1.0"
     },
@@ -382,6 +394,9 @@
     },
     "symfony/polyfill-intl-idn": {
         "version": "v1.13.1"
+    },
+    "symfony/polyfill-intl-normalizer": {
+        "version": "v1.18.1"
     },
     "symfony/polyfill-mbstring": {
         "version": "v1.8.0"

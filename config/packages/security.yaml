@@ -9,7 +9,7 @@ security:
         ROLE_TRADUCTOR:       ROLE_REVIEWER
         ROLE_PUBLISHER:       ROLE_TRADUCTOR
         ROLE_WEBMASTER:       ROLE_PUBLISHER
-        ROLE_ADMIN:           ROLE_WEBMASTER
+        ROLE_ADMIN:           [ROLE_WEBMASTER, ROLE_USER_MANAGEMENT]
         ROLE_SUPER_ADMIN:     ROLE_ADMIN
 
     providers:
@@ -62,7 +62,7 @@ security:
         - { path: ^/wysiwyg-profile, roles: ROLE_ADMIN }
         - { path: ^/content-type, roles: ROLE_ADMIN }
         - { path: ^/environment, roles: ROLE_ADMIN }
-        - { path: ^/user, roles: ROLE_ADMIN }
+        - { path: ^/user, roles: ROLE_USER_MANAGEMENT }
         - { path: ^/elasticsearch/delete-search, roles: ROLE_USER }
         - { path: ^/elasticsearch, roles: ROLE_ADMIN }
         - { path: ^/publisher/align, roles: ROLE_PUBLISHER }
