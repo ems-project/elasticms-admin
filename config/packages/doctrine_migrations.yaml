@@ -2,5 +2,5 @@ parameters:
     env(DB_DRIVER): 'mysql'
 
 doctrine_migrations:
-    dir_name: '%kernel.project_dir%/vendor/elasticms/core-bundle/Resources/DoctrineMigrations/pdo_%env(resolve:DB_DRIVER)%'
+    dir_name: '%kernel.project_dir%/vendor/elasticms/core-bundle/src/Resources/DoctrineMigrations/pdo_%env(resolve:DB_DRIVER)%'
     namespace: Application\Migrations
