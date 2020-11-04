@@ -7,5 +7,5 @@ twig:
     globals:
       ems_hash_algo: '%env(string:EMS_HASH_ALGO)%'
     paths:
-          '%kernel.project_dir%/vendor/elasticms/core-bundle/Resources/views': FOSUser
+          '%kernel.project_dir%/vendor/elasticms/core-bundle/src/Resources/views': FOSUser
           '%kernel.project_dir%/vendor/friendsofsymfony/user-bundle/Resources/views': FOSUser
