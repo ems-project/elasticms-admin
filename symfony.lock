@@ -8,6 +8,9 @@
     "caxy/php-htmldiff": {
         "version": "0.1.x-dev"
     },
+    "composer/xdebug-handler": {
+        "version": "1.4.5"
+    },
     "doctrine/annotations": {
         "version": "1.0",
         "recipe": {
@@ -119,6 +122,9 @@
     "jdorn/sql-formatter": {
         "version": "1.3.x-dev"
     },
+    "jean85/pretty-package-versions": {
+        "version": "1.5.1"
+    },
     "kub-at/php-simple-html-dom-parser": {
         "version": "1.9.1"
     },
@@ -134,11 +140,26 @@
     "maennchen/zipstream-php": {
         "version": "v0.5.2"
     },
+    "migrify/migrify-kernel": {
+        "version": "0.4.2"
+    },
+    "migrify/php-config-printer": {
+        "version": "0.4.2"
+    },
     "monolog/monolog": {
         "version": "1.23.0"
     },
     "mtdowling/jmespath.php": {
         "version": "2.4.0"
+    },
+    "nette/finder": {
+        "version": "v2.5.2"
+    },
+    "nette/robot-loader": {
+        "version": "v3.3.1"
+    },
+    "nette/utils": {
+        "version": "v3.1.3"
     },
     "nikic/php-parser": {
         "version": "v4.0.2"
@@ -148,6 +169,9 @@
     },
     "ocramius/proxy-manager": {
         "version": "2.2.x-dev"
+    },
+    "ondram/ci-detector": {
+        "version": "3.5.1"
     },
     "paragonie/random_compat": {
         "version": "v2.0.15"
@@ -169,6 +193,15 @@
     },
     "phpdocumentor/type-resolver": {
         "version": "0.4.0"
+    },
+    "phpstan/phpdoc-parser": {
+        "version": "0.4.9"
+    },
+    "phpstan/phpstan": {
+        "version": "0.12.57"
+    },
+    "phpstan/phpstan-phpunit": {
+        "version": "0.12.16"
     },
     "psr/cache": {
         "version": "1.0.1"
@@ -212,11 +245,17 @@
     "react/promise": {
         "version": "2.x-dev"
     },
+    "rector/rector": {
+        "version": "0.8.56"
+    },
     "ruflin/elastica": {
         "version": "5.3.6"
     },
     "sabberworm/php-css-parser": {
         "version": "8.1.0"
+    },
+    "sebastian/diff": {
+        "version": "4.0.4"
     },
     "sensio/framework-extra-bundle": {
         "version": "4.0",
@@ -535,6 +574,30 @@
     },
     "symfony/yaml": {
         "version": "v4.1.0"
+    },
+    "symplify/autowire-array-parameter": {
+        "version": "8.3.48"
+    },
+    "symplify/composer-json-manipulator": {
+        "version": "8.3.48"
+    },
+    "symplify/console-color-diff": {
+        "version": "8.3.48"
+    },
+    "symplify/easy-testing": {
+        "version": "8.3.48"
+    },
+    "symplify/package-builder": {
+        "version": "8.3.48"
+    },
+    "symplify/set-config-resolver": {
+        "version": "8.3.48"
+    },
+    "symplify/smart-file-system": {
+        "version": "8.3.48"
+    },
+    "symplify/symplify-kernel": {
+        "version": "8.3.48"
     },
     "twig/twig": {
         "version": "v2.4.8"
