@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.163.3",
+            "version": "3.164.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "f6cd8fe1334b19e1dc0d841fa1b2da7cd30a1e8a"
+                "reference": "39ecf57d828eb50ab23fd70255a68b8996392ac9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/f6cd8fe1334b19e1dc0d841fa1b2da7cd30a1e8a",
-                "reference": "f6cd8fe1334b19e1dc0d841fa1b2da7cd30a1e8a",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/39ecf57d828eb50ab23fd70255a68b8996392ac9",
+                "reference": "39ecf57d828eb50ab23fd70255a68b8996392ac9",
                 "shasum": ""
             },
             "require": {
@@ -89,7 +89,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2020-11-23T20:34:30+00:00"
+            "time": "2020-11-24T19:18:22+00:00"
         },
         {
             "name": "brick/math",
@@ -1818,16 +1818,16 @@
         },
         {
             "name": "elasticms/common-bundle",
-            "version": "1.8.33",
+            "version": "1.8.34",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSCommonBundle.git",
-                "reference": "3e0be39350ac656bb4d16bcc9b26113de16acc30"
+                "reference": "e88133094aabf4199dc6e9024fd1fe80a5a1e30e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSCommonBundle/zipball/3e0be39350ac656bb4d16bcc9b26113de16acc30",
-                "reference": "3e0be39350ac656bb4d16bcc9b26113de16acc30",
+                "url": "https://api.github.com/repos/ems-project/EMSCommonBundle/zipball/e88133094aabf4199dc6e9024fd1fe80a5a1e30e",
+                "reference": "e88133094aabf4199dc6e9024fd1fe80a5a1e30e",
                 "shasum": ""
             },
             "require": {
@@ -1856,6 +1856,7 @@
                 "twig/twig": "^2.10"
             },
             "require-dev": {
+                "friendsofphp/php-cs-fixer": "^2.16",
                 "mockery/mockery": "^0.9",
                 "phpstan/phpstan": "^0.12",
                 "phpstan/phpstan-phpunit": "^0.12.8",
@@ -1896,20 +1897,20 @@
             "keywords": [
                 "elasticms"
             ],
-            "time": "2020-11-23T18:25:21+00:00"
+            "time": "2020-11-26T07:57:49+00:00"
         },
         {
             "name": "elasticms/core-bundle",
-            "version": "1.14.4",
+            "version": "1.14.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSCoreBundle.git",
-                "reference": "c4fdb0789c7ba9438acd996be9d68974faabf094"
+                "reference": "e695560625c74ddd6eabf757d481271a9e9c6479"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSCoreBundle/zipball/c4fdb0789c7ba9438acd996be9d68974faabf094",
-                "reference": "c4fdb0789c7ba9438acd996be9d68974faabf094",
+                "url": "https://api.github.com/repos/ems-project/EMSCoreBundle/zipball/e695560625c74ddd6eabf757d481271a9e9c6479",
+                "reference": "e695560625c74ddd6eabf757d481271a9e9c6479",
                 "shasum": ""
             },
             "require": {
@@ -1954,7 +1955,7 @@
                 "twig/twig": "^2.11"
             },
             "require-dev": {
-                "friendsofphp/php-cs-fixer": "^2.15",
+                "friendsofphp/php-cs-fixer": "^2.16",
                 "phpstan/phpstan": "^0.12",
                 "phpunit/phpunit": "^7.1",
                 "rector/rector": "0.8.56",
@@ -1991,7 +1992,7 @@
             "keywords": [
                 "elasticms"
             ],
-            "time": "2020-11-23T13:21:40+00:00"
+            "time": "2020-11-26T07:59:58+00:00"
         },
         {
             "name": "elasticms/maker-bundle",
@@ -2935,6 +2936,7 @@
                 "MIT"
             ],
             "description": "Kernel for small CLI applications",
+            "abandoned": "symplify/symplify-kernel",
             "time": "2020-11-14T20:12:17+00:00"
         },
         {
@@ -3248,20 +3250,23 @@
         },
         {
             "name": "nette/utils",
-            "version": "v3.1.3",
+            "version": "v3.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/utils.git",
-                "reference": "c09937fbb24987b2a41c6022ebe84f4f1b8eec0f"
+                "reference": "d0427c1811462dbb6c503143eabe5478b26685f7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/utils/zipball/c09937fbb24987b2a41c6022ebe84f4f1b8eec0f",
-                "reference": "c09937fbb24987b2a41c6022ebe84f4f1b8eec0f",
+                "url": "https://api.github.com/repos/nette/utils/zipball/d0427c1811462dbb6c503143eabe5478b26685f7",
+                "reference": "d0427c1811462dbb6c503143eabe5478b26685f7",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.1"
+                "php": ">=7.2 <8.1"
+            },
+            "conflict": {
+                "nette/di": "<3.0.6"
             },
             "require-dev": {
                 "nette/tester": "~2.0",
@@ -3280,7 +3285,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.1-dev"
+                    "dev-master": "3.2-dev"
                 }
             },
             "autoload": {
@@ -3304,7 +3309,7 @@
                     "homepage": "https://nette.org/contributors"
                 }
             ],
-            "description": "🛠 Nette Utils: lightweight utilities for string & array manipulation, image handling, safe JSON encoding/decoding, validation, slug or strong password generating etc.",
+            "description": "🛠  Nette Utils: lightweight utilities for string & array manipulation, image handling, safe JSON encoding/decoding, validation, slug or strong password generating etc.",
             "homepage": "https://nette.org",
             "keywords": [
                 "array",
@@ -3322,7 +3327,7 @@
                 "utility",
                 "validation"
             ],
-            "time": "2020-08-07T10:34:21+00:00"
+            "time": "2020-11-25T23:47:50+00:00"
         },
         {
             "name": "nikic/php-parser",
@@ -10484,6 +10489,70 @@
             "time": "2020-10-19T08:51:51+00:00"
         },
         {
+            "name": "symfony/deprecation-contracts",
+            "version": "v2.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/deprecation-contracts.git",
+                "reference": "5fa56b4074d1ae755beb55617ddafe6f5d78f665"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/5fa56b4074d1ae755beb55617ddafe6f5d78f665",
+                "reference": "5fa56b4074d1ae755beb55617ddafe6f5d78f665",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.2-dev"
+                },
+                "thanks": {
+                    "name": "symfony/contracts",
+                    "url": "https://github.com/symfony/contracts"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "function.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "A generic function and convention to trigger deprecation notices",
+            "homepage": "https://symfony.com",
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-09-07T11:33:47+00:00"
+        },
+        {
             "name": "symfony/dotenv",
             "version": "v4.4.16",
             "source": {
@@ -10551,16 +10620,16 @@
         },
         {
             "name": "symfony/maker-bundle",
-            "version": "v1.23.0",
+            "version": "v1.24.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/maker-bundle.git",
-                "reference": "ffaee624a20a462ec2da82942d3c9d8fc8dd1421"
+                "reference": "40b49abf01810453f73e3e239759f1736607f029"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/maker-bundle/zipball/ffaee624a20a462ec2da82942d3c9d8fc8dd1421",
-                "reference": "ffaee624a20a462ec2da82942d3c9d8fc8dd1421",
+                "url": "https://api.github.com/repos/symfony/maker-bundle/zipball/40b49abf01810453f73e3e239759f1736607f029",
+                "reference": "40b49abf01810453f73e3e239759f1736607f029",
                 "shasum": ""
             },
             "require": {
@@ -10570,6 +10639,7 @@
                 "symfony/config": "^3.4|^4.0|^5.0",
                 "symfony/console": "^3.4|^4.0|^5.0",
                 "symfony/dependency-injection": "^3.4|^4.0|^5.0",
+                "symfony/deprecation-contracts": "^2.2",
                 "symfony/filesystem": "^3.4|^4.0|^5.0",
                 "symfony/finder": "^3.4|^4.0|^5.0",
                 "symfony/framework-bundle": "^3.4|^4.0|^5.0",
@@ -10590,7 +10660,7 @@
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0-dev"
+                    "dev-main": "1.0-dev"
                 }
             },
             "autoload": {
@@ -10630,7 +10700,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-28T15:35:16+00:00"
+            "time": "2020-11-25T17:19:22+00:00"
         },
         {
             "name": "symfony/monolog-bundle",
