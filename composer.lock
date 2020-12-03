@@ -1819,16 +1819,16 @@
         },
         {
             "name": "elasticms/common-bundle",
-            "version": "1.8.36",
+            "version": "1.8.37",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSCommonBundle.git",
-                "reference": "065983505468f64bd3c37447c190883312d025ff"
+                "reference": "9cb28b8d5029fa125378080cb7e8dd5447e50e60"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSCommonBundle/zipball/065983505468f64bd3c37447c190883312d025ff",
-                "reference": "065983505468f64bd3c37447c190883312d025ff",
+                "url": "https://api.github.com/repos/ems-project/EMSCommonBundle/zipball/9cb28b8d5029fa125378080cb7e8dd5447e50e60",
+                "reference": "9cb28b8d5029fa125378080cb7e8dd5447e50e60",
                 "shasum": ""
             },
             "require": {
@@ -1898,7 +1898,7 @@
             "keywords": [
                 "elasticms"
             ],
-            "time": "2020-11-30T09:53:45+00:00"
+            "time": "2020-12-03T11:48:06+00:00"
         },
         {
             "name": "elasticms/core-bundle",
@@ -6290,16 +6290,16 @@
         },
         {
             "name": "symfony/flex",
-            "version": "v1.10.0",
+            "version": "v1.11.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/flex.git",
-                "reference": "e38520236bdc911c2f219634b485bc328746e980"
+                "reference": "ceb2b4e612bd0b4bb36a4d7fb2e800c861652f48"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/flex/zipball/e38520236bdc911c2f219634b485bc328746e980",
-                "reference": "e38520236bdc911c2f219634b485bc328746e980",
+                "url": "https://api.github.com/repos/symfony/flex/zipball/ceb2b4e612bd0b4bb36a4d7fb2e800c861652f48",
+                "reference": "ceb2b4e612bd0b4bb36a4d7fb2e800c861652f48",
                 "shasum": ""
             },
             "require": {
@@ -6309,6 +6309,7 @@
             "require-dev": {
                 "composer/composer": "^1.0.2|^2.0",
                 "symfony/dotenv": "^4.4|^5.0",
+                "symfony/filesystem": "^4.4|^5.0",
                 "symfony/phpunit-bridge": "^4.4|^5.0",
                 "symfony/process": "^3.4|^4.4|^5.0"
             },
@@ -6349,7 +6350,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-11-05T10:56:45+00:00"
+            "time": "2020-12-03T10:57:35+00:00"
         },
         {
             "name": "symfony/form",
