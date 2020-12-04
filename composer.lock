@@ -1422,21 +1422,21 @@
         },
         {
             "name": "doctrine/orm",
-            "version": "2.7.4",
+            "version": "2.7.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/orm.git",
-                "reference": "7d84a4998091ece4d645253ac65de9f879eeed2f"
+                "reference": "01187c9260cd085529ddd1273665217cae659640"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/orm/zipball/7d84a4998091ece4d645253ac65de9f879eeed2f",
-                "reference": "7d84a4998091ece4d645253ac65de9f879eeed2f",
+                "url": "https://api.github.com/repos/doctrine/orm/zipball/01187c9260cd085529ddd1273665217cae659640",
+                "reference": "01187c9260cd085529ddd1273665217cae659640",
                 "shasum": ""
             },
             "require": {
                 "composer/package-versions-deprecated": "^1.8",
-                "doctrine/annotations": "^1.8",
+                "doctrine/annotations": "^1.11.1",
                 "doctrine/cache": "^1.9.1",
                 "doctrine/collections": "^1.5",
                 "doctrine/common": "^2.11 || ^3.0",
@@ -1451,9 +1451,9 @@
                 "symfony/console": "^3.0|^4.0|^5.0"
             },
             "require-dev": {
-                "doctrine/coding-standard": "^5.0",
+                "doctrine/coding-standard": "^6.0",
                 "phpstan/phpstan": "^0.12.18",
-                "phpunit/phpunit": "^7.5",
+                "phpunit/phpunit": "^8.0",
                 "symfony/yaml": "^3.4|^4.0|^5.0",
                 "vimeo/psalm": "^3.11"
             },
@@ -1506,7 +1506,7 @@
                 "database",
                 "orm"
             ],
-            "time": "2020-10-10T17:11:26+00:00"
+            "time": "2020-12-03T08:52:14+00:00"
         },
         {
             "name": "doctrine/persistence",
@@ -1902,16 +1902,16 @@
         },
         {
             "name": "elasticms/core-bundle",
-            "version": "1.14.13",
+            "version": "1.14.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSCoreBundle.git",
-                "reference": "1129c24872c1ae8eb54326b21355ddcb1fa1a10d"
+                "reference": "56b62f752834aae148e1a54d6be455a24caffe44"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSCoreBundle/zipball/1129c24872c1ae8eb54326b21355ddcb1fa1a10d",
-                "reference": "1129c24872c1ae8eb54326b21355ddcb1fa1a10d",
+                "url": "https://api.github.com/repos/ems-project/EMSCoreBundle/zipball/56b62f752834aae148e1a54d6be455a24caffe44",
+                "reference": "56b62f752834aae148e1a54d6be455a24caffe44",
                 "shasum": ""
             },
             "require": {
@@ -1993,7 +1993,7 @@
             "keywords": [
                 "elasticms"
             ],
-            "time": "2020-12-04T10:50:46+00:00"
+            "time": "2020-12-04T17:02:43+00:00"
         },
         {
             "name": "elasticms/maker-bundle",
