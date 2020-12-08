@@ -173,9 +173,6 @@
     "ondram/ci-detector": {
         "version": "3.5.1"
     },
-    "paragonie/random_compat": {
-        "version": "v2.0.15"
-    },
     "phenx/php-font-lib": {
         "version": "0.5.1"
     },
