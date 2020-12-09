@@ -8,16 +8,15 @@
     "packages": [
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.168.0",
+            "version": "3.168.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "842621099b1de31ec6efd7535b8b343397c6e0ec"
+                "reference": "d648085cce7bfadc8973a8ded401921583c1e3f9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/842621099b1de31ec6efd7535b8b343397c6e0ec",
-                "reference": "842621099b1de31ec6efd7535b8b343397c6e0ec",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/d648085cce7bfadc8973a8ded401921583c1e3f9",
                 "shasum": ""
             },
             "require": {
@@ -89,7 +88,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2020-12-08T19:17:21+00:00"
+            "time": "2020-12-09T19:17:01+00:00"
         },
         {
             "name": "brick/math",
@@ -1902,16 +1901,16 @@
         },
         {
             "name": "elasticms/core-bundle",
-            "version": "1.14.15",
+            "version": "1.14.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSCoreBundle.git",
-                "reference": "1ad59b46a0b53c40ba9c994e78dbb9eae244a19a"
+                "reference": "ca8a3ef3f03ef3c07302255f03d992c05c10528c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSCoreBundle/zipball/1ad59b46a0b53c40ba9c994e78dbb9eae244a19a",
-                "reference": "1ad59b46a0b53c40ba9c994e78dbb9eae244a19a",
+                "url": "https://api.github.com/repos/ems-project/EMSCoreBundle/zipball/ca8a3ef3f03ef3c07302255f03d992c05c10528c",
+                "reference": "ca8a3ef3f03ef3c07302255f03d992c05c10528c",
                 "shasum": ""
             },
             "require": {
@@ -1993,7 +1992,7 @@
             "keywords": [
                 "elasticms"
             ],
-            "time": "2020-12-08T12:59:19+00:00"
+            "time": "2020-12-09T22:19:47+00:00"
         },
         {
             "name": "elasticms/maker-bundle",
