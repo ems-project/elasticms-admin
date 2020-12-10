@@ -1,0 +1,911 @@
+{
+  "doc": {
+    "_meta": {
+      "required": {
+        "actr": "id_actr, title_nl, title_fr, full_name",
+        "actr_role": "id_actr_role, actr, active, mandate_code, orgn",
+        "orgn": "id_orgn, legislature, title_fr, title_nl",
+        "flwb": "id_flwb, legislature, title_fr, title_nl, types_flwb, key_flwb, search_dates, search_date_sort, search_type",
+        "inqo": "id_inqo, legislature, title_fr, title_nl, types_inqo, sdoc_name, number_doc, number_session, search_dates, search_date_sort, search_type",
+        "qrva": "id_qrva, legislature, title_fr, title_nl, doc_name, language, department, question_number, search_dates, search_date_sort, search_type",
+        "agenda": "id_agenda, legislature, title_fr, title_nl, date_agenda, date_day_agenda, date_hour_agenda"
+      }
+    },
+    "properties": {
+      "_contenttype": {
+        "type": "keyword"
+      },
+      "last_import": {
+        "type": "date",
+        "format": "date_time_no_millis"
+      },
+      "_published_datetime": {
+        "type": "date",
+        "format": "date_time_no_millis"
+      },
+      "_sha1": {
+        "type": "keyword"
+      },
+      "active": {
+        "type": "boolean"
+      },
+      "show_nl": {
+        "type": "boolean"
+      },
+      "show_fr": {
+        "type": "boolean"
+      },
+      "show_de": {
+        "type": "boolean"
+      },
+      "show_en": {
+        "type": "boolean"
+      },
+      "id_number": {
+        "type": "integer",
+        "copy_to": [
+          "id_text",
+          "all_fr",
+          "all_nl"
+        ]
+      },
+      "id_text": {
+        "type": "text"
+      },
+      "actr": {
+        "type": "keyword"
+      },
+      "agenda": {
+        "properties": {
+          "para": {
+            "properties": {
+              "modification": {
+                "type": "long"
+              },
+              "description_fr": {
+                "type": "text",
+                "copy_to": [
+                  "all_fr"
+                ]
+              },
+              "description_nl": {
+                "type": "text",
+                "copy_to": [
+                  "all_nl"
+                ]
+              }
+            }
+          },
+          "section": {
+            "properties": {
+              "modification": {
+                "type": "long"
+              },
+              "description_fr": {
+                "type": "text",
+                "copy_to": [
+                  "all_fr"
+                ]
+              },
+              "description_nl": {
+                "type": "text",
+                "copy_to": [
+                  "all_nl"
+                ]
+              },
+              "item": {
+                "properties": {
+                  "para": {
+                    "properties": {
+                      "modification": {
+                        "type": "long"
+                      },
+                      "type": {
+                        "type": "keyword"
+                      },
+                      "annexes": {
+                        "properties": {
+                          "annex": {
+                            "properties": {
+                              "description_fr": {
+                                "type": "text",
+                                "copy_to": [
+                                  "all_fr"
+                                ]
+                              },
+                              "description_nl": {
+                                "type": "text",
+                                "copy_to": [
+                                  "all_nl"
+                                ]
+                              },
+                              "link_fr": {
+                                "type": "keyword"
+                              },
+                              "link_nl": {
+                                "type": "keyword"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "description_fr": {
+                        "type": "text",
+                        "copy_to": [
+                          "all_fr"
+                        ]
+                      },
+                      "description_nl": {
+                        "type": "text",
+                        "copy_to": [
+                          "all_nl"
+                        ]
+                      }
+                    }
+                  }
+                }
+              },
+              "para": {
+                "properties": {
+                  "modification": {
+                    "type": "long"
+                  },
+                  "description_fr": {
+                    "type": "text",
+                    "copy_to": [
+                      "all_fr"
+                    ]
+                  },
+                  "description_nl": {
+                    "type": "text",
+                    "copy_to": [
+                      "all_nl"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "agenda_organ": {
+        "type": "keyword"
+      },
+      "all_fr": {
+        "type": "text",
+        "store": true,
+        "analyzer": "french_for_highlighting"
+      },
+      "all_de": {
+        "type": "text",
+        "store": true,
+        "analyzer": "german_for_highlighting"
+      },
+      "all_en": {
+        "type": "text",
+        "store": true,
+        "analyzer": "english_for_highlighting"
+      },
+      "all_nl": {
+        "type": "text",
+        "store": true,
+        "analyzer": "dutch_for_highlighting"
+      },
+      "answers": {
+        "properties": {
+          "date_publication": {
+            "type": "date"
+          },
+          "publication_page": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+          "publication_period": {
+            "type": "long"
+          },
+          "status": {
+            "type": "keyword",
+            "copy_to": [
+              "all_nl",
+              "all_fr"
+            ]
+          },
+          "text_fr": {
+            "type": "text",
+            "copy_to": [
+              "all_fr"
+            ],
+            "analyzer": "french_for_highlighting"
+          },
+          "text_nl": {
+            "type": "text",
+            "copy_to": [
+              "all_nl"
+            ],
+            "analyzer": "dutch_for_highlighting"
+          },
+          "type": {
+            "type": "keyword",
+            "copy_to": [
+              "all_nl",
+              "all_fr"
+            ]
+          }
+        }
+      },
+      "children": {
+        "type": "text",
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        }
+      },
+      "cv": {
+        "type": "nested",
+        "properties": {
+          "description_fr": {
+            "type": "text",
+            "copy_to": [
+              "all_fr"
+            ],
+            "analyzer": "french_for_highlighting"
+          },
+          "description_nl": {
+            "type": "text",
+            "copy_to": [
+              "all_nl"
+            ],
+            "analyzer": "dutch_for_highlighting"
+          },
+          "legislature": {
+            "type": "keyword"
+          },
+          "party": {
+            "type": "keyword",
+            "copy_to": [
+              "all_nl",
+              "all_fr"
+            ]
+          }
+        }
+      },
+      "date_agenda": {
+        "type": "date",
+        "format": "yyyy-MM-dd HH:mm:ss",
+        "copy_to": [
+          "all_nl",
+          "all_fr"
+        ]
+      },
+      "date": {
+        "type": "date",
+        "format": "yyyy-MM-dd HH:mm:ss",
+        "copy_to": [
+          "all_nl",
+          "all_fr"
+        ]
+      },
+      "date_day": {
+        "type": "date",
+        "format": "yyyy-MM-dd"
+      },
+      "date_hour": {
+        "type": "date",
+        "format": "HH:mm:ss"
+      },
+      "date_period": {
+        "type": "date",
+        "copy_to": [
+          "all_nl",
+          "all_fr"
+        ]
+      },
+      "date_publication": {
+        "type": "date",
+        "copy_to": [
+          "all_nl",
+          "all_fr"
+        ]
+      },
+      "date_submission": {
+        "type": "date",
+        "copy_to": [
+          "all_nl",
+          "all_fr"
+        ]
+      },
+      "date_hour_agenda": {
+        "type": "keyword"
+      },
+      "department": {
+        "type": "keyword"
+      },
+      "description_fr": {
+        "type": "text",
+        "copy_to": [
+          "all_fr"
+        ],
+        "analyzer": "french_for_highlighting"
+      },
+      "description_nl": {
+        "type": "text",
+        "copy_to": [
+          "all_nl"
+        ],
+        "analyzer": "dutch_for_highlighting"
+      },
+      "doc_name": {
+        "type": "keyword"
+      },
+      "docs": {
+        "properties": {
+          "authors": {
+            "properties": {
+              "actor": {
+                "type": "keyword"
+              },
+              "type": {
+                "type": "keyword"
+              }
+            }
+          },
+          "comments_fr": {
+            "type": "text"
+          },
+          "comments_nl": {
+            "type": "text"
+          },
+          "date_consideration": {
+            "type": "date"
+          },
+          "date_distribution": {
+            "type": "date"
+          },
+          "date_expiry": {
+            "type": "date"
+          },
+          "date_send": {
+            "type": "date"
+          },
+          "date_submission": {
+            "type": "date"
+          },
+          "date_vote": {
+            "type": "date"
+          },
+          "doc_name": {
+            "type": "text",
+            "copy_to": [
+              "all_nl",
+              "all_fr"
+            ]
+          },
+          "doc_type": {
+            "type": "keyword"
+          },
+          "file": {
+            "properties": {
+              "doc_type": {
+                "type": "keyword"
+              },
+              "filename": {
+                "type": "text",
+                "copy_to": [
+                  "all_nl",
+                  "all_fr"
+                ]
+              },
+              "label": {
+                "type": "text",
+                "copy_to": [
+                  "all_nl",
+                  "all_fr"
+                ]
+              },
+              "path": {
+                "type": "keyword"
+              },
+              "senate_uri": {
+                "type": "keyword"
+              }
+            }
+          },
+          "join_docs": {
+            "properties": {
+              "doc_type": {
+                "type": "keyword"
+              },
+              "filename": {
+                "type": "text",
+                "copy_to": [
+                  "all_nl",
+                  "all_fr"
+                ]
+              },
+              "label": {
+                "type": "text",
+                "copy_to": [
+                  "all_nl",
+                  "all_fr"
+                ]
+              },
+              "path": {
+                "type": "keyword"
+              },
+              "senate_uri": {
+                "type": "keyword"
+              }
+            }
+          },
+          "legislature": {
+            "type": "keyword"
+          },
+          "number_doc": {
+            "type": "keyword"
+          },
+          "owner_code": {
+            "type": "keyword"
+          },
+          "sdocname": {
+            "type": "keyword"
+          },
+          "session": {
+            "type": "keyword"
+          },
+          "sub_docs": {
+            "properties": {
+              "authors": {
+                "properties": {
+                  "actor": {
+                    "type": "keyword"
+                  },
+                  "type": {
+                    "type": "keyword"
+                  }
+                }
+              },
+              "comments_fr": {
+                "type": "text"
+              },
+              "comments_nl": {
+                "type": "text"
+              },
+              "date_distribution": {
+                "type": "date"
+              },
+              "date_submission": {
+                "type": "date"
+              },
+              "doc_type": {
+                "type": "keyword"
+              },
+              "file": {
+                "properties": {
+                  "filename": {
+                    "type": "text",
+                    "copy_to": [
+                      "all_nl",
+                      "all_fr"
+                    ]
+                  },
+                  "label": {
+                    "type": "text",
+                    "copy_to": [
+                      "all_nl",
+                      "all_fr"
+                    ]
+                  },
+                  "path": {
+                    "type": "keyword"
+                  },
+                  "senate_uri": {
+                    "type": "keyword"
+                  }
+                }
+              },
+              "number_doc": {
+                "type": "keyword"
+              }
+            }
+          },
+          "vote_type_fr": {
+            "type": "text"
+          },
+          "vote_type_nl": {
+            "type": "text"
+          }
+        }
+      },
+      "file_motion": {
+        "properties": {
+          "filename": {
+            "type": "text",
+            "copy_to": [
+              "all_nl",
+              "all_fr"
+            ]
+          },
+          "label": {
+            "type": "text",
+            "copy_to": [
+              "all_nl",
+              "all_fr"
+            ]
+          },
+          "page": {
+            "type": "long"
+          },
+          "path": {
+            "type": "keyword"
+          }
+        }
+      },
+      "files_report": {
+        "properties": {
+          "filename": {
+            "type": "text",
+            "copy_to": [
+              "all_nl",
+              "all_fr"
+            ]
+          },
+          "label": {
+            "type": "text",
+            "copy_to": [
+              "all_nl",
+              "all_fr"
+            ]
+          },
+          "page": {
+            "type": "long"
+          },
+          "path": {
+            "type": "keyword"
+          }
+        }
+      },
+      "first_name": {
+        "type": "text",
+        "copy_to": [
+          "all_nl",
+          "all_fr"
+        ]
+      },
+      "function_code": {
+        "type": "keyword",
+        "copy_to": [
+          "all_nl",
+          "all_fr"
+        ]
+      },
+      "image": {
+        "type": "nested",
+        "properties": {
+          "_filename": {
+            "type": "keyword"
+          }
+        }
+      },
+      "id_actr": {
+        "type": "keyword"
+      },
+      "id_agenda": {
+        "type": "keyword"
+      },
+      "id_actr_role": {
+        "type": "keyword"
+      },
+      "id_flwb": {
+        "type": "keyword",
+        "copy_to": [
+          "all_fr",
+          "all_nl"
+        ]
+      },
+      "orgn_business_ids": {
+        "type": "keyword"
+      },
+      "id_inqo": {
+        "type": "keyword",
+        "copy_to": [
+          "all_fr",
+          "all_nl"
+        ]
+      },
+      "id_ksegna": {
+        "type": "keyword"
+      },
+      "id_qrva": {
+        "type": "keyword",
+        "copy_to": [
+          "all_fr",
+          "all_nl"
+        ]
+      },
+      "id_orgn": {
+        "type": "keyword"
+      },
+      "initials": {
+        "type": "text"
+      },
+      "legislature": {
+        "type": "keyword"
+      },
+      "keywords": {
+        "type": "keyword"
+      },
+      "keywords_candidate": {
+        "type": "keyword"
+      },
+      "keywords_free": {
+        "type": "keyword"
+      },
+      "keywords_main": {
+        "type": "keyword"
+      },
+      "language": {
+        "type": "keyword"
+      },
+      "last_name": {
+        "type": "text",
+        "copy_to": [
+          "all_nl",
+          "all_fr"
+        ]
+      },
+      "mandate_code": {
+        "type": "keyword"
+      },
+      "middle_names": {
+        "type": "text",
+        "copy_to": [
+          "all_nl",
+          "all_fr"
+        ]
+      },
+      "orgn": {
+        "type": "keyword"
+      },
+      "party": {
+        "type": "keyword"
+      },
+      "party_nl": {
+        "type": "text",
+        "copy_to": [
+          "all_nl"
+        ]
+      },
+      "party_fr": {
+        "type": "text",
+        "copy_to": [
+          "all_fr"
+        ]
+      },
+      "parent": {
+        "type": "keyword"
+      },
+      "publication_page": {
+        "type": "keyword"
+      },
+      "publication_period": {
+        "type": "long"
+      },
+      "question_number": {
+        "type": "keyword"
+      },
+      "question_status": {
+        "type": "keyword"
+      },
+      "question_status_ol": {
+        "type": "keyword"
+      },
+      "question_status_sl": {
+        "type": "keyword"
+      },
+      "search_actors": {
+        "type": "keyword"
+      },
+      "search_actors_types": {
+        "type": "nested",
+        "properties": {
+          "actor": {
+            "type": "keyword"
+          },
+          "types": {
+            "type": "keyword"
+          },
+          "label": {
+            "type": "text",
+            "copy_to": [
+              "all_fr",
+              "all_nl",
+              "all_de",
+              "all_en"
+            ],
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          }
+        }
+      },
+      "search_date_sort": {
+        "type": "date",
+        "format": "yyyy-MM-dd HH:mm:ss||yyyy-MM-dd"
+      },
+      "search_dates": {
+        "type": "date"
+      },
+      "search_doc_types_flwb": {
+        "type": "keyword"
+      },
+      "search_doc_types_inqo": {
+        "type": "keyword"
+      },
+      "search_id": {
+        "type": "keyword",
+        "copy_to": [
+          "all_nl",
+          "all_fr"
+        ]
+      },
+      "search_keywords": {
+        "type": "keyword"
+      },
+      "search_types": {
+        "type": "nested",
+        "properties": {
+          "legislature": {
+            "type": "keyword"
+          },
+          "types": {
+            "type": "keyword"
+          }
+        }
+      },
+      "search_status_member": {
+        "type": "keyword"
+      },
+      "search_type": {
+        "type": "keyword"
+      },
+      "search_parties": {
+        "type": "keyword"
+      },
+      "title_fr": {
+        "type": "text",
+        "fields": {
+          "keyword": {
+            "type": "keyword"
+          },
+          "case_insensitive_sort": {
+            "type": "text",
+            "analyzer": "case_insensitive_sort",
+            "fielddata": true
+          }
+        },
+        "copy_to": [
+          "all_fr"
+        ],
+        "analyzer": "french_for_highlighting"
+      },
+      "title_nl": {
+        "type": "text",
+        "fields": {
+          "keyword": {
+            "type": "keyword"
+          },
+          "case_insensitive_sort": {
+            "type": "text",
+            "analyzer": "case_insensitive_sort",
+            "fielddata": true
+          }
+        },
+        "copy_to": [
+          "all_nl"
+        ],
+        "analyzer": "dutch_for_highlighting"
+      },
+      "title_short_fr": {
+        "type": "text",
+        "fields": {
+          "case_insensitive_sort": {
+            "type": "text",
+            "analyzer": "case_insensitive_sort",
+            "fielddata": true
+          }
+        },
+        "copy_to": [
+          "all_fr"
+        ],
+        "analyzer": "french_for_highlighting"
+      },
+      "title_short_nl": {
+        "type": "text",
+        "fields": {
+          "case_insensitive_sort": {
+            "type": "text",
+            "analyzer": "case_insensitive_sort",
+            "fielddata": true
+          }
+        },
+        "copy_to": [
+          "all_nl"
+        ],
+        "analyzer": "dutch_for_highlighting"
+      },
+      "info_nl": {
+        "type": "text",
+        "fields": {
+          "case_insensitive_sort": {
+            "type": "text",
+            "analyzer": "case_insensitive_sort",
+            "fielddata": true
+          }
+        },
+        "copy_to": [
+          "all_nl"
+        ],
+        "analyzer": "dutch_for_highlighting"
+      },
+      "info_nl": {
+        "type": "text",
+        "fields": {
+          "case_insensitive_sort": {
+            "type": "text",
+            "analyzer": "case_insensitive_sort",
+            "fielddata": true
+          }
+        },
+        "copy_to": [
+          "all_nl"
+        ],
+        "analyzer": "dutch_for_highlighting"
+      },
+      "keywords_fr": {
+        "type": "text",
+        "copy_to": [
+          "all_fr"
+        ],
+        "analyzer": "french"
+      },
+      "keywords_nl": {
+        "type": "text",
+        "copy_to": [
+          "all_nl"
+        ],
+        "analyzer": "dutch"
+      },
+      "type_role": {
+        "type": "keyword"
+      },
+      "type_orgn": {
+        "type": "keyword"
+      },
+      "type_commission": {
+        "type": "keyword"
+      },
+      "type_agenda": {
+        "type": "keyword"
+      },
+      "type_report": {
+        "type": "keyword"
+      },
+      "types_flwb": {
+        "type": "keyword"
+      },
+      "types_inqo": {
+        "type": "keyword"
+      }
+    }
+  }
+}

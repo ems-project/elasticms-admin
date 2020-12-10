@@ -1,0 +1,238 @@
+{
+  "csm": {
+    "properties": {
+      "_contenttype": {
+        "type": "keyword"
+      },
+      "_sha1": {
+        "type": "keyword"
+      },
+      "acronym": {
+        "type": "text"
+      },
+      "email": {
+        "type": "text"
+      },
+      "fullname": {
+        "type": "text",
+        "fields": {
+          "raw": {
+            "type": "keyword"
+          }
+        }
+      }
+    }
+  },
+  "client": {
+    "properties": {
+      "_contenttype": {
+        "type": "keyword"
+      },
+      "_sha1": {
+        "type": "keyword"
+      },
+      "client_id": {
+        "type": "keyword"
+      },
+      "name": {
+        "type": "text"
+      },
+      "sequence": {
+        "type": "integer"
+      }
+    }
+  },
+  "data": {
+    "properties": {
+      "_contenttype": {
+        "type": "keyword"
+      },
+      "_sha1": {
+        "type": "keyword"
+      },
+      "kpi": {
+        "type": "keyword"
+      },
+      "month": {
+        "type": "date",
+        "format": "MM/yyyy"
+      },
+      "slo": {
+        "properties": {
+          "percentage": {
+            "type": "float"
+          },
+          "text": {
+            "type": "text",
+            "fields": {
+              "raw": {
+                "type": "keyword"
+              }
+            }
+          }
+        }
+      },
+      "value_c1": {
+        "properties": {
+          "percentage": {
+            "type": "float"
+          },
+          "text": {
+            "type": "text",
+            "fields": {
+              "raw": {
+                "type": "keyword"
+              }
+            }
+          }
+        }
+      },
+      "value_c2": {
+        "properties": {
+          "percentage": {
+            "type": "float"
+          },
+          "text": {
+            "type": "text",
+            "fields": {
+              "raw": {
+                "type": "keyword"
+              }
+            }
+          }
+        }
+      },
+      "value_raw": {
+        "properties": {
+          "percentage": {
+            "type": "float"
+          },
+          "text": {
+            "type": "text",
+            "fields": {
+              "raw": {
+                "type": "keyword"
+              }
+            }
+          }
+        }
+      },
+      "end_to_end": {
+        "properties": {
+          "percentage": {
+            "type": "float"
+          },
+          "text": {
+            "type": "text",
+            "fields": {
+              "raw": {
+                "type": "keyword"
+              }
+            }
+          },
+          "class": {
+            "type": "keyword"
+          }
+        }
+      },
+      "result": {
+        "properties": {
+          "percentage": {
+            "type": "float"
+          },
+          "text": {
+            "type": "text",
+            "fields": {
+              "raw": {
+                "type": "keyword"
+              }
+            }
+          },
+          "class": {
+            "type": "keyword"
+          }
+        }
+      }
+    }
+  },
+  "sla": {
+    "properties": {
+      "_contenttype": {
+        "type": "keyword"
+      },
+      "_sha1": {
+        "type": "keyword"
+      },
+      "client": {
+        "type": "keyword"
+      },
+      "csm": {
+        "type": "keyword"
+      },
+      "has_kpi": {
+        "type": "boolean"
+      },
+      "service_name": {
+        "type": "keyword"
+      },
+      "sla_id": {
+        "type": "keyword"
+      },
+      "status": {
+        "type": "keyword"
+      },
+      "title": {
+        "type": "text",
+        "fields": {
+          "raw": {
+            "type": "keyword"
+          }
+        }
+      }
+    }
+  },
+  "kpi": {
+    "properties": {
+      "_contenttype": {
+        "type": "keyword"
+      },
+      "_sha1": {
+        "type": "keyword"
+      },
+      "condition": {
+        "type": "keyword"
+      },
+      "evaluation_sign": {
+        "type": "keyword"
+      },
+      "kpi_id": {
+        "type": "keyword"
+      },
+      "kpi_type": {
+        "type": "keyword"
+      },
+      "label": {
+        "type": "text",
+        "fields": {
+          "raw": {
+            "type": "keyword"
+          }
+        }
+      },
+      "service_window": {
+        "type": "keyword"
+      },
+      "sla": {
+        "type": "keyword"
+      },
+      "title": {
+        "type": "text",
+        "fields": {
+          "raw": {
+            "type": "keyword"
+          }
+        }
+      }
+    }
+  }
+}

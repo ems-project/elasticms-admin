@@ -1,0 +1,23 @@
+{
+  "import_publication": {
+    "_meta": {
+      "required": {
+        "test": "test"
+      }
+    },
+    "properties": {
+      "_contenttype": {
+        "type": "keyword"
+      },
+      "type": {
+        "type": "keyword"
+      },
+      "category": {
+        "type": "keyword"
+      },
+      "target_group": {
+        "type": "keyword"
+      }
+    }
+  }
+}

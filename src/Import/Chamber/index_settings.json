@@ -1,0 +1,142 @@
+{
+    "analysis": {
+      "filter": {
+        "french_stop": {
+          "ignore_case": false,
+          "remove_trailing": true,
+          "type": "stop",
+          "stopwords": "_french_"
+        },
+        "english_stemmer": {
+          "name": "english",
+          "type": "stemmer"
+        },
+        "german_stop": {
+          "ignore_case": false,
+          "remove_trailing": true,
+          "type": "stop",
+          "stopwords": "_german_"
+        },
+        "empty_elision": {
+          "type": "elision",
+          "articles": [
+            ""
+          ],
+          "articles_case": false
+        },
+        "english_stop": {
+          "ignore_case": false,
+          "remove_trailing": true,
+          "type": "stop",
+          "stopwords": "_english_"
+        },
+        "french_elision": {
+          "type": "elision",
+          "articles": [
+            "l",
+            "m",
+            "t",
+            "qu",
+            "n",
+            "s",
+            "j",
+            "d",
+            "c",
+            "jusqu",
+            "quoiqu",
+            "lorsqu",
+            "puisq"
+          ],
+          "articles_case": true
+        },
+        "dutch_stop": {
+          "ignore_case": false,
+          "remove_trailing": true,
+          "type": "stop",
+          "stopwords": "_dutch_"
+        },
+        "french_stemmer": {
+          "name": "light_french",
+          "type": "stemmer"
+        },
+        "german_stemmer": {
+          "name": "light_german",
+          "type": "stemmer"
+        },
+        "dutch_stemmer": {
+          "name": "dutch",
+          "type": "stemmer"
+        }
+      },
+      "analyzer": {
+        "case_insensitive_sort": {
+          "filter": [
+            "asciifolding",
+            "lowercase"
+          ],
+          "type": "custom",
+          "tokenizer": "keyword"
+        },
+        "dutch_for_highlighting": {
+          "filter": [
+            "standard",
+            "asciifolding",
+            "lowercase",
+            "empty_elision",
+            "dutch_stemmer",
+            "dutch_stop"
+          ],
+          "char_filter": [
+            "html_strip"
+          ],
+          "type": "custom",
+          "tokenizer": "standard"
+        },
+        "english_for_highlighting": {
+          "filter": [
+            "standard",
+            "lowercase",
+            "empty_elision",
+            "asciifolding",
+            "english_stemmer",
+            "english_stop"
+          ],
+          "char_filter": [
+            "html_strip"
+          ],
+          "type": "custom",
+          "tokenizer": "standard"
+        },
+        "french_for_highlighting": {
+          "filter": [
+            "standard",
+            "asciifolding",
+            "lowercase",
+            "french_elision",
+            "french_stemmer",
+            "french_stop"
+          ],
+          "char_filter": [
+            "html_strip"
+          ],
+          "type": "custom",
+          "tokenizer": "standard"
+        },
+        "german_for_highlighting": {
+          "filter": [
+            "standard",
+            "lowercase",
+            "asciifolding",
+            "empty_elision",
+            "german_stemmer",
+            "german_stop"
+          ],
+          "char_filter": [
+            "html_strip"
+          ],
+          "type": "custom",
+          "tokenizer": "standard"
+        }
+      }
+    }
+}

@@ -1,0 +1,37 @@
+en;fr;nl
+Not allocated;Non attribuée;Niet toegewezen
+MARITIME MOBILE;MOBILE MARITIME;MARITIEM MOBIEL
+FIXED;FIXE;VAST
+Amateur;Amateur;Amateur
+AERONAUTICAL RADIONAVIGATION;RADIONAVIGATION AÉRONAUTIQUE;LUCHTVAARTRADIONAVIGATIE
+MARITIME RADIONAVIGATION;RADIONAVIGATION MARITIME;MARITIEME RADIONAVIGATIE
+RADIONAVIGATION;RADIONAVIGATION;RADIONAVIGATIE
+MOBILE (distress and calling);MOBILE (détresse et appel);MOBIEL (noodsituatie en oproep)
+BROADCASTING;RADIODIFFUSION;OMROEP
+RADIOLOCATION;RADIOLOCALISATION;RADIOLOCALISATIE
+MOBILE except aeronautical mobile;MOBILE sauf mobile aéronautique;MOBIEL uitgezonderd aëronautisch mobiel
+MOBILE except aeronautical mobile (R);MOBILE sauf mobile aéronautique (R);MOBIEL uitgezonderd aëronautisch mobiel (R)
+LAND MOBILE;MOBILE TERRESTRE;LANDMOBIEL
+AERONAUTICAL MOBILE (R);MOBILE AÉRONAUTIQUE (R);AERONAUTISCH MOBIEL (R)
+AERONAUTICAL MOBILE (OR);MOBILE AÉRONAUTIQUE (OR);AERONAUTISCH MOBIEL (OR)
+AMATEUR-SATELLITE;AMATEUR PAR SATELLITE;AMATEUR VIA SATELLIET
+MOBILE;MOBILE;MOBIEL
+METEOROLOGICAL-SATELLITE (space-to-Earth);MÉTÉOROLOGIE PAR SATELLITE (espace vers Terre);METEOROLOGIE VIA SATELLIET (ruimte naar Aarde)
+MOBILE-SATELLITE (space-to-Earth);MOBILE PAR SATELLITE (espace vers Terre);MOBIEL VIA SATELLIET (ruimte naar Aarde)
+SPACE OPERATION (space-to-Earth);EXPLOITATION SPATIALE (espace vers Terre);RUIMTE OPERATIE (ruimte naar Aarde)
+SPACE RESEARCH (space-to-Earth);RECHERCHE SPATIALE (espace vers Terre);ONDERZOEK VAN DE RUIMTE (ruimte naar Aarde)
+MOBILE-SATELLITE (Earth-to-space);MOBILE PAR SATELLITE (Terre vers espace);MOBIEL VIA SATELLIET (Aarde naar ruimte)
+RADIONAVIGATION-SATELLITE;RADIONAVIGATION PAR SATELLITE;RADIONAVIGATIE VIA SATELLIET
+RADIO ASTRONOMY;RADIOASTRONOMIE;RADIOASTRONOMIE
+Meteorological Aids;Auxiliaires de la météorologie;Hulpmiddelen voor de meteorologie
+MARITIME MOBILE (distress and calling);MOBILE MARITIME (détresse et appel);MARITIEM MOBIEL (noodsituatie en oproep)
+Mobile-Satellite;Mobile par satellite;Mobiel via satelliet
+Meteorological-Satellite (Earth-to-space);Météorologie par satellite (Terre vers espace);Meteorologie via satelliet (Aarde naar ruimte)
+RADIONAVIGATION-SATELLITE (space-to-Earth);RADIONAVIGATION PAR SATELLITE (espace vers Terre);RADIONAVIGATIE VIA SATELLIET (ruimte naar Aarde)
+SPACE OPERATION (Earth-to-space) (space-to-space);EXPLOITATION SPATIALE (Terre vers espace) (espace-espace);RUIMTE OPERATIE (Aarde naar ruimte) (ruimte-ruimte)
+SPACE OPERATION (space-to-Earth) (space-to-space);EXPLOITATION SPATIALE (espace vers Terre) (espace-espace);RUIMTE OPERATIE (ruimte naar Aarde) (ruimte-ruimte)
+FIXED-SATELLITE (space-to-Earth);FIXE PAR SATELLITE (espace vers Terre);VAST PER SATELLIET (ruimte naar Aarde)
+FIXED-SATELLITE (Earth-to-space);FIXE PAR SATELLITE (Terre vers espace);VAST PER SATELLIET (Aarde naar ruimte)
+FIXED-SATELLITE (space-to-Earth) (Earth-to-space);FIXE PAR SATELLITE (espace vers Terre) (Terre vers espace);VAST PER SATELLIET (ruimte naar Aarde) (Aarde naar ruimte)
+Meteorological-Satellite;Météorologie par satellite;Meteorologie via satelliet
+BROADCASTING-SATELLITE;RADIODIFFUSION PAR SATELLITE;OMROEP VIA SATELLIET
