@@ -17,6 +17,11 @@ security:
             id: api_key_user_provider
         fos_userbundle:
             id: fos_user.user_provider.username_email
+        smals_ldap:
+            id: ems.ldap_user_provider
+        smals_ldap_legacy_support:
+            chain:
+                providers: ['smals_ldap', 'fos_userbundle']
 
     firewalls:
         dev:
@@ -30,10 +35,15 @@ security:
             provider: api_key_user_provider
         main:
             anonymous: ~
+            provider: fos_userbundle
             form_login:
                 use_forward: true
                 provider: fos_userbundle
                 csrf_token_generator: security.csrf.token_manager
+            form_login_ldap:
+                service: Symfony\Component\Ldap\Ldap
+                provider: smals_ldap_legacy_support
+                dn_string: '{username}@smals-mvm'
             logout:
                 path: /logout
                 target: /login

@@ -3,6 +3,10 @@
 parameters:
     locale: 'en'
     #env(STORAGE_FOLDER): ''
+    env(APP_LDAP_SERVER): ''
+    env(APP_LDAP_PORT): '389'
+    env(APP_LDAP_PROTOCOLE_VERSION): '3'
+    env(APP_LDAP_ENCRYPTION): 'none'
 
 services:
     # default configuration for services in *this* file
@@ -27,6 +31,11 @@ services:
         resource: '../src/Controller'
         tags: ['controller.service_arguments']
 
+    App\Twig\:
+        resource: '../src/Twig'
+        tags:
+            - { name: twig.extension, priority: -2000 }
+
 
     Symfony\Component\HttpFoundation\Session\Storage\Handler\PdoSessionHandler:
         arguments:
@@ -48,21 +57,13 @@ services:
     # add more service definitions when explicit configuration is needed
     # please note that last definitions always *replace* previous ones
 
-    #You can defined here some extra elasticms storage services. See examples below.
-    #Be aware that you can more easily activate predefined elasticms storage service via the environment variables
-    #EMS\CoreBundle\Service\Storage\FileSystemStorage:
-    #    arguments: ['%env(string:STORAGE_FOLDER)%']
-    #    tags:
-    #    -  { name: ems.storage }
-    #EMS\CoreBundle\Service\Storage\EntityStorage:
-    #    arguments: ['@doctrine', false]
-    #    tags:
-    #    -  { name: ems.storage }
-    #EMS\CoreBundle\Service\Storage\HttpStorage:
-    #    arguments: ['@ems.service.rest_client', 'https://demo.elasticms.eu/data/file/view/', 'https://demo.elasticms.eu/api/file', 'auth_key_gUGGYvhuqUoppYQ3JM11xxHTb1J0TPFwWi7SuP7NBdJqjoo']
-    #    tags:
-    #    -  { name: ems.storage }
-    #EMS\CoreBundle\Service\Storage\SftpStorage:
-    #    arguments: ['demo.elasticms.eu', '/opt/sftp_test', 'user', '/home/user/.ssh/id_rsa.pub', '/home/user/.ssh/id_rsa']
-    #    tags:
-    #    -  { name: ems.storage }
+
+    Symfony\Component\Ldap\Ldap:
+        arguments: ['@Symfony\Component\Ldap\Adapter\ExtLdap\Adapter']
+    Symfony\Component\Ldap\Adapter\ExtLdap\Adapter:
+        arguments:
+            -   host: '%env(string:APP_LDAP_SERVER)%'
+                port: '%env(int:APP_LDAP_PORT)%'
+                encryption: '%env(string:APP_LDAP_ENCRYPTION)%'
+                options:
+                    protocol_version: '%env(int:APP_LDAP_PROTOCOLE_VERSION)%'

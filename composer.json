@@ -19,6 +19,7 @@
     "ext-openssl": "*",
     "elasticms/core-bundle": "^1.14",
     "elasticms/maker-bundle": "^0.0.3",
+    "finlet/flexmail": "dev-master#458b08560a704e14e24165892caff3bf14993b00",
     "symfony/flex": "^1.0",
     "symfony/framework-bundle": "^4.4",
     "symfony/ldap": "^4.4",
