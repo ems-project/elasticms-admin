@@ -1819,16 +1819,16 @@
         },
         {
             "name": "elasticms/common-bundle",
-            "version": "1.8.40",
+            "version": "1.8.41",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSCommonBundle.git",
-                "reference": "3c9f839bf68cb7cd7faeaf34694ee1cca7a7e9f1"
+                "reference": "07906c711f1a95da72a932278534ae62d81a15b1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSCommonBundle/zipball/3c9f839bf68cb7cd7faeaf34694ee1cca7a7e9f1",
-                "reference": "3c9f839bf68cb7cd7faeaf34694ee1cca7a7e9f1",
+                "url": "https://api.github.com/repos/ems-project/EMSCommonBundle/zipball/07906c711f1a95da72a932278534ae62d81a15b1",
+                "reference": "07906c711f1a95da72a932278534ae62d81a15b1",
                 "shasum": ""
             },
             "require": {
@@ -1898,20 +1898,20 @@
             "keywords": [
                 "elasticms"
             ],
-            "time": "2020-12-09T11:45:09+00:00"
+            "time": "2020-12-11T09:39:39+00:00"
         },
         {
             "name": "elasticms/core-bundle",
-            "version": "1.14.17",
+            "version": "1.14.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSCoreBundle.git",
-                "reference": "ca8a3ef3f03ef3c07302255f03d992c05c10528c"
+                "reference": "a8131bc127c46e41c218a674f925932a2527b589"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSCoreBundle/zipball/ca8a3ef3f03ef3c07302255f03d992c05c10528c",
-                "reference": "ca8a3ef3f03ef3c07302255f03d992c05c10528c",
+                "url": "https://api.github.com/repos/ems-project/EMSCoreBundle/zipball/a8131bc127c46e41c218a674f925932a2527b589",
+                "reference": "a8131bc127c46e41c218a674f925932a2527b589",
                 "shasum": ""
             },
             "require": {
@@ -1993,7 +1993,7 @@
             "keywords": [
                 "elasticms"
             ],
-            "time": "2020-12-09T22:19:47+00:00"
+            "time": "2020-12-11T09:41:26+00:00"
         },
         {
             "name": "elasticms/maker-bundle",
