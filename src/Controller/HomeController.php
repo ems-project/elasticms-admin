@@ -2,15 +2,16 @@
 
 namespace App\Controller;
 
-use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
+use Symfony\Component\HttpFoundation\RedirectResponse;
+use Symfony\Component\Routing\Annotation\Route;
 
 class HomeController extends AbstractController
 {
     /**
      * @Route("/", name="homepage")
      */
-    public function indexAction()
+    public function indexAction(): RedirectResponse
     {
         return $this->redirectToRoute('notifications.inbox');
     }
