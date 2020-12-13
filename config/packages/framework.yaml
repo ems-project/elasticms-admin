@@ -19,7 +19,7 @@ framework:
     fragments:
 #        engines: ['twig', 'php']
 
-    error_controller: 'App\Controller\MyExceptionController'
+#    error_controller: 'App\Controller\MyExceptionController'
 
     cache:
         # Put the unique name of your app here: the prefix seed
