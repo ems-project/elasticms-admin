@@ -22,6 +22,7 @@ A secret seed.
 ```dotenv
 TRUSTED_PROXIES=127.0.0.1,127.0.0.2
 TRUSTED_HOSTS=localhost,example.com
+HTTP_CUSTOM_FORWARDED_PROTO=HTTP_X_COMPANY_FORWARDED_PROTO #Default value HTTP_X_FORWARDED_PROTO
 ```
 
 ## Swift Mailer
