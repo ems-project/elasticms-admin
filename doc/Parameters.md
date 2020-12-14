@@ -6,8 +6,11 @@ The environment variables have been grouped by bundles and for the Symfony frame
 
 ### APP_ENV
 
-[Possible values](https://symfony.com/doc/current/configuration.html#selecting-the-active-environment): `dev`, `prod`
+[Possible values](https://symfony.com/doc/current/configuration.html#selecting-the-active-environment): `dev`, `prod`, `test`
  - Example `APP_ENV=dev`
+But there is 2 more possible values, specific to elasticms:
+ - `db` : It's equivalent to a `prod` environment, but PHP sessions are persisted in the RDBMS (does not work with SQLite databases).
+ - `redis` : It's equivalent to a `prod` environment, but PHP sessions are saved in a Redis server.
 
 ### APP_SECRET
 
