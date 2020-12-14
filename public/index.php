@@ -16,12 +16,17 @@ if (!isset($_SERVER['APP_ENV'])) {
 }
 
 $env = $_SERVER['APP_ENV'] ?? 'dev';
-$debug = (bool) ($_SERVER['APP_DEBUG'] ?? ('prod' !== $env));
+$debug = (bool) ($_SERVER['APP_DEBUG'] ?? !\in_array($env, ['prod', 'redis', 'db']));
 
 if ($debug) {
     umask(0000);
 
     Debug::enable();
+}
+
+$forwardedProtoHeader = $_SERVER['HTTP_CUSTOM_FORWARDED_PROTO'] ?? null;
+if (\is_string($forwardedProtoHeader) && null !== $forwardedProtoHeader[$forwardedProtoHeader] ?? null) {
+    $_SERVER['HTTP_X_FORWARDED_PROTO'] = $_SERVER[$forwardedProtoHeader];
 }
 
 if ($trustedProxies = $_SERVER['TRUSTED_PROXIES'] ?? false) {
