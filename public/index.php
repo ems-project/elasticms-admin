@@ -25,8 +25,13 @@ if ($debug) {
 }
 
 $forwardedProtoHeader = $_SERVER['HTTP_CUSTOM_FORWARDED_PROTO'] ?? null;
-if (\is_string($forwardedProtoHeader) && null !== $forwardedProtoHeader[$forwardedProtoHeader] ?? null) {
+if (\is_string($forwardedProtoHeader) && null !== $_SERVER[$forwardedProtoHeader] ?? null) {
     $_SERVER['HTTP_X_FORWARDED_PROTO'] = $_SERVER[$forwardedProtoHeader];
+}
+
+$forwardedPortHeader = $_SERVER['HTTP_CUSTOM_FORWARDED_PORT'] ?? null;
+if (\is_string($forwardedPortHeader) && null !== $_SERVER[$forwardedPortHeader] ?? null) {
+    $_SERVER['HTTP_X_FORWARDED_PORT'] = $_SERVER[$forwardedPortHeader];
 }
 
 if ($trustedProxies = $_SERVER['TRUSTED_PROXIES'] ?? false) {
