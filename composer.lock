@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.168.3",
+            "version": "3.171.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "49ef1f905388c8185012c9651b80941b8f2a218d"
+                "reference": "e88837e34fe798484f4589ad30c597a231750b10"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/49ef1f905388c8185012c9651b80941b8f2a218d",
-                "reference": "49ef1f905388c8185012c9651b80941b8f2a218d",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/e88837e34fe798484f4589ad30c597a231750b10",
+                "reference": "e88837e34fe798484f4589ad30c597a231750b10",
                 "shasum": ""
             },
             "require": {
@@ -89,7 +89,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2020-12-11T19:12:18+00:00"
+            "time": "2020-12-16T19:12:20+00:00"
         },
         {
             "name": "brick/math",
@@ -1819,16 +1819,16 @@
         },
         {
             "name": "elasticms/common-bundle",
-            "version": "1.8.43",
+            "version": "1.8.44",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSCommonBundle.git",
-                "reference": "74a98aa68e769415391e0471add4bb2b48c26c8d"
+                "reference": "192ffef22b5c0ff785b09c6357c70d63598b244a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSCommonBundle/zipball/74a98aa68e769415391e0471add4bb2b48c26c8d",
-                "reference": "74a98aa68e769415391e0471add4bb2b48c26c8d",
+                "url": "https://api.github.com/repos/ems-project/EMSCommonBundle/zipball/192ffef22b5c0ff785b09c6357c70d63598b244a",
+                "reference": "192ffef22b5c0ff785b09c6357c70d63598b244a",
                 "shasum": ""
             },
             "require": {
@@ -1898,20 +1898,20 @@
             "keywords": [
                 "elasticms"
             ],
-            "time": "2020-12-13T23:33:04+00:00"
+            "time": "2020-12-17T09:42:28+00:00"
         },
         {
             "name": "elasticms/core-bundle",
-            "version": "1.14.19",
+            "version": "1.14.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSCoreBundle.git",
-                "reference": "e65f9e53f38a0ebf6a1a5219db5e3ea2947dfe70"
+                "reference": "d6d0b2086513b70c07ad49d02501d136fececfa7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSCoreBundle/zipball/e65f9e53f38a0ebf6a1a5219db5e3ea2947dfe70",
-                "reference": "e65f9e53f38a0ebf6a1a5219db5e3ea2947dfe70",
+                "url": "https://api.github.com/repos/ems-project/EMSCoreBundle/zipball/d6d0b2086513b70c07ad49d02501d136fececfa7",
+                "reference": "d6d0b2086513b70c07ad49d02501d136fececfa7",
                 "shasum": ""
             },
             "require": {
@@ -1993,7 +1993,7 @@
             "keywords": [
                 "elasticms"
             ],
-            "time": "2020-12-11T16:25:29+00:00"
+            "time": "2020-12-17T12:02:45+00:00"
         },
         {
             "name": "elasticms/maker-bundle",
@@ -2905,16 +2905,16 @@
         },
         {
             "name": "monolog/monolog",
-            "version": "1.25.5",
+            "version": "1.26.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "1817faadd1846cd08be9a49e905dc68823bc38c0"
+                "reference": "2209ddd84e7ef1256b7af205d0717fb62cfc9c33"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/1817faadd1846cd08be9a49e905dc68823bc38c0",
-                "reference": "1817faadd1846cd08be9a49e905dc68823bc38c0",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/2209ddd84e7ef1256b7af205d0717fb62cfc9c33",
+                "reference": "2209ddd84e7ef1256b7af205d0717fb62cfc9c33",
                 "shasum": ""
             },
             "require": {
@@ -2930,7 +2930,7 @@
                 "graylog2/gelf-php": "~1.0",
                 "php-amqplib/php-amqplib": "~2.4",
                 "php-console/php-console": "^3.1.3",
-                "php-parallel-lint/php-parallel-lint": "^1.0",
+                "phpstan/phpstan": "^0.12.59",
                 "phpunit/phpunit": "~4.5",
                 "ruflin/elastica": ">=0.90 <3.0",
                 "sentry/sentry": "^0.13",
@@ -2950,11 +2950,6 @@
                 "sentry/sentry": "Allow sending log messages to a Sentry server"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.0.x-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "Monolog\\": "src/Monolog"
@@ -2988,7 +2983,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-07-23T08:35:51+00:00"
+            "time": "2020-12-14T12:56:38+00:00"
         },
         {
             "name": "mtdowling/jmespath.php",
@@ -3730,16 +3725,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "0.12.62",
+            "version": "0.12.63",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "632393159335bbbdd7ca07d19b3ad50d76aa7fd8"
+                "reference": "c97ec4754bd53099a06c24847bd2870b99966b6a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/632393159335bbbdd7ca07d19b3ad50d76aa7fd8",
-                "reference": "632393159335bbbdd7ca07d19b3ad50d76aa7fd8",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/c97ec4754bd53099a06c24847bd2870b99966b6a",
+                "reference": "c97ec4754bd53099a06c24847bd2870b99966b6a",
                 "shasum": ""
             },
             "require": {
@@ -3782,7 +3777,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-12-13T13:59:38+00:00"
+            "time": "2020-12-15T16:37:16+00:00"
         },
         {
             "name": "phpstan/phpstan-phpunit",
