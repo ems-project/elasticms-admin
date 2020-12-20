@@ -10,6 +10,7 @@ class HomeController extends AbstractController
 {
     /**
      * @Route("/", name="homepage")
+     * @Route("/ems-admin", name="homepage_url")
      */
     public function indexAction(): RedirectResponse
     {

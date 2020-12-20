@@ -9,6 +9,12 @@
   "keywords": [
     "elasticms"
   ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/ems-project/EMSCommonBundle"
+    }
+  ],
   "license": "MIT",
   "type": "project",
   "require": {
@@ -17,6 +23,7 @@
     "ext-iconv": "*",
     "ext-json": "*",
     "ext-openssl": "*",
+    "elasticms/client-helper-bundle": "dev-feat/core-integration",
     "elasticms/core-bundle": "^1.14",
     "elasticms/maker-bundle": "^0.0.3",
     "symfony/flex": "^1.0",
