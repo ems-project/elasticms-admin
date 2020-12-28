@@ -1,10 +1,7 @@
 fos_user:
-#    prefix: '/ems-admin'
-    resource: '@FOSUserBundle/Resources/config/routing/all.xml'
+    resource: "@FOSUserBundle/Resources/config/routing/all.xml"
 ems_core:
-    resource: '@EMSCoreBundle/Controller/'
-    prefix: '/ems-admin'
+    resource: "@EMSCoreBundle/Controller/"
     type:     annotation
 emsco:
-    prefix: '/ems-admin'
     resource: '@EMSCoreBundle/Resources/config/routing/all.xml'
