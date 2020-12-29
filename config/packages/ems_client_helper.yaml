@@ -1,11 +1,8 @@
 parameters:
   env(EMSCH_INSTANCE_ID): website_
-  env(EMSCH_LOG_INSTANCE_ID): website_
-  env(EMSCH_LOG_BY_PASS): true
   env(EMSCH_ELASTICSEARCH_CLUSTER): '["http://localhost:9200"]'
   env(EMS_ELASTICSEARCH_HOSTS): '%env(string:EMSCH_ELASTICSEARCH_CLUSTER)%'
   env(EMSCH_LOCALES): '["fr","nl"]'
-  env(EMSCH_BIND_LOCALE): true
   env(EMSCH_ENVS): '{}'
 
   env(EMSCH_ROUTE_TYPE):       ~
@@ -37,12 +34,11 @@ ems_client_helper:
       url: '%env(string:EMSCH_BACKEND_URL)%'
       key: '%env(string:EMSCH_BACKEND_API_KEY)%'
   locales: '%env(json:EMSCH_LOCALES)%'
-  bind_locale: '%env(bool:EMSCH_BIND_LOCALE)%'
-  ignore_not_found_environment: true
+  bind_locale: false
   log:
     hosts: '%env(json:EMS_ELASTICSEARCH_HOSTS)%'
-    instance_id: '%env(string:EMSCH_LOG_INSTANCE_ID)%'
-    by_pass: '%env(bool:EMSCH_LOG_BY_PASS)%'
+    instance_id: 'log_disabled'
+    by_pass: true
   request_environments: '%env(json:EMSCH_ENVS)%'
   dump_assets: '%env(bool:EMSCH_DUMP_ASSETS)%'
   elasticms:
@@ -50,6 +46,7 @@ ems_client_helper:
       api: {"enable": true, "name": "backend"}
       hosts: '%env(json:EMS_ELASTICSEARCH_HOSTS)%'
       index_prefix: '%env(string:EMSCH_INSTANCE_ID)%'
+      must_be_bind: false
       route_type: '%env(string:EMSCH_ROUTE_TYPE)%'
       translation_type: '%env(string:EMSCH_TRANSLATION_TYPE)%'
       asset_config_type: '%env(string:EMSCH_ASSET_CONFIG_TYPE)%'
