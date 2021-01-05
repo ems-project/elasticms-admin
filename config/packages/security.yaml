@@ -57,11 +57,15 @@ security:
         - { path: ^/resetting, role: IS_AUTHENTICATED_ANONYMOUSLY }
         - { path: ^/register, role: IS_AUTHENTICATED_ANONYMOUSLY }
         - { path: ^/data/file, role: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/data/asset, role: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/channel/, role: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/bundles, role: IS_AUTHENTICATED_ANONYMOUSLY }
         - { path: ^/api, roles: ROLE_API }
         - { path: ^/i18n-type, roles: ROLE_ADMIN }
         - { path: ^/wysiwyg-profile, roles: ROLE_ADMIN }
         - { path: ^/content-type, roles: ROLE_ADMIN }
         - { path: ^/environment, roles: ROLE_ADMIN }
+        - { path: ^/channel-admin, roles: ROLE_ADMIN }
         - { path: ^/user, roles: ROLE_USER_MANAGEMENT }
         - { path: ^/elasticsearch/delete-search, roles: ROLE_USER }
         - { path: ^/elasticsearch, roles: ROLE_ADMIN }
