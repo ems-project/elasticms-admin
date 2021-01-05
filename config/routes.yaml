@@ -3,3 +3,5 @@ fos_user:
 ems_core:
     resource: "@EMSCoreBundle/Controller/"
     type:     annotation
+emsco:
+    resource: '@EMSCoreBundle/Resources/config/routing/all.xml'

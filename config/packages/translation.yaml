@@ -4,4 +4,4 @@ framework:
         paths:
             - '%kernel.project_dir%/vendor/elasticms/core-bundle/src/Resources/translations'
         fallbacks:
-            - '%locale%'
+            - 'en'
