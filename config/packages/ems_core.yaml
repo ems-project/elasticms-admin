@@ -8,7 +8,6 @@ parameters:
     env(EMS_INSTANCE_ID): 'elasticms_'
     env(EMS_NAME): '<i class="ems-icon-ball"></i> elastic<b>ms</b>'
     env(EMS_SHORTNAME): '<i class="ems-icon-ball"></i><span class="sr-only">elasticms</span>'
-    env(EMS_SINGLE_TYPE_INDEX): false
     env(EMS_PAGING_SIZE): 20
     env(EMS_THEME_COLOR): 'blue'
     env(EMS_DATE_TIME_FORMAT): 'j/m/Y \a\t G:i'
@@ -30,7 +29,6 @@ parameters:
     env(EMSCO_INSTANCE_ID): '%env(string:EMS_INSTANCE_ID)%'
     env(EMSCO_NAME): '%env(string:EMS_NAME)%'
     env(EMSCO_SHORTNAME): '%env(string:EMS_SHORTNAME)%'
-    env(EMSCO_SINGLE_TYPE_INDEX): '%env(string:EMS_SINGLE_TYPE_INDEX)%'
     env(EMSCO_PAGING_SIZE): '%env(string:EMS_PAGING_SIZE)%'
     env(EMSCO_THEME_COLOR): '%env(string:EMS_THEME_COLOR)%'
     env(EMSCO_DATE_TIME_FORMAT): '%env(string:EMS_DATE_TIME_FORMAT)%'
@@ -67,6 +65,6 @@ ems_core:
     asset_config: '%env(json:EMSCO_ASSET_CONFIG)%'
     tika_server: '%env(string:EMSCO_TIKA_SERVER)%'
     tika_download_url: '%env(string:EMSCO_TIKA_DOWNLOAD_URL)%'
-    single_type_index: '%env(bool:EMSCO_SINGLE_TYPE_INDEX)%'
     trigger_job_from_web:  '%env(bool:EMSCO_TRIGGER_JOB_FROM_WEB)%'
     pre_generated_ouuids: '%env(bool:EMSCO_PRE_GENERATED_OUUIDS)%'
+    log_by_pass: '%env(bool:EMSCO_LOG_BY_PASS)%'
