@@ -1,5 +1,4 @@
 parameters:
-  env(EMSCH_INSTANCE_ID):             website_
   env(EMSCH_ELASTICSEARCH_CLUSTER):   '["http://localhost:9200"]'
   env(EMS_ELASTICSEARCH_HOSTS):       '%env(string:EMSCH_ELASTICSEARCH_CLUSTER)%'
   env(EMSCH_LOCALES):                 '["fr","nl"]'
@@ -33,7 +32,6 @@ ems_client_helper:
     website:
       api: {"enable": true, "name": "backend"}
       hosts: '%env(json:EMS_ELASTICSEARCH_HOSTS)%'
-      index_prefix: '%env(string:EMSCH_INSTANCE_ID)%'
       route_type: '%env(string:EMSCH_ROUTE_TYPE)%'
       translation_type: '%env(string:EMSCH_TRANSLATION_TYPE)%'
       asset_config_type: '%env(string:EMSCH_ASSET_CONFIG_TYPE)%'
