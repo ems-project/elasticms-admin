@@ -45,6 +45,18 @@ parameters:
     env(EMSCO_LOG_BY_PASS): false
     env(EMSCO_LOG_LEVEL): 'INFO'
 
+    env(LDAP_BASE_DN): ''
+    env(LDAP_SEARCH_DN): ~
+    env(LDAP_SEARCH_PASSWORD): ~
+    env(LDAP_PASSWORD_ATTRIBUTE): ~
+    env(LDAP_DEFAULT_ROLES): '[]'
+    env(LDAP_FILTER): ~
+    env(LDAP_EXTRA_FIELDS): '[]'
+    env(LDAP_EMAIL_FIELD): ~
+    env(LDAP_DISPLAY_NAME_FIELD): ~
+    env(LDAP_GIVEN_NAME_FIELD): ~
+    env(LDAP_LAST_NAME_FIELD): ~
+    env(LDAP_UID_KEY): ~
 
 ems_core:
     private_key:  '%env(string:EMSCO_PRIVATE_KEY)%'
@@ -71,3 +83,17 @@ ems_core:
     pre_generated_ouuids: '%env(bool:EMSCO_PRE_GENERATED_OUUIDS)%'
     log_by_pass: '%env(bool:EMSCO_LOG_BY_PASS)%'
     log_level: '%env(string:EMSCO_LOG_LEVEL)%'
+
+    ldap:
+        base_dn: '%env(string:LDAP_BASE_DN)%'
+        search_dn: '%env(string:LDAP_SEARCH_DN)%'
+        search_password: '%env(string:LDAP_SEARCH_PASSWORD)%'
+        password_attribute: '%env(LDAP_PASSWORD_ATTRIBUTE)%'
+        default_roles: '%env(json:LDAP_DEFAULT_ROLES)%'
+        filter: '%env(string:LDAP_FILTER)%'
+        extra_fields: '%env(json:LDAP_EXTRA_FIELDS)%'
+        email_field: '%env(string:LDAP_EMAIL_FIELD)%'
+        display_name_field: '%env(string:LDAP_DISPLAY_NAME_FIELD)%'
+        given_name_field: '%env(string:LDAP_GIVEN_NAME_FIELD)%'
+        last_name_field: '%env(string:LDAP_LAST_NAME_FIELD)%'
+        uid_key: '%env(string:LDAP_UID_KEY)%'
