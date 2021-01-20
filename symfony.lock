@@ -8,6 +8,9 @@
     "caxy/php-htmldiff": {
         "version": "0.1.x-dev"
     },
+    "cebe/markdown": {
+        "version": "1.2.1"
+    },
     "composer/ca-bundle": {
         "version": "1.2.8"
     },
