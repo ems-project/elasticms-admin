@@ -1,6 +1,10 @@
 parameters:
     env(DEFAULT_LOCAL): 'en'
     locale: '%env(DEFAULT_LOCAL)%'
+    env(APP_LDAP_SERVER): ''
+    env(APP_LDAP_PORT): '389'
+    env(APP_LDAP_PROTOCOLE_VERSION): '3'
+    env(APP_LDAP_ENCRYPTION): 'none'
 
 services:
     # default configuration for services in *this* file
@@ -28,8 +32,8 @@ services:
 
     Symfony\Component\HttpFoundation\Session\Storage\Handler\PdoSessionHandler:
         arguments:
-        - '%env(DB_DRIVER)%:dbname=%env(DB_NAME)%; host=%env(DB_HOST)%; port=%env(DB_PORT)%'
-        - { db_username: '%env(DB_USER)%', db_password: '%env(DB_PASSWORD)%', db_table: 'session', db_id_col: 'id', db_data_col: 'data', db_time_col: 'time', db_lifetime_col: 'lifetime' }
+            - '%env(DB_DRIVER)%:dbname=%env(DB_NAME)%; host=%env(DB_HOST)%; port=%env(DB_PORT)%'
+            - { db_username: '%env(DB_USER)%', db_password: '%env(DB_PASSWORD)%', db_table: 'session', db_id_col: 'id', db_data_col: 'data', db_time_col: 'time', db_lifetime_col: 'lifetime' }
 
     #Redis configuration
     Redis:
@@ -45,3 +49,13 @@ services:
 
     # add more service definitions when explicit configuration is needed
     # please note that last definitions always *replace* previous ones
+
+    Symfony\Component\Ldap\Ldap:
+        arguments: [ '@Symfony\Component\Ldap\Adapter\ExtLdap\Adapter' ]
+    Symfony\Component\Ldap\Adapter\ExtLdap\Adapter:
+        arguments:
+            - host: '%env(string:APP_LDAP_SERVER)%'
+              port: '%env(int:APP_LDAP_PORT)%'
+              encryption: '%env(string:APP_LDAP_ENCRYPTION)%'
+              options:
+                  protocol_version: '%env(int:APP_LDAP_PROTOCOLE_VERSION)%'
