@@ -11,7 +11,7 @@ services:
                             # fetching services directly from the container via $container->get() won't work.
                             # The best practice is to be explicit about your dependencies anyway.
         bind:
-            #$tikaServer:  '%env(string:TIKA_SERVER)%'
+            $tikaServer:  '%env(string:EMSCO_TIKA_SERVER)%'
 
     # makes classes in src/ available to be used as services
     # this creates a service per class whose id is the fully-qualified class name
@@ -28,8 +28,8 @@ services:
 
     Symfony\Component\HttpFoundation\Session\Storage\Handler\PdoSessionHandler:
         arguments:
-        - '%env(DB_DRIVER)%:dbname=%env(DB_NAME)%; host=%env(DB_HOST)%; port=%env(DB_PORT)%'
-        - { db_username: '%env(DB_USER)%', db_password: '%env(DB_PASSWORD)%', db_table: 'session', db_id_col: 'id', db_data_col: 'data', db_time_col: 'time', db_lifetime_col: 'lifetime' }
+            - '%env(DB_DRIVER)%:dbname=%env(DB_NAME)%; host=%env(DB_HOST)%; port=%env(DB_PORT)%'
+            - { db_username: '%env(DB_USER)%', db_password: '%env(DB_PASSWORD)%', db_table: 'session', db_id_col: 'id', db_data_col: 'data', db_time_col: 'time', db_lifetime_col: 'lifetime' }
 
     #Redis configuration
     Redis:
