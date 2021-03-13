@@ -261,6 +261,7 @@ Refers to the [PHP hash_algos](https://www.php.net/manual/fr/function.hash-algos
 
 ## Deprecated variables
 
+## Since version 1.14.3
  - ELASTICSEARCH_CLUSTER : See [EMS_ELASTICSEARCH_HOSTS](#ems_elasticsearch_hosts)
  - ELASTICSEARCH_VERSION : This variable doesn't have any replacement, the value is directly get form the elasticsearch cluster itself.
  - S3_BUCKET : See [EMS_STORAGES](#EMS_STORAGES)
