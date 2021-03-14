@@ -109,20 +109,20 @@ In order to update composer dependencies (and the elaticms's bundles) run the fo
 
 In Windows Command Line:
 ```
-docker run -it -v %cd%:/opt/src -w /opt/src docker.io/elasticms/base-php-dev:7.4 composer update 
+docker run -it -v %cd%:/opt/src -w /opt/src docker.io/elasticms/base-php-dev:7.4 composer --no-scripts update 
 ```
 On Linux or in PowerShell
 ```
-docker run -it -v ${PWD}:/opt/src -w /opt/src docker.io/elasticms/base-php-dev:7.4 composer update
+docker run -it -v ${PWD}:/opt/src -w /opt/src docker.io/elasticms/base-php-dev:7.4 composer --no-scripts update
 ```
 
 If you want to udpate elasticms's bundles only:
 
 In Windows Command Line:
 ```
-docker run -it -v %cd%:/opt/src -w /opt/src docker.io/elasticms/base-php-dev:7.4 composer update elasticms/* 
+docker run -it -v %cd%:/opt/src -w /opt/src docker.io/elasticms/base-php-dev:7.4 composer update --no-scripts elasticms/* 
 ```
 On Linux or in PowerShell
 ```
-docker run -it -v ${PWD}:/opt/src -w /opt/src docker.io/elasticms/base-php-dev:7.4 composer update elasticms/*
+docker run -it -v ${PWD}:/opt/src -w /opt/src docker.io/elasticms/base-php-dev:7.4 composer update --no-scripts elasticms/*
 ```
