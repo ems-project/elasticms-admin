@@ -1,5 +1,0 @@
-ems_client_helper:
-  twig_list:
-      templates:
-          - {path: '@EMSClientHelperBundle/Resources/views/TwigList', namespace: '@EMSClientHelper\TwigList'}
-          - {path: 'templates'}
