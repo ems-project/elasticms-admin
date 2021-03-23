@@ -217,6 +217,13 @@ Define if the elastica logger must be turned off. Possible values are:
 ```dotenv
 EMSCO_LOG_BY_PASS=false
 ``` 
+ 
+### EMSCO_DEFAULT_BULK_SIZE
+Define the default bulk size for commands such as the `ems:environment:rebuild` command. Default value: `500`.
+
+```dotenv
+EMSCO_DEFAULT_BULK_SIZE=500
+``` 
   
 ## Elasticms Client Helper Bundle variables
 
