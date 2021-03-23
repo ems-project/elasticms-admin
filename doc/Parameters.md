@@ -217,6 +217,13 @@ Define if the elastica logger must be turned off. Possible values are:
 ```dotenv
 EMSCO_LOG_BY_PASS=false
 ``` 
+ 
+### EMSCO_DEFAULT_BULK_SIZE
+Define the default bulk size for commands such as the `ems:environment:rebuild` command. Default value: `500`.
+
+```dotenv
+EMSCO_DEFAULT_BULK_SIZE=500
+``` 
   
 ## Elasticms Client Helper Bundle variables
 
@@ -261,6 +268,7 @@ Refers to the [PHP hash_algos](https://www.php.net/manual/fr/function.hash-algos
 
 ## Deprecated variables
 
+## Since version 1.14.3
  - ELASTICSEARCH_CLUSTER : See [EMS_ELASTICSEARCH_HOSTS](#ems_elasticsearch_hosts)
  - ELASTICSEARCH_VERSION : This variable doesn't have any replacement, the value is directly get form the elasticsearch cluster itself.
  - S3_BUCKET : See [EMS_STORAGES](#EMS_STORAGES)

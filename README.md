@@ -1,20 +1,8 @@
-# ElasticMS [![Build Status](https://travis-ci.com/ems-project/elasticms.svg?branch=master)](https://travis-ci.com/ems-project/elasticms) [![Latest Stable Version](https://img.shields.io/github/release/ems-project/elasticms.svg)](https://github.com/ems-project/elasticms/releases)
+# ElasticMS [![Build Status](https://github.com/ems-project/elasticms-docker/actions/workflows/ci.yml/badge.svg)](https://github.com/ems-project/elasticms-docker) [![Latest Stable Version](https://img.shields.io/github/release/ems-project/elasticms.svg)](https://github.com/ems-project/elasticms/releases)
 
 ## About
 
 A minimal CMS to manage generic content in order to publish it in several Elasticsearch index (based on Symfony 4, Bootstrap 3, and AdminLTE).
-
-There are 4 differents roles in this CMS:
-
-The author is able to create and edit a document. He is also able to publish a document
-
-The admin is able to do all previous action but also to manage Elasticsearch indexes, such as:
--   define index aliases
--   create/delete an elasticsearch index
-
-The Webmaster
-
-The Author
 
 
 ## Setup
@@ -71,8 +59,6 @@ Then you have to create a super-admin user:
 
 And voila, ElasticMS is up and running!
 
-If you want to load some test data in the DB run this:
-> php bin/console doctrine:fix:l
 
 ## SOAP connection
 For the soapRequest twig function to work, the following line should be activated in your php.ini
@@ -94,7 +80,6 @@ The second migration in this project is safe to run multiple times as it changes
 It is adviced to always use migrations for changes so that:
 -   we can easily build a DB from scratch and get future changes (use doctrine:migrations:migrate in stead of doctrine:schema:create)
 -   everyone can update to a newer version without dataloss (auto generate migrations with doctrine:migrations:diff for schema updates && write migrations for content changes)
-//TODO: decide on a naming convention for migrations
 
 ```
 php bin/console doctrine:database:drop --force
@@ -117,4 +102,27 @@ php bin/console ems:env:align template preview  --searchQuery='{"query":{"bool":
 php bin/console ems:env:align preview template  --searchQuery='{"query":{"bool":{"must_not":[{"terms":{"_contenttype":["template","label","route"]}}]}}}' --force
 php bin/console ems:env:align preview live  --force
 ```
- 
+
+## Update dependencies
+
+In order to update composer dependencies (and the elaticms's bundles) run the following command:
+
+In Windows Command Line:
+```
+docker run -it -v %cd%:/opt/src -w /opt/src docker.io/elasticms/base-php-dev:7.4 composer --no-scripts update 
+```
+On Linux or in PowerShell
+```
+docker run -it -v ${PWD}:/opt/src -w /opt/src docker.io/elasticms/base-php-dev:7.4 composer --no-scripts update
+```
+
+If you want to udpate elasticms's bundles only:
+
+In Windows Command Line:
+```
+docker run -it -v %cd%:/opt/src -w /opt/src docker.io/elasticms/base-php-dev:7.4 composer update --no-scripts elasticms/* 
+```
+On Linux or in PowerShell
+```
+docker run -it -v ${PWD}:/opt/src -w /opt/src docker.io/elasticms/base-php-dev:7.4 composer update --no-scripts elasticms/*
+```
