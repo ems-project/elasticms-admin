@@ -57,6 +57,7 @@ parameters:
     env(EMSCO_PRE_GENERATED_OUUIDS): false
     env(EMSCO_LOG_BY_PASS): false
     env(EMSCO_LOG_LEVEL): 'INFO'
+    env(EMSCO_DEFAULT_BULK_SIZE): 500
 
     env(EMSCO_LDAP_BASE_DN): '%env(string:LDAP_BASE_DN)%'
     env(EMSCO_LDAP_SEARCH_DN): '%env(string:LDAP_SEARCH_DN)%'
@@ -96,6 +97,7 @@ ems_core:
     pre_generated_ouuids: '%env(bool:EMSCO_PRE_GENERATED_OUUIDS)%'
     log_by_pass: '%env(bool:EMSCO_LOG_BY_PASS)%'
     log_level: '%env(string:EMSCO_LOG_LEVEL)%'
+    default_bulk_size: '%env(int:EMSCO_DEFAULT_BULK_SIZE)%'
 
     ldap:
         base_dn: '%env(string:EMSCO_LDAP_BASE_DN)%'
