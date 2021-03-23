@@ -2049,16 +2049,16 @@
         },
         {
             "name": "elasticms/client-helper-bundle",
-            "version": "3.5.13",
+            "version": "3.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSClientHelperBundle.git",
-                "reference": "338587b8fb6b8f138d95616353c7d8a1c2af13a0"
+                "reference": "237c68e6784c712a499bbad0039f9340229377a4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSClientHelperBundle/zipball/338587b8fb6b8f138d95616353c7d8a1c2af13a0",
-                "reference": "338587b8fb6b8f138d95616353c7d8a1c2af13a0",
+                "url": "https://api.github.com/repos/ems-project/EMSClientHelperBundle/zipball/237c68e6784c712a499bbad0039f9340229377a4",
+                "reference": "237c68e6784c712a499bbad0039f9340229377a4",
                 "shasum": ""
             },
             "require": {
@@ -2072,6 +2072,7 @@
                 "symfony/options-resolver": "^4.4",
                 "symfony/property-access": "^4.4",
                 "symfony/translation": "^4.4",
+                "symfony/yaml": "^4.4",
                 "twig/twig": "^2.14"
             },
             "require-dev": {
@@ -2120,22 +2121,22 @@
             ],
             "support": {
                 "issues": "https://github.com/ems-project/EMSClientHelperBundle/issues",
-                "source": "https://github.com/ems-project/EMSClientHelperBundle/tree/3.5.13"
+                "source": "https://github.com/ems-project/EMSClientHelperBundle/tree/3.6.0"
             },
-            "time": "2021-02-27T09:32:12+00:00"
+            "time": "2021-03-23T20:42:38+00:00"
         },
         {
             "name": "elasticms/common-bundle",
-            "version": "1.8.60",
+            "version": "1.8.63",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSCommonBundle.git",
-                "reference": "5cc1cda2964e8a8d3bf2ee566d09f8e7e5edbf5e"
+                "reference": "138bcdd98a9d314e44109eac05ec8a06eba9f104"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSCommonBundle/zipball/5cc1cda2964e8a8d3bf2ee566d09f8e7e5edbf5e",
-                "reference": "5cc1cda2964e8a8d3bf2ee566d09f8e7e5edbf5e",
+                "url": "https://api.github.com/repos/ems-project/EMSCommonBundle/zipball/138bcdd98a9d314e44109eac05ec8a06eba9f104",
+                "reference": "138bcdd98a9d314e44109eac05ec8a06eba9f104",
                 "shasum": ""
             },
             "require": {
@@ -2156,6 +2157,7 @@
                 "symfony/dom-crawler": "^4.4",
                 "symfony/expression-language": "^4.4",
                 "symfony/framework-bundle": "^4.4",
+                "symfony/http-client": "^4.4",
                 "symfony/http-foundation": "^4.4",
                 "symfony/monolog-bridge": "^4.4",
                 "symfony/options-resolver": "^4.4",
@@ -2210,22 +2212,22 @@
             ],
             "support": {
                 "issues": "https://github.com/ems-project/EMSCommonBundle/issues",
-                "source": "https://github.com/ems-project/EMSCommonBundle/tree/1.8.60"
+                "source": "https://github.com/ems-project/EMSCommonBundle/tree/1.8.63"
             },
-            "time": "2021-03-13T07:32:58+00:00"
+            "time": "2021-03-23T14:47:28+00:00"
         },
         {
             "name": "elasticms/core-bundle",
-            "version": "1.14.50",
+            "version": "1.15.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSCoreBundle.git",
-                "reference": "c592c514bb18760ea3a5e4ee4182fa38b4087f29"
+                "reference": "23f2286c19e5381e1b9ddbe6298534a15e0e72ec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSCoreBundle/zipball/c592c514bb18760ea3a5e4ee4182fa38b4087f29",
-                "reference": "c592c514bb18760ea3a5e4ee4182fa38b4087f29",
+                "url": "https://api.github.com/repos/ems-project/EMSCoreBundle/zipball/23f2286c19e5381e1b9ddbe6298534a15e0e72ec",
+                "reference": "23f2286c19e5381e1b9ddbe6298534a15e0e72ec",
                 "shasum": ""
             },
             "require": {
@@ -2235,7 +2237,7 @@
                 "doctrine/orm": "^2.7",
                 "doctrine/persistence": "^1.3",
                 "dompdf/dompdf": "^0.8",
-                "elasticms/client-helper-bundle": "^3.5",
+                "elasticms/client-helper-bundle": "^3.6",
                 "ext-dom": "*",
                 "ext-iconv": "*",
                 "ext-json": "*",
@@ -2308,9 +2310,9 @@
             ],
             "support": {
                 "issues": "https://github.com/ems-project/EMSCoreBundle/issues",
-                "source": "https://github.com/ems-project/EMSCoreBundle/tree/1.14.50"
+                "source": "https://github.com/ems-project/EMSCoreBundle/tree/1.15.0"
             },
-            "time": "2021-03-13T07:44:37+00:00"
+            "time": "2021-03-23T21:50:49+00:00"
         },
         {
             "name": "elasticms/maker-bundle",
@@ -7514,6 +7516,86 @@
                 }
             ],
             "time": "2021-02-22T15:36:50+00:00"
+        },
+        {
+            "name": "symfony/http-client",
+            "version": "v4.4.20",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/http-client.git",
+                "reference": "67c5af7489b3c2eea771abd973243f5c58f5fb40"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/http-client/zipball/67c5af7489b3c2eea771abd973243f5c58f5fb40",
+                "reference": "67c5af7489b3c2eea771abd973243f5c58f5fb40",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1.3",
+                "psr/log": "^1.0",
+                "symfony/http-client-contracts": "^1.1.10|^2",
+                "symfony/polyfill-php73": "^1.11",
+                "symfony/service-contracts": "^1.0|^2"
+            },
+            "provide": {
+                "php-http/async-client-implementation": "*",
+                "php-http/client-implementation": "*",
+                "psr/http-client-implementation": "1.0",
+                "symfony/http-client-implementation": "1.1|2.0"
+            },
+            "require-dev": {
+                "guzzlehttp/promises": "^1.4",
+                "nyholm/psr7": "^1.0",
+                "php-http/httplug": "^1.0|^2.0",
+                "psr/http-client": "^1.0",
+                "symfony/dependency-injection": "^4.3|^5.0",
+                "symfony/http-kernel": "^4.4.13",
+                "symfony/process": "^4.2|^5.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\HttpClient\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Provides powerful methods to fetch HTTP resources synchronously or asynchronously",
+            "homepage": "https://symfony.com",
+            "support": {
+                "source": "https://github.com/symfony/http-client/tree/v4.4.20"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2021-02-25T18:06:45+00:00"
         },
         {
             "name": "symfony/http-client-contracts",

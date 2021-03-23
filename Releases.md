@@ -1,3 +1,11 @@
+## Release 1.15.0
+- ClientHelperBundle 
+    - [3.6.0](https://github.com/ems-project/EMSClientHelperBundle/releases/tag/3.6.0)
+- CommonBundle 
+    - [1.8.63](https://github.com/ems-project/EMSCommonBundle/releases/tag/1.8.63)
+    - [1.8.62](https://github.com/ems-project/EMSCommonBundle/releases/tag/1.8.62)
+    - [1.8.61](https://github.com/ems-project/EMSCommonBundle/releases/tag/1.8.61)
+
 ## Release 1.14.50
 - No breaking changes
 - Documented that version 1.14.3 has deprecated a lot of environment variables
