@@ -2166,16 +2166,16 @@
         },
         {
             "name": "elasticms/common-bundle",
-            "version": "1.8.65",
+            "version": "1.8.66",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSCommonBundle.git",
-                "reference": "3bfbc44114521071d4d459f9db3adddefccb5633"
+                "reference": "d0e84670cae30f883fb5a3f57eaeef3896c1b7b0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSCommonBundle/zipball/3bfbc44114521071d4d459f9db3adddefccb5633",
-                "reference": "3bfbc44114521071d4d459f9db3adddefccb5633",
+                "url": "https://api.github.com/repos/ems-project/EMSCommonBundle/zipball/d0e84670cae30f883fb5a3f57eaeef3896c1b7b0",
+                "reference": "d0e84670cae30f883fb5a3f57eaeef3896c1b7b0",
                 "shasum": ""
             },
             "require": {
@@ -2251,9 +2251,9 @@
             ],
             "support": {
                 "issues": "https://github.com/ems-project/EMSCommonBundle/issues",
-                "source": "https://github.com/ems-project/EMSCommonBundle/tree/1.8.65"
+                "source": "https://github.com/ems-project/EMSCommonBundle/tree/1.8.66"
             },
-            "time": "2021-04-06T08:07:57+00:00"
+            "time": "2021-04-12T05:26:24+00:00"
         },
         {
             "name": "elasticms/core-bundle",
