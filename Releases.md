@@ -1,3 +1,27 @@
+## Release 1.15.4
+- CoreBundle 
+    - [1.15.4](https://github.com/ems-project/EMSCoreBundle/releases/tag/1.15.4)
+- CommonBundle 
+    - [1.8.67](https://github.com/ems-project/EMSCommonBundle/releases/tag/1.8.67)
+- ClientHelperBundle 
+    - [3.6.3](https://github.com/ems-project/EMSClientHelperBundle/releases/tag/3.6.3)
+
+## Release 1.15.3
+- Fixes
+    - urlencoded password for doctrine [#115](https://github.com/ems-project/elasticms/pull/115)
+- CommonBundle 
+    - [1.8.66](https://github.com/ems-project/EMSCommonBundle/releases/tag/1.8.66)
+
+## Release 1.15.2
+- CoreBundle
+    - [1.15.2](https://github.com/ems-project/EMSCoreBundle/releases/tag/1.15.2)
+    
+## Release 1.15.1
+- Chores
+    - typos in documentation [#112](https://github.com/ems-project/elasticms/pull/112)
+- CoreBundle
+    - [1.15.1](https://github.com/ems-project/EMSCoreBundle/releases/tag/1.15.1)
+
 ## Release 1.15.0
 - CoreBundle
     - [1.15.0](https://github.com/ems-project/EMSCoreBundle/releases/tag/1.15.0)
