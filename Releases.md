@@ -1,8 +1,12 @@
 ## Release 1.15.4
+- CoreBundle 
+    - [1.15.4](https://github.com/ems-project/EMSCoreBundle/releases/tag/1.15.4)
 - CommonBundle 
     - [1.8.67](https://github.com/ems-project/EMSCommonBundle/releases/tag/1.8.67)
 - ClientHelperBundle 
     - [3.6.3](https://github.com/ems-project/EMSClientHelperBundle/releases/tag/3.6.3)
+- MakerBundle 
+    - [1.0.3](https://github.com/ems-project/EMSMakerBundle/releases/tag/1.0.3)
 
 ## Release 1.15.3
 - Fixes
