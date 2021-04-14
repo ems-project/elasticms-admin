@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.178.1",
+            "version": "3.178.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "45692b97e12a2eed540c0afd106f143aad15e622"
+                "reference": "cfeed02f14b0fb3cba8bb75f2ae28cb8c9807369"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/45692b97e12a2eed540c0afd106f143aad15e622",
-                "reference": "45692b97e12a2eed540c0afd106f143aad15e622",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/cfeed02f14b0fb3cba8bb75f2ae28cb8c9807369",
+                "reference": "cfeed02f14b0fb3cba8bb75f2ae28cb8c9807369",
                 "shasum": ""
             },
             "require": {
@@ -92,9 +92,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.178.1"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.178.3"
             },
-            "time": "2021-04-09T18:13:02+00:00"
+            "time": "2021-04-13T18:16:44+00:00"
         },
         {
             "name": "brick/math",
@@ -2166,16 +2166,16 @@
         },
         {
             "name": "elasticms/common-bundle",
-            "version": "1.8.67",
+            "version": "1.8.68",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSCommonBundle.git",
-                "reference": "311873e8c38caa1d82cc02e6fad6104aa69c5702"
+                "reference": "6ca13e57c8f82d72460c1208b126277091330292"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSCommonBundle/zipball/311873e8c38caa1d82cc02e6fad6104aa69c5702",
-                "reference": "311873e8c38caa1d82cc02e6fad6104aa69c5702",
+                "url": "https://api.github.com/repos/ems-project/EMSCommonBundle/zipball/6ca13e57c8f82d72460c1208b126277091330292",
+                "reference": "6ca13e57c8f82d72460c1208b126277091330292",
                 "shasum": ""
             },
             "require": {
@@ -2251,9 +2251,9 @@
             ],
             "support": {
                 "issues": "https://github.com/ems-project/EMSCommonBundle/issues",
-                "source": "https://github.com/ems-project/EMSCommonBundle/tree/1.8.67"
+                "source": "https://github.com/ems-project/EMSCommonBundle/tree/1.8.68"
             },
-            "time": "2021-04-13T10:51:53+00:00"
+            "time": "2021-04-14T17:28:33+00:00"
         },
         {
             "name": "elasticms/core-bundle",
