@@ -28,7 +28,7 @@ ems_client_helper:
   bind_locale: '%env(bool:EMSCH_BIND_LOCALE)%'
   handle_exceptions: false
   request_environments: '%env(json:EMSCH_ENVS)%'
-  dump_assets: '%env(bool:EMSCH_DUMP_ASSETS)%'
+#  dump_assets: '%env(bool:EMSCH_DUMP_ASSETS)%'
   elasticms:
     website:
       api: {"enable": true, "name": "backend"}
