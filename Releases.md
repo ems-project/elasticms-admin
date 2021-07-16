@@ -1,3 +1,9 @@
+## Release 1.15.18
+- CoreBundle
+  - [1.15.18](https://github.com/ems-project/EMSCoreBundle/releases/tag/1.15.18)
+- CommonBundle
+  - [1.8.76](https://github.com/ems-project/EMSCommonBundle/releases/tag/1.8.76)
+
 ## Release 1.15.17
 - CoreBundle
     - [1.15.17](https://github.com/ems-project/EMSCoreBundle/releases/tag/1.15.17)
