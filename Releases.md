@@ -1,3 +1,11 @@
+## Release 1.15.20
+- CoreBundle
+  - [1.15.20](https://github.com/ems-project/EMSCoreBundle/releases/tag/1.15.20)
+- ClientHelperBundle
+  - [3.7.9](https://github.com/ems-project/EMSClientHelperBundle/releases/tag/3.7.9)
+- CommonBundle
+  - [1.8.78](https://github.com/ems-project/EMSCommonBundle/releases/tag/1.8.78)
+  
 ## Release 1.15.19
 - CoreBundle
   - [1.15.19](https://github.com/ems-project/EMSCoreBundle/releases/tag/1.15.19)
