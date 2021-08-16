@@ -7,10 +7,6 @@ monolog:
             excluded_404s:
                 # regex: exclude all 404 errors from the logs
                 - ^/
-        ems:
-            type: service
-            id: ems_common.monolog.ems_handler
-            channels: [app, php]
         flash:
             type: service
             id: ems_common.monolog.flash_handler
