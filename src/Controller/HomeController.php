@@ -13,6 +13,6 @@ class HomeController extends AbstractController
      */
     public function indexAction(): RedirectResponse
     {
-        return $this->redirectToRoute('notifications.inbox');
+        return $this->redirectToRoute('ems_core_dashboard');
     }
 }
