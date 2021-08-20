@@ -20,4 +20,5 @@ return [
     Symplify\ConsoleColorDiff\ConsoleColorDiffBundle::class => ['all' => true],
     Symplify\ComposerJsonManipulator\ComposerJsonManipulatorBundle::class => ['all' => true],
     EMS\ClientHelperBundle\EMSClientHelperBundle::class => ['all' => true],
+    Symfony\WebpackEncoreBundle\WebpackEncoreBundle::class => ['all' => true],
 ];
