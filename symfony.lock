@@ -379,18 +379,6 @@
     "sensiolabs/ansi-to-html": {
         "version": "1.1-dev"
     },
-    "squizlabs/php_codesniffer": {
-        "version": "3.0",
-        "recipe": {
-            "repo": "github.com/symfony/recipes-contrib",
-            "branch": "master",
-            "version": "3.0",
-            "ref": "0dc9cceda799fd3a08b96987e176a261028a3709"
-        },
-        "files": [
-            "phpcs.xml.dist"
-        ]
-    },
     "swiftmailer/swiftmailer": {
         "version": "6.1-dev"
     },
@@ -564,9 +552,6 @@
     },
     "symfony/polyfill-mbstring": {
         "version": "v1.8.0"
-    },
-    "symfony/polyfill-php70": {
-        "version": "v1.20.0"
     },
     "symfony/polyfill-php72": {
         "version": "v1.8.0"
