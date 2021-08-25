@@ -10,7 +10,9 @@ $finder = PhpCsFixer\Finder::create()
     ->exclude('tests/tmp')
 ;
 
-return PhpCsFixer\Config::create()
+$config = new PhpCsFixer\Config();
+
+return $config
     ->setRules([
         '@Symfony' => true,
         //'declare_strict_types' => true,
