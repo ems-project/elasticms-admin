@@ -1,3 +1,28 @@
+## Release 1.16.4
+- CoreBundle
+  - [1.16.4](https://github.com/ems-project/EMSCoreBundle/releases/tag/1.16.4)
+- CommonBundle
+  - [1.8.81](https://github.com/ems-project/EMSCommonBundle/releases/tag/1.8.81)
+  - [1.8.80](https://github.com/ems-project/EMSCommonBundle/releases/tag/1.8.80)
+
+## Release 1.16.3
+- CoreBundle
+  - [1.16.3](https://github.com/ems-project/EMSCoreBundle/releases/tag/1.16.3)
+- CommonBundle
+  - [1.8.79](https://github.com/ems-project/EMSCommonBundle/releases/tag/1.8.79)
+
+## Release 1.16.2
+- CoreBundle
+  - [1.16.2](https://github.com/ems-project/EMSCoreBundle/releases/tag/1.16.2)
+  
+## Release 1.16.1
+- CoreBundle
+  - [1.16.1](https://github.com/ems-project/EMSCoreBundle/releases/tag/1.16.1)
+
+## Release 1.16.0
+- CoreBundle
+  - [1.16.0](https://github.com/ems-project/EMSCoreBundle/releases/tag/1.16.0)
+
 ## Release 1.15.22
 - CoreBundle
   - [1.15.22](https://github.com/ems-project/EMSCoreBundle/releases/tag/1.15.22)

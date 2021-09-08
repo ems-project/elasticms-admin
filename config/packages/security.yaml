@@ -5,6 +5,7 @@ security:
     role_hierarchy:
         ROLE_AUTHOR:          ROLE_USER
         ROLE_FORM_CRM:        ROLE_USER
+        ROLE_TASK_MANAGER:    ROLE_USER
         ROLE_REVIEWER:        ROLE_AUTHOR
         ROLE_TRADUCTOR:       ROLE_REVIEWER
         ROLE_PUBLISHER:       ROLE_TRADUCTOR

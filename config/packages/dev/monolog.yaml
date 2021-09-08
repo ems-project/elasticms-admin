@@ -5,10 +5,6 @@ monolog:
             path: "%kernel.logs_dir%/%kernel.environment%.log"
             level: debug
             channels: ["!event"]
-        ems:
-            type: service
-            id: ems_common.monolog.ems_handler
-            channels: [app, php]
         flash:
             type: service
             id: ems_common.monolog.flash_handler
