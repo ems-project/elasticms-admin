@@ -1,7 +1,5 @@
 framework:
     default_locale: '%locale%'
     translator:
-        paths:
-            - '%kernel.project_dir%/vendor/elasticms/core-bundle/src/Resources/translations'
         fallbacks:
             - 'en'
