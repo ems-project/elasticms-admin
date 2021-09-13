@@ -82,6 +82,14 @@ For information the default mysql/mariadb port is 3306 and 5432 for Postgres
 This variable is not used by Doctrine but by the dump script with postgres in the docker image of elasticms. 
  - Default value: not defined
  - Example: `DB_SCEMA='schema_demo_adm'`
+ 
+### DB_CONNECTION_TIMEOUT
+
+Usefull when connecting to a string of multiple hosts. To reduce timeout when checking a second host if the first host fails.
+The minimum value is 2 https://pracucci.com/php-pdo-pgsql-connection-timeout.html
+ - Default value `30`
+ - Example: `DB_CONNECTION_TIMEOUT=30`
+
 
 ## Redis
 Should be defined only if Redis is defined as session manager.
