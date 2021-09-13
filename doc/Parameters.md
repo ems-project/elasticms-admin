@@ -86,6 +86,7 @@ This variable is not used by Doctrine but by the dump script with postgres in th
 ### DB_CONNECTION_TIMEOUT
 
 Usefull when connecting to a string of multiple hosts. To reduce timeout when checking a second host if the first host fails.
+The minimum value is 2 https://pracucci.com/php-pdo-pgsql-connection-timeout.html
  - Default value `30`
  - Example: `DB_CONNECTION_TIMEOUT=30`
 
