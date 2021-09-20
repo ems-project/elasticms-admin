@@ -1,3 +1,9 @@
+## Release 1.16.7
+- CoreBundle
+  - [1.16.7](https://github.com/ems-project/EMSCoreBundle/releases/tag/1.16.7)
+- ClientHelperBundle
+  - [3.7.11](https://github.com/ems-project/EMSClientHelperBundle/releases/tag/3.7.11)
+
 ## Release 1.16.6
 - CoreBundle
   - [1.16.6](https://github.com/ems-project/EMSCoreBundle/releases/tag/1.16.6)
