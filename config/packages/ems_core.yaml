@@ -55,8 +55,6 @@ parameters:
     env(EMSCO_CIRCLES_OBJECT): '%env(string:EMS_CIRCLES_OBJECT)%'
     env(EMSCO_TRIGGER_JOB_FROM_WEB): true
     env(EMSCO_PRE_GENERATED_OUUIDS): false
-    env(EMSCO_LOG_BY_PASS): false
-    env(EMSCO_LOG_LEVEL): 'INFO'
     env(EMSCO_DEFAULT_BULK_SIZE): 500
 
     env(EMSCO_LDAP_BASE_DN): '%env(string:LDAP_BASE_DN)%'
@@ -95,8 +93,6 @@ ems_core:
     tika_download_url: '%env(string:EMSCO_TIKA_DOWNLOAD_URL)%'
     trigger_job_from_web:  '%env(bool:EMSCO_TRIGGER_JOB_FROM_WEB)%'
     pre_generated_ouuids: '%env(bool:EMSCO_PRE_GENERATED_OUUIDS)%'
-    log_by_pass: '%env(bool:EMSCO_LOG_BY_PASS)%'
-    log_level: '%env(string:EMSCO_LOG_LEVEL)%'
     default_bulk_size: '%env(int:EMSCO_DEFAULT_BULK_SIZE)%'
 
     ldap:
