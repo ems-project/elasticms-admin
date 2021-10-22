@@ -7,7 +7,7 @@ monolog:
             channels: ["!event"]
         flash:
             type: service
-            id: ems_common.monolog.flash_handler
+            id: ems_core.core_ui.flash_message_logger
             channels: [app]
         # uncomment to get logging in your browser
         # you may have to allow bigger header sizes in your Web server configuration
