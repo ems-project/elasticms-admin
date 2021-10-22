@@ -9,7 +9,7 @@ monolog:
                 - ^/
         flash:
             type: service
-            id: ems_common.monolog.flash_handler
+            id: ems_core.core_ui.flash_message_logger
             channels: [app]
         nested:
             type: stream
