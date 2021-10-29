@@ -6,6 +6,7 @@
   - [1.8.89](https://github.com/ems-project/EMSCommonBundle/releases/tag/1.8.89)
 - ClientHelperBundle
   - [3.7.20](https://github.com/ems-project/EMSClientHelperBundle/releases/tag/3.7.20)
+  - [3.7.19](https://github.com/ems-project/EMSClientHelperBundle/releases/tag/3.7.19)
 
 ## Release 1.16.10
 - CoreBundle
