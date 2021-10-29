@@ -1,3 +1,12 @@
+## Release 1.16.11
+- CoreBundle
+  - [1.16.11](https://github.com/ems-project/EMSCoreBundle/releases/tag/1.16.11)
+- CommonBundle
+  - [1.8.90](https://github.com/ems-project/EMSCommonBundle/releases/tag/1.8.90)
+  - [1.8.89](https://github.com/ems-project/EMSCommonBundle/releases/tag/1.8.89)
+- ClientHelperBundle
+  - [3.7.20](https://github.com/ems-project/EMSClientHelperBundle/releases/tag/3.7.20)
+
 ## Release 1.16.10
 - CoreBundle
   - [1.16.10](https://github.com/ems-project/EMSCoreBundle/releases/tag/1.16.10)
@@ -5,6 +14,11 @@
   - [1.8.88](https://github.com/ems-project/EMSCommonBundle/releases/tag/1.8.88)
   - [1.8.87](https://github.com/ems-project/EMSCommonBundle/releases/tag/1.8.87)
   - [1.8.86](https://github.com/ems-project/EMSCommonBundle/releases/tag/1.8.86)
+- ClientHelperBundle
+  - [3.7.18](https://github.com/ems-project/EMSClientHelperBundle/releases/tag/3.7.18)
+  - [3.7.17](https://github.com/ems-project/EMSClientHelperBundle/releases/tag/3.7.17)
+  - [3.7.16](https://github.com/ems-project/EMSClientHelperBundle/releases/tag/3.7.16)
+  - [3.7.15](https://github.com/ems-project/EMSClientHelperBundle/releases/tag/3.7.15)
 
 ## Release 1.16.9
 - CoreBundle
