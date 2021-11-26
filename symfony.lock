@@ -95,6 +95,9 @@
     "dompdf/dompdf": {
         "version": "v0.8.2"
     },
+    "dragonmantank/cron-expression": {
+        "version": "v3.1.0"
+    },
     "egulias/email-validator": {
         "version": "2.1.4"
     },

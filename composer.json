@@ -17,6 +17,7 @@
     "ext-iconv": "*",
     "ext-json": "*",
     "ext-openssl": "*",
+    "dragonmantank/cron-expression": "^3.1",
     "elasticms/core-bundle": "^1.15",
     "elasticms/maker-bundle": "^1.0",
     "symfony/flex": "^1.0",
@@ -25,8 +26,8 @@
     "symfony/lts": "^4@dev",
     "symfony/security-bundle": "^4.4",
     "symfony/twig-bundle": "^4.4",
-    "symplify/console-color-diff": "^8.0",
-    "symplify/composer-json-manipulator": "^8.0"
+    "symplify/composer-json-manipulator": "^8.0",
+    "symplify/console-color-diff": "^8.0"
   },
   "require-dev": {
     "friendsofphp/php-cs-fixer": "^3.0",
