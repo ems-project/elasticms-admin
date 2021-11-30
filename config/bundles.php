@@ -21,4 +21,6 @@ return [
     Symplify\ComposerJsonManipulator\ComposerJsonManipulatorBundle::class => ['all' => true],
     EMS\ClientHelperBundle\EMSClientHelperBundle::class => ['all' => true],
     Symfony\WebpackEncoreBundle\WebpackEncoreBundle::class => ['all' => true],
+    EMS\FormBundle\EMSFormBundle::class => ['all' => true],
+    EMS\SubmissionBundle\EMSSubmissionBundle::class => ['all' => true],
 ];
