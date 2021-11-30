@@ -1,0 +1,7 @@
+parameters:
+    env(EMSF_HASHCASH_DIFFICULTY): 16384
+    env(EMSF_ENDPOINTS): '[]'
+
+ems_form:
+    hashcash_difficulty: '%env(int:EMSF_HASHCASH_DIFFICULTY)%'
+    endpoints: '%env(json:EMSF_ENDPOINTS)%'
