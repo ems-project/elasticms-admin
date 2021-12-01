@@ -1,7 +1,12 @@
 parameters:
     env(EMSF_HASHCASH_DIFFICULTY): 16384
     env(EMSF_ENDPOINTS): '[]'
+    env(EMSF_LOAD_FROMJSON): 'true'
+    env(EMSF_CACHEABLE): 'true'
 
 ems_form:
     hashcash_difficulty: '%env(int:EMSF_HASHCASH_DIFFICULTY)%'
     endpoints: '%env(json:EMSF_ENDPOINTS)%'
+    instance:
+        load_from_json: '%env(bool:EMSF_LOAD_FROMJSON)%'
+        cacheable: '%env(bool:EMSF_CACHEABLE)%'
