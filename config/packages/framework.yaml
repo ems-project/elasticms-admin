@@ -11,6 +11,10 @@ framework:
     # Remove or comment this section to explicitly disable session support.
     session:
         handler_id: ~
+    assets:
+        packages:
+            emsform:
+                json_manifest_path: '%kernel.project_dir%/public/bundles/emsform/manifest.json'
 
     #esi: true
     #fragments: true

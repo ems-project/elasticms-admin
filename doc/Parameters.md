@@ -274,6 +274,33 @@ Refers to the [PHP hash_algos](https://www.php.net/manual/fr/function.hash-algos
 - Default value: EMS_HASH_ALGO='sha1'
 
 
+## Elasticms Form Bundle variables
+
+### EMSF_HASHCASH_DIFFICULTY
+Define the [hashcash difficuty](https://github.com/ems-project/EMSFormBundle/blob/master/doc/config.md#hashcash-difficulty) for the form bundle. Set to `16384` by default.
+
+
+### EMSF_ENDPOINTS
+Define the [endpoints](https://github.com/ems-project/EMSFormBundle/blob/master/doc/config.md#endpoints) for the form bundle. Set to `[]` by default.
+
+
+### EMSF_LOAD_FROMJSON
+Define the [load form JSON](https://github.com/ems-project/EMSFormBundle/blob/master/doc/config.md#load-from-json) for the form bundle. Set to `true` by default.
+
+
+### EMSF_CACHEABLE
+Define the [cacheable](https://github.com/ems-project/EMSFormBundle/blob/master/doc/config.md#cacheable) for the form bundle. Set to `true` by default.
+
+
+## Elasticms Submission Bundle variables
+
+### EMSS_CONNECTIONS
+Define the [connections](https://github.com/ems-project/EMSSubmissionBundle/blob/master/src/Resources/doc/index.md#connections-) for the submission bundle. Set to `[]` by default.
+
+### EMSS_DEFAULT_TIMEOUT
+Define the [default timeout](https://github.com/ems-project/EMSSubmissionBundle/blob/master/src/Resources/doc/index.md#default-timeout) for the submission bundle. Set to `10` by default.
+
+
 ## Deprecated variables
 
 ## Since version 1.14.3

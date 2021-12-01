@@ -5,5 +5,3 @@ ems_core:
     type:     annotation
 emsco:
     resource: '@EMSCoreBundle/Resources/config/routing/all.xml'
-forms:
-    resource: '@EMSFormBundle/Resources/config/routing/form.xml'
