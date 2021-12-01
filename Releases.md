@@ -1,3 +1,9 @@
+## Release 1.17.2
+- FormBundle
+  - [1.12.68](https://github.com/ems-project/EMSFormBundle/releases/tag/1.12.68)
+- CoreBundle
+  - [1.17.2](https://github.com/ems-project/EMSCoreBundle/releases/tag/1.17.2)
+
 ## Release 1.17.1
 - FormBundle
   - [1.12.67](https://github.com/ems-project/EMSFormBundle/releases/tag/1.12.67)

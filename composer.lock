@@ -58,16 +58,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.206.0",
+            "version": "3.207.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "ade6621f709261097a0fd2ca0cad7a15ba899b76"
+                "reference": "c5252787784bf41b678b03cb3292d413fe281319"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/ade6621f709261097a0fd2ca0cad7a15ba899b76",
-                "reference": "ade6621f709261097a0fd2ca0cad7a15ba899b76",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/c5252787784bf41b678b03cb3292d413fe281319",
+                "reference": "c5252787784bf41b678b03cb3292d413fe281319",
                 "shasum": ""
             },
             "require": {
@@ -143,9 +143,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.206.0"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.207.0"
             },
-            "time": "2021-11-29T23:46:23+00:00"
+            "time": "2021-11-30T23:44:55+00:00"
         },
         {
             "name": "brick/math",
@@ -2309,16 +2309,16 @@
         },
         {
             "name": "elasticms/core-bundle",
-            "version": "1.17.1",
+            "version": "1.17.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSCoreBundle.git",
-                "reference": "78c799e071150d7dcb88cbd6aa69bcd206f35ae9"
+                "reference": "51a84b65b48b4a627aed1149e870a353bc8290d5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSCoreBundle/zipball/78c799e071150d7dcb88cbd6aa69bcd206f35ae9",
-                "reference": "78c799e071150d7dcb88cbd6aa69bcd206f35ae9",
+                "url": "https://api.github.com/repos/ems-project/EMSCoreBundle/zipball/51a84b65b48b4a627aed1149e870a353bc8290d5",
+                "reference": "51a84b65b48b4a627aed1149e870a353bc8290d5",
                 "shasum": ""
             },
             "require": {
@@ -2406,22 +2406,22 @@
             ],
             "support": {
                 "issues": "https://github.com/ems-project/EMSCoreBundle/issues",
-                "source": "https://github.com/ems-project/EMSCoreBundle/tree/1.17.1"
+                "source": "https://github.com/ems-project/EMSCoreBundle/tree/1.17.2"
             },
-            "time": "2021-11-30T15:41:46+00:00"
+            "time": "2021-12-01T19:23:51+00:00"
         },
         {
             "name": "elasticms/form-bundle",
-            "version": "1.12.67",
+            "version": "1.12.68",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSFormBundle.git",
-                "reference": "6a4620ae13c7c0e2411194e4a28488a5e305699f"
+                "reference": "34d4eb5254441d7b07f85906ed15f59ff06ba9df"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSFormBundle/zipball/6a4620ae13c7c0e2411194e4a28488a5e305699f",
-                "reference": "6a4620ae13c7c0e2411194e4a28488a5e305699f",
+                "url": "https://api.github.com/repos/ems-project/EMSFormBundle/zipball/34d4eb5254441d7b07f85906ed15f59ff06ba9df",
+                "reference": "34d4eb5254441d7b07f85906ed15f59ff06ba9df",
                 "shasum": ""
             },
             "require": {
@@ -2473,9 +2473,9 @@
             ],
             "support": {
                 "issues": "https://github.com/ems-project/EMSFormBundle/issues",
-                "source": "https://github.com/ems-project/EMSFormBundle/tree/1.12.67"
+                "source": "https://github.com/ems-project/EMSFormBundle/tree/1.12.68"
             },
-            "time": "2021-11-30T20:12:49+00:00"
+            "time": "2021-12-01T18:09:34+00:00"
         },
         {
             "name": "elasticms/maker-bundle",
@@ -13339,16 +13339,16 @@
         },
         {
             "name": "symfony/maker-bundle",
-            "version": "v1.36.3",
+            "version": "v1.36.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/maker-bundle.git",
-                "reference": "0f40c826c0725208c254ddcd3481690e6c7e5047"
+                "reference": "716eee9c8b10b33e682df1b7d80b9061887e9691"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/maker-bundle/zipball/0f40c826c0725208c254ddcd3481690e6c7e5047",
-                "reference": "0f40c826c0725208c254ddcd3481690e6c7e5047",
+                "url": "https://api.github.com/repos/symfony/maker-bundle/zipball/716eee9c8b10b33e682df1b7d80b9061887e9691",
+                "reference": "716eee9c8b10b33e682df1b7d80b9061887e9691",
                 "shasum": ""
             },
             "require": {
@@ -13358,7 +13358,7 @@
                 "symfony/config": "^4.4|^5.0|^6.0",
                 "symfony/console": "^4.4|^5.0|^6.0",
                 "symfony/dependency-injection": "^4.4|^5.0|^6.0",
-                "symfony/deprecation-contracts": "^2.2",
+                "symfony/deprecation-contracts": "^2.2|^3",
                 "symfony/filesystem": "^4.4|^5.0|^6.0",
                 "symfony/finder": "^4.4|^5.0|^6.0",
                 "symfony/framework-bundle": "^4.4|^5.0|^6.0",
@@ -13407,7 +13407,7 @@
             ],
             "support": {
                 "issues": "https://github.com/symfony/maker-bundle/issues",
-                "source": "https://github.com/symfony/maker-bundle/tree/v1.36.3"
+                "source": "https://github.com/symfony/maker-bundle/tree/v1.36.4"
             },
             "funding": [
                 {
@@ -13423,7 +13423,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-11-22T18:44:03+00:00"
+            "time": "2021-12-01T00:27:38+00:00"
         },
         {
             "name": "symfony/monolog-bundle",
