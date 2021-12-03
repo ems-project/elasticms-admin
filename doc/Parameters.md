@@ -254,7 +254,15 @@ Define the route content type name. Default value `route` i.e. `EMSCH_ROUTE_TYPE
 ### EMSCH_TEMPLATES
 
 Define the template content type structure. Default value `{"template": {"name": "name","code": "body"}}` i.e. `EMSCH_TEMPLATES='{"template": {"name": "label","code": "body"}}'`
-  
+
+### EMSCH_ASSET_LOCAL_FOLDER
+
+Specify a local folder (in the public folder) where to locate `emsch` assets. This is useful in development mode as the zip containing the assets is ignored.
+Example base template.
+```twig
+<link rel="stylesheet" href="{{ asset('css/app.css', 'emsch') }}">
+```
+
 ## Elasticms Common Bundle variables
 
 ### EMS_ELASTICSEARCH_HOSTS
