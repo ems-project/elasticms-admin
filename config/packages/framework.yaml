@@ -15,6 +15,10 @@ framework:
         packages:
             emsform:
                 json_manifest_path: '%kernel.project_dir%/public/bundles/emsform/manifest.json'
+            emscore:
+                json_manifest_path: '%kernel.project_dir%/public/bundles/emscore/manifest.json'
+            emsch:
+                version_strategy: 'emsch.twig.runtime.asset_vserion_strategy'
 
     #esi: true
     #fragments: true
