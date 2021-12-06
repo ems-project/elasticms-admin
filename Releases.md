@@ -1,3 +1,14 @@
+## Release 1.17.3
+- New EMSCH_ASSET_LOCAL_FOLDER environment variable
+- emscore and emsch package versions
+- CoreBundle
+  - [1.17.3](https://github.com/ems-project/EMSCoreBundle/releases/tag/1.17.3)
+- ClientHelperBundle
+  - [3.7.27](https://github.com/ems-project/EMSClientHelperBundle/releases/tag/3.7.27)
+  - [3.7.22](https://github.com/ems-project/EMSClientHelperBundle/releases/tag/3.7.22)
+- CommonBundle
+  - [1.8.97](https://github.com/ems-project/EMSCommonBundle/releases/tag/1.8.97)
+
 ## Release 1.17.2
 - FormBundle
   - [1.12.68](https://github.com/ems-project/EMSFormBundle/releases/tag/1.12.68)
