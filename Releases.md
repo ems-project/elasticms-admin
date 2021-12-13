@@ -1,3 +1,9 @@
+## Release 1.17.4
+- CoreBundle
+  - [1.17.4](https://github.com/ems-project/EMSCoreBundle/releases/tag/1.17.4)
+- ClientHelperBundle
+  - [3.7.28](https://github.com/ems-project/EMSClientHelperBundle/releases/tag/3.7.28)
+
 ## Release 1.17.3
 - New EMSCH_ASSET_LOCAL_FOLDER environment variable
 - emscore and emsch package versions
