@@ -2414,16 +2414,16 @@
         },
         {
             "name": "elasticms/form-bundle",
-            "version": "1.12.69",
+            "version": "1.12.70",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSFormBundle.git",
-                "reference": "a842721d69fd1607744f242e2676b594c8e725df"
+                "reference": "fcc2c9c277ba90b9feddc657cc2657ba94bdb8d3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSFormBundle/zipball/a842721d69fd1607744f242e2676b594c8e725df",
-                "reference": "a842721d69fd1607744f242e2676b594c8e725df",
+                "url": "https://api.github.com/repos/ems-project/EMSFormBundle/zipball/fcc2c9c277ba90b9feddc657cc2657ba94bdb8d3",
+                "reference": "fcc2c9c277ba90b9feddc657cc2657ba94bdb8d3",
                 "shasum": ""
             },
             "require": {
@@ -2431,6 +2431,7 @@
                 "ext-json": "*",
                 "giggsey/libphonenumber-for-php": "^8.12",
                 "php": "^7.4",
+                "ramsey/uuid-doctrine": "^1.6",
                 "symfony/form": "^4.4",
                 "symfony/framework-bundle": "^4.4",
                 "symfony/http-client": "^4.4",
@@ -2475,9 +2476,9 @@
             ],
             "support": {
                 "issues": "https://github.com/ems-project/EMSFormBundle/issues",
-                "source": "https://github.com/ems-project/EMSFormBundle/tree/1.12.69"
+                "source": "https://github.com/ems-project/EMSFormBundle/tree/1.12.70"
             },
-            "time": "2021-12-14T11:17:04+00:00"
+            "time": "2021-12-16T12:26:00+00:00"
         },
         {
             "name": "elasticms/maker-bundle",
@@ -2540,16 +2541,16 @@
         },
         {
             "name": "elasticms/submission-bundle",
-            "version": "2.1.11",
+            "version": "2.1.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSSubmissionBundle.git",
-                "reference": "469156a3f7f02c83a761f99f9f51e136a3d3ecc0"
+                "reference": "f129dc180610b001ec6f2ec2b1539112db834b9b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSSubmissionBundle/zipball/469156a3f7f02c83a761f99f9f51e136a3d3ecc0",
-                "reference": "469156a3f7f02c83a761f99f9f51e136a3d3ecc0",
+                "url": "https://api.github.com/repos/ems-project/EMSSubmissionBundle/zipball/f129dc180610b001ec6f2ec2b1539112db834b9b",
+                "reference": "f129dc180610b001ec6f2ec2b1539112db834b9b",
                 "shasum": ""
             },
             "require": {
@@ -2600,9 +2601,9 @@
             ],
             "support": {
                 "issues": "https://github.com/ems-project/EMSSubmissionBundle/issues",
-                "source": "https://github.com/ems-project/EMSSubmissionBundle/tree/2.1.11"
+                "source": "https://github.com/ems-project/EMSSubmissionBundle/tree/2.1.12"
             },
-            "time": "2021-11-24T22:28:03+00:00"
+            "time": "2021-12-16T12:36:14+00:00"
         },
         {
             "name": "elasticsearch/elasticsearch",
@@ -13810,5 +13811,5 @@
         "ext-openssl": "*"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.0.0"
 }
