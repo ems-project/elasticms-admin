@@ -2541,16 +2541,16 @@
         },
         {
             "name": "elasticms/submission-bundle",
-            "version": "2.1.12",
+            "version": "2.1.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSSubmissionBundle.git",
-                "reference": "f129dc180610b001ec6f2ec2b1539112db834b9b"
+                "reference": "73124b6166849d20632c73836709f4916c1af814"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSSubmissionBundle/zipball/f129dc180610b001ec6f2ec2b1539112db834b9b",
-                "reference": "f129dc180610b001ec6f2ec2b1539112db834b9b",
+                "url": "https://api.github.com/repos/ems-project/EMSSubmissionBundle/zipball/73124b6166849d20632c73836709f4916c1af814",
+                "reference": "73124b6166849d20632c73836709f4916c1af814",
                 "shasum": ""
             },
             "require": {
@@ -2601,9 +2601,9 @@
             ],
             "support": {
                 "issues": "https://github.com/ems-project/EMSSubmissionBundle/issues",
-                "source": "https://github.com/ems-project/EMSSubmissionBundle/tree/2.1.12"
+                "source": "https://github.com/ems-project/EMSSubmissionBundle/tree/2.1.13"
             },
-            "time": "2021-12-16T12:36:14+00:00"
+            "time": "2021-12-16T18:44:33+00:00"
         },
         {
             "name": "elasticsearch/elasticsearch",

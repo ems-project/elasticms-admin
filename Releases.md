@@ -1,3 +1,7 @@
+## Release 1.17.7
+- SubmissionBundle
+  - [2.1.13](https://github.com/ems-project/EMSSubmissionBundle/releases/tag/2.1.13)
+
 ## Release 1.17.6
 - FormBundle
   - [1.12.70](https://github.com/ems-project/EMSCoreBundle/releases/tag/1.12.70)
