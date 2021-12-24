@@ -21,6 +21,7 @@
     "elasticms/core-bundle": "^1.15",
     "elasticms/maker-bundle": "^1.0",
     "elasticms/submission-bundle": "^2.1",
+    "laminas/laminas-zendframework-bridge": "^1.4",
     "symfony/flex": "^1.0",
     "symfony/framework-bundle": "^4.4",
     "symfony/ldap": "^4.4",
