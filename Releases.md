@@ -1,5 +1,6 @@
 ## Release 1.17.8
 - CoreBundle
+  - [1.17.8](https://github.com/ems-project/EMSCoreBundle/releases/tag/1.17.8)
   - [1.17.6](https://github.com/ems-project/EMSCoreBundle/releases/tag/1.17.6)
 - SubmissionBundle
   - [2.1.17](https://github.com/ems-project/EMSSubmissionBundle/releases/tag/2.1.17)
