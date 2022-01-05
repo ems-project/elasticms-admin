@@ -275,6 +275,21 @@ Example base template.
 
 ## Elasticms Common Bundle variables
 
+### EMS_LOG_LEVEL
+
+Define the log level (integer) where logs will be saved in DB:
+- Default value: EMS_ELASTICSEARCH_HOSTS='250'
+
+Possible values:
+- DEBUG (100): detailed debug information
+- INFO (200) : interesting events. Examples: User logs in, SQL logs
+- NOTICE (250): normal but significant events
+- WARNING (300): exceptional occurrences that are not errors. Examples: Use of deprecated APIs, poor use of an API, undesirable things that are not necessarily wrong
+- ERROR (400): runtime errors that do not require immediate action but should typically be logged and monitored
+- CRITICAL (500): critical conditions. Example: Application component unavailable, unexpected exception
+- ALERT (550): action must be taken immediately. Example: Entire website down, database unavailable, etc. This should trigger phone call or SMS alerts and wake you up
+- EMERGENCY (600): emergency: system is unusable
+
 ### EMS_ELASTICSEARCH_HOSTS
 
 Define the elasticsearch cluster as an array (JSON encoded) of hosts:
