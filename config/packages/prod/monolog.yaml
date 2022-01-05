@@ -11,6 +11,10 @@ monolog:
             type: service
             id: ems_core.core_ui.flash_message_logger
             channels: [app]
+        doctrine:
+            type: service
+            id: ems_common.monolog.doctrine
+            channels: [app]
         nested:
             type: stream
             path: "%kernel.logs_dir%/%kernel.environment%.log"
