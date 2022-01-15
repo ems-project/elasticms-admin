@@ -20,8 +20,8 @@ framework:
             emsch:
                 version_strategy: 'emsch.twig.runtime.asset_vserion_strategy'
 
-    #esi: true
-    #fragments: true
+    esi: true
+    fragments: true
     php_errors:
         log: true
 
