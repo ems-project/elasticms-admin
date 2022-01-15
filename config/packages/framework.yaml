@@ -25,9 +25,6 @@ framework:
     php_errors:
         log: true
 
-    fragments:
-#        engines: ['twig', 'php']
-
 #    error_controller: 'App\Controller\MyExceptionController'
 
     cache:
