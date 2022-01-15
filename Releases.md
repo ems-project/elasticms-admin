@@ -1,3 +1,6 @@
+## Release 1.17.13
+- ESI support
+
 ## Release 1.17.12
 - CoreBundle
   - [1.17.12](https://github.com/ems-project/EMSCoreBundle/releases/tag/1.17.12)
