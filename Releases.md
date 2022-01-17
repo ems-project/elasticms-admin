@@ -1,3 +1,7 @@
+## Release 1.17.14
+- ClientHelperBundle
+  - [3.8.2](https://github.com/ems-project/EMSClientHelperBundle/releases/tag/3.8.2)
+  - 
 ## Release 1.17.13
 - ESI support
 

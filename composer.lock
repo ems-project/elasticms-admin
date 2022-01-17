@@ -58,16 +58,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.209.4",
+            "version": "3.209.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "784e5ccc1b544db5018a41fc4dbfeda4c7d436b3"
+                "reference": "fc4ac03c6ec4acea81c01e8b785c8606943d1fd6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/784e5ccc1b544db5018a41fc4dbfeda4c7d436b3",
-                "reference": "784e5ccc1b544db5018a41fc4dbfeda4c7d436b3",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/fc4ac03c6ec4acea81c01e8b785c8606943d1fd6",
+                "reference": "fc4ac03c6ec4acea81c01e8b785c8606943d1fd6",
                 "shasum": ""
             },
             "require": {
@@ -143,9 +143,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.209.4"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.209.6"
             },
-            "time": "2022-01-12T19:14:37+00:00"
+            "time": "2022-01-14T19:29:33+00:00"
         },
         {
             "name": "brick/math",
@@ -2006,29 +2006,29 @@
         },
         {
             "name": "dragonmantank/cron-expression",
-            "version": "v3.2.4",
+            "version": "v3.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dragonmantank/cron-expression.git",
-                "reference": "9545dea2a1d92b60c8b3d06f02025c83e999bde0"
+                "reference": "63f2a76a045bac6ec93cc2daf2b534b412aa0313"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dragonmantank/cron-expression/zipball/9545dea2a1d92b60c8b3d06f02025c83e999bde0",
-                "reference": "9545dea2a1d92b60c8b3d06f02025c83e999bde0",
+                "url": "https://api.github.com/repos/dragonmantank/cron-expression/zipball/63f2a76a045bac6ec93cc2daf2b534b412aa0313",
+                "reference": "63f2a76a045bac6ec93cc2daf2b534b412aa0313",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.2|^8.0",
-                "webmozart/assert": "^1.7.0"
+                "webmozart/assert": "^1.0"
             },
             "replace": {
                 "mtdowling/cron-expression": "^1.0"
             },
             "require-dev": {
                 "phpstan/extension-installer": "^1.0",
-                "phpstan/phpstan": "^0.12",
-                "phpstan/phpstan-webmozart-assert": "^0.12.7",
+                "phpstan/phpstan": "^1.0",
+                "phpstan/phpstan-webmozart-assert": "^1.0",
                 "phpunit/phpunit": "^7.0|^8.0|^9.0"
             },
             "type": "library",
@@ -2055,7 +2055,7 @@
             ],
             "support": {
                 "issues": "https://github.com/dragonmantank/cron-expression/issues",
-                "source": "https://github.com/dragonmantank/cron-expression/tree/v3.2.4"
+                "source": "https://github.com/dragonmantank/cron-expression/tree/v3.3.0"
             },
             "funding": [
                 {
@@ -2063,7 +2063,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-01-13T04:09:37+00:00"
+            "time": "2022-01-14T16:02:05+00:00"
         },
         {
             "name": "egulias/email-validator",
@@ -2135,16 +2135,16 @@
         },
         {
             "name": "elasticms/client-helper-bundle",
-            "version": "3.8.0",
+            "version": "3.8.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSClientHelperBundle.git",
-                "reference": "f2a41dfc76ce454cbb45384e4803b8e1021b43ee"
+                "reference": "74446859431691e82974d99d5d9dcae6b6828233"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSClientHelperBundle/zipball/f2a41dfc76ce454cbb45384e4803b8e1021b43ee",
-                "reference": "f2a41dfc76ce454cbb45384e4803b8e1021b43ee",
+                "url": "https://api.github.com/repos/ems-project/EMSClientHelperBundle/zipball/74446859431691e82974d99d5d9dcae6b6828233",
+                "reference": "74446859431691e82974d99d5d9dcae6b6828233",
                 "shasum": ""
             },
             "require": {
@@ -2211,9 +2211,9 @@
             ],
             "support": {
                 "issues": "https://github.com/ems-project/EMSClientHelperBundle/issues",
-                "source": "https://github.com/ems-project/EMSClientHelperBundle/tree/3.8.0"
+                "source": "https://github.com/ems-project/EMSClientHelperBundle/tree/3.8.2"
             },
-            "time": "2022-01-13T13:27:15+00:00"
+            "time": "2022-01-17T13:46:16+00:00"
         },
         {
             "name": "elasticms/common-bundle",
@@ -5376,16 +5376,16 @@
         },
         {
             "name": "ramsey/uuid-doctrine",
-            "version": "1.8.0",
+            "version": "1.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ramsey/uuid-doctrine.git",
-                "reference": "135fadb32d91a2d7c0ee12bfd21631d2035cfa0c"
+                "reference": "1a6f235ba3faf1cd9ba18daf5b54d8dc9d3bc7d0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ramsey/uuid-doctrine/zipball/135fadb32d91a2d7c0ee12bfd21631d2035cfa0c",
-                "reference": "135fadb32d91a2d7c0ee12bfd21631d2035cfa0c",
+                "url": "https://api.github.com/repos/ramsey/uuid-doctrine/zipball/1a6f235ba3faf1cd9ba18daf5b54d8dc9d3bc7d0",
+                "reference": "1a6f235ba3faf1cd9ba18daf5b54d8dc9d3bc7d0",
                 "shasum": ""
             },
             "require": {
@@ -5427,7 +5427,7 @@
             ],
             "support": {
                 "issues": "https://github.com/ramsey/uuid-doctrine/issues",
-                "source": "https://github.com/ramsey/uuid-doctrine/tree/1.8.0"
+                "source": "https://github.com/ramsey/uuid-doctrine/tree/1.8.1"
             },
             "funding": [
                 {
@@ -5439,7 +5439,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-11-08T03:04:18+00:00"
+            "time": "2022-01-15T23:54:44+00:00"
         },
         {
             "name": "react/promise",
