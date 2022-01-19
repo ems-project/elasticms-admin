@@ -209,16 +209,16 @@
         },
         {
             "name": "caxy/php-htmldiff",
-            "version": "v0.1.13",
+            "version": "v0.1.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/caxy/php-htmldiff.git",
-                "reference": "aca63d7da8c9cf3c0c3c27fb41af1ffb1b1d4b3a"
+                "reference": "3f8ee7edda3d7c6d2e58a02d70a12d3242c84ea5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/caxy/php-htmldiff/zipball/aca63d7da8c9cf3c0c3c27fb41af1ffb1b1d4b3a",
-                "reference": "aca63d7da8c9cf3c0c3c27fb41af1ffb1b1d4b3a",
+                "url": "https://api.github.com/repos/caxy/php-htmldiff/zipball/3f8ee7edda3d7c6d2e58a02d70a12d3242c84ea5",
+                "reference": "3f8ee7edda3d7c6d2e58a02d70a12d3242c84ea5",
                 "shasum": ""
             },
             "require": {
@@ -264,9 +264,9 @@
             ],
             "support": {
                 "issues": "https://github.com/caxy/php-htmldiff/issues",
-                "source": "https://github.com/caxy/php-htmldiff/tree/v0.1.13"
+                "source": "https://github.com/caxy/php-htmldiff/tree/v0.1.14"
             },
-            "time": "2021-09-27T22:01:33+00:00"
+            "time": "2022-01-19T11:09:59+00:00"
         },
         {
             "name": "cebe/markdown",
@@ -2217,16 +2217,16 @@
         },
         {
             "name": "elasticms/common-bundle",
-            "version": "1.8.102",
+            "version": "1.8.103",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSCommonBundle.git",
-                "reference": "311f200155eb0e786dc3c66cfad1fafdf3dc707d"
+                "reference": "790edac7d50ab318cb08886a7e8484e2d7b5fd38"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSCommonBundle/zipball/311f200155eb0e786dc3c66cfad1fafdf3dc707d",
-                "reference": "311f200155eb0e786dc3c66cfad1fafdf3dc707d",
+                "url": "https://api.github.com/repos/ems-project/EMSCommonBundle/zipball/790edac7d50ab318cb08886a7e8484e2d7b5fd38",
+                "reference": "790edac7d50ab318cb08886a7e8484e2d7b5fd38",
                 "shasum": ""
             },
             "require": {
@@ -2305,22 +2305,22 @@
             ],
             "support": {
                 "issues": "https://github.com/ems-project/EMSCommonBundle/issues",
-                "source": "https://github.com/ems-project/EMSCommonBundle/tree/1.8.102"
+                "source": "https://github.com/ems-project/EMSCommonBundle/tree/1.8.103"
             },
-            "time": "2022-01-18T19:25:02+00:00"
+            "time": "2022-01-19T14:29:27+00:00"
         },
         {
             "name": "elasticms/core-bundle",
-            "version": "1.17.15",
+            "version": "1.17.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSCoreBundle.git",
-                "reference": "05bcade713e8738f1697b88835a338848d000a45"
+                "reference": "323e4f4af4cb113a18cf94b102dcdfc101390a94"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSCoreBundle/zipball/05bcade713e8738f1697b88835a338848d000a45",
-                "reference": "05bcade713e8738f1697b88835a338848d000a45",
+                "url": "https://api.github.com/repos/ems-project/EMSCoreBundle/zipball/323e4f4af4cb113a18cf94b102dcdfc101390a94",
+                "reference": "323e4f4af4cb113a18cf94b102dcdfc101390a94",
                 "shasum": ""
             },
             "require": {
@@ -2408,9 +2408,9 @@
             ],
             "support": {
                 "issues": "https://github.com/ems-project/EMSCoreBundle/issues",
-                "source": "https://github.com/ems-project/EMSCoreBundle/tree/1.17.15"
+                "source": "https://github.com/ems-project/EMSCoreBundle/tree/1.17.16"
             },
-            "time": "2022-01-18T19:24:53+00:00"
+            "time": "2022-01-19T14:27:31+00:00"
         },
         {
             "name": "elasticms/form-bundle",
@@ -7182,16 +7182,16 @@
         },
         {
             "name": "symfony/flex",
-            "version": "v1.17.6",
+            "version": "v1.18.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/flex.git",
-                "reference": "7a79135e1dc66b30042b4d968ecba0908f9374bc"
+                "reference": "97634769241adf2cbfde0cec2c336c2612c06d49"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/flex/zipball/7a79135e1dc66b30042b4d968ecba0908f9374bc",
-                "reference": "7a79135e1dc66b30042b4d968ecba0908f9374bc",
+                "url": "https://api.github.com/repos/symfony/flex/zipball/97634769241adf2cbfde0cec2c336c2612c06d49",
+                "reference": "97634769241adf2cbfde0cec2c336c2612c06d49",
                 "shasum": ""
             },
             "require": {
@@ -7227,7 +7227,7 @@
             "description": "Composer plugin for Symfony",
             "support": {
                 "issues": "https://github.com/symfony/flex/issues",
-                "source": "https://github.com/symfony/flex/tree/v1.17.6"
+                "source": "https://github.com/symfony/flex/tree/v1.18.0"
             },
             "funding": [
                 {
@@ -7243,7 +7243,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-11-29T15:39:37+00:00"
+            "time": "2022-01-19T08:24:55+00:00"
         },
         {
             "name": "symfony/form",
@@ -13832,5 +13832,5 @@
         "ext-openssl": "*"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.0.0"
 }
