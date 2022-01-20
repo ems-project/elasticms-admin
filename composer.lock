@@ -58,16 +58,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.209.7",
+            "version": "3.209.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "22bbcc0b25578d4c496756d9f46fcd4c27cffd5d"
+                "reference": "610edb3dca29698b65cf5d7cd7196bc87af7a9de"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/22bbcc0b25578d4c496756d9f46fcd4c27cffd5d",
-                "reference": "22bbcc0b25578d4c496756d9f46fcd4c27cffd5d",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/610edb3dca29698b65cf5d7cd7196bc87af7a9de",
+                "reference": "610edb3dca29698b65cf5d7cd7196bc87af7a9de",
                 "shasum": ""
             },
             "require": {
@@ -143,9 +143,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.209.7"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.209.9"
             },
-            "time": "2022-01-18T19:16:05+00:00"
+            "time": "2022-01-20T19:16:31+00:00"
         },
         {
             "name": "brick/math",
@@ -2311,16 +2311,16 @@
         },
         {
             "name": "elasticms/core-bundle",
-            "version": "1.17.16",
+            "version": "1.17.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSCoreBundle.git",
-                "reference": "323e4f4af4cb113a18cf94b102dcdfc101390a94"
+                "reference": "1213fff8409c34cbd02aae861f65f41d870c439d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSCoreBundle/zipball/323e4f4af4cb113a18cf94b102dcdfc101390a94",
-                "reference": "323e4f4af4cb113a18cf94b102dcdfc101390a94",
+                "url": "https://api.github.com/repos/ems-project/EMSCoreBundle/zipball/1213fff8409c34cbd02aae861f65f41d870c439d",
+                "reference": "1213fff8409c34cbd02aae861f65f41d870c439d",
                 "shasum": ""
             },
             "require": {
@@ -2408,9 +2408,9 @@
             ],
             "support": {
                 "issues": "https://github.com/ems-project/EMSCoreBundle/issues",
-                "source": "https://github.com/ems-project/EMSCoreBundle/tree/1.17.16"
+                "source": "https://github.com/ems-project/EMSCoreBundle/tree/1.17.17"
             },
-            "time": "2022-01-19T14:27:31+00:00"
+            "time": "2022-01-20T22:26:02+00:00"
         },
         {
             "name": "elasticms/form-bundle",
@@ -7182,16 +7182,16 @@
         },
         {
             "name": "symfony/flex",
-            "version": "v1.18.0",
+            "version": "v1.18.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/flex.git",
-                "reference": "97634769241adf2cbfde0cec2c336c2612c06d49"
+                "reference": "90ee9ddddaadee602dff23ae530310a59936bc8b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/flex/zipball/97634769241adf2cbfde0cec2c336c2612c06d49",
-                "reference": "97634769241adf2cbfde0cec2c336c2612c06d49",
+                "url": "https://api.github.com/repos/symfony/flex/zipball/90ee9ddddaadee602dff23ae530310a59936bc8b",
+                "reference": "90ee9ddddaadee602dff23ae530310a59936bc8b",
                 "shasum": ""
             },
             "require": {
@@ -7227,7 +7227,7 @@
             "description": "Composer plugin for Symfony",
             "support": {
                 "issues": "https://github.com/symfony/flex/issues",
-                "source": "https://github.com/symfony/flex/tree/v1.18.0"
+                "source": "https://github.com/symfony/flex/tree/v1.18.1"
             },
             "funding": [
                 {
@@ -7243,7 +7243,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-01-19T08:24:55+00:00"
+            "time": "2022-01-19T17:52:31+00:00"
         },
         {
             "name": "symfony/form",
@@ -13832,5 +13832,5 @@
         "ext-openssl": "*"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.0.0"
+    "plugin-api-version": "2.1.0"
 }
