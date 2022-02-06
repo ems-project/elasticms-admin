@@ -1,5 +1,5 @@
 ## Release 1.17.21
-- Add ADMIN_ROLE to /api/admin/* routes
+- Add ADMIN_ROLE to ^/api/admin routes
 
 ## Release 1.17.20
 - CoreBundle
