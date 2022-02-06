@@ -1,3 +1,6 @@
+## Release 1.17.21
+- Add ADMIN_ROLE to /api/admin/* routes
+
 ## Release 1.17.20
 - CoreBundle
   - [1.17.20](https://github.com/ems-project/EMSCoreBundle/releases/tag/1.17.20)
