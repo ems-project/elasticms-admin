@@ -1,3 +1,9 @@
+## Release 1.17.22
+- CoreBundle
+  - [1.17.22](https://github.com/ems-project/EMSCoreBundle/releases/tag/1.17.22)
+- CommonBundle
+  - [1.8.106](https://github.com/ems-project/EMSCommonBundle/releases/tag/1.8.106)
+
 ## Release 1.17.21
 - Add ADMIN_ROLE to ^/api/admin routes
 - CoreBundle
