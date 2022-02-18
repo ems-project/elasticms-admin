@@ -1,3 +1,14 @@
+## Release 1.17.24
+- Remove the MakerBundle
+- CoreBundle
+  - [1.17.24](https://github.com/ems-project/EMSCoreBundle/releases/tag/1.17.24)
+- ClientHelperBundle
+  - [3.8.6](https://github.com/ems-project/EMSClientHelperBundle/releases/tag/3.8.6)
+- CommonBundle
+  - [2.0.0](https://github.com/ems-project/EMSCommonBundle/releases/tag/2.0.0)
+- SubmissionBundle
+  - [2.1.18](https://github.com/ems-project/EMSSubmissionBundle/releases/tag/2.1.18)
+
 ## Release 1.17.22
 - CoreBundle
   - [1.17.22](https://github.com/ems-project/EMSCoreBundle/releases/tag/1.17.22)

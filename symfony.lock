@@ -17,6 +17,9 @@
     "composer/ca-bundle": {
         "version": "1.2.8"
     },
+    "composer/package-versions-deprecated": {
+        "version": "1.11.99.5"
+    },
     "composer/pcre": {
         "version": "1.0.0"
     },
@@ -116,12 +119,6 @@
     "elasticms/form-bundle": {
         "version": "1.12.67"
     },
-    "elasticms/local-user-bundle": {
-        "version": "0.1-dev"
-    },
-    "elasticms/maker-bundle": {
-        "version": "0.0.3"
-    },
     "elasticms/submission-bundle": {
         "version": "2.1.11"
     },
@@ -145,9 +142,6 @@
     },
     "friendsofphp/proxy-manager-lts": {
         "version": "v1.0.5"
-    },
-    "friendsofsymfony/user-bundle": {
-        "version": "v2.1.2"
     },
     "giggsey/libphonenumber-for-php": {
         "version": "8.12.38"
@@ -173,12 +167,6 @@
     "jdorn/sql-formatter": {
         "version": "1.3.x-dev"
     },
-    "jean85/pretty-package-versions": {
-        "version": "1.5.1"
-    },
-    "kub-at/php-simple-html-dom-parser": {
-        "version": "1.9.1"
-    },
     "laminas/laminas-code": {
         "version": "3.4.1"
     },
@@ -203,12 +191,6 @@
     "markbaker/matrix": {
         "version": "2.1.2"
     },
-    "migrify/migrify-kernel": {
-        "version": "0.4.2"
-    },
-    "migrify/php-config-printer": {
-        "version": "0.4.2"
-    },
     "monolog/monolog": {
         "version": "1.23.0"
     },
@@ -224,9 +206,6 @@
     "nette/finder": {
         "version": "v2.5.2"
     },
-    "nette/robot-loader": {
-        "version": "v3.3.1"
-    },
     "nette/utils": {
         "version": "v3.1.3"
     },
@@ -235,12 +214,6 @@
     },
     "ocramius/doctrine-batch-utils": {
         "version": "2.1.0"
-    },
-    "ocramius/package-versions": {
-        "version": "1.3.0"
-    },
-    "ondram/ci-detector": {
-        "version": "3.5.1"
     },
     "phar-io/manifest": {
         "version": "1.0.3"
@@ -253,9 +226,6 @@
     },
     "phenx/php-svg-lib": {
         "version": "v0.3.2"
-    },
-    "php": {
-        "version": "7.4"
     },
     "php-cs-fixer/diff": {
         "version": "v1.3.1"
@@ -278,14 +248,8 @@
     "phpspec/prophecy": {
         "version": "1.12.1"
     },
-    "phpstan/phpdoc-parser": {
-        "version": "0.4.9"
-    },
     "phpstan/phpstan": {
         "version": "0.12.57"
-    },
-    "phpstan/phpstan-phpunit": {
-        "version": "0.12.16"
     },
     "phpunit/php-code-coverage": {
         "version": "6.1.4"
@@ -363,9 +327,6 @@
     },
     "react/promise": {
         "version": "2.x-dev"
-    },
-    "rector/rector": {
-        "version": "0.8.56"
     },
     "ruflin/elastica": {
         "version": "5.3.6"
@@ -740,13 +701,7 @@
     "symplify/console-color-diff": {
         "version": "8.3.48"
     },
-    "symplify/easy-testing": {
-        "version": "8.3.48"
-    },
     "symplify/package-builder": {
-        "version": "8.3.48"
-    },
-    "symplify/set-config-resolver": {
         "version": "8.3.48"
     },
     "symplify/smart-file-system": {
@@ -763,11 +718,5 @@
     },
     "webmozart/assert": {
         "version": "1.3-dev"
-    },
-    "zendframework/zend-code": {
-        "version": "3.3-dev"
-    },
-    "zendframework/zend-eventmanager": {
-        "version": "3.2.1"
     }
 }
