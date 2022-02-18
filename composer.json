@@ -19,7 +19,6 @@
     "ext-openssl": "*",
     "dragonmantank/cron-expression": "^3.1",
     "elasticms/core-bundle": "^1.15",
-    "elasticms/maker-bundle": "^1.0",
     "elasticms/submission-bundle": "^2.1",
     "friendsofphp/proxy-manager-lts": "^1.0",
     "symfony/flex": "^1.0",
