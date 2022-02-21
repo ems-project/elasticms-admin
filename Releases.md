@@ -1,3 +1,9 @@
+## Release 1.17.25
+- CoreBundle
+  - [1.17.25](https://github.com/ems-project/EMSCoreBundle/releases/tag/1.17.25)
+- CommonBundle
+  - [2.0.2](https://github.com/ems-project/EMSCommonBundle/releases/tag/2.0.2)
+
 ## Release 1.17.24
 - Remove the MakerBundle
 - CoreBundle
