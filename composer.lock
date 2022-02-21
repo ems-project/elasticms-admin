@@ -58,16 +58,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.209.26",
+            "version": "3.209.27",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "bf29058fc637e4949ec42281e9572b9c968b38cc"
+                "reference": "4a0ded3a5f380f7654da5dc194161588a87d9d3b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/bf29058fc637e4949ec42281e9572b9c968b38cc",
-                "reference": "bf29058fc637e4949ec42281e9572b9c968b38cc",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/4a0ded3a5f380f7654da5dc194161588a87d9d3b",
+                "reference": "4a0ded3a5f380f7654da5dc194161588a87d9d3b",
                 "shasum": ""
             },
             "require": {
@@ -143,9 +143,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.209.26"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.209.27"
             },
-            "time": "2022-02-17T19:15:52+00:00"
+            "time": "2022-02-18T19:19:17+00:00"
         },
         {
             "name": "brick/math",
@@ -2227,22 +2227,22 @@
         },
         {
             "name": "elasticms/common-bundle",
-            "version": "2.0.0",
+            "version": "2.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSCommonBundle.git",
-                "reference": "c790af23545a6822eb94d979ecaf602002ff3e32"
+                "reference": "021da11e976f7353d56af9bb2cc3da718dbd587c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSCommonBundle/zipball/c790af23545a6822eb94d979ecaf602002ff3e32",
-                "reference": "c790af23545a6822eb94d979ecaf602002ff3e32",
+                "url": "https://api.github.com/repos/ems-project/EMSCommonBundle/zipball/021da11e976f7353d56af9bb2cc3da718dbd587c",
+                "reference": "021da11e976f7353d56af9bb2cc3da718dbd587c",
                 "shasum": ""
             },
             "require": {
                 "aws/aws-sdk-php": "^3.109",
                 "cebe/markdown": "^1.2",
-                "doctrine/doctrine-bundle": "^1.11",
+                "doctrine/doctrine-bundle": "^1.11|^2.5",
                 "doctrine/orm": "^2.6",
                 "dompdf/dompdf": "^v1.0.2",
                 "ext-dom": "*",
@@ -2265,7 +2265,10 @@
                 "symfony/monolog-bridge": "^4.4|^5.4",
                 "symfony/options-resolver": "^4.4|^5.4",
                 "symfony/routing": "^4.4|^5.4",
-                "symfony/security": "^4.4|^5.4",
+                "symfony/security-core": "^4.4|^5.4",
+                "symfony/security-csrf": "^4.4|^5.4",
+                "symfony/security-guard": "^4.4|^5.4",
+                "symfony/security-http": "^4.4|^5.4",
                 "symfony/serializer": "^4.4|^5.4",
                 "symfony/stopwatch": "^4.4|^5.4",
                 "symfony/translation": "^4.4|^5.4",
@@ -2319,22 +2322,22 @@
             ],
             "support": {
                 "issues": "https://github.com/ems-project/EMSCommonBundle/issues",
-                "source": "https://github.com/ems-project/EMSCommonBundle/tree/2.0.0"
+                "source": "https://github.com/ems-project/EMSCommonBundle/tree/2.0.2"
             },
-            "time": "2022-02-17T16:11:03+00:00"
+            "time": "2022-02-21T08:58:55+00:00"
         },
         {
             "name": "elasticms/core-bundle",
-            "version": "1.17.24",
+            "version": "1.17.25",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSCoreBundle.git",
-                "reference": "775b45937e674fa20c75a1d716e3742f386b6eef"
+                "reference": "1c875bb989aa14f851ce3ac4a965254f5cd8e862"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSCoreBundle/zipball/775b45937e674fa20c75a1d716e3742f386b6eef",
-                "reference": "775b45937e674fa20c75a1d716e3742f386b6eef",
+                "url": "https://api.github.com/repos/ems-project/EMSCoreBundle/zipball/1c875bb989aa14f851ce3ac4a965254f5cd8e862",
+                "reference": "1c875bb989aa14f851ce3ac4a965254f5cd8e862",
                 "shasum": ""
             },
             "require": {
@@ -2422,9 +2425,9 @@
             ],
             "support": {
                 "issues": "https://github.com/ems-project/EMSCoreBundle/issues",
-                "source": "https://github.com/ems-project/EMSCoreBundle/tree/1.17.24"
+                "source": "https://github.com/ems-project/EMSCoreBundle/tree/1.17.25"
             },
-            "time": "2022-02-17T17:22:00+00:00"
+            "time": "2022-02-21T08:39:44+00:00"
         },
         {
             "name": "elasticms/form-bundle",
@@ -3340,12 +3343,12 @@
             },
             "type": "library",
             "autoload": {
-                "psr-4": {
-                    "Laminas\\Code\\": "src/"
-                },
                 "files": [
                     "polyfill/ReflectionEnumPolyfill.php"
-                ]
+                ],
+                "psr-4": {
+                    "Laminas\\Code\\": "src/"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -4487,16 +4490,16 @@
         },
         {
             "name": "phpoffice/phpspreadsheet",
-            "version": "1.21.0",
+            "version": "1.22.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPOffice/PhpSpreadsheet.git",
-                "reference": "1a359d2ccbb89c05f5dffb32711a95f4afc67964"
+                "reference": "3a9e29b4f386a08a151a33578e80ef1747037a48"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHPOffice/PhpSpreadsheet/zipball/1a359d2ccbb89c05f5dffb32711a95f4afc67964",
-                "reference": "1a359d2ccbb89c05f5dffb32711a95f4afc67964",
+                "url": "https://api.github.com/repos/PHPOffice/PhpSpreadsheet/zipball/3a9e29b4f386a08a151a33578e80ef1747037a48",
+                "reference": "3a9e29b4f386a08a151a33578e80ef1747037a48",
                 "shasum": ""
             },
             "require": {
@@ -4527,7 +4530,7 @@
                 "dompdf/dompdf": "^1.0",
                 "friendsofphp/php-cs-fixer": "^3.2",
                 "jpgraph/jpgraph": "^4.0",
-                "mpdf/mpdf": "^8.0",
+                "mpdf/mpdf": "8.0.17",
                 "phpcompatibility/php-compatibility": "^9.3",
                 "phpstan/phpstan": "^1.1",
                 "phpstan/phpstan-phpunit": "^1.0",
@@ -4585,9 +4588,9 @@
             ],
             "support": {
                 "issues": "https://github.com/PHPOffice/PhpSpreadsheet/issues",
-                "source": "https://github.com/PHPOffice/PhpSpreadsheet/tree/1.21.0"
+                "source": "https://github.com/PHPOffice/PhpSpreadsheet/tree/1.22.0"
             },
-            "time": "2022-01-06T11:10:08+00:00"
+            "time": "2022-02-18T12:57:07+00:00"
         },
         {
             "name": "phpseclib/phpseclib",
@@ -11151,6 +11154,7 @@
                     "type": "github"
                 }
             ],
+            "abandoned": "symplify/package-builder",
             "time": "2020-10-26T10:38:48+00:00"
         },
         {
@@ -13829,5 +13833,5 @@
         "ext-openssl": "*"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.0.0"
 }
