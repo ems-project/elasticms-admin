@@ -28,7 +28,9 @@
     "symfony/security-bundle": "^4.4",
     "symfony/twig-bundle": "^4.4",
     "symplify/composer-json-manipulator": "^8.0",
-    "symplify/console-color-diff": "^8.0"
+    "symplify/console-color-diff": "^8.0",
+    "twig/extra-bundle": "^3.3",
+    "twig/intl-extra": "^3.3"
   },
   "require-dev": {
     "friendsofphp/php-cs-fixer": "^3.0",
@@ -48,7 +50,10 @@
     "preferred-install": {
       "*": "dist"
     },
-    "sort-packages": true
+    "sort-packages": true,
+    "allow-plugins": {
+      "symfony/flex": true
+    }
   },
   "autoload": {
     "psr-4": {
