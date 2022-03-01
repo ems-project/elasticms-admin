@@ -1,5 +1,13 @@
 ## Release 1.17.26
 - add twig/intl-extra support (i.e format_datetime filter)
+- CoreBundle
+  - [1.17.26](https://github.com/ems-project/EMSCoreBundle/releases/tag/1.17.26)
+- CommonBundle
+  - [2.0.3](https://github.com/ems-project/EMSCommonBundle/releases/tag/2.0.3)
+- ClientHelperBundle
+  - [3.8.8](https://github.com/ems-project/EMSClientHelperBundle/releases/tag/3.8.8)
+- FormBundle
+  - [1.12.74](https://github.com/ems-project/EMSCoreBundle/releases/tag/1.12.74)
 
 ## Release 1.17.25
 - CoreBundle
