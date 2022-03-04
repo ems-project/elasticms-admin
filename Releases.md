@@ -1,4 +1,4 @@
-## Release 1.17.26
+## Release 1.17.27
 - CoreBundle
   - [1.17.27](https://github.com/ems-project/EMSCoreBundle/releases/tag/1.17.27)
 - CommonBundle
