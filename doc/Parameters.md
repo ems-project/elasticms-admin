@@ -243,6 +243,13 @@ Define the default bulk size for commands such as the `ems:environment:rebuild` 
 EMSCO_DEFAULT_BULK_SIZE=500
 ``` 
   
+### EMS_BACKEND_URL
+Define the url use by the user to access elasticms (in order to generate links in emails).
+
+```dotenv
+EMS_BACKEND_URL='http://admin.elasticms.local'
+``` 
+  
 ## Elasticms Client Helper Bundle variables
 
 ### EMSCH_LOCALES

@@ -1,5 +1,13 @@
+## Release 1.17.27
+- CoreBundle
+  - [1.17.27](https://github.com/ems-project/EMSCoreBundle/releases/tag/1.17.27)
+- CommonBundle
+  - [2.0.4](https://github.com/ems-project/EMSCommonBundle/releases/tag/2.0.4)
+  - [2.0.3](https://github.com/ems-project/EMSCommonBundle/releases/tag/2.0.3)
+
 ## Release 1.17.26
 - add twig/intl-extra support (i.e format_datetime filter)
+- new EMS_BACKEND_URL environment variable
 - CoreBundle
   - [1.17.26](https://github.com/ems-project/EMSCoreBundle/releases/tag/1.17.26)
 - CommonBundle
