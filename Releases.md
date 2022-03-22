@@ -1,3 +1,13 @@
+## Release 1.18.0
+- CoreBundle
+  - [1.18.0](https://github.com/ems-project/EMSCoreBundle/releases/tag/1.18.0)
+- CommonBundle
+  - [2.0.6](https://github.com/ems-project/EMSCommonBundle/releases/tag/2.0.6)
+- ClientHelperBundle
+  - [3.8.10](https://github.com/ems-project/EMSClientHelperBundle/releases/tag/3.8.10)
+- FormBundle
+  - [1.12.75](https://github.com/ems-project/EMSFormBundle/releases/tag/1.12.75)
+
 ## Release 1.17.28
 - CoreBundle
   - [1.17.28](https://github.com/ems-project/EMSCoreBundle/releases/tag/1.17.28)
@@ -21,7 +31,7 @@
 - ClientHelperBundle
   - [3.8.8](https://github.com/ems-project/EMSClientHelperBundle/releases/tag/3.8.8)
 - FormBundle
-  - [1.12.74](https://github.com/ems-project/EMSCoreBundle/releases/tag/1.12.74)
+  - [1.12.74](https://github.com/ems-project/EMSFormBundle/releases/tag/1.12.74)
 
 ## Release 1.17.25
 - CoreBundle
@@ -55,7 +65,7 @@
 - ClientHelperBundle
   - [3.8.5](https://github.com/ems-project/EMSClientHelperBundle/releases/tag/3.8.5)
 - FormBundle
-  - [1.12.72](https://github.com/ems-project/EMSCoreBundle/releases/tag/1.12.72)
+  - [1.12.72](https://github.com/ems-project/EMSFormBundle/releases/tag/1.12.72)
 
 ## Release 1.17.20
 - CoreBundle
@@ -104,7 +114,7 @@
 - ClientHelperBundle
   - [3.8.0](https://github.com/ems-project/EMSClientHelperBundle/releases/tag/3.8.0)
 - FormBundle
-  - [1.12.71](https://github.com/ems-project/EMSCoreBundle/releases/tag/1.12.71)
+  - [1.12.71](https://github.com/ems-project/EMSFormBundle/releases/tag/1.12.71)
 
 ## Release 1.17.11
 - CoreBundle
@@ -142,7 +152,7 @@
 
 ## Release 1.17.6
 - FormBundle
-  - [1.12.70](https://github.com/ems-project/EMSCoreBundle/releases/tag/1.12.70)
+  - [1.12.70](https://github.com/ems-project/EMSFormBundle/releases/tag/1.12.70)
 - SubmissionBundle
   - [2.1.12](https://github.com/ems-project/EMSSubmissionBundle/releases/tag/2.1.12)
 
@@ -150,7 +160,7 @@
 - CoreBundle
   - [1.17.5](https://github.com/ems-project/EMSCoreBundle/releases/tag/1.17.5)
 - FormBundle
-  - [1.12.69](https://github.com/ems-project/EMSCoreBundle/releases/tag/1.12.69)
+  - [1.12.69](https://github.com/ems-project/EMSFormBundle/releases/tag/1.12.69)
 
 ## Release 1.17.4
 - CoreBundle
