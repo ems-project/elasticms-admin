@@ -19,6 +19,7 @@ parameters:
   env(EMSCH_BACKEND_URL):             ~
   env(EMSCH_BACKEND_API_KEY):         ~
   env(EMSCH_ASSET_LOCAL_FOLDER):      ~
+  env(EMSCH_SEARCH_LIMIT):            '1000'
 
 ems_client_helper:
   api:
@@ -30,7 +31,7 @@ ems_client_helper:
   asset_local_folder: '%env(string:EMSCH_ASSET_LOCAL_FOLDER)%'
   handle_exceptions: false
   request_environments: '%env(json:EMSCH_ENVS)%'
-#  dump_assets: '%env(bool:EMSCH_DUMP_ASSETS)%'
+  search_limit: '%env(int:EMSCH_SEARCH_LIMIT)%'
   elasticms:
     website:
       api: {"enable": true, "name": "backend"}

@@ -34,6 +34,16 @@ if (\is_string($forwardedPortHeader) && null !== ($_SERVER[$forwardedPortHeader]
     $_SERVER['HTTP_X_FORWARDED_PORT'] = $_SERVER[$forwardedPortHeader];
 }
 
+$forwardedForHeader = $_SERVER['HTTP_CUSTOM_FORWARDED_FOR'] ?? null;
+if (\is_string($forwardedForHeader) && null !== ($_SERVER[$forwardedForHeader] ?? null)) {
+    $_SERVER['HTTP_X_FORWARDED_FOR'] = $_SERVER[$forwardedForHeader];
+}
+
+$forwardedHostHeader = $_SERVER['HTTP_CUSTOM_FORWARDED_HOST'] ?? null;
+if (\is_string($forwardedHostHeader) && null !== ($_SERVER[$forwardedHostHeader] ?? null)) {
+    $_SERVER['HTTP_X_FORWARDED_HOST'] = $_SERVER[$forwardedHostHeader];
+}
+
 if ($trustedProxies = $_SERVER['TRUSTED_PROXIES'] ?? false) {
     Request::setTrustedProxies(explode(',', $trustedProxies), Request::HEADER_X_FORWARDED_ALL ^ Request::HEADER_X_FORWARDED_HOST);
 }
