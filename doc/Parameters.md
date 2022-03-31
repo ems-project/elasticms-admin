@@ -46,6 +46,9 @@ HTTP_CUSTOM_FORWARDED_HOST=HTTP_X_COMPANY_FORWARDED_HOST #Default value HTTP_CUS
 ### MAILER_URL
 Configure [Swift Mailer](https://symfony.com/doc/current/email.html#configuration)
 
+### EMSCH_SEARCH_LIMIT
+
+Specify the maximum number of expected document for template, translation and route content types. Default value `1000`
 
 ## Doctrine variables
 
