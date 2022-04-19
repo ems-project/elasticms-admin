@@ -2436,12 +2436,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSFormBundle.git",
-                "reference": "fafd81ff5631b8de005d4483587ace840ddedcec"
+                "reference": "1dcc96045339ae6bcf87dffb007c20ee92db1ab8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSFormBundle/zipball/fafd81ff5631b8de005d4483587ace840ddedcec",
-                "reference": "fafd81ff5631b8de005d4483587ace840ddedcec",
+                "url": "https://api.github.com/repos/ems-project/EMSFormBundle/zipball/1dcc96045339ae6bcf87dffb007c20ee92db1ab8",
+                "reference": "1dcc96045339ae6bcf87dffb007c20ee92db1ab8",
                 "shasum": ""
             },
             "require": {
@@ -2496,7 +2496,7 @@
                 "issues": "https://github.com/ems-project/EMSFormBundle/issues",
                 "source": "https://github.com/ems-project/EMSFormBundle/tree/1.13.0"
             },
-            "time": "2022-04-19T07:33:24+00:00"
+            "time": "2022-04-19T12:22:43+00:00"
         },
         {
             "name": "elasticms/submission-bundle",
