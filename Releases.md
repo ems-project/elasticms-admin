@@ -1,3 +1,13 @@
+## Release 1.18.5
+- New EMS_BACKEND_API_KEY env variable
+- New EMSF_TYPE env variable
+- CommonBundle
+  - [2.0.9](https://github.com/ems-project/EMSCommonBundle/releases/tag/2.0.9)
+- ClientHelperBundle
+  - [3.8.13](https://github.com/ems-project/EMSClientHelperBundle/releases/tag/3.8.13)
+- FormBundle
+  - [1.13.0](https://github.com/ems-project/EMSFormBundle/releases/tag/1.13.0)
+
 ## Release 1.18.4
 - CoreBundle
   - [1.18.4](https://github.com/ems-project/EMSCoreBundle/releases/tag/1.18.4)
