@@ -320,6 +320,14 @@ Used to define storage services. Elasticms supports [multiple types of storage s
 Refers to the [PHP hash_algos](https://www.php.net/manual/fr/function.hash-algos.php) function. Specify the algorithms to used in order to hash and identify files. It's also used to hash the document indexed in elasticsearch.
 - Default value: EMS_HASH_ALGO='sha1'
 
+### EMS_BACKEND_URL
+
+Define backend elasticms url. CommonBundle provides a CoreApi instance.
+
+### EMS_BACKEND_API_KEY
+
+Define backend authentication token. The commonBundle coreApi instance becomes authenticated.
+
 
 ## Elasticms Form Bundle variables
 
