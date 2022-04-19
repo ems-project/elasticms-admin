@@ -346,6 +346,8 @@ Define the [load form JSON](https://github.com/ems-project/EMSFormBundle/blob/ma
 ### EMSF_CACHEABLE
 Define the [cacheable](https://github.com/ems-project/EMSFormBundle/blob/master/doc/config.md#cacheable) for the form bundle. Set to `true` by default.
 
+### EMSF_TYPE
+Define the [type](https://github.com/ems-project/EMSFormBundle/blob/master/doc/config.md#type) for the form bundle. Set to `form_instance` by default.
 
 ## Elasticms Submission Bundle variables
 
