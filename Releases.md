@@ -1,3 +1,7 @@
+## Release 1.18.6
+- CoreBundle
+  - [1.18.6](https://github.com/ems-project/EMSCoreBundle/releases/tag/1.18.6)
+
 ## Release 1.18.5
 - New EMS_BACKEND_API_KEY env variable
 - New EMSF_TYPE env variable
