@@ -46,6 +46,7 @@ security:
             
     access_control:
         - { path: ^/$, role: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/metrics$, role: IS_AUTHENTICATED_ANONYMOUSLY }
         - { path: ^/public/, role: IS_AUTHENTICATED_ANONYMOUSLY }
         - { path: ^/health_check(\.json)?$, role: IS_AUTHENTICATED_ANONYMOUSLY }
         - { path: ^/login$, role: IS_AUTHENTICATED_ANONYMOUSLY }
