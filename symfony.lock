@@ -280,6 +280,9 @@
             "tests/bootstrap.php"
         ]
     },
+    "promphp/prometheus_client_php": {
+        "version": "v2.6.0"
+    },
     "psr/cache": {
         "version": "1.0.1"
     },

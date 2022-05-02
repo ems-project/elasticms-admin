@@ -5,3 +5,7 @@ ems_core:
     type:     annotation
 emsco:
     resource: '@EMSCoreBundle/Resources/config/routing/all.xml'
+
+ems_common:
+    resource: 'ems_common.route.loader::load'
+    type: service
