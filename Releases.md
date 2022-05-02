@@ -1,6 +1,13 @@
-## Release 1.18.6
+## Release 1.19.0
+- New EMS_CACHE, EMS_CACHE_PREFIX
+- New EMS_REDIS_HOST, EMS_REDIS_PORT
+- New EMS_METRIC_ENABLED, EMS_METRIC_HOST
 - CoreBundle
-  - [1.18.6](https://github.com/ems-project/EMSCoreBundle/releases/tag/1.18.6)
+  - [1.19.0](https://github.com/ems-project/EMSCoreBundle/releases/tag/1.19.0)
+- CommonBundle
+  - [2.1.0](https://github.com/ems-project/EMSCommonBundle/releases/tag/2.1.0)
+- SubmissionBundle
+  - [2.2.0](https://github.com/ems-project/EMSSubmissionBundle/releases/tag/2.2.0)
 
 ## Release 1.18.5
 - New EMS_BACKEND_API_KEY env variable

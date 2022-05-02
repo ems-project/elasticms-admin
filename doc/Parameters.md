@@ -328,6 +328,30 @@ Define backend elasticms url. CommonBundle provides a CoreApi instance.
 
 Define backend authentication token. The commonBundle coreApi instance becomes authenticated.
 
+### EMS_CACHE
+
+Define the ems cache type. Default value `file_system`.
+Allowed values: `file_system`, `apc` and `redis`.
+
+### EMS_CACHE_PREFIX
+
+Unique required value per project, otherwise wipe storage will clear all cached values.
+
+### EMS_REDIS_HOST
+
+Use a different redis host for the common cache service. Default REDIS_HOST env variable.
+
+### EMS_REDIS_PORT
+
+Use a different redis port for the common cache service. Default REDIS_PORT env variable.
+
+### EMS_METRIC_ENABLED
+
+Default value `false`, if true `/metrics` is added to the routes.
+
+### EMS_METRIC_HOST
+
+Default value empty, symfony route host pattern for allow hosting on /metrics
 
 ## Elasticms Form Bundle variables
 
