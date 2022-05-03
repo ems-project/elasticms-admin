@@ -1,3 +1,9 @@
+## Release 1.19.1
+- Defaults for REDIS_HOST & REDIS_PORT
+- new EMS_METRIC_PORT
+- CommonBundle
+  - [2.1.1](https://github.com/ems-project/EMSCommonBundle/releases/tag/2.1.1)
+
 ## Release 1.19.0
 - New EMS_CACHE, EMS_CACHE_PREFIX
 - New EMS_REDIS_HOST, EMS_REDIS_PORT
