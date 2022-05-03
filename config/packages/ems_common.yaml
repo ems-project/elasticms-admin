@@ -27,6 +27,7 @@ parameters:
     env(EMS_REDIS_PORT): '%env(int:REDIS_PORT)%'
     env(EMS_METRIC_ENABLED): false
     env(EMS_METRIC_HOST): ''
+    env(EMS_METRIC_PORT): ~
 
 ems_common:
     hash_algo: '%env(string:EMS_HASH_ALGO)%'
@@ -44,3 +45,4 @@ ems_common:
     metric:
         enabled: '%env(bool:EMS_METRIC_ENABLED)%'
         host: '%env(string:EMS_METRIC_HOST)%'
+        port: '%env(EMS_METRIC_PORT)%'

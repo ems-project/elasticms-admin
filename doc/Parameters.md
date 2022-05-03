@@ -353,6 +353,10 @@ Default value `false`, if true `/metrics` is added to the routes.
 
 Default value empty, symfony route host pattern for allow hosting on /metrics
 
+### EMS_METRIC_PORT
+
+Default value null, if defined will check the SERVER_PORT and throw 404 if not matching
+
 ## Elasticms Form Bundle variables
 
 ### EMSF_HASHCASH_DIFFICULTY
