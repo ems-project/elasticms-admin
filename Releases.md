@@ -1,3 +1,7 @@
+## Release 1.19.3
+- CoreBundle
+  - [1.19.3](https://github.com/ems-project/EMSCoreBundle/releases/tag/1.19.3)
+
 ## Release 1.19.1
 - Defaults for REDIS_HOST & REDIS_PORT
 - new EMS_METRIC_PORT
