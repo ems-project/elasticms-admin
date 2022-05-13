@@ -58,16 +58,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.222.10",
+            "version": "3.222.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "a82c1b4903f5df893bf7108ec9de73328f74652a"
+                "reference": "458d322b7f913a54dfc10dd25d3fbb35bb3f7502"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/a82c1b4903f5df893bf7108ec9de73328f74652a",
-                "reference": "a82c1b4903f5df893bf7108ec9de73328f74652a",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/458d322b7f913a54dfc10dd25d3fbb35bb3f7502",
+                "reference": "458d322b7f913a54dfc10dd25d3fbb35bb3f7502",
                 "shasum": ""
             },
             "require": {
@@ -143,9 +143,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.222.10"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.222.11"
             },
-            "time": "2022-05-11T18:15:28+00:00"
+            "time": "2022-05-12T18:17:33+00:00"
         },
         {
             "name": "brick/math",
@@ -2332,16 +2332,16 @@
         },
         {
             "name": "elasticms/core-bundle",
-            "version": "1.20.0",
+            "version": "1.20.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSCoreBundle.git",
-                "reference": "2ad1dc733165d8a96c16bd1bdcb090c5fac3050e"
+                "reference": "9dd28cad370d0278e0e6364b9bf56c28b5dd09ee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSCoreBundle/zipball/2ad1dc733165d8a96c16bd1bdcb090c5fac3050e",
-                "reference": "2ad1dc733165d8a96c16bd1bdcb090c5fac3050e",
+                "url": "https://api.github.com/repos/ems-project/EMSCoreBundle/zipball/9dd28cad370d0278e0e6364b9bf56c28b5dd09ee",
+                "reference": "9dd28cad370d0278e0e6364b9bf56c28b5dd09ee",
                 "shasum": ""
             },
             "require": {
@@ -2429,9 +2429,9 @@
             ],
             "support": {
                 "issues": "https://github.com/ems-project/EMSCoreBundle/issues",
-                "source": "https://github.com/ems-project/EMSCoreBundle/tree/1.20.0"
+                "source": "https://github.com/ems-project/EMSCoreBundle/tree/1.20.1"
             },
-            "time": "2022-05-12T17:58:13+00:00"
+            "time": "2022-05-13T11:39:48+00:00"
         },
         {
             "name": "elasticms/form-bundle",
