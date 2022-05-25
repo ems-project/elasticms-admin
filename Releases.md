@@ -1,3 +1,7 @@
+## Release 1.20.4
+- CoreBundle
+  - [1.20.4](https://github.com/ems-project/EMSCoreBundle/releases/tag/1.20.4)
+
 ## Release 1.20.3
 - CoreBundle
   - [1.20.3](https://github.com/ems-project/EMSCoreBundle/releases/tag/1.20.3)
