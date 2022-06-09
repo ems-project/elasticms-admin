@@ -69,7 +69,6 @@ security:
         - { path: ^/content-type, roles: ROLE_ADMIN }
         - { path: ^/environment, roles: ROLE_ADMIN }
         - { path: ^/channel-admin, roles: ROLE_ADMIN }
-        - { path: ^/user/profile, roles: ROLE_USER }
         - { path: ^/user, roles: ROLE_USER_MANAGEMENT }
         - { path: ^/elasticsearch/delete-search, roles: ROLE_USER }
         - { path: ^/elasticsearch, roles: ROLE_ADMIN }
