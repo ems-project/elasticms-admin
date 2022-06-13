@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f6578503da19aa77f70fb165f5cdd0d2",
+    "content-hash": "96979e003155bbf748e69735bbc410b2",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -58,16 +58,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.225.1",
+            "version": "3.225.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "b795c9c14997dac771f66d1f6cbadb62c742373a"
+                "reference": "f846724ad842916061127d20da4fe4e129f7d4b8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/b795c9c14997dac771f66d1f6cbadb62c742373a",
-                "reference": "b795c9c14997dac771f66d1f6cbadb62c742373a",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/f846724ad842916061127d20da4fe4e129f7d4b8",
+                "reference": "f846724ad842916061127d20da4fe4e129f7d4b8",
                 "shasum": ""
             },
             "require": {
@@ -75,7 +75,7 @@
                 "ext-json": "*",
                 "ext-pcre": "*",
                 "ext-simplexml": "*",
-                "guzzlehttp/guzzle": "^5.3.3 || ^6.2.1 || ^7.0",
+                "guzzlehttp/guzzle": "^5.3.3 || ^6.5.6 || ^7.4.3",
                 "guzzlehttp/promises": "^1.4.0",
                 "guzzlehttp/psr7": "^1.7.0 || ^2.1.1",
                 "mtdowling/jmespath.php": "^2.6",
@@ -143,9 +143,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.225.1"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.225.2"
             },
-            "time": "2022-06-09T18:19:43+00:00"
+            "time": "2022-06-10T19:03:26+00:00"
         },
         {
             "name": "brick/math",
@@ -2327,16 +2327,16 @@
         },
         {
             "name": "elasticms/core-bundle",
-            "version": "1.21.0",
+            "version": "dev-release-2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSCoreBundle.git",
-                "reference": "941190e8e8c9e81551f3cc0eb13948ba3f736f66"
+                "reference": "082e8fde5f33ca550144aa3dc4e3f909aed5e216"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSCoreBundle/zipball/941190e8e8c9e81551f3cc0eb13948ba3f736f66",
-                "reference": "941190e8e8c9e81551f3cc0eb13948ba3f736f66",
+                "url": "https://api.github.com/repos/ems-project/EMSCoreBundle/zipball/082e8fde5f33ca550144aa3dc4e3f909aed5e216",
+                "reference": "082e8fde5f33ca550144aa3dc4e3f909aed5e216",
                 "shasum": ""
             },
             "require": {
@@ -2398,8 +2398,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "EMS\\CoreBundle\\": "src/",
-                    "FOS\\UserBundle\\": "src-user/"
+                    "EMS\\CoreBundle\\": "src/"
                 },
                 "exclude-from-classmap": [
                     "tests/"
@@ -2425,9 +2424,9 @@
             ],
             "support": {
                 "issues": "https://github.com/ems-project/EMSCoreBundle/issues",
-                "source": "https://github.com/ems-project/EMSCoreBundle/tree/1.21.0"
+                "source": "https://github.com/ems-project/EMSCoreBundle/tree/release-2.0.0"
             },
-            "time": "2022-06-10T07:49:54+00:00"
+            "time": "2022-06-10T10:28:25+00:00"
         },
         {
             "name": "elasticms/form-bundle",
@@ -14215,6 +14214,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "elasticms/core-bundle": 20,
         "symfony/lts": 20
     },
     "prefer-stable": false,
