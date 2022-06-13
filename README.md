@@ -21,7 +21,7 @@ At the end you will get a list of questions to configure user database and datab
 php bin/console doctrine:database:drop --force
 php bin/console doctrine:database:create
 php bin/console doctrine:migrations:migrate -n
-php bin/console fos:user:create demo demo@example.com mypassword --super-admin
+php bin/console emsco:user:create demo demo@example.com mypassword --super-admin
 php bin/console ems:make:filter --all
 php bin/console ems:make:analyzer --all
 php bin/console ems:environment:create preview
@@ -52,7 +52,7 @@ And now we can launch Symfony's build in server:
 > php bin/console server:run
 
 Then you have to create a super-admin user:
-> php bin/console fos:user:create admin --super-admin
+> php bin/console emsco:user:create admin --super-admin
 
 
 //Todo add information about the elasticsearch cluster
@@ -85,7 +85,7 @@ It is adviced to always use migrations for changes so that:
 php bin/console doctrine:database:drop --force
 php bin/console doctrine:database:create
 php bin/console doctrine:migrations:migrate -n
-php bin/console fos:user:create demo demo@example.com mypassword --super-admin
+php bin/console emco:user:create demo demo@example.com mypassword --super-admin
 php bin/console ems:environment:create preview
 php bin/console ems:environment:create live
 php bin/console ems:environment:create template
