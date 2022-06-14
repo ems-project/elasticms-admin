@@ -8,11 +8,11 @@ monolog:
         flash:
             type: service
             id: ems_core.core_ui.flash_message_logger
-            channels: [app]
+            channels: [app,core]
         doctrine:
             type: service
             id: ems_common.monolog.doctrine
-            channels: [app]
+            channels: [app,core]
         # uncomment to get logging in your browser
         # you may have to allow bigger header sizes in your Web server configuration
         #firephp:
