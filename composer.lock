@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f6578503da19aa77f70fb165f5cdd0d2",
+    "content-hash": "271c8615cea1b10db3e842fde0c7cae4",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -2499,19 +2499,21 @@
         },
         {
             "name": "elasticms/helpers",
-            "version": "1.0.2",
+            "version": "1.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/helpers.git",
-                "reference": "f94c62743d046a86de7d993bb80a71afcd038cba"
+                "reference": "de8f4d4d76eab96e3e27695b4e8674cd0c302201"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/helpers/zipball/f94c62743d046a86de7d993bb80a71afcd038cba",
-                "reference": "f94c62743d046a86de7d993bb80a71afcd038cba",
+                "url": "https://api.github.com/repos/ems-project/helpers/zipball/de8f4d4d76eab96e3e27695b4e8674cd0c302201",
+                "reference": "de8f4d4d76eab96e3e27695b4e8674cd0c302201",
                 "shasum": ""
             },
             "require": {
+                "ext-json": "*",
+                "ext-tidy": "*",
                 "php": "^7.4"
             },
             "require-dev": {
@@ -2558,9 +2560,9 @@
             ],
             "support": {
                 "issues": "https://github.com/ems-project/helpers/issues",
-                "source": "https://github.com/ems-project/helpers/tree/1.0.2"
+                "source": "https://github.com/ems-project/helpers/tree/1.0.4"
             },
-            "time": "2022-06-07T13:41:20+00:00"
+            "time": "2022-06-17T13:14:07+00:00"
         },
         {
             "name": "elasticms/submission-bundle",
@@ -14224,7 +14226,8 @@
         "ext-gd": "*",
         "ext-iconv": "*",
         "ext-json": "*",
-        "ext-openssl": "*"
+        "ext-openssl": "*",
+        "ext-tidy": "*"
     },
     "platform-dev": [],
     "plugin-api-version": "2.3.0"
