@@ -1,4 +1,5 @@
 ## Release 1.22.0
+- Feature: audit logging
 - CoreBundle
   - [1.22.0](https://github.com/ems-project/EMSCoreBundle/releases/tag/1.22.0)
 - CommonBundle
