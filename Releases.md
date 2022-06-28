@@ -1,3 +1,11 @@
+## Release 1.22.1
+- CoreBundle
+  - [1.22.1](https://github.com/ems-project/EMSCommonBundle/releases/tag/1.22.1)
+- CommonBundle
+  - [2.1.4](https://github.com/ems-project/EMSCommonBundle/releases/tag/2.1.4)
+- ClientHelperBundle
+  - [3.10.0](https://github.com/ems-project/EMSClientHelperBundle/releases/tag/3.10.0)
+
 ## Release 1.22.0
 - Feature: audit logging
 - CoreBundle
