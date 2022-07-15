@@ -357,6 +357,14 @@ Default value empty, symfony route host pattern for allow hosting on /metrics
 
 Default value null, if defined will check the SERVER_PORT and throw 404 if not matching
 
+### EMS_WEBALIZE_REMOVABLE_REGEX
+
+Can fine tune the ems_weblize twig filter by adjusting the regex used to remove some characters. Default value `/([^a-zA-Z0-9\_\|\ \-\.])|(\.$)/`
+
+### EMS_WEBALIZE_DASHABLE_REGEX
+
+Can fine tune the ems_weblize twig filter by adjusting the regex used to replace some characters by a dash `-`. Default value `/([^a-zA-Z0-9\_\|\ \-\.])|(\.$)/`
+
 ## Elasticms Form Bundle variables
 
 ### EMSF_HASHCASH_DIFFICULTY
