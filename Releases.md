@@ -1,3 +1,53 @@
+## Release 1.25.1
+- CoreBundle
+  - [1.25.1](https://github.com/ems-project/EMSCommonBundle/releases/tag/1.25.1)
+
+## Release 1.25.0
+- CoreBundle
+  - [1.25.0](https://github.com/ems-project/EMSCommonBundle/releases/tag/1.25.0)
+- CommonBundle
+  - [2.2.2](https://github.com/ems-project/EMSCommonBundle/releases/tag/2.2.2)
+
+## Release 1.24.0
+- CoreBundle
+  - [1.24.0](https://github.com/ems-project/EMSCommonBundle/releases/tag/1.24.0)
+- CommonBundle
+  - [2.2.1](https://github.com/ems-project/EMSCommonBundle/releases/tag/2.2.1)
+  - [2.2.0](https://github.com/ems-project/EMSCommonBundle/releases/tag/2.2.0)
+- ClientHelperBundle
+  - [3.10.2](https://github.com/ems-project/EMSClientHelperBundle/releases/tag/3.10.2)
+  - [3.10.1](https://github.com/ems-project/EMSClientHelperBundle/releases/tag/3.10.1)
+- Helpers
+  - [1.0.8](https://github.com/ems-project/helpers/releases/tag/1.0.8)
+  - [1.0.7](https://github.com/ems-project/helpers/releases/tag/1.0.7)
+  - [1.0.6](https://github.com/ems-project/helpers/releases/tag/1.0.6)
+  - [1.0.5](https://github.com/ems-project/helpers/releases/tag/1.0.5)
+- Xliff
+  - [1.0.2](https://github.com/ems-project/xliff/releases/tag/1.0.2)
+
+## Release 1.23.0
+- CoreBundle
+  - [1.23.0](https://github.com/ems-project/EMSCommonBundle/releases/tag/1.23.0)
+
+## Release 1.22.1
+- CoreBundle
+  - [1.22.1](https://github.com/ems-project/EMSCommonBundle/releases/tag/1.22.1)
+- CommonBundle
+  - [2.1.4](https://github.com/ems-project/EMSCommonBundle/releases/tag/2.1.4)
+- ClientHelperBundle
+  - [3.10.0](https://github.com/ems-project/EMSClientHelperBundle/releases/tag/3.10.0)
+
+## Release 1.22.0
+- Feature: audit logging
+- CoreBundle
+  - [1.22.0](https://github.com/ems-project/EMSCoreBundle/releases/tag/1.22.0)
+- CommonBundle
+  - [2.1.3](https://github.com/ems-project/EMSCommonBundle/releases/tag/2.1.3)
+- Helpers
+  - [1.0.4](https://github.com/ems-project/helpers/releases/tag/1.0.4)
+  - [1.0.3](https://github.com/ems-project/helpers/releases/tag/1.0.3)
+  - [1.0.2](https://github.com/ems-project/helpers/releases/tag/1.0.2)
+
 ## Release 1.21.0
 - CoreBundle
   - [1.21.0](https://github.com/ems-project/EMSCoreBundle/releases/tag/1.21.0)
@@ -8,7 +58,7 @@
 - Helpers
   - [1.0.2](https://github.com/ems-project/xliff/releases/tag/1.0.2)
 - Xliff
-  - [1.0.1](https://github.com/ems-project/xliff/releases/tag/1.0.1)
+  - [1.0.1](https://github.com/ems-project/helpers/releases/tag/1.0.1)
 
 ## Release 1.20.4
 - CoreBundle

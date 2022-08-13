@@ -28,6 +28,8 @@ parameters:
     env(EMS_METRIC_ENABLED): false
     env(EMS_METRIC_HOST): ''
     env(EMS_METRIC_PORT): ~
+    env(EMS_WEBALIZE_REMOVABLE_REGEX): '/([^a-zA-Z0-9\_\|\ \-\.])|(\.$)/'
+    env(EMS_WEBALIZE_DASHABLE_REGEX): '/[\/\_\|\ \-]+/'
 
 ems_common:
     hash_algo: '%env(string:EMS_HASH_ALGO)%'
@@ -36,6 +38,9 @@ ems_common:
     log_level: '%env(int:EMS_LOG_LEVEL)%'
     backend_url: '%env(string:EMS_BACKEND_URL)%'
     backend_api_key: '%env(string:EMS_BACKEND_API_KEY)%'
+    webalize:
+        removable_regex: '%env(string:EMS_WEBALIZE_REMOVABLE_REGEX)%'
+        dashable_regex: '%env(string:EMS_WEBALIZE_DASHABLE_REGEX)%'
     cache:
         type: '%env(EMS_CACHE)%'
         prefix: '%env(string:EMS_CACHE_PREFIX)%'
