@@ -15,10 +15,10 @@ security:
         ROLE_SUPER_ADMIN:     ROLE_ADMIN
 
     providers:
-        api_key_user_provider:
-            id: api_key_user_provider
-        core_user_provider:
-            id: ems_core.security.core_user_provider
+        emsco_user:
+            id: emsco.security.provider.user
+        emsco_user_api:
+            id: emsco.security.provider.user_api
 
     firewalls:
         dev:
@@ -27,15 +27,18 @@ security:
         ems_core_api:
             pattern: ^/api
             stateless: true
-            simple_preauth:
-                authenticator: apikey_authenticator
-            provider: api_key_user_provider
+            provider: emsco_user_api
+            guard:
+                authenticators:
+                    - emsco.security.authenticator.auth_token
         ems_core:
             anonymous: ~
-            form_login:
-                use_forward: true
-                provider: core_user_provider
-                csrf_token_generator: security.csrf.token_manager
+            provider: emsco_user
+            guard:
+                entry_point: emsco.security.authenticator.form_login
+                authenticators:
+                    - emsco.security.authenticator.form_login
+                    - emsco.security.authenticator.auth_token_login
             logout:
                 path: /logout
                 target: /login
@@ -43,7 +46,7 @@ security:
                 secret:   '%kernel.secret%'
                 lifetime: 604800 # 1 week in seconds
                 path:     /
-            switch_user: { role: ROLE_ADMIN, provider: core_user_provider }
+            switch_user: { role: ROLE_ADMIN, provider: emsco_user }
             
     access_control:
         - { path: ^/$, role: IS_AUTHENTICATED_ANONYMOUSLY }
