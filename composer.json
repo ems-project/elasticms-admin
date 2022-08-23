@@ -26,6 +26,7 @@
     "symfony/framework-bundle": "^4.4",
     "symfony/ldap": "^4.4",
     "symfony/lts": "^4@dev",
+    "symfony/mailer": "^4.4",
     "symfony/security-bundle": "^4.4",
     "symfony/twig-bundle": "^4.4",
     "symplify/composer-json-manipulator": "^8.0",
