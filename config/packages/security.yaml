@@ -20,6 +20,8 @@ security:
         emsco_user_api:
             id: emsco.security.provider.user_api
 
+    enable_authenticator_manager: true
+
     firewalls:
         dev:
             pattern: ^/(_(profiler|wdt)|css|images|js)/
