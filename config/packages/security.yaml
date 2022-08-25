@@ -1,5 +1,5 @@
 security:
-    encoders:
+    password_hashers:
         EMS\CoreBundle\Entity\UserInterface: bcrypt
 
     role_hierarchy:
