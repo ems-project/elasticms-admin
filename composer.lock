@@ -58,16 +58,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.234.1",
+            "version": "3.234.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "0057dc79b832f456ed5eb20369a51f894b99a968"
+                "reference": "21ee9e4181c1e676b43018bd3743dd4c9f8bafc2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/0057dc79b832f456ed5eb20369a51f894b99a968",
-                "reference": "0057dc79b832f456ed5eb20369a51f894b99a968",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/21ee9e4181c1e676b43018bd3743dd4c9f8bafc2",
+                "reference": "21ee9e4181c1e676b43018bd3743dd4c9f8bafc2",
                 "shasum": ""
             },
             "require": {
@@ -144,9 +144,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.234.1"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.234.3"
             },
-            "time": "2022-08-23T18:19:55+00:00"
+            "time": "2022-08-25T18:30:13+00:00"
         },
         {
             "name": "brick/math",
@@ -656,16 +656,16 @@
         },
         {
             "name": "doctrine/collections",
-            "version": "1.7.0",
+            "version": "1.7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/collections.git",
-                "reference": "07d15c8a766e664ec271ae84e5dfc597aeeb03b1"
+                "reference": "d93dbc5ef2e6e98a5b16ca5b07c3e15de9fd9113"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/collections/zipball/07d15c8a766e664ec271ae84e5dfc597aeeb03b1",
-                "reference": "07d15c8a766e664ec271ae84e5dfc597aeeb03b1",
+                "url": "https://api.github.com/repos/doctrine/collections/zipball/d93dbc5ef2e6e98a5b16ca5b07c3e15de9fd9113",
+                "reference": "d93dbc5ef2e6e98a5b16ca5b07c3e15de9fd9113",
                 "shasum": ""
             },
             "require": {
@@ -720,9 +720,9 @@
             ],
             "support": {
                 "issues": "https://github.com/doctrine/collections/issues",
-                "source": "https://github.com/doctrine/collections/tree/1.7.0"
+                "source": "https://github.com/doctrine/collections/tree/1.7.1"
             },
-            "time": "2022-08-18T05:44:45+00:00"
+            "time": "2022-08-23T18:47:41+00:00"
         },
         {
             "name": "doctrine/common",
@@ -2225,16 +2225,16 @@
         },
         {
             "name": "elasticms/common-bundle",
-            "version": "2.2.3",
+            "version": "2.2.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSCommonBundle.git",
-                "reference": "11ff6952b41354ec6d5cb77ee0f69fcda695210d"
+                "reference": "69d5b20da13fc807ac8a0c839ed7ae45d97c32ff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSCommonBundle/zipball/11ff6952b41354ec6d5cb77ee0f69fcda695210d",
-                "reference": "11ff6952b41354ec6d5cb77ee0f69fcda695210d",
+                "url": "https://api.github.com/repos/ems-project/EMSCommonBundle/zipball/69d5b20da13fc807ac8a0c839ed7ae45d97c32ff",
+                "reference": "69d5b20da13fc807ac8a0c839ed7ae45d97c32ff",
                 "shasum": ""
             },
             "require": {
@@ -2262,6 +2262,7 @@
                 "symfony/framework-bundle": "^4.4|^5.4",
                 "symfony/http-client": "^4.4|^5.4",
                 "symfony/http-foundation": "^4.4|^5.4",
+                "symfony/mime": "^4.4|^5.4",
                 "symfony/monolog-bridge": "^4.4|^5.4",
                 "symfony/options-resolver": "^4.4|^5.4",
                 "symfony/routing": "^4.4|^5.4",
@@ -2315,9 +2316,9 @@
             ],
             "support": {
                 "issues": "https://github.com/ems-project/EMSCommonBundle/issues",
-                "source": "https://github.com/ems-project/EMSCommonBundle/tree/2.2.3"
+                "source": "https://github.com/ems-project/EMSCommonBundle/tree/2.2.4"
             },
-            "time": "2022-08-19T08:33:22+00:00"
+            "time": "2022-08-26T14:21:23+00:00"
         },
         {
             "name": "elasticms/core-bundle",
