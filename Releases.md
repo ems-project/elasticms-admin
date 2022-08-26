@@ -4,27 +4,27 @@
 
 ## Release 1.25.3
 - CoreBundle
-  - [1.25.3](https://github.com/ems-project/EMSCommonBundle/releases/tag/1.25.3)
+  - [1.25.3](https://github.com/ems-project/EMSCoreBundle/releases/tag/1.25.3)
 
 ## Release 1.25.2
 - CoreBundle
-  - [1.25.2](https://github.com/ems-project/EMSCommonBundle/releases/tag/1.25.2)
+  - [1.25.2](https://github.com/ems-project/EMSCoreBundle/releases/tag/1.25.2)
 - CommonBundle
   - [2.2.3](https://github.com/ems-project/EMSCommonBundle/releases/tag/2.2.3)
 
 ## Release 1.25.1
 - CoreBundle
-  - [1.25.1](https://github.com/ems-project/EMSCommonBundle/releases/tag/1.25.1)
+  - [1.25.1](https://github.com/ems-project/EMSCoreBundle/releases/tag/1.25.1)
 
 ## Release 1.25.0
 - CoreBundle
-  - [1.25.0](https://github.com/ems-project/EMSCommonBundle/releases/tag/1.25.0)
+  - [1.25.0](https://github.com/ems-project/EMSCoreBundle/releases/tag/1.25.0)
 - CommonBundle
   - [2.2.2](https://github.com/ems-project/EMSCommonBundle/releases/tag/2.2.2)
 
 ## Release 1.24.0
 - CoreBundle
-  - [1.24.0](https://github.com/ems-project/EMSCommonBundle/releases/tag/1.24.0)
+  - [1.24.0](https://github.com/ems-project/EMSCoreBundle/releases/tag/1.24.0)
 - CommonBundle
   - [2.2.1](https://github.com/ems-project/EMSCommonBundle/releases/tag/2.2.1)
   - [2.2.0](https://github.com/ems-project/EMSCommonBundle/releases/tag/2.2.0)
@@ -41,11 +41,11 @@
 
 ## Release 1.23.0
 - CoreBundle
-  - [1.23.0](https://github.com/ems-project/EMSCommonBundle/releases/tag/1.23.0)
+  - [1.23.0](https://github.com/ems-project/EMSCoreBundle/releases/tag/1.23.0)
 
 ## Release 1.22.1
 - CoreBundle
-  - [1.22.1](https://github.com/ems-project/EMSCommonBundle/releases/tag/1.22.1)
+  - [1.22.1](https://github.com/ems-project/EMSCoreBundle/releases/tag/1.22.1)
 - CommonBundle
   - [2.1.4](https://github.com/ems-project/EMSCommonBundle/releases/tag/2.1.4)
 - ClientHelperBundle
