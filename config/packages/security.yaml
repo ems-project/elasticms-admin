@@ -1,4 +1,6 @@
 security:
+    enable_authenticator_manager: true
+
     password_hashers:
         EMS\CoreBundle\Entity\UserInterface: bcrypt
 
@@ -20,8 +22,6 @@ security:
         emsco_user_api:
             id: emsco.security.provider.user_api
 
-    enable_authenticator_manager: true
-
     firewalls:
         dev:
             pattern: ^/(_(profiler|wdt)|css|images|js)/
@@ -30,24 +30,19 @@ security:
             pattern: ^/api
             stateless: true
             provider: emsco_user_api
-            guard:
-                authenticators:
-                    - emsco.security.authenticator.auth_token
+            custom_authenticators:
+                - emsco.security.authenticator.auth_token
         ems_core:
-            anonymous: ~
+            lazy: true
             provider: emsco_user
-            guard:
-                entry_point: emsco.security.authenticator.form_login
-                authenticators:
-                    - emsco.security.authenticator.form_login
-                    - emsco.security.authenticator.auth_token_login
+            custom_authenticators:
+                - emsco.security.authenticator.form_login
+                - emsco.security.authenticator.auth_token_login
             logout:
-                path: /logout
-                target: /login
+                path: emsco_user_logout
             remember_me:
                 secret:   '%kernel.secret%'
                 lifetime: 604800 # 1 week in seconds
-                path:     /
             switch_user: { role: ROLE_ADMIN, provider: emsco_user }
             
     access_control:
