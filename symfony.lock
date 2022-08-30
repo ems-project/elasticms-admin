@@ -605,10 +605,7 @@
         "version": "1.2.0"
     },
     "twig/extra-bundle": {
-        "version": "v3.3.8"
-    },
-    "twig/intl-extra": {
-        "version": "v3.3.5"
+        "version": "v3.4.0"
     },
     "twig/twig": {
         "version": "v2.4.8"

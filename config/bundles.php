@@ -14,6 +14,6 @@ return [
     EMS\ClientHelperBundle\EMSClientHelperBundle::class => ['all' => true],
     EMS\FormBundle\EMSFormBundle::class => ['all' => true],
     EMS\SubmissionBundle\EMSSubmissionBundle::class => ['all' => true],
-    Twig\Extra\TwigExtraBundle\TwigExtraBundle::class => ['all' => true],
     Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle::class => ['all' => true],
+    Twig\Extra\TwigExtraBundle\TwigExtraBundle::class => ['all' => true],
 ];
