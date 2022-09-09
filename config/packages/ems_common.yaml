@@ -51,3 +51,7 @@ ems_common:
         enabled: '%env(bool:EMS_METRIC_ENABLED)%'
         host: '%env(string:EMS_METRIC_HOST)%'
         port: '%env(EMS_METRIC_PORT)%'
+
+when@dev:
+    ems_common:
+        profiler: true
