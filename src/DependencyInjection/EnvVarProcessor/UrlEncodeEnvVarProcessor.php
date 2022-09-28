@@ -6,7 +6,7 @@ namespace App\DependencyInjection\EnvVarProcessor;
 
 use Symfony\Component\DependencyInjection\EnvVarProcessorInterface;
 
-final class UrlEncodeEnvVarProcessor implements EnvVarProcessorInterface
+class UrlEncodeEnvVarProcessor implements EnvVarProcessorInterface
 {
     /**
      * @return mixed
