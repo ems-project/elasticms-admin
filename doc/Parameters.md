@@ -19,6 +19,10 @@ But there is 2 more possible values, specific to elasticms:
 A secret seed.
  - Example `APP_SECRET=7b19a4a6e37b9303e4f6bca1dc6691ed`
 
+### LOG_OUTPUT
+
+Default `php://stdout` for local development you can change to `%kernel.logs_dir%/%kernel.environment%.log`
+
 ### Behind a Load Balancer or a Reverse Proxy
 
 ```dotenv
