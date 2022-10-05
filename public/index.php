@@ -5,6 +5,8 @@ use Symfony\Component\HttpFoundation\Request;
 
 require_once dirname(__DIR__).'/vendor/autoload_runtime.php';
 
+$_SERVER['APP_RUNTIME_OPTIONS'] = ['disable_dotenv' => $_SERVER['APP_DISABLE_DOTENV'] ?? false];
+
 return function (Request $request, array $context) {
     if ($trustedProxies = $context['TRUSTED_PROXIES'] ?? false) {
         foreach (['PROTO', 'PORT', 'FOR', 'HOST'] as $forwardedName) {
