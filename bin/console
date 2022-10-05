@@ -6,7 +6,7 @@ use Symfony\Bundle\FrameworkBundle\Console\Application;
 
 require_once dirname(__DIR__).'/vendor/autoload_runtime.php';
 
-$_SERVER['APP_RUNTIME_OPTIONS'] = ['disable_dotenv' => $_SERVER['APP_DISABLE_DOTENV'] ?? false];
+$_SERVER['APP_RUNTIME_OPTIONS'] = ['disable_dotenv' => ('true' === ($_SERVER['APP_DISABLE_DOTENV'] ?? false))];
 
 return function (array $context) {
     $kernel = new Kernel($context['APP_ENV'], (bool) $context['APP_DEBUG']);
