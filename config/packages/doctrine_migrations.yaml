@@ -1,6 +1,9 @@
-parameters:
-    env(DB_DRIVER): 'mysql'
-
 doctrine_migrations:
-    dir_name: '%kernel.project_dir%/vendor/elasticms/core-bundle/src/Resources/DoctrineMigrations/pdo_%env(resolve:DB_DRIVER)%'
-    namespace: Application\Migrations
+    migrations_paths:
+        Application\Migrations: '%kernel.project_dir%/vendor/elasticms/core-bundle/src/Resources/DoctrineMigrations/pdo_%env(resolve:DB_DRIVER)%'
+    storage:
+        table_storage:
+            table_name: 'migration_versions'
+            version_column_name: 'version'
+            version_column_length: 191
+            executed_at_column_name: 'executed_at'

@@ -6,22 +6,19 @@ namespace App\DependencyInjection\EnvVarProcessor;
 
 use Symfony\Component\DependencyInjection\EnvVarProcessorInterface;
 
-final class UrlEncodeEnvVarProcessor implements EnvVarProcessorInterface
+class UrlEncodeEnvVarProcessor implements EnvVarProcessorInterface
 {
     /**
-     * @param string $prefix
-     * @param string $name
-     *
-     * @return mixed|string
+     * @return mixed
      */
-    public function getEnv($prefix, $name, \Closure $getEnv)
+    public function getEnv(string $prefix, string $name, \Closure $getEnv)
     {
         $env = $getEnv($name);
 
         return \urlencode($env);
     }
 
-    public static function getProvidedTypes()
+    public static function getProvidedTypes(): array
     {
         return [
             'urlencode' => 'string',

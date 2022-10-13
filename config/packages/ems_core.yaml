@@ -16,11 +16,10 @@ parameters:
     env(EMS_DATEPICKER_DAYSOFWEEK_HIGHLIGHTED): '[0, 6]'
     env(EMS_FROM_EMAIL_ADDRESS): 'elasticms@example.com'
     env(EMS_FROM_EMAIL_NAME): 'elasticms'
-    env(EMS_ALLOW_USER_REGISTRATION): false
     env(EMS_ASSET_CONFIG): '[]'
     env(EMS_CIRCLES_OBJECT): ''
 
-    env(LDAP_BASE_DN): ''
+    env(LDAP_BASE_DN): ~
     env(LDAP_SEARCH_DN): ~
     env(LDAP_SEARCH_PASSWORD): ~
     env(LDAP_PASSWORD_ATTRIBUTE): ~
@@ -50,7 +49,6 @@ parameters:
     env(EMSCO_DATEPICKER_DAYSOFWEEK_HIGHLIGHTED): '%env(string:EMS_DATEPICKER_DAYSOFWEEK_HIGHLIGHTED)%'
     env(EMSCO_FROM_EMAIL_ADDRESS): '%env(string:EMS_FROM_EMAIL_ADDRESS)%'
     env(EMSCO_FROM_EMAIL_NAME): '%env(string:EMS_FROM_EMAIL_NAME)%'
-    env(EMSCO_ALLOW_USER_REGISTRATION): '%env(string:EMS_ALLOW_USER_REGISTRATION)%'
     env(EMSCO_ASSET_CONFIG): '%env(string:EMS_ASSET_CONFIG)%'
     env(EMSCO_CIRCLES_OBJECT): '%env(string:EMS_CIRCLES_OBJECT)%'
     env(EMSCO_TRIGGER_JOB_FROM_WEB): true
@@ -58,6 +56,8 @@ parameters:
     env(EMSCO_DEFAULT_BULK_SIZE): 500
     env(EMSCO_URL_USER): ~
 
+    env(EMSCO_LDAP_ENABLED): true
+    env(EMSCO_LDAP_DN_STRING): ~
     env(EMSCO_LDAP_BASE_DN): '%env(string:LDAP_BASE_DN)%'
     env(EMSCO_LDAP_SEARCH_DN): '%env(string:LDAP_SEARCH_DN)%'
     env(EMSCO_LDAP_SEARCH_PASSWORD): '%env(string:LDAP_SEARCH_PASSWORD)%'
@@ -67,8 +67,6 @@ parameters:
     env(EMSCO_LDAP_EXTRA_FIELDS): '%env(string:LDAP_EXTRA_FIELDS)%'
     env(EMSCO_LDAP_EMAIL_FIELD): '%env(string:LDAP_EMAIL_FIELD)%'
     env(EMSCO_LDAP_DISPLAY_NAME_FIELD): '%env(string:LDAP_DISPLAY_NAME_FIELD)%'
-    env(EMSCO_LDAP_GIVEN_NAME_FIELD): '%env(string:LDAP_GIVEN_NAME_FIELD)%'
-    env(EMSCO_LDAP_LAST_NAME_FIELD): '%env(string:LDAP_LAST_NAME_FIELD)%'
     env(EMSCO_LDAP_UID_KEY): '%env(string:LDAP_UID_KEY)%'
 
 ems_core:
@@ -87,7 +85,6 @@ ems_core:
     from_email:
         address: '%env(string:EMSCO_FROM_EMAIL_ADDRESS)%'
         sender_name: '%env(string:EMSCO_FROM_EMAIL_NAME)%'
-    allow_user_registration: '%env(bool:EMSCO_ALLOW_USER_REGISTRATION)%'
     circles_object: '%env(string:EMSCO_CIRCLES_OBJECT)%'
     asset_config: '%env(json:EMSCO_ASSET_CONFIG)%'
     tika_server: '%env(string:EMSCO_TIKA_SERVER)%'
@@ -98,6 +95,8 @@ ems_core:
     url_user: '%env(string:EMSCO_URL_USER)%'
 
     ldap:
+        enabled: '%env(bool:EMSCO_LDAP_ENABLED)%'
+        dn_string: '%env(string:EMSCO_LDAP_DN_STRING)%'
         base_dn: '%env(string:EMSCO_LDAP_BASE_DN)%'
         search_dn: '%env(string:EMSCO_LDAP_SEARCH_DN)%'
         search_password: '%env(string:EMSCO_LDAP_SEARCH_PASSWORD)%'
@@ -107,6 +106,4 @@ ems_core:
         extra_fields: '%env(json:EMSCO_LDAP_EXTRA_FIELDS)%'
         email_field: '%env(string:EMSCO_LDAP_EMAIL_FIELD)%'
         display_name_field: '%env(string:EMSCO_LDAP_DISPLAY_NAME_FIELD)%'
-        given_name_field: '%env(string:EMSCO_LDAP_GIVEN_NAME_FIELD)%'
-        last_name_field: '%env(string:EMSCO_LDAP_LAST_NAME_FIELD)%'
         uid_key: '%env(string:EMSCO_LDAP_UID_KEY)%'
