@@ -113,6 +113,9 @@
     "elasticms/submission-bundle": {
         "version": "2.1.11"
     },
+    "elasticms/table-bundle": {
+        "version": "4.x-dev"
+    },
     "elasticsearch/elasticsearch": {
         "version": "v5.3.2"
     },
