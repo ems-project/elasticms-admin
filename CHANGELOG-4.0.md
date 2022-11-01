@@ -1,7 +1,23 @@
 CHANGELOG for 4.x
 ===================
 
-## [4.2.0](https://github.com/ems-project/website-skeleton/releases/tag/4.2.0) (24-10-2022)
+## [4.2.1](https://github.com/ems-project/elasticms/releases/tag/4.2.1) (01-11-2022)
+  * CoreBundle [4.2.1](https://github.com/ems-project/EMSCoreBundle/releases/tag/4.2.1)
+    * fix(revision-task): export task dashboard by @Davidmattei in #1230
+    * fix(revision-task): dashboard print modified column correctly by @Davidmattei in #1231
+    * fix(revision-view): custom data link view no results > returns all by @Davidmattei in #1233
+    * fix(environment): align view broken by @Davidmattei in #1234
+    * fix(environment): recompute command broken by @Davidmattei in #1235
+    * fix(route): change upload file api endpoint by @coppee in #1239   
+    * feat(revision-task): dashboard filter on status by @Davidmattei in #1232
+    * chore(php81): compile error __set needs to return void by @Davidmattei in #1236
+    * chore(phpcs): v3.13 by @Davidmattei in #1241
+  * CommonBundle [4.2.1](https://github.com/ems-project/EMSCommonBundle/releases/tag/4.2.1)
+    * chore(phpcs): v3.13 by @Davidmattei in #457
+  * ClientHelperBundle [4.2.1](https://github.com/ems-project/EMSClientHelperBundle/releases/tag/4.2.1)
+    * fix(api): change upload file core api endpoint by @coppee in #365
+
+## [4.2.0](https://github.com/ems-project/elasticms/releases/tag/4.2.0) (24-10-2022)
   * CoreBundle [4.2.0](https://github.com/ems-project/EMSCoreBundle/releases/tag/4.2.0)
     * fix: upgrade webpack (#1207) by @Davidmattei in [#1208](https://github.com/ems-project/EMSCoreBundle/pull/1208)
     * fix: revision task current nullable by @Davidmattei in [#1211](https://github.com/ems-project/EMSCoreBundle/pull/1211)
