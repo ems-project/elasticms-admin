@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "78c18c3fb64a54b5e9462ad0eae318be",
+    "content-hash": "8c830219a0cd916d511d2a04382f73b5",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -2130,7 +2130,7 @@
         },
         {
             "name": "elasticms/core-bundle",
-            "version": "4.3.0-rc1",
+            "version": "4.3.0-RC1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSCoreBundle.git",
@@ -2200,7 +2200,7 @@
             ],
             "support": {
                 "issues": "https://github.com/ems-project/EMSCoreBundle/issues",
-                "source": "https://github.com/ems-project/EMSCoreBundle/tree/4.3.0-rc1"
+                "source": "https://github.com/ems-project/EMSCoreBundle/tree/4.3.0-RC1"
             },
             "time": "2022-11-01T12:01:48+00:00"
         },
