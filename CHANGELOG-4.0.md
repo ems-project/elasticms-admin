@@ -1,6 +1,13 @@
 CHANGELOG for 4.x
 ===================
 
+## [4.3.0-RC1](https://github.com/ems-project/elasticms/releases/tag/4.3.0-RC1) (01-11-2022)
+  * CoreBundle [4.3.0-RC1](https://github.com/ems-project/EMSCoreBundle/releases/tag/4.3.0-RC1)
+    * feat(revision-task): assignee, owner, version filter dashboard by @Davidmattei in #1237
+    * feat(revision-version): make version on publication by @Davidmattei in #1240
+  * CommonBundle [4.3.0-RC1](https://github.com/ems-project/EMSCommonBundle/releases/tag/4.3.0-RC1)
+    * feat(twig): ems_hash filter by @theus77 in #456
+
 ## [4.2.1](https://github.com/ems-project/elasticms/releases/tag/4.2.1) (01-11-2022)
   * CoreBundle [4.2.1](https://github.com/ems-project/EMSCoreBundle/releases/tag/4.2.1)
     * fix(revision-task): export task dashboard by @Davidmattei in #1230

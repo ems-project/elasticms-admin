@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f6492b3c66ebce954e870f9adb6818c2",
+    "content-hash": "78c18c3fb64a54b5e9462ad0eae318be",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -2036,16 +2036,16 @@
         },
         {
             "name": "elasticms/common-bundle",
-            "version": "4.2.1",
+            "version": "4.3.0-RC1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSCommonBundle.git",
-                "reference": "3c2bb231259ddcf5a6da6047b954fba920fd6505"
+                "reference": "99dcf27dc870fc706971a5e7e3b0e189c53ed83d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSCommonBundle/zipball/3c2bb231259ddcf5a6da6047b954fba920fd6505",
-                "reference": "3c2bb231259ddcf5a6da6047b954fba920fd6505",
+                "url": "https://api.github.com/repos/ems-project/EMSCommonBundle/zipball/99dcf27dc870fc706971a5e7e3b0e189c53ed83d",
+                "reference": "99dcf27dc870fc706971a5e7e3b0e189c53ed83d",
                 "shasum": ""
             },
             "require": {
@@ -2124,22 +2124,22 @@
             ],
             "support": {
                 "issues": "https://github.com/ems-project/EMSCommonBundle/issues",
-                "source": "https://github.com/ems-project/EMSCommonBundle/tree/4.2.1"
+                "source": "https://github.com/ems-project/EMSCommonBundle/tree/4.3.0-RC1"
             },
-            "time": "2022-11-01T10:41:06+00:00"
+            "time": "2022-11-01T10:43:15+00:00"
         },
         {
             "name": "elasticms/core-bundle",
-            "version": "4.2.1",
+            "version": "4.3.0-rc1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSCoreBundle.git",
-                "reference": "60da0b9d478ecfb078c02f6946abba914550788f"
+                "reference": "c14c0a287288ae2410117e56dfc0e4b1871d4726"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSCoreBundle/zipball/60da0b9d478ecfb078c02f6946abba914550788f",
-                "reference": "60da0b9d478ecfb078c02f6946abba914550788f",
+                "url": "https://api.github.com/repos/ems-project/EMSCoreBundle/zipball/c14c0a287288ae2410117e56dfc0e4b1871d4726",
+                "reference": "c14c0a287288ae2410117e56dfc0e4b1871d4726",
                 "shasum": ""
             },
             "require": {
@@ -2200,9 +2200,9 @@
             ],
             "support": {
                 "issues": "https://github.com/ems-project/EMSCoreBundle/issues",
-                "source": "https://github.com/ems-project/EMSCoreBundle/tree/4.2.1"
+                "source": "https://github.com/ems-project/EMSCoreBundle/tree/4.3.0-rc1"
             },
-            "time": "2022-11-01T10:49:20+00:00"
+            "time": "2022-11-01T12:01:48+00:00"
         },
         {
             "name": "elasticms/form-bundle",
@@ -14490,7 +14490,10 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "elasticms/common-bundle": 5,
+        "elasticms/core-bundle": 5
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
