@@ -1,6 +1,14 @@
 CHANGELOG for 4.x
 ===================
 
+## [4.2.2](https://github.com/ems-project/elasticms/releases/tag/4.2.2) (01-11-2022)
+  * fix: redis is prod env by @Davidmattei in https://github.com/ems-project/elasticms/pull/260
+  * CoreBundle [4.2.2](https://github.com/ems-project/EMSCoreBundle/releases/tag/4.2.2)
+    * fix(phpstan): phpstan 1.9.1 by @Davidmattei in #1245
+    * fix(views/search): not specify the value (0) of the env, use first by @coppee in #1242
+  * FormBundle [4.2.1](https://github.com/ems-project/EMSFormBundle/releases/tag/4.2.1)
+    * fix(phpstan): return type FormDataFile.php by @Davidmattei in #302
+
 ## [4.2.1](https://github.com/ems-project/elasticms/releases/tag/4.2.1) (01-11-2022)
   * CoreBundle [4.2.1](https://github.com/ems-project/EMSCoreBundle/releases/tag/4.2.1)
     * fix(revision-task): export task dashboard by @Davidmattei in #1230
