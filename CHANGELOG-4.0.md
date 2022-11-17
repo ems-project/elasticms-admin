@@ -1,7 +1,7 @@
 CHANGELOG for 4.x
 ===================
 
-## [4.2.2](https://github.com/ems-project/elasticms/releases/tag/4.2.2) (01-11-2022)
+## [4.2.2](https://github.com/ems-project/elasticms/releases/tag/4.2.2) (17-11-2022)
   * fix: redis is prod env by @Davidmattei in #260
   * CoreBundle [4.2.2](https://github.com/ems-project/EMSCoreBundle/releases/tag/4.2.2)
     * fix(phpstan): phpstan 1.9.1 by @Davidmattei in #1245
