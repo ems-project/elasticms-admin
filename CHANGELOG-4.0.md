@@ -1,6 +1,21 @@
 CHANGELOG for 4.x
 ===================
 
+## [4.3.0-RC2](https://github.com/ems-project/elasticms/releases/tag/4.3.0-RC2) (17-11-2022)
+  * fix: redis is prod env by @Davidmattei in #260
+  * CoreBundle [4.3.0-RC2](https://github.com/ems-project/EMSCoreBundle/releases/tag/4.3.0-RC2)
+    * fix(phpstan): phpstan 1.9.1 by @Davidmattei in #1245
+    * fix(views/search): not specify the value (0) of the env, use first by @coppee in #1242
+    * fix(views/revision-data): add hasVersionTags check by @coppee in #1243
+    * feat(environment): template publication by @Davidmattei in #1246
+    * feat(environment): add publish role field by @Davidmattei in #1247
+    * feat(revision): delete revision command by @Davidmattei in #1250
+  * CommonBundle [4.3.0-RC2](https://github.com/ems-project/EMSCommonBundle/releases/tag/4.3.0-RC2)
+    * feat(command): abstract command multiple choices by @Davidmattei in #458
+    * fix(command): user select 'all' for choice argument array by @Davidmattei in #459
+  * FormBundle [4.2.1](https://github.com/ems-project/EMSFormBundle/releases/tag/4.2.1)
+    * fix(phpstan): return type FormDataFile.php by @Davidmattei in #302
+
 ## [4.3.0-RC1](https://github.com/ems-project/elasticms/releases/tag/4.3.0-RC1) (01-11-2022)
   * CoreBundle [4.3.0-RC1](https://github.com/ems-project/EMSCoreBundle/releases/tag/4.3.0-RC1)
     * feat(revision-task): assignee, owner, version filter dashboard by @Davidmattei in #1237
@@ -8,7 +23,7 @@ CHANGELOG for 4.x
   * CommonBundle [4.3.0-RC1](https://github.com/ems-project/EMSCommonBundle/releases/tag/4.3.0-RC1)
     * feat(twig): ems_hash filter by @theus77 in #456
 
-## [4.2.2](https://github.com/ems-project/elasticms/releases/tag/4.2.2) (01-11-2022)
+## [4.2.2](https://github.com/ems-project/elasticms/releases/tag/4.2.2) (17-11-2022)
   * fix: redis is prod env by @Davidmattei in #260
   * CoreBundle [4.2.2](https://github.com/ems-project/EMSCoreBundle/releases/tag/4.2.2)
     * fix(phpstan): phpstan 1.9.1 by @Davidmattei in #1245
