@@ -2000,12 +2000,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSAdminUIBundle.git",
-                "reference": "bad6f90a6534418a3e8e700da6ff07db748366dd"
+                "reference": "9718bf5a2aec1885316f73d6000cf4ee5c1147a8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSAdminUIBundle/zipball/bad6f90a6534418a3e8e700da6ff07db748366dd",
-                "reference": "bad6f90a6534418a3e8e700da6ff07db748366dd",
+                "url": "https://api.github.com/repos/ems-project/EMSAdminUIBundle/zipball/9718bf5a2aec1885316f73d6000cf4ee5c1147a8",
+                "reference": "9718bf5a2aec1885316f73d6000cf4ee5c1147a8",
                 "shasum": ""
             },
             "require": {
@@ -2037,7 +2037,7 @@
             "support": {
                 "source": "https://github.com/ems-project/EMSAdminUIBundle/tree/6.0.0"
             },
-            "time": "2025-01-31T07:09:10+00:00"
+            "time": "2025-01-31T09:51:06+00:00"
         },
         {
             "name": "elasticms/client-helper-bundle",
