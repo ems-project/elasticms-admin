@@ -2305,12 +2305,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/helpers.git",
-                "reference": "7b86eef2745f0644ec4d163787dd02d756af88e4"
+                "reference": "d784831fafae102e75397a5ba5c0e200a57603b8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/helpers/zipball/7b86eef2745f0644ec4d163787dd02d756af88e4",
-                "reference": "7b86eef2745f0644ec4d163787dd02d756af88e4",
+                "url": "https://api.github.com/repos/ems-project/helpers/zipball/d784831fafae102e75397a5ba5c0e200a57603b8",
+                "reference": "d784831fafae102e75397a5ba5c0e200a57603b8",
                 "shasum": ""
             },
             "require": {
@@ -2347,7 +2347,7 @@
             "support": {
                 "source": "https://github.com/ems-project/helpers/tree/6.0.0"
             },
-            "time": "2025-01-29T09:56:53+00:00"
+            "time": "2025-01-31T09:21:08+00:00"
         },
         {
             "name": "elasticms/submission-bundle",
