@@ -2189,12 +2189,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSCoreBundle.git",
-                "reference": "5b05ae917ed41f88ae719e6fcbe2b87537ffe0d3"
+                "reference": "8d4b05fea58fd0b0f9916bb97076eba0b1c05ee0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSCoreBundle/zipball/5b05ae917ed41f88ae719e6fcbe2b87537ffe0d3",
-                "reference": "5b05ae917ed41f88ae719e6fcbe2b87537ffe0d3",
+                "url": "https://api.github.com/repos/ems-project/EMSCoreBundle/zipball/8d4b05fea58fd0b0f9916bb97076eba0b1c05ee0",
+                "reference": "8d4b05fea58fd0b0f9916bb97076eba0b1c05ee0",
                 "shasum": ""
             },
             "require": {
@@ -2229,10 +2229,6 @@
             "autoload": {
                 "psr-4": {
                     "EMS\\CoreBundle\\": "src/",
-                    "Application\\Migrations\\": [
-                        "migrations/pdo_mysql",
-                        "migrations/pdo_pgsql"
-                    ],
                     "Application\\Migrations\\Scripts\\": "migrations/scripts"
                 }
             },
@@ -2253,7 +2249,7 @@
             "support": {
                 "source": "https://github.com/ems-project/EMSCoreBundle/tree/6.0.0"
             },
-            "time": "2025-02-03T08:29:42+00:00"
+            "time": "2025-02-03T15:24:20+00:00"
         },
         {
             "name": "elasticms/form-bundle",
